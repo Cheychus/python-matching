@@ -14,9 +14,9 @@ def createEmbeddings():
             terms = json.load(f)
         for t in terms:
             allTexts.append(t["embeddingInput"])
-            metadata.append({"ontology": ontology, "id": t["id"], "label": t["label"]})
+            metadata.append({"ontology": ontology , "id": t["id"], "label": t["label"]})
 
-    embeddings = model.encode(allTexts, batch_size=64, show_progress_bar=True)
+    embeddings = model.encode(allTexts, batch_size=16, show_progress_bar=True)
 
     np.save(str(EMBEDDINGS_DIR / "ontology_vectors.npy"), embeddings)
 

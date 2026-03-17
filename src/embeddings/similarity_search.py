@@ -30,11 +30,11 @@ def calculateSimilarity(value: str, ontology="BFO"):
     for i in top:
         m = metadata[i]
         result += (
-            m["ontology"]
+            str(m["ontology"])
             + " "
-            + m["id"]
+            + str(m["id"])
             + " "
-            + m["label"]
+            + str(m["label"])
             + " "
             + str(scores[i])
             + "\n"

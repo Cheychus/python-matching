@@ -1,6 +1,7 @@
 from owlready2 import *
 from config import ONTOLOGIES_LIST, RAW_DIR, PARSED_DIR
 import json
+from rdflib import Graph
 
 
 def normalize(value, append=""):
@@ -17,7 +18,7 @@ def normalize(value, append=""):
 
 
 def parseOntology(ontologyName: str):
-    print("Parse:", ontologyName)
+   # print("Parse:", ontologyName)
     path = RAW_DIR / ontologyName
     onto: Ontology = get_ontology(str(path) + ".owl").load()
     synonymAttr = []
@@ -31,6 +32,9 @@ def parseOntology(ontologyName: str):
         name = cls.name
         type = "class"
         label = cls.label.first()
+        if not label:
+            continue # skip ontologies with null labels
+
         comment = cls.comment
         seeAlso = cls.seeAlso
         exampleOfUsage = getattr(cls, "IAO_0000112", [])
@@ -44,10 +48,7 @@ def parseOntology(ontologyName: str):
 
             for v in values:
                 synonyms.append(str(v))
-                # synonyms.append({
-                #     "type": attr,
-                #     "value": str(v)
-                # })
+    
 
         fields = [
             normalize(label),
@@ -67,7 +68,7 @@ def parseOntology(ontologyName: str):
             "definition": definition,
             "editorNote": editorNote,
             "comment": comment,
-            "alternativeTerm": alternativeTerm,
+            "alternativeTerm": str(alternativeTerm),
             "synonyms": synonyms,
             "embeddingInput": embeddingInput,
         }
@@ -81,5 +82,10 @@ def parseOntology(ontologyName: str):
 def parseOntologies():
     print("Parse", len(ONTOLOGIES_LIST), "ontologies")
     for name in ONTOLOGIES_LIST:
+        start = time.perf_counter()
+        print(f"[PARSER]: Start parsing {name}")
         parseOntology(name)
-    print("Finished parsing")
+        elapsed = time.perf_counter() - start
+        print(f"[PARSER]: Successfully parsed {name} ({elapsed}s)")
+    print("[PARSER]: Finished parsing")
+
