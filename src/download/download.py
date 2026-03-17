@@ -2,12 +2,12 @@ import json
 import requests
 from pathlib import Path
 
-from config import DATA_DIR, RAW_DIR
+from config import BASE_DIR, RAW_DIR
 
 
 def downloadOntologies():
     # Pfad zur JSON Datei
-    json_path = DATA_DIR / "ontologies.json"
+    json_path = BASE_DIR / "ontologies.json"
 
     # Zielordner
     download_dir = Path(RAW_DIR)

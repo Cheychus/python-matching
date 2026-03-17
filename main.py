@@ -1,5 +1,3 @@
-import time
-
 import config
 from src.embeddings.create_embeddings import createEmbeddings
 from src.embeddings.similarity_search import calculateSimilarity, load, search

@@ -1,6 +1,5 @@
 import json
 import numpy as np
-from sentence_transformers import SentenceTransformer
 from config import MODEL_NAME, PARSED_DIR, EMBEDDINGS_DIR, ONTOLOGIES_LIST
 from src.model.embedding_model import get_model
 
