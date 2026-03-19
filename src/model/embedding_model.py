@@ -9,6 +9,7 @@ def get_model():
     print(torch.__version__)
     print(torch.cuda.is_available())
     print(torch.version.cuda)
+    print(torch.cuda.get_device_name(0))
 
     global _model
 
@@ -16,6 +17,6 @@ def get_model():
         print("[MODEL]: loading embedding model")
         device = "cuda" if torch.cuda.is_available() else "cpu"
         print("Using device: ", device)
-        _model = SentenceTransformer(config.MODEL_NAME, device="cpu")
+        _model = SentenceTransformer(config.MODEL_NAME, device=device)
 
     return _model

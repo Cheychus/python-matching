@@ -1,91 +1,85 @@
 from owlready2 import *
 from config import ONTOLOGIES_LIST, RAW_DIR, PARSED_DIR
 import json
-from rdflib import Graph
+
+SYNONYM_PROPERTIES = [
+    "skos_prefLabel",
+    "skos_altLabel",
+    "skos_hiddenLabel",
+    "oboInOwl_hasExactSynonym",
+    "oboInOwl_hasRelatedSynonym",
+    "oboInOwl_hasBroadSynonym",
+    "oboInOwl_hasNarrowSynonym",
+    "oboInOwl_hasSynonym",
+    "IAO_0000118",
+]
+
+DEFINITION_PROPERTIES = ["IAO_0000115", "IAO_0000600"]
 
 
-def normalize(value, append=""):
-    if not value:
-        return ""
+def parse(ontology: str):
+    onto: Ontology = get_ontology(str(RAW_DIR / ontology) + ".owl").load()
+    syn_props = SYNONYM_PROPERTIES.copy()
 
-    if isinstance(value, list):
-        return append + " ".join(normalize(v) for v in value if v)
-
-    if hasattr(value, "value"):
-        return append + str(value.value)
-
-    return append + str(value)
-
-
-def parseOntology(ontologyName: str):
-   # print("Parse:", ontologyName)
-    path = RAW_DIR / ontologyName
-    onto: Ontology = get_ontology(str(path) + ".owl").load()
-    synonymAttr = []
+    # extract additional individual synonyms like BrAPI synonym, MIAPPE synonym...
     for prop in onto.annotation_properties():
         if "synonym" in prop.name.lower():
-            synonymAttr.append(prop.name)
+            syn_props.append(prop.name)
+            print("[SYNONYM]: ", prop.name)
 
+    # relevant ontology values
+    classes = onto.classes()
     terms = []
 
-    for cls in onto.classes():
-        name = cls.name
-        type = "class"
+    for cls in classes:
         label = cls.label.first()
-        if not label:
-            continue # skip ontologies with null labels
+        if not label:  # skip ontologies without label
+            continue
+        # print("CLASS: ", str(cls), cls.IAO_0000115)
+        definition = set()
+        for prop in DEFINITION_PROPERTIES:
+            if hasattr(cls, prop):
+                for d in getattr(cls, prop):
+                    definition.add(str(d))
 
-        comment = cls.comment
-        seeAlso = cls.seeAlso
-        exampleOfUsage = getattr(cls, "IAO_0000112", [])
-        definition = getattr(cls, "IAO_0000115", [])
-        editorNote = getattr(cls, "IAO_0000116", [])
-        alternativeTerm = getattr(cls, "IAO_0000118", [])
-        synonyms = []
-
-        for attr in synonymAttr:
-            values = getattr(cls, attr, [])
-
+        synonyms = set()
+        for prop in syn_props:
+            try:
+                values = getattr(cls, prop, [])
+            except:
+                print("[WARNING]: ", prop, label, cls)
+                continue
             for v in values:
-                synonyms.append(str(v))
-    
+                synonyms.add(str(v))
 
-        fields = [
-            normalize(label),
-            normalize(definition, "Definition: "),
-            # normalize(comment, "Comment: "),
-            # normalize(editorNote, "Editor note: "),
-            normalize(alternativeTerm, "Alternative Term: "),
-            normalize(synonyms, "Synonyms: "),
-        ]
-
-        embeddingInput = " ".join(filter(None, fields))
+        embedding_input = label
+        if len(definition) > 0:
+            embedding_input += " Definition: " + " ".join(definition)
+        if len(synonyms) > 0:
+            embedding_input += " Synonyms: " + " ".join(synonyms)
 
         term = {
-            "id": cls.name,
-            "type": type,
+            "id": cls.iri,
+            "short_id": cls.name,
+            "type": "class",
             "label": label,
-            "definition": definition,
-            "editorNote": editorNote,
-            "comment": comment,
-            "alternativeTerm": str(alternativeTerm),
-            "synonyms": synonyms,
-            "embeddingInput": embeddingInput,
+            "definition": list(definition),
+            "synonyms": list(synonyms),
+            "embedding_input": embedding_input,
         }
-
         terms.append(term)
-
-    with open(str(PARSED_DIR / ontologyName) + ".json", "w") as f:
+    with open(str(PARSED_DIR / ontology) + ".json", "w") as f:
         json.dump(terms, f, indent=2)
 
 
-def parseOntologies():
+def parse_ontologies():
     print("Parse", len(ONTOLOGIES_LIST), "ontologies")
+
     for name in ONTOLOGIES_LIST:
         start = time.perf_counter()
         print(f"[PARSER]: Start parsing {name}")
-        parseOntology(name)
+        parse(name)
         elapsed = time.perf_counter() - start
         print(f"[PARSER]: Successfully parsed {name} ({elapsed}s)")
-    print("[PARSER]: Finished parsing")
 
+    print("[PARSER]: Finished parsing")

@@ -5,7 +5,7 @@ from pathlib import Path
 from config import BASE_DIR, RAW_DIR
 
 
-def downloadOntologies():
+def download_ontologies():
     # Pfad zur JSON Datei
     json_path = BASE_DIR / "ontologies.json"
 

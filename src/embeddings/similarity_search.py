@@ -3,7 +3,13 @@ import time
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
-from config import EMBEDDINGS_DIR, ONTOLOGIES_LIST, PARSED_DIR
+from config import (
+    EMBEDDINGS_DIR,
+    QUERY_DIR,
+    MODEL_NAME,
+    TOP_K,
+    ONTOLOGIES_LIST,
+)
 from src.model.embedding_model import get_model
 
 vectors = None
@@ -14,40 +20,70 @@ model = None
 def load():
     global vectors, metadata, model
     model = get_model()
-    path = str(EMBEDDINGS_DIR / "ontology_vectors.npy")
-    vectors = np.load(path)
-    with open(str(EMBEDDINGS_DIR / "ontologyMetadata.json")) as f:
+    all_vectors = []
+
+    for ontology in ONTOLOGIES_LIST:
+        vectorpath = str(EMBEDDINGS_DIR / MODEL_NAME / f"{ontology}_vectors.npy")
+        vecs = np.load(vectorpath)
+        all_vectors.append(vecs)
+
+    with open(str(EMBEDDINGS_DIR / "ontology_metadata.json")) as f:
         metadata = json.load(f)
 
+    vectors = np.vstack(all_vectors)
+    assert len(metadata) == len(vectors)  # needs to be same length
 
-def calculateSimilarity(value: str, ontology="BFO"):
+
+def calculate_similarity(value: str, top_k=TOP_K):
     embedding = model.encode(value)
     scores = cosine_similarity([embedding], vectors)[0]
-    top = np.argsort(scores)[-5:][::-1]
+    top = np.argsort(scores)[-100:][::-1]
 
-    result = ""
+    grouped = {}
+    result = {"query": value, "results": []}
 
     for i in top:
         m = metadata[i]
-        result += (
-            str(m["ontology"])
-            + " "
-            + str(m["id"])
-            + " "
-            + str(m["label"])
-            + " "
-            + str(scores[i])
-            + "\n"
+        concept_id = m["id"]
+
+        if concept_id not in grouped:
+            grouped[concept_id] = {
+                "id": concept_id,
+                "short_id": m["short_id"],
+                "label": m["label"],
+                "definition": m["definition"],
+                "embedding_input": m["embedding_input"],
+                "ontologies": [],
+                "score": float(scores[i]),
+            }
+
+        grouped[concept_id]["ontologies"].append(m["ontology"])
+        grouped[concept_id]["score"] = max(
+            grouped[concept_id]["score"], float(scores[i])
         )
-        # print(m["ontology"], m["id"], m["label"], scores[i])
+
+    results = list(grouped.values())
+    results.sort(key=lambda x: x["score"], reverse=True)
+    final_results = results[:top_k]
+    for idx, r in enumerate(final_results):
+        r["rank"] = idx
+    result["results"] = final_results
+    return result
+
+
+def search(value: str):
+    startTime = time.perf_counter()
+    result = calculate_similarity(value)
+    result["runtime_ms"] = (time.perf_counter() - startTime) * 1000
+    result["model"] = MODEL_NAME
+
+    filename = value.lower() + ".json"
+    with open(str(QUERY_DIR / MODEL_NAME / filename), "w") as f:
+        json.dump(result, f, indent=2)
 
     return result
 
 
-def search(value):
-    startTime = time.perf_counter()
-    result = calculateSimilarity(value)
-    endTime = time.perf_counter()
-    elapsed = endTime - startTime
-    print("Search: ", value, "\n Result: \n", result)
-    print("Runtime: ", elapsed * 1000, "ms")
+def api_search(query: str, top_k: int):
+    result = calculate_similarity(query, top_k)
+    return result
