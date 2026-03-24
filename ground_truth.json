@@ -1,0 +1,47 @@
+[
+  {
+    "query": ["DOI", "Digital Object Identifier"],
+    "ground_truth_iri": ["http://purl.obolibrary.org/obo/OBI_0002110"],
+    "ground_truth_curie": ["OBI:0002110"]
+  },
+  {
+    "query": ["PubMedID"],
+    "ground_truth_iri": ["http://purl.obolibrary.org/obo/OBI_0001617"],
+    "ground_truth_curie": ["OBI:0001617"]
+  },
+  {
+    "query": ["centimeter", "cm"],
+    "ground_truth_iri": ["https://bioregistry.io/UO:0000015"],
+    "ground_truth_curie": ["UO:0000015"]
+  },
+  {
+    "query": ["Date"],
+    "ground_truth_iri": ["https://bioregistry.io/NCIT:C25164"],
+    "ground_truth_curie": ["NCIT:C25164"]
+  },
+  {
+    "query": ["plant height"],
+    "ground_truth_iri": ["https://bioregistry.io/TO:0000207"],
+    "ground_truth_curie": [""]
+  },
+  {
+    "query": ["year"],
+    "ground_truth_iri": ["https://bioregistry.io/NCIT:C29848"],
+    "ground_truth_curie": [""]
+  },
+  {
+    "query": ["United Kingdom", "Großbritannien"],
+    "ground_truth_iri": ["https://bioregistry.io/NCIT:C17234"],
+    "ground_truth_curie": [""]
+  },
+  {
+    "query": ["Germany", "Deutschland"],
+    "ground_truth_iri": ["https://bioregistry.io/NCIT:C17234"],
+    "ground_truth_curie": [""]
+  },
+  {
+    "query": ["Triticum aestivum"],
+    "ground_truth_iri": ["http://purl.obolibrary.org/obo/NCBITAXON_4565"],
+    "ground_truth_curie": [""]
+  }
+]

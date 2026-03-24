@@ -15,12 +15,13 @@ def create_embeddings():
 
     metadata = []
 
+    idx = 1
     for ontology in ONTOLOGIES_LIST:
         embedding_inputs = []
         with open(str(PARSED_DIR / ontology) + ".json") as f:
             terms = json.load(f)
 
-        idx = 1
+        
         for t in terms[:EMBEDDING_LIMIT]:
             embedding_inputs.append(t["embedding_input"])
             metadata.append(

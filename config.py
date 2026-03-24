@@ -9,46 +9,46 @@ EVALUATION_DIR = DATA_DIR / "evaluation"
 QUERY_DIR = EVALUATION_DIR / "query"
 
 LEVEL = 2
-RUN_PIPELINE = False
+RUN_PIPELINE = True
 DOWNLOAD_ONTOLOGIES = False
-PARSE_ONTOLOGIES = False
-CREATE_EMBEDDINGS = True
+PARSE_ONTOLOGIES = True
+CREATE_EMBEDDINGS = False
 ONTOLOGIES_LIST = [
     "BAO",
     "BFO",
     "COB",
     "DPBO",
-    "PPEO",
-    "PCO",
-    "UO",
-    "BCO",
-    "RO",
-    "PPO",
-    "MSIO",
-    "PECO",
-    "MMO",
-    "STATO",
-    "SWO",
-    "TO",
-    "EDAM",
-    "OMP",
-    "MS",
-    "PO",
-    "CHMO",
-    "AGRO",
-    "PSO",
-    "OBI",
-    "ENVO",
-    "MOD",
-    "BAO",
-    "BTO",
-    "PATO",
-    "FLOPO",
-    "UBERON",
-    "GO",
-    "EFO",
-    "CHEBI",
-    "NCIT",
+    # "PPEO",
+    # "PCO",
+    # "UO",
+    # "BCO",
+    # "RO",
+    # "PPO",
+    # "MSIO",
+    # "PECO",
+    # "MMO",
+    # "STATO",
+    # "SWO",
+    # "TO",
+    # "EDAM",
+    # "OMP",
+    # "MS",
+    # "PO",
+    # "CHMO",
+    # "AGRO",
+    # "PSO",
+    # "OBI",
+    # "ENVO",
+    # "MOD",
+    # "BAO",
+    # "BTO",
+    # "PATO",
+    # "FLOPO",
+    # "UBERON",
+    # "GO",
+    # "EFO",
+    # "CHEBI",
+    # "NCIT",
 ]
 
 
@@ -60,6 +60,6 @@ MODELS = [
     "gsarti/scibert-nli",  # 4
 ]
 MODEL_NAME = MODELS[2]
-EMBEDDING_LIMIT = 100000  # reduce calculation time, for testing only
+EMBEDDING_LIMIT = 1000  # reduce calculation time, for testing only
 # ~50min bei 100.000
 TOP_K = 10
