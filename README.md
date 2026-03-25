@@ -65,8 +65,8 @@ pip install torch --index-url https://download.pytorch.org/whl/cu126
 
 ```bash
 python main.py -d -p # 1. Download and parse all ontologies 
-python main.py embeddings [0,1,2,3,4] -d cpu | gpu # Calculate embedding vectors for all ontologies with a specified model
-python main.py # run main program - create search querys in main()
+python main.py embeddings [0,1,2,3,4] -d cpu | gpu # 2. Calculate embedding vectors for all ontologies with a specified model
+python main.py # 3. run main program - create search querys in main()
 ```
 
 ## Start API
@@ -74,6 +74,6 @@ python main.py # run main program - create search querys in main()
 fastapi dev api.py
 ```
 
-Query: http://127.0.0.1:8000/?q=somequery.
+Query: http://127.0.0.1:8000/?q=organism
 
 
