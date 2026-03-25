@@ -1,7 +1,7 @@
 from owlready2 import *
 from config import ONTOLOGIES_LIST, RAW_DIR, PARSED_DIR
 import json
-import heapq
+from tqdm import tqdm
 
 SYNONYM_PROPERTIES = [
     "skos_prefLabel",
@@ -28,17 +28,12 @@ def parse(ontology: str):
             syn_props.append(prop.name)
 
     # relevant ontology values
-    classes = onto.classes()
-    data_properties = onto.data_properties()
-    object_properties = onto.object_properties()
-    individuals = onto.individuals()
+    classes = list(onto.classes())
+    data_properties = list(onto.data_properties())
+    object_properties = list(onto.object_properties())
+    individuals = list(onto.individuals())
 
-    ontologies = heapq.merge(classes, data_properties, object_properties)
-    print(len(list(classes)), "classes found")
-    print(len(list(data_properties)), "data properties found")
-    print(len(list(object_properties)), "object properties found")
-    print(len(list(individuals)), "individuals found")
-    print(len(list(ontologies)), "merged ontologies")
+    ontologies = classes + data_properties + object_properties + individuals
 
     terms = []
 
@@ -67,7 +62,7 @@ def parse(ontology: str):
         # if len(definition) > 0:
         #     embedding_input += " ".join(definition)
         if len(synonyms) > 0:
-            embedding_input += " ".join(synonyms)
+            embedding_input += " " + " ".join(synonyms)
 
         term = {
             "id": cls.iri,
@@ -81,17 +76,18 @@ def parse(ontology: str):
         terms.append(term)
     with open(str(PARSED_DIR / ontology) + ".json", "w") as f:
         json.dump(terms, f, indent=2)
-    print(len(terms), "terms parsed")
 
 
 def parse_ontologies():
     print("Parse", len(ONTOLOGIES_LIST), "ontologies")
 
-    for name in ONTOLOGIES_LIST:
+    start_total = time.perf_counter()
+    for name in tqdm(ONTOLOGIES_LIST, desc="Parsing ontologies"):
+        tqdm.write(f"Parse {name}...")
         start = time.perf_counter()
-        print(f"[PARSER]: Start parsing {name}")
         parse(name)
         elapsed = time.perf_counter() - start
-        print(f"[PARSER]: Successfully parsed {name} ({elapsed}s)")
+        tqdm.write(f"{name} parsed in {elapsed:.2f}s")
 
-    print("[PARSER]: Finished parsing")
+    total = time.perf_counter() - start_total
+    print(f"[PARSER]: Finished parsing ({total:.2f}s total)")

@@ -1,7 +1,7 @@
 import json
 import numpy as np
+import config
 from config import (
-    MODEL_NAME,
     PARSED_DIR,
     EMBEDDINGS_DIR,
     ONTOLOGIES_LIST,
@@ -21,8 +21,9 @@ def create_embeddings():
         with open(str(PARSED_DIR / ontology) + ".json") as f:
             terms = json.load(f)
 
-        
-        for t in terms[:EMBEDDING_LIMIT]:
+        if EMBEDDING_LIMIT is not None:
+            terms = terms[:EMBEDDING_LIMIT]
+        for t in terms:
             embedding_inputs.append(t["embedding_input"])
             metadata.append(
                 {
@@ -40,7 +41,7 @@ def create_embeddings():
             embedding_inputs, batch_size=64, show_progress_bar=True
         )
         np.save(
-            str(EMBEDDINGS_DIR / MODEL_NAME / f"{ontology}_vectors.npy"),
+            str(EMBEDDINGS_DIR / config.SELECTED_MODEL / f"{ontology}_vectors.npy"),
             embeddings,
         )
         idx += 1

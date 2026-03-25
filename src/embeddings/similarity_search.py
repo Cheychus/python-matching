@@ -1,12 +1,10 @@
 import time
-
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
 from config import (
     EMBEDDINGS_DIR,
     QUERY_DIR,
-    MODEL_NAME,
+    SELECTED_MODEL,
     TOP_K,
     ONTOLOGIES_LIST,
 )
@@ -23,7 +21,7 @@ def load():
     all_vectors = []
 
     for ontology in ONTOLOGIES_LIST:
-        vectorpath = str(EMBEDDINGS_DIR / MODEL_NAME / f"{ontology}_vectors.npy")
+        vectorpath = str(EMBEDDINGS_DIR / SELECTED_MODEL / f"{ontology}_vectors.npy")
         vecs = np.load(vectorpath)
         all_vectors.append(vecs)
 
@@ -31,13 +29,17 @@ def load():
         metadata = json.load(f)
 
     vectors = np.vstack(all_vectors)
+    vectors = vectors / np.linalg.norm(vectors, axis=1, keepdims=True)  # skalarprodukt
+
     assert len(metadata) == len(vectors)  # needs to be same length
 
 
 def calculate_similarity(value: str, top_k=TOP_K):
     embedding = model.encode(value)
-    scores = cosine_similarity([embedding], vectors)[0]
-    top = np.argsort(scores)[-100:][::-1]
+    embedding = embedding / np.linalg.norm(embedding)
+    scores = np.dot(vectors, embedding)
+    top = np.argpartition(scores, -50)[-50:]
+    top = top[np.argsort(scores[top])[::-1]]
 
     grouped = {}
     result = {"query": value, "results": []}
@@ -75,10 +77,10 @@ def search(value: str):
     startTime = time.perf_counter()
     result = calculate_similarity(value)
     result["runtime_ms"] = (time.perf_counter() - startTime) * 1000
-    result["model"] = MODEL_NAME
+    result["model"] = SELECTED_MODEL
 
     filename = value.lower() + ".json"
-    with open(str(QUERY_DIR / MODEL_NAME / filename), "w") as f:
+    with open(str(QUERY_DIR / SELECTED_MODEL / filename), "w") as f:
         json.dump(result, f, indent=2)
 
     return result

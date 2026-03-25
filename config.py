@@ -1,4 +1,6 @@
 from pathlib import Path
+import config
+import argparse
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -8,49 +10,43 @@ EMBEDDINGS_DIR = DATA_DIR / "embeddings"
 EVALUATION_DIR = DATA_DIR / "evaluation"
 QUERY_DIR = EVALUATION_DIR / "query"
 
-LEVEL = 2
-RUN_PIPELINE = True
-DOWNLOAD_ONTOLOGIES = False
-PARSE_ONTOLOGIES = True
-CREATE_EMBEDDINGS = False
 ONTOLOGIES_LIST = [
     "BAO",
     "BFO",
     "COB",
     "DPBO",
-    # "PPEO",
-    # "PCO",
-    # "UO",
-    # "BCO",
-    # "RO",
-    # "PPO",
-    # "MSIO",
-    # "PECO",
-    # "MMO",
-    # "STATO",
-    # "SWO",
-    # "TO",
-    # "EDAM",
-    # "OMP",
-    # "MS",
-    # "PO",
-    # "CHMO",
-    # "AGRO",
-    # "PSO",
-    # "OBI",
-    # "ENVO",
-    # "MOD",
-    # "BAO",
-    # "BTO",
-    # "PATO",
-    # "FLOPO",
-    # "UBERON",
-    # "GO",
-    # "EFO",
-    # "CHEBI",
-    # "NCIT",
+    "PPEO",
+    "PCO",
+    "UO",
+    "BCO",
+    "RO",
+    "PPO",
+    "MSIO",
+    "PECO",
+    "MMO",
+    "STATO",
+    "SWO",
+    "TO",
+    "EDAM",
+    "OMP",
+    "MS",
+    "PO",
+    "CHMO",
+    "AGRO",
+    "PSO",
+    "OBI",
+    "ENVO",
+    "MOD",
+    "BAO",
+    "BTO",
+    "PATO",
+    "FLOPO",
+    "UBERON",
+    "GO",
+    "EFO",
+    "CHEBI",
+    "NCIT",
 ]
-
 
 MODELS = [
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",  # 0
@@ -59,7 +55,63 @@ MODELS = [
     "jordyvl/scibert_scivocab_uncased_sentence_transformer",  # 3
     "gsarti/scibert-nli",  # 4
 ]
-MODEL_NAME = MODELS[2]
-EMBEDDING_LIMIT = 1000  # reduce calculation time, for testing only
+args = None
+SELECTED_MODEL: str = MODELS[2]  # default for testing main
+DEVICE: str = "cpu"  # cpu | gpu
+EMBEDDING_LIMIT: None | int = 1000  # reduce calculation time, for testing only
 # ~50min bei 100.000
 TOP_K = 10
+
+
+def setup_directories():
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    PARSED_DIR.mkdir(parents=True, exist_ok=True)
+    EMBEDDINGS_DIR.mkdir(parents=True, exist_ok=True)
+    for model in MODELS:
+        Path(QUERY_DIR / model).mkdir(parents=True, exist_ok=True)
+        Path(EMBEDDINGS_DIR / model).mkdir(parents=True, exist_ok=True)
+
+
+def setup():
+    global args, SELECTED_MODEL, DEVICE
+
+    setup_directories()
+
+    parser = argparse.ArgumentParser(
+        prog="PYTHON ONTOLOGY MATCHING SERVICE",
+        description="This python tool will download, parse and create embeddings based from a list of specified ontologies. First download and parse the ontologies with python main.py -d -p and after that, create embeddings for the specified models with python main.py embeddings [0,1,2,3,4] -d cpu | gpu",
+    )
+    subparsers = parser.add_subparsers(dest="command")
+    emb_parser = subparsers.add_parser("embeddings")
+
+    emb_parser.add_argument(
+        "model",
+        help="Choose a sentence transformer model from the specified config list",
+        type=int,
+        choices=[0, 1, 2, 3, 4],
+        default=2,
+    )
+    emb_parser.add_argument(
+        "-d",
+        "--device",
+        help="You can either calculate embeddings on cpu or gpu. GPU may be faster. CPU is standard",
+        choices=["cpu", "gpu"],
+        default="cpu",
+    )
+    parser.add_argument(
+        "-d",
+        "--download",
+        help="Download all ontologies specified in the ontologies list.",
+        action="store_true",
+    )
+    parser.add_argument(
+        "-p",
+        "--parse",
+        help="Parse all ontologies from the specified ontologies list",
+        action="store_true",
+    )
+
+    args = parser.parse_args()
+    if args.command == "embeddings":
+        config.SELECTED_MODEL = MODELS[args.model]  # overwrite config default model
+        config.DEVICE = args.device

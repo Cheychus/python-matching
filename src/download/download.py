@@ -1,6 +1,7 @@
 import json
 import requests
 from pathlib import Path
+from tqdm import tqdm
 
 from config import BASE_DIR, RAW_DIR
 
@@ -18,21 +19,19 @@ def download_ontologies():
         ontologies = json.load(f)
 
     # Alle Ontologien durchgehen
-    for ontology in ontologies:
+    for ontology in tqdm(ontologies, "Downloading ontologies"):
         url: str = ontology["url"]
         extension = Path(url).suffix
         short_name = ontology["short_form"]
 
         file_path = download_dir / f"{short_name}{extension}"
         if file_path.exists():
-            print(f"{file_path} already exists -> Skip.")
+            tqdm.write(f"{file_path} already exists -> Skip.")
             continue
-        print(f"Downloading {url} -> {file_path}")
+        tqdm.write(f"Downloading {url} -> {file_path}")
 
         response = requests.get(url)
         response.raise_for_status()
 
         with open(file_path, "wb") as f:
             f.write(response.content)
-
-    print("Download finished.")
