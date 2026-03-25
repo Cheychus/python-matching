@@ -1,4 +1,5 @@
 import json
+import time
 import numpy as np
 import config
 from config import (
@@ -16,6 +17,7 @@ def create_embeddings():
     metadata = []
 
     idx = 1
+    start_total = time.perf_counter()
     for ontology in ONTOLOGIES_LIST:
         embedding_inputs = []
         with open(str(PARSED_DIR / ontology) + ".json") as f:
@@ -45,6 +47,9 @@ def create_embeddings():
             embeddings,
         )
         idx += 1
+
+    total = time.perf_counter() - start_total
+    print(f"[EMBEDDING]: Finished embedding calculation ({total:.2f}s total)")
 
     with open(str(EMBEDDINGS_DIR / "ontology_metadata.json"), "w") as f:
         json.dump(metadata, f, indent=2)

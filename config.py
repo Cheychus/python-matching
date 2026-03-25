@@ -56,9 +56,11 @@ MODELS = [
     "gsarti/scibert-nli",  # 4
 ]
 args = None
-SELECTED_MODEL: str = MODELS[2]  # default for testing main
+SELECTED_MODEL: str = MODELS[
+    0
+]  # Select API Model here and model for testing with main()
 DEVICE: str = "cpu"  # cpu | gpu
-EMBEDDING_LIMIT: None | int = 1000  # reduce calculation time, for testing only
+EMBEDDING_LIMIT: None | int = None  # reduce calculation time, for testing only
 # ~50min bei 100.000
 TOP_K = 10
 
