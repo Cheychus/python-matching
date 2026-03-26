@@ -38,10 +38,13 @@ def parse(ontology: str):
     terms = []
 
     for cls in ontologies:
+        embedding_input = set()
         label = cls.label.first()
         if not label:  # skip ontologies without label
             continue
-        # print("CLASS: ", str(cls), cls.IAO_0000115)
+        embedding_input.add(label)
+
+        # extract definitions
         definition = set()
         for prop in DEFINITION_PROPERTIES:
             if hasattr(cls, prop):
@@ -57,13 +60,9 @@ def parse(ontology: str):
                 continue
             for v in values:
                 synonyms.add(str(v))
+                embedding_input.add(str(v))
 
-        embedding_input = label
-        # if len(definition) > 0:
-        #     embedding_input += " ".join(definition)
-        if len(synonyms) > 0:
-            embedding_input += " " + " ".join(synonyms)
-
+        embedding_input = " ".join(embedding_input)
         term = {
             "id": cls.iri,
             "short_id": cls.name,
