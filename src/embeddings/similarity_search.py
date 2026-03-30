@@ -8,6 +8,7 @@ from config import (
     TOP_K,
     ONTOLOGIES_LIST,
 )
+import config
 from src.model.embedding_model import get_model
 
 vectors = None
@@ -15,13 +16,15 @@ metadata = None
 model = None
 
 
-def load():
+def load(reset=False):
     global vectors, metadata, model
-    model = get_model()
+    model = get_model(reset=reset)
     all_vectors = []
 
     for ontology in ONTOLOGIES_LIST:
-        vectorpath = str(EMBEDDINGS_DIR / SELECTED_MODEL / f"{ontology}_vectors.npy")
+        vectorpath = str(
+            EMBEDDINGS_DIR / config.SELECTED_MODEL / f"{ontology}_vectors.npy"
+        )
         vecs = np.load(vectorpath)
         all_vectors.append(vecs)
 

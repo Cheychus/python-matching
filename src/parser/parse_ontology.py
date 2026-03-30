@@ -37,9 +37,9 @@ def parse(ontology: str):
 
     terms = []
 
-    for cls in ontologies:
+    for onto in ontologies:
         embedding_input = set()
-        label = cls.label.first()
+        label = onto.label.first()
         if not label:  # skip ontologies without label
             continue
         embedding_input.add(label)
@@ -47,16 +47,16 @@ def parse(ontology: str):
         # extract definitions
         definition = set()
         for prop in DEFINITION_PROPERTIES:
-            if hasattr(cls, prop):
-                for d in getattr(cls, prop):
+            if hasattr(onto, prop):
+                for d in getattr(onto, prop):
                     definition.add(str(d))
 
         synonyms = set()
         for prop in syn_props:
             try:
-                values = getattr(cls, prop, [])
+                values = getattr(onto, prop, [])
             except:
-                print("[WARNING]: ", prop, label, cls)
+                print("[WARNING]: ", prop, label, onto)
                 continue
             for v in values:
                 synonyms.add(str(v))
@@ -64,8 +64,8 @@ def parse(ontology: str):
 
         embedding_input = " ".join(embedding_input)
         term = {
-            "id": cls.iri,
-            "short_id": cls.name,
+            "id": onto.iri,
+            "short_id": onto.name,
             "type": "class",
             "label": label,
             "definition": list(definition),

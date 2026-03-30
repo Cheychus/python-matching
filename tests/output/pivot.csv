@@ -1,0 +1,181 @@
+query,BAAI/bge-base-en-v1.5,BAAI/bge-large-en-v1.5,BAAI/bge-small-en-v1.5,Trelis/all-MiniLM-L12-v2-ft-Llama-3-70B,intfloat/multilingual-e5-large,intfloat/multilingual-e5-small,jordyvl/scibert_scivocab_uncased_sentence_transformer,perplexity-ai/pplx-embed-v1-0.6b,pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb,sentence-transformers/all-MiniLM-L6-v2,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,thuan9889/llama_embedding_model_v1
+%,1,1,1,1,1,1,1,1,1,1,1,1
+Bio entity,1,1,1,1,1,1,1,1,1,1,1,1
+Biosource amount,1,1,1,1,1,1,1,1,1,1,1,1
+Biosource material state,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography autosampler model,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography column model,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography column type,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography gradient,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography injection mode,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography injection volume,1,1,1,1,1,1,1,1,1,1,1,1
+Chromatography instrument model,1,1,1,1,1,1,1,1,1,1,1,1
+DOI,0,0,0,0,0,0,0,0,0,0,0,0
+Digital Object Identifier,0,0,0,0,0,0,0,0,0,0,0,0
+Dry material,1,1,1,1,1,1,1,1,1,1,1,1
+EI,0,0,0,0,0,0,0,0,0,0,0,0
+Extraction buffer,1,1,1,1,1,1,1,1,1,1,1,1
+Extraction buffer volume,1,1,1,1,1,1,1,1,1,1,1,1
+He,0,0,0,0,0,0,0,0,0,0,0,0
+Hz,1,1,1,1,1,1,0,1,1,1,1,1
+Illumina HiSeq 2000,0,0,1,0,0,1,0,1,1,0,0,0
+Internal standard,1,1,1,1,1,1,1,1,1,1,1,1
+Likelihood-ratio test,1,1,1,1,1,1,1,1,1,1,1,1
+MS derivatization,1,1,1,1,1,1,1,1,1,1,1,1
+MS sample post-extraction,1,1,1,1,1,1,1,1,1,1,1,1
+MS sample resuspension,1,1,1,1,1,1,1,1,1,1,1,1
+MS sample type,1,1,1,1,1,1,1,1,1,1,1,1
+Organismus,1,1,1,1,0,1,1,1,1,1,1,1
+PubMedID,0,0,0,0,0,0,0,0,0,0,0,0
+Public Medical ID,0,0,0,0,0,0,0,0,0,0,0,0
+RNA QC,1,1,1,0,1,1,1,1,0,0,0,0
+RNA quality,1,1,1,1,1,1,1,1,1,1,1,1
+RNA quality check,1,1,1,1,1,1,1,1,1,1,1,1
+RNA-seq,0,0,0,0,0,0,0,0,0,0,0,1
+Raw data file format,1,1,1,1,1,1,1,1,1,1,1,1
+SE sequencing,0,0,0,0,0,0,0,0,0,0,0,0
+Sample volume,1,1,1,1,1,1,1,1,1,1,1,1
+Talinum fruticosum,0,0,0,0,0,0,0,0,0,0,0,0
+Timepoint,0,0,0,0,0,0,0,0,0,0,0,0
+adapter seq,1,1,1,1,1,1,0,1,1,1,1,1
+adapter sequence,1,1,1,1,1,1,1,1,1,1,1,1
+age of plant,1,1,1,1,1,1,0,1,1,1,1,1
+amount of biosource,1,1,1,1,1,1,0,1,1,1,1,1
+autosampler,1,1,1,0,1,1,1,1,1,0,0,0
+autosampler model,1,1,1,1,1,1,1,1,1,1,0,1
+base-calling software,1,1,1,1,1,1,1,1,1,1,1,1
+base-calling software version,1,1,1,1,1,1,1,1,1,1,1,1
+basecaller,1,1,1,1,1,1,0,1,0,0,0,0
+basecaller version,1,1,1,1,1,1,1,1,1,0,1,0
+bio sample,0,0,0,0,0,0,1,0,0,0,0,0
+biological entity,1,1,1,1,1,1,0,1,1,1,1,1
+biosource amount,1,1,1,1,1,1,1,1,1,1,1,1
+biosource quantity,1,1,1,1,1,1,1,1,1,1,1,1
+buffer solution,1,0,1,1,0,0,1,0,1,0,1,0
+buffer vol,1,1,1,1,1,1,0,0,0,0,0,0
+celsius,1,1,1,1,1,1,1,1,1,1,0,1
+chrom column,1,1,1,1,1,0,1,0,1,1,1,1
+chrom instrument model,1,1,1,1,1,1,0,1,1,1,0,1
+chromatography instrument,1,1,1,1,1,1,1,1,1,1,1,1
+column model,1,1,1,1,1,1,0,1,1,1,1,1
+column type,1,1,1,1,1,1,0,1,1,1,1,1
+data format,1,0,0,1,0,0,0,0,0,1,1,1
+day temperature,1,1,1,1,1,1,1,1,1,1,1,1
+degree celsius,1,1,1,1,0,1,1,1,1,1,0,1
+derivatization step,1,1,1,1,1,1,1,1,0,1,1,1
+detector,1,1,1,1,1,1,1,0,1,1,1,1
+detector type,1,1,1,1,1,1,1,1,1,1,1,1
+doi id,0,0,0,0,0,0,0,0,0,0,0,0
+dried sample,0,0,0,0,1,0,0,0,1,0,1,0
+dry biomass,1,1,1,1,1,1,0,1,1,1,0,1
+electron ionization,1,1,1,1,1,1,1,1,1,1,1,1
+electron multiplier,1,1,1,1,1,1,1,1,1,1,1,1
+electron multiplier detector,1,1,1,1,1,1,0,1,1,1,1,1
+extraction buffer,1,1,1,1,1,1,1,1,1,1,1,1
+extraction buffer volume,1,1,1,1,1,1,1,1,1,1,1,1
+extraction method,1,1,1,1,1,1,1,1,1,1,1,1
+extraction protocol,1,1,0,0,0,0,1,1,1,0,1,0
+extraction solvent,0,0,0,0,0,0,1,1,0,0,0,0
+extraction volume,1,1,1,1,1,1,1,1,1,1,1,1
+gradient program,1,1,1,1,1,1,0,1,1,1,0,1
+growth day length,1,1,1,1,1,1,1,1,1,1,1,1
+helium gas,0,0,0,0,0,0,0,0,0,0,0,0
+helium(0),0,0,0,0,0,0,0,0,0,0,0,0
+hertz,1,1,1,1,1,1,0,1,1,1,1,1
+hiseq 2000,1,1,1,0,1,1,0,1,1,1,1,1
+humidity day,1,1,1,1,1,1,1,1,1,1,1,1
+illumina hiseq,0,0,0,0,0,0,0,0,0,0,0,0
+injection type,1,1,1,1,0,0,0,1,0,1,0,1
+injection vol,1,1,1,1,1,1,0,1,0,0,0,0
+instrument model,1,1,1,1,1,1,1,1,1,1,1,1
+instrument type,1,1,0,1,1,0,0,1,0,1,1,1
+internal std,1,1,1,0,0,1,0,1,1,0,0,0
+ion polarity,0,0,1,0,1,0,0,1,0,0,0,0
+ionization method,1,1,0,1,1,1,0,1,1,1,0,1
+ionization type,1,1,1,1,1,1,1,1,1,1,1,1
+kit version,1,1,1,1,1,1,0,1,1,1,1,1
+layout type,1,1,1,1,1,1,0,0,1,1,0,1
+leaf,1,1,1,1,1,1,1,1,1,1,1,1
+leaf tissue,1,0,0,1,0,1,0,0,1,1,1,1
+library kit,1,1,1,1,1,1,1,1,1,1,1,1
+library layout,1,1,1,1,1,1,1,1,1,1,1,1
+library prep method,0,0,0,0,0,0,0,0,0,0,0,0
+library preparation kit,1,1,1,1,1,1,1,1,1,1,1,1
+library preparation kit version,1,1,1,1,1,1,1,1,1,1,1,1
+library selection,0,0,1,1,1,1,0,1,0,1,1,1
+library strategy,0,0,0,0,0,0,0,0,0,0,0,0
+light exposure,1,1,1,1,0,0,0,0,0,1,0,1
+light intensity exposure,1,1,1,1,1,1,1,1,0,1,1,1
+lower scan limit,1,1,1,1,1,1,1,1,1,1,1,1
+lrt,0,0,0,0,0,0,0,0,0,0,0,0
+mRNA Sequencing,0,0,0,0,0,0,0,0,0,0,0,0
+mass analyzer,1,1,1,1,1,1,0,1,1,1,1,1
+mass analyzer type,1,1,1,1,1,1,1,1,1,1,1,1
+material condition,0,0,0,0,0,0,0,1,0,0,0,0
+material sample,1,0,1,1,1,0,1,1,0,1,0,1
+max m/z,0,0,0,0,0,0,0,0,0,0,0,0
+mg,1,1,1,1,1,1,0,1,1,1,1,1
+microeinstein per square meter per second,1,1,1,1,1,1,1,1,1,1,1,1
+microliter,1,1,1,1,1,1,1,1,1,1,1,1
+microliters,1,1,1,1,1,1,1,1,1,1,1,1
+milligram,1,1,1,1,1,1,1,1,1,1,1,1
+milligrams,1,1,1,1,1,1,1,1,1,1,1,1
+min m/z,0,0,0,0,0,0,0,0,0,0,0,0
+mobile phase,1,1,1,1,1,1,1,1,1,1,1,1
+mobile phase solvent,1,0,1,0,1,1,0,1,1,0,0,0
+mrna seq,0,0,0,0,0,0,0,0,0,0,0,0
+next generation sequencing instrument model,1,1,1,1,1,1,1,1,1,1,1,1
+night temperature,1,1,1,1,1,1,1,1,1,1,1,1
+organism,1,1,1,1,1,1,1,1,1,1,1,1
+organism name,0,0,1,1,0,1,0,1,0,1,1,1
+organism part,0,0,0,0,0,0,0,0,0,0,0,0
+percent,1,1,1,1,1,1,1,1,1,1,1,1
+photoperiod,1,0,0,0,0,0,0,0,1,0,0,0
+plant age,1,1,1,1,1,1,1,1,1,1,1,1
+plant tissue,0,0,0,0,0,0,0,0,0,0,0,0
+pmid,0,0,0,0,0,0,0,0,0,0,0,0
+polarity,1,1,1,1,1,1,0,1,0,0,0,0
+post extraction sample,1,1,1,1,1,1,1,1,1,1,1,1
+pubmed id,0,0,0,0,0,0,0,0,0,0,0,0
+quad,1,1,1,1,1,1,0,0,1,1,1,1
+quadrupole,1,1,1,1,1,1,1,1,1,1,1,1
+quadrupole analyzer,1,1,1,1,1,1,0,1,1,1,1,1
+raw file format,1,1,1,1,1,1,1,1,1,1,1,1
+reference compound,0,0,0,0,0,0,1,0,0,0,0,0
+relative humidity,1,1,1,1,1,1,1,1,1,1,1,1
+resuspended sample,1,1,1,1,1,1,0,1,1,1,0,1
+ribitol,0,0,0,0,0,0,0,0,0,0,0,0
+ribitol standard,0,0,0,0,0,0,0,0,0,0,0,0
+rna sequencing,0,0,0,0,0,0,0,0,0,0,0,0
+sample category,0,0,0,0,0,0,0,0,0,0,0,0
+sample entity,0,0,0,0,0,0,0,0,0,0,0,0
+sample mass,0,0,0,0,0,0,0,0,0,0,0,0
+sample material,0,0,0,0,0,0,0,1,0,1,0,1
+sample state,0,0,0,0,0,0,0,0,0,0,0,0
+sample vol,1,1,0,1,1,1,1,1,1,1,0,1
+sampling time,0,0,0,0,0,0,0,0,0,0,0,0
+scan frequency,1,1,1,1,1,1,1,1,1,1,1,1
+scan polarity,1,1,1,1,1,1,1,1,1,1,1,1
+scan rate,1,1,1,1,1,1,1,1,1,1,1,1
+scan window lower limit,1,1,1,1,1,1,1,1,1,1,1,1
+scan window upper limit,1,1,1,1,1,1,1,1,1,1,1,1
+seq strategy,0,0,0,0,0,0,0,0,0,0,0,0
+sequencer model,1,1,0,0,1,0,0,0,1,0,0,0
+single end sequencing,1,0,0,0,1,1,0,1,0,0,0,0
+single-end,1,1,1,1,1,1,1,1,1,1,1,1
+species,0,0,0,0,0,0,0,0,0,1,1,1
+split,0,0,0,0,0,0,0,0,0,0,0,0
+split mode,0,0,0,0,0,0,0,0,0,0,0,0
+talinum,0,0,0,0,0,0,0,0,0,0,0,0
+temperature at night,1,1,1,1,1,1,1,1,1,1,1,1
+temperature day,1,1,1,1,1,1,1,1,1,1,1,1
+temperature night,1,1,1,1,1,1,1,1,1,1,1,1
+time point,0,0,0,0,0,0,0,0,0,0,0,0
+ul,1,1,1,1,1,1,0,0,0,1,0,1
+upper scan limit,1,1,1,1,1,1,1,1,1,1,1,1
+volume of sample,1,1,1,1,1,1,1,1,1,1,1,1
+watering condition,1,1,1,1,0,0,0,1,0,1,1,1
+watering exposure,1,1,1,1,1,1,1,1,1,1,1,1
+Â°C,1,1,1,1,1,1,0,1,0,1,1,1
+Âµl,0,0,0,0,1,0,0,0,0,0,0,0
+Âµmol m-2 s-1,0,0,0,0,0,0,0,1,0,0,0,0

@@ -1,4 +1,5 @@
 import config
+from src.evaluation.evaluate import evaluate_groundtruth
 from src.embeddings.create_embeddings import create_embeddings
 from src.embeddings.similarity_search import (
     load,
@@ -32,16 +33,19 @@ def main():
         pipeline()
     else:
         load()
-
-        # manual search
-        search("function")
-        search("organism")
-        search("mouse")
-        search("Hordeum vulgare")
-        search("Soil")
-        search("Plant")
-        search("Live")
-        search("Cell")
+        # for model in config.MODELS[:10]:
+        #     config.SELECTED_MODEL = model
+        #     load(reset=True)
+        evaluate_groundtruth(config.SELECTED_MODEL)
+    # manual search
+    # search("function")
+    # search("organism")
+    # search("mouse")
+    # search("Hordeum vulgare")
+    # search("Soil")
+    # search("Plant")
+    # search("Live")
+    # search("Cell")
 
 
 if __name__ == "__main__":

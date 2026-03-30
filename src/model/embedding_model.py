@@ -17,11 +17,13 @@ def get_device():
     return device
 
 
-def get_model():
+def get_model(reset=False):
     global _loaded_model
 
-    if _loaded_model is None:
+    if _loaded_model is None or reset:
         device = get_device()
-        _loaded_model = SentenceTransformer(config.SELECTED_MODEL, device=device)
+        _loaded_model = SentenceTransformer(
+            config.SELECTED_MODEL, device=device, trust_remote_code=True
+        )
 
     return _loaded_model

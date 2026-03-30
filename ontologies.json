@@ -50,6 +50,11 @@
         "url": "https://raw.githubusercontent.com/nfdi4plants/nfdi4plants_ontology/refs/heads/main/DPBO.owl"
     },
     {
+        "name": "The Environment Ontology 2023-02-13 release",
+        "short_form": "ENVO2023",
+        "url": "https://raw.githubusercontent.com/EnvironmentOntology/envo/refs/tags/v2023-02-13/envo.owl"
+    },
+    {
         "name": "The Environment Ontology",
         "short_form": "ENVO",
         "url": "https://raw.githubusercontent.com/EnvironmentOntology/envo/master/envo.owl"

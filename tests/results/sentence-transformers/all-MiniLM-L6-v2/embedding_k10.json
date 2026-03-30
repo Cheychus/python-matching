@@ -1,0 +1,532 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "method": "embedding",
+  "top_k": 10,
+  "results": [
+    {
+      "query": "Bio entity",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Biosource amount",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "milligram",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Biosource material state",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Dry material",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Extraction buffer",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Extraction buffer volume",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Internal standard",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "ribitol",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "Sample volume",
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "microliter",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "MS sample post-extraction",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "MS sample resuspension",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "MS derivatization",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "MS sample type",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Chromatography instrument model",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Chromatography autosampler model",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Chromatography column type",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Chromatography column model",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "mobile phase",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "helium(0)",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "Chromatography injection volume",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Chromatography injection mode",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Chromatography gradient",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "split",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "material sample",
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "scan polarity",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "scan window lower limit",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "scan window upper limit",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "scan rate",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "hertz",
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "instrument model",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "ionization type",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "electron ionization",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "mass analyzer type",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "quadrupole",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "detector type",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "electron multiplier",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "biosource amount",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "extraction method",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "extraction buffer",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "extraction buffer volume",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "RNA quality check",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "library strategy",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "RNA-seq",
+      "rank": 6,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": true
+    },
+    {
+      "query": "library selection",
+      "rank": 5,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "library layout",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "single-end",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "library preparation kit",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "library preparation kit version",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "adapter sequence",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "next generation sequencing instrument model",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Illumina HiSeq 2000",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "base-calling software",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "base-calling software version",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Raw data file format",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "mRNA Sequencing",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "organism",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Talinum fruticosum",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "organism part",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "leaf",
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "plant age",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "watering exposure",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Timepoint",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "growth day length",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "light intensity exposure",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "microeinstein per square meter per second",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "humidity day",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "percent",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "temperature day",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "degree celsius",
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "temperature night",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "Likelihood-ratio test",
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true
+    },
+    {
+      "query": "DOI",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    },
+    {
+      "query": "PubMedID",
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false
+    }
+  ]
+}

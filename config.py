@@ -9,6 +9,7 @@ PARSED_DIR = DATA_DIR / "parsed"
 EMBEDDINGS_DIR = DATA_DIR / "embeddings"
 EVALUATION_DIR = DATA_DIR / "evaluation"
 QUERY_DIR = EVALUATION_DIR / "query"
+TEST_DIR = BASE_DIR / "tests"
 
 ONTOLOGIES_LIST = [
     "BAO",
@@ -53,16 +54,24 @@ MODELS = [
     "sentence-transformers/all-MiniLM-L6-v2",  # 1
     "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",  # 2
     "jordyvl/scibert_scivocab_uncased_sentence_transformer",  # 3
-    "gsarti/scibert-nli",  # 4
+    "thuan9889/llama_embedding_model_v1",  # 4
+    "Trelis/all-MiniLM-L12-v2-ft-Llama-3-70B",  # 5
+    "BAAI/bge-large-en-v1.5",  # 6 ~22min bei Limit 1000
+    "BAAI/bge-small-en-v1.5",  # 7
+    "BAAI/bge-base-en-v1.5",  # 8
+    "intfloat/multilingual-e5-large",  # 9
+    "intfloat/multilingual-e5-small",  # 10
+    "perplexity-ai/pplx-embed-v1-0.6b",  # 11 ~41min limit = 1000
+    "nvidia/llama-embed-nemotron-8b",  # 12
 ]
 args = None
 SELECTED_MODEL: str = MODELS[
-    0
+    12
 ]  # Select API Model here and model for testing with main()
 DEVICE: str = "cpu"  # cpu | gpu
-EMBEDDING_LIMIT: None | int = None  # reduce calculation time, for testing only
+EMBEDDING_LIMIT: None | int = 1000  # reduce calculation time, for testing only
 # ~50min bei 100.000
-TOP_K = 10
+TOP_K = 20
 
 
 def setup_directories():
@@ -90,7 +99,7 @@ def setup():
         "model",
         help="Choose a sentence transformer model from the specified config list",
         type=int,
-        choices=[0, 1, 2, 3, 4],
+        choices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
         default=2,
     )
     emb_parser.add_argument(
