@@ -61,15 +61,15 @@ MODELS = [
     "BAAI/bge-base-en-v1.5",  # 8
     "intfloat/multilingual-e5-large",  # 9
     "intfloat/multilingual-e5-small",  # 10
-    "perplexity-ai/pplx-embed-v1-0.6b",  # 11 ~41min limit = 1000
-    "nvidia/llama-embed-nemotron-8b",  # 12
+    # "perplexity-ai/pplx-embed-v1-0.6b",  # 11 ~41min limit = 1000
+    # "nvidia/llama-embed-nemotron-8b",  # 12
 ]
 args = None
 SELECTED_MODEL: str = MODELS[
-    12
+    7
 ]  # Select API Model here and model for testing with main()
 DEVICE: str = "cpu"  # cpu | gpu
-EMBEDDING_LIMIT: None | int = 1000  # reduce calculation time, for testing only
+EMBEDDING_LIMIT: None | int = None  # reduce calculation time, for testing only
 # ~50min bei 100.000
 TOP_K = 20
 

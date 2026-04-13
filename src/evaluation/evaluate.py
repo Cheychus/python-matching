@@ -2,6 +2,7 @@ import csv
 import json
 from pathlib import Path
 
+from src.api.api_search import api_search
 from config import TEST_DIR
 import config
 from src.embeddings.similarity_search import calculate_similarity, load
@@ -15,8 +16,67 @@ def normalize_id(iri: str):
     return iri.replace("_", ":")
 
 
-def evaluate_groundtruth(model_name):
+def evaluate_api():
+    with open(str(GROUND_TRUTH_DIR) + "/ground_truth_stress.json") as f:
+        ground_truth = json.load(f)
 
+    results = []
+    for query, truth_value in ground_truth.items():
+        print(f"GET API result for {query}...")
+        api_results = api_search(query)
+        rank = -1
+        count = 1
+        for r in api_results:
+            short_id = normalize_id(r["short_form"])
+            if truth_value == short_id:
+                rank = count
+            count += 1
+
+        top_k_results = [
+            {
+                "id": normalize_id(r["short_form"]),
+                "label": r["label"],
+            }
+            for r in api_results[: config.TOP_K]
+        ]
+        hit_1 = rank == 1
+        hit_5 = rank != -1 and rank <= 5
+        hit_10 = rank != -1 and rank <= 10
+        hit_20 = rank != -1 and rank <= 20
+        same_label = [r for r in top_k_results if r["label"].lower() == query.lower()]
+
+        results.append(
+            {
+                "query": query,
+                "rank": rank,
+                "hit@1": hit_1,
+                "hit@5": hit_5,
+                "hit@10": hit_10,
+                "hit@20": hit_20,
+                "reciprocal_rank": 1 / rank if rank > 0 else 0,
+                "duplicate_labels": len(same_label) > 1,
+                "expected_id": truth_value,
+                "top_k_results": top_k_results,
+            }
+        )
+        output = {
+            "model": "Terminology API Search",
+            "method": "api_search",
+            "top_k": config.TOP_K,
+            "results": results,
+        }
+
+    filename = f"api_k{output['top_k']}.json"
+    path = Path(RESULTS_DIR / "api_search")
+    path.mkdir(parents=True, exist_ok=True)
+
+    with open(path / filename, "w") as f:
+        json.dump(output, f, indent=2)
+    json_to_csv(path / filename, str(path) + "/result.csv")
+    print("Finished api evaluation")
+
+
+def evaluate_groundtruth(model_name):
     with open(str(GROUND_TRUTH_DIR) + "/ground_truth_stress.json") as f:
         ground_truth = json.load(f)
 

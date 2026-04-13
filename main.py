@@ -1,5 +1,6 @@
+from src.api.api_search import api_search
 import config
-from src.evaluation.evaluate import evaluate_groundtruth
+from src.evaluation.evaluate import evaluate_api, evaluate_groundtruth
 from src.embeddings.create_embeddings import create_embeddings
 from src.embeddings.similarity_search import (
     load,
@@ -32,11 +33,15 @@ def main():
     if config.args.download or config.args.parse or config.args.command == "embeddings":
         pipeline()
     else:
-        load()
-        # for model in config.MODELS[:10]:
+        # load()
+        # for model in config.MODELS:
         #     config.SELECTED_MODEL = model
         #     load(reset=True)
-        evaluate_groundtruth(config.SELECTED_MODEL)
+        # evaluate_groundtruth(config.SELECTED_MODEL)
+
+        evaluate_api()
+        # result = api_search("organism")
+        # print(result)
     # manual search
     # search("function")
     # search("organism")
