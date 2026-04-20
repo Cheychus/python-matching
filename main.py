@@ -34,11 +34,11 @@ def main():
     if config.args.download or config.args.parse or config.args.command == "embeddings":
         pipeline()
     else:
-        # load()
-        # for model in config.MODELS:
-        #     config.SELECTED_MODEL = model
-        #     load(reset=True)
-        # evaluate_groundtruth(config.SELECTED_MODEL)
+        load()
+        for model in config.MODELS:
+            config.SELECTED_MODEL = model
+            load(reset=True)
+        evaluate_groundtruth(config.SELECTED_MODEL)
 
         # evaluate_api()
         # result = api_search("organism")

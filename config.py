@@ -62,15 +62,15 @@ MODELS = [
     # "BAAI/bge-reranker-v2-m3" reranker modell, ungeeignet fuer BA
     "BAAI/bge-base-en-v1.5",  # 7
     "intfloat/multilingual-e5-large",  # 8 (query: ..., passage: ...)
-    "Qwen/Qwen3-Embedding-0.6B",  # 9 dauert zu lange!
+    #  "Qwen/Qwen3-Embedding-0.6B",  # 9 dauert zu lange!
     # "nomic-ai/nomic-embed-text-v1" aeltere version
     # "intfloat/multilingual-e5-small", # 10 small modell von intfloat
     "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",  # 10 domain specific
     "pritamdeka/S-Scibert-snli-multinli-stsb",  # 11 domain
     "sentence-transformers/allenai-specter",  # 12 domain
     "NeuML/pubmedbert-base-embeddings",  # 13 domain
-    "nvidia/llama-embed-nemotron-8b",  # 14 ols search model, dauert zu lange!
-    "nvidia/llama-nemotron-embed-1b-v2",  # 15 kleineres ols model, dauert auch zu lange
+    #  "nvidia/llama-embed-nemotron-8b",  # 14 ols search model, dauert zu lange!
+    #  "nvidia/llama-nemotron-embed-1b-v2",  # 15 kleineres ols model, dauert auch zu lange
 ]
 
 # MODELS = [

@@ -47,7 +47,7 @@ def get_model(reset=False):
             )
         else:
             _loaded_model = SentenceTransformer(
-                config.SELECTED_MODEL, device=device, trust_remote_code=True
+                config.SELECTED_MODEL, device=device, trust_remote_code=False
             )
 
     return _loaded_model
