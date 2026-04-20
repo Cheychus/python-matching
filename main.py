@@ -1,6 +1,6 @@
 from src.api.api_search import api_search
 import config
-from src.evaluation.evaluate import evaluate_api, evaluate_groundtruth
+from src.evaluation.evaluate import evaluate_api, evaluate_groundtruth, evaluate_lexical
 from src.embeddings.create_embeddings import create_embeddings
 from src.embeddings.similarity_search import (
     load,
@@ -8,6 +8,7 @@ from src.embeddings.similarity_search import (
 )
 from src.parser.parse_ontology import parse_ontologies
 from src.download.download import download_ontologies
+from src.lexical.lexical_search import lexical_search
 
 
 def pipeline():
@@ -39,9 +40,15 @@ def main():
         #     load(reset=True)
         # evaluate_groundtruth(config.SELECTED_MODEL)
 
-        evaluate_api()
+        # evaluate_api()
         # result = api_search("organism")
         # print(result)
+        results = lexical_search("organism", 20)
+        print(results)
+        results = lexical_search("hordeum", 20)
+        print(results)
+    # evaluate_lexical()
+
     # manual search
     # search("function")
     # search("organism")

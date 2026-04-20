@@ -2,6 +2,7 @@ import csv
 import json
 from pathlib import Path
 
+from src.lexical.lexical_search import lexical_search
 from src.api.api_search import api_search
 from config import TEST_DIR
 import config
@@ -14,6 +15,65 @@ RESULTS_DIR.mkdir(exist_ok=True)
 
 def normalize_id(iri: str):
     return iri.replace("_", ":")
+
+
+def evaluate_lexical():
+    with open(str(GROUND_TRUTH_DIR) + "/ground_truth_stress.json") as f:
+        ground_truth = json.load(f)
+
+    results = []
+    for query, truth_value in ground_truth.items():
+        print(f"Lexical search for {query}...")
+        lexical_results = lexical_search(query)["results"]
+        rank = -1
+        count = 1
+        for r in lexical_results:
+            short_id = normalize_id(r["short_id"])
+            if truth_value == short_id:
+                rank = count
+            count += 1
+        top_k_results = [
+            {
+                "id": normalize_id(r["short_id"]),
+                "label": r["label"],
+            }
+            for r in lexical_results[: config.TOP_K]
+        ]
+        hit_1 = rank == 1
+        hit_5 = rank != -1 and rank <= 5
+        hit_10 = rank != -1 and rank <= 10
+        hit_20 = rank != -1 and rank <= 20
+        same_label = [r for r in top_k_results if r["label"].lower() == query.lower()]
+
+        results.append(
+            {
+                "query": query,
+                "rank": rank,
+                "hit@1": hit_1,
+                "hit@5": hit_5,
+                "hit@10": hit_10,
+                "hit@20": hit_20,
+                "reciprocal_rank": 1 / rank if rank > 0 else 0,
+                "duplicate_labels": len(same_label) > 1,
+                "expected_id": truth_value,
+                "top_k_results": top_k_results,
+            }
+        )
+        output = {
+            "model": "Lexical Fuzzy Matching",
+            "method": "lexical",
+            "top_k": config.TOP_K,
+            "results": results,
+        }
+
+    filename = f"lexical_k{output['top_k']}.json"
+    path = Path(RESULTS_DIR / "lexical_search")
+    path.mkdir(parents=True, exist_ok=True)
+
+    with open(path / filename, "w") as f:
+        json.dump(output, f, indent=2)
+    json_to_csv(path / filename, str(path) + "/result.csv")
+    print("Finished lexical evaluation")
 
 
 def evaluate_api():
