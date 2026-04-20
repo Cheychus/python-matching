@@ -38,7 +38,12 @@ def load(reset=False):
 
 
 def calculate_similarity(value: str, top_k=TOP_K):
-    embedding = model.encode(value)
+    if config.SELECTED_MODEL == "nomic-ai/nomic-embed-text-v1.5":
+        embedding = model.encode_query(value, prompt="search_query")
+    elif config.SELECTED_MODEL == "intfloat/multilingual-e5-large":
+        embedding = model.encode_query(value, prompt="query")
+    else:
+        embedding = model.encode(value)
     embedding = embedding / np.linalg.norm(embedding)
     scores = np.dot(vectors, embedding)
     top = np.argpartition(scores, -50)[-50:]

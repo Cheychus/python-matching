@@ -43,10 +43,10 @@ def main():
         # evaluate_api()
         # result = api_search("organism")
         # print(result)
-        results = lexical_search("organism", 20)
-        print(results)
-        results = lexical_search("hordeum", 20)
-        print(results)
+        # results = lexical_search("organism", 20)
+        # print(results)
+        # results = lexical_search("hordeum", 20)
+        print("Finished custom run")
     # evaluate_lexical()
 
     # manual search
