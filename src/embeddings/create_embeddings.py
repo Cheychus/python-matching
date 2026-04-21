@@ -21,8 +21,8 @@ def create_embeddings():
         with open(str(PARSED_DIR / ontology) + ".json") as f:
             terms = json.load(f)
 
-        if EMBEDDING_LIMIT is not None:
-            terms = terms[:EMBEDDING_LIMIT]
+        if config.EMBEDDING_LIMIT is not None:
+            terms = terms[:config.EMBEDDING_LIMIT]
         for t in terms:
             if config.SELECTED_MODEL == "nomic-ai/nomic-embed-text-v1.5":
                 # print("[EMBEDDING]: Using search_document: as a prompt")
@@ -36,7 +36,7 @@ def create_embeddings():
         print(f"[EMBEDDING]: {ontology} {idx}/{len(ONTOLOGIES_LIST)}")
 
         embeddings = model.encode(
-            embedding_inputs, batch_size=64, show_progress_bar=False
+            embedding_inputs, batch_size=32, show_progress_bar=False
         )
         np.save(
             str(EMBEDDINGS_DIR / config.SELECTED_MODEL / f"{ontology}_vectors.npy"),

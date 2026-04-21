@@ -35,19 +35,9 @@ def get_model(reset=False):
                 processor_kwargs={"padding_side": "left"},
                 device=device,
             )
-        elif config.SELECTED_MODEL == "Qwen/Qwen3-Embedding-0.6B":
-            _loaded_model = SentenceTransformer(
-                config.SELECTED_MODEL,
-                model_kwargs={
-                    "attn_implementation": "flash_attention_2",
-                    "device_map": "auto",
-                },
-                processor_kwargs={"padding_side": "left"},
-                device=device,
-            )
         else:
             _loaded_model = SentenceTransformer(
-                config.SELECTED_MODEL, device=device, trust_remote_code=False
+                config.SELECTED_MODEL, device=device, trust_remote_code=True
             )
 
     return _loaded_model

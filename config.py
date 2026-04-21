@@ -42,7 +42,7 @@ ONTOLOGIES_LIST = [
     "BTO",
     "PATO",
     "FLOPO",
-    "UBERON",
+   "UBERON",
     "GO",
     "EFO",
     "CHEBI",
@@ -50,7 +50,7 @@ ONTOLOGIES_LIST = [
 ]
 
 MODELS = [
-    # most download
+   # most download
     "sentence-transformers/all-MiniLM-L6-v2",  # 0
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",  # 1
     "sentence-transformers/all-mpnet-base-v2",  # 2,
@@ -65,15 +65,15 @@ MODELS = [
     "pritamdeka/S-Scibert-snli-multinli-stsb",  # 11 domain
     "sentence-transformers/allenai-specter",  # 12 domain
     "NeuML/pubmedbert-base-embeddings",  # 13 domain
-    "nvidia/llama-embed-nemotron-8b",  # 14 ols search model, dauert zu lange!
+   "nvidia/llama-embed-nemotron-8b",  # 14 ols search model, dauert zu lange!
     "nvidia/llama-nemotron-embed-1b-v2",  # 15 kleineres ols model, dauert auch zu lange
 ]
 
 args = None
 SELECTED_MODEL: str = MODELS[
-    7
+    0
 ]  # Select API Model here and model for testing with main()
-DEVICE: str = "gpu"  # cpu | gpu
+DEVICE: str = "cpu"  # cpu | gpu
 EMBEDDING_LIMIT: None | int = None  # reduce calculation time, for testing only
 # ~50min bei 100.000
 TOP_K = 20
