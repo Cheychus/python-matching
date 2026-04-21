@@ -54,46 +54,27 @@ MODELS = [
     "sentence-transformers/all-MiniLM-L6-v2",  # 0
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",  # 1
     "sentence-transformers/all-mpnet-base-v2",  # 2,
-    # "cross-encoder/ms-marco-MiniLM-L6-v2", nicht nutzbar, cross encoder, kein model.encode moeglich
     "BAAI/bge-small-en-v1.5",  # 3
     "BAAI/bge-m3",  # 4
     "nomic-ai/nomic-embed-text-v1.5",  # 5 (search_document: ..., search_query: ...) -> model.encode()
     "BAAI/bge-large-en-v1.5",  # 6
-    # "BAAI/bge-reranker-v2-m3" reranker modell, ungeeignet fuer BA
     "BAAI/bge-base-en-v1.5",  # 7
     "intfloat/multilingual-e5-large",  # 8 (query: ..., passage: ...)
-    #  "Qwen/Qwen3-Embedding-0.6B",  # 9 dauert zu lange!
-    # "nomic-ai/nomic-embed-text-v1" aeltere version
-    # "intfloat/multilingual-e5-small", # 10 small modell von intfloat
+    "Qwen/Qwen3-Embedding-0.6B",  # 9 dauert zu lange!
     "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",  # 10 domain specific
     "pritamdeka/S-Scibert-snli-multinli-stsb",  # 11 domain
     "sentence-transformers/allenai-specter",  # 12 domain
     "NeuML/pubmedbert-base-embeddings",  # 13 domain
-    #  "nvidia/llama-embed-nemotron-8b",  # 14 ols search model, dauert zu lange!
-    #  "nvidia/llama-nemotron-embed-1b-v2",  # 15 kleineres ols model, dauert auch zu lange
+    "nvidia/llama-embed-nemotron-8b",  # 14 ols search model, dauert zu lange!
+    "nvidia/llama-nemotron-embed-1b-v2",  # 15 kleineres ols model, dauert auch zu lange
 ]
 
-# MODELS = [
-#     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",  # 0
-#     "sentence-transformers/all-MiniLM-L6-v2",  # 1
-#     "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",  # 2
-#     "jordyvl/scibert_scivocab_uncased_sentence_transformer",  # 3
-#     "thuan9889/llama_embedding_model_v1",  # 4
-#     "Trelis/all-MiniLM-L12-v2-ft-Llama-3-70B",  # 5
-#     "BAAI/bge-large-en-v1.5",  # 6 ~22min bei Limit 1000
-#     "BAAI/bge-small-en-v1.5",  # 7
-#     "BAAI/bge-base-en-v1.5",  # 8
-#     "intfloat/multilingual-e5-large",  # 9
-#     "intfloat/multilingual-e5-small",  # 10
-#     # "perplexity-ai/pplx-embed-v1-0.6b",  # 11 ~41min limit = 1000
-#     # "nvidia/llama-embed-nemotron-8b",  # 12
-# ]
 args = None
 SELECTED_MODEL: str = MODELS[
     7
 ]  # Select API Model here and model for testing with main()
 DEVICE: str = "gpu"  # cpu | gpu
-EMBEDDING_LIMIT: None | int = 100  # reduce calculation time, for testing only
+EMBEDDING_LIMIT: None | int = None  # reduce calculation time, for testing only
 # ~50min bei 100.000
 TOP_K = 20
 

@@ -36,7 +36,7 @@ def create_embeddings():
         print(f"[EMBEDDING]: {ontology} {idx}/{len(ONTOLOGIES_LIST)}")
 
         embeddings = model.encode(
-            embedding_inputs, batch_size=1, show_progress_bar=True
+            embedding_inputs, batch_size=64, show_progress_bar=False
         )
         np.save(
             str(EMBEDDINGS_DIR / config.SELECTED_MODEL / f"{ontology}_vectors.npy"),
