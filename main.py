@@ -1,18 +1,15 @@
-from src.api.api_search import api_search
 import config
-from src.evaluation.evaluate import evaluate_api, evaluate_groundtruth, evaluate_lexical
-from src.embeddings.create_embeddings import create_embeddings
-from src.embeddings.similarity_search import (
-    load,
-    search,
+from src.embeddings.similarity_search import load_model
+from src.evaluation.evaluate import (
+    evaluate_search_method,
+    load_and_combine_results,
 )
+from src.embeddings.create_embeddings import create_embeddings, create_metadata
 from src.parser.parse_ontology import parse_ontologies
 from src.download.download import download_ontologies
-from src.lexical.lexical_search import lexical_search
-from tests.benchmark.benchmark import benchmark_model
 
 
-def pipeline():
+def setup_pipeline():
     print("[MAIN]: Start Pipeline")
     if config.args.download:
         print("[MAIN]: Download ontologies")
@@ -27,36 +24,75 @@ def pipeline():
             "[MAIN]: Create embeddings. This may take some minutes or even hours. Please wait..."
         )
         create_embeddings()
+        create_metadata()
 
     print("[MAIN]: Pipeline finished")
 
 
-def main():
-    if config.args.download or config.args.parse or config.args.command == "embeddings":
-        pipeline()
-        return
-  
-    # load()
+def evaluation_pipeline():
+    ground_truth = "ground_truth_talinum.json"
+
+    # evaluate baseline methods
+    # evaluate_search_method(
+    #     ground_truth,
+    #     method="lexical",
+    #     method_key="fuzzy",
+    # )
+
+    # # with collection
+    # evaluate_search_method(
+    #     ground_truth,
+    #     method="api",
+    #     method_key="terminology",
+    #     appendix="with_collection",
+    # )
+
+    # evaluate_search_method(
+    #     ground_truth,
+    #     method="api",
+    #     method_key="tib",
+    #     appendix="with_collection",
+    # )
+
+    # # without collection
+    # evaluate_search_method(
+    #     ground_truth,
+    #     method="api",
+    #     method_key="terminology",
+    #     appendix="without_collection",
+    # )
+
+    # evaluate_search_method(
+    #     ground_truth,
+    #     method="api",
+    #     method_key="tib",
+    #     appendix="without_collection",
+    # )
+
+    # evaluate all models
     # for model in config.MODELS:
     #     config.SELECTED_MODEL = model
-    #     load(reset=True)
-    # evaluate_groundtruth(config.SELECTED_MODEL)
+    #     load_model(reset=True)
+    #     evaluate_search_method(
+    #         ground_truth,
+    #         method="embedding",
+    #         method_key=model.replace("/", "_"),
+    #     )
 
-    # evaluate_api()
-    # result = api_search("organism")
-    # print(result)
-    # results = lexical_search("organism", 20)
-    # print(results)
-    # results = lexical_search("hordeum", 20)
+    # load all json results from the previous evaluation and combine them into csv data
+    load_and_combine_results(config.RESULTS_DIR)
 
-    # evaluate_lexical()
-    results = []
-    for model in config.MODELS:
-        result = benchmark_model(model, runs=2)
-        print(result)
-        results.append(result)
-    print(results)
 
+def main():
+    # run this if cli arguments are passed
+    if config.args.download or config.args.parse or config.args.command == "embeddings":
+        setup_pipeline()
+        return
+
+    # ---- MAIN RUN ----
+    # create_metadata()
+
+    evaluation_pipeline()
 
 
 if __name__ == "__main__":

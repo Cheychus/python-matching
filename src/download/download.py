@@ -19,16 +19,16 @@ def download_ontologies():
         ontologies = json.load(f)
 
     # Alle Ontologien durchgehen
-    for ontology in tqdm(ontologies, "Downloading ontologies"):
+    for ontology in ontologies:
         url: str = ontology["url"]
         extension = Path(url).suffix
-        short_name = ontology["short_form"]
+        short_name = ontology["ontology"]
 
         file_path = download_dir / f"{short_name}{extension}"
         if file_path.exists():
-            tqdm.write(f"{file_path} already exists -> Skip.")
+            print(f"{file_path} already exists -> Skip.")
             continue
-        tqdm.write(f"Downloading {url} -> {file_path}")
+        print(f"Downloading {url} -> {file_path}")
 
         response = requests.get(url)
         response.raise_for_status()

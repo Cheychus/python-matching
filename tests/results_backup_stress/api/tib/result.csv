@@ -1,0 +1,181 @@
+method,method_key,appendix,top_k,query,rank,hit@1,hit@5,hit@10,hit@20,reciprocal_rank,duplicate_labels,expected_id
+api,tib,with_collection,20,Bio entity,1,1,1,1,1,1.0,False,DPBO:0000012
+api,tib,with_collection,20,Biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
+api,tib,with_collection,20,milligram,1,1,1,1,1,1.0,False,UO:0000022
+api,tib,with_collection,20,Biosource material state,1,1,1,1,1,1.0,False,DPBO:0010009
+api,tib,with_collection,20,Dry material,1,1,1,1,1,1.0,False,DPBO:0010011
+api,tib,with_collection,20,Extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
+api,tib,with_collection,20,Extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
+api,tib,with_collection,20,Internal standard,1,1,1,1,1,1.0,False,DPBO:0010012
+api,tib,with_collection,20,ribitol,1,1,1,1,1,1.0,False,CHEBI:15963
+api,tib,with_collection,20,Sample volume,-1,0,0,0,0,0,False,DPBO:0010013
+api,tib,with_collection,20,microliter,1,1,1,1,1,1.0,False,UO:0000101
+api,tib,with_collection,20,MS sample post-extraction,1,1,1,1,1,1.0,False,DPBO:0000043
+api,tib,with_collection,20,MS sample resuspension,1,1,1,1,1,1.0,False,DPBO:0000044
+api,tib,with_collection,20,MS derivatization,1,1,1,1,1,1.0,False,DPBO:0000052
+api,tib,with_collection,20,MS sample type,1,1,1,1,1,1.0,False,DPBO:0000045
+api,tib,with_collection,20,Chromatography instrument model,1,1,1,1,1,1.0,False,DPBO:0000046
+api,tib,with_collection,20,Chromatography autosampler model,1,1,1,1,1,1.0,False,DPBO:0000047
+api,tib,with_collection,20,Chromatography column type,1,1,1,1,1,1.0,False,DPBO:0000053
+api,tib,with_collection,20,Chromatography column model,1,1,1,1,1,1.0,False,DPBO:0000048
+api,tib,with_collection,20,mobile phase,1,1,1,1,1,1.0,False,CHMO:0000995
+api,tib,with_collection,20,helium(0),1,1,1,1,1,1.0,False,CHEBI:33681
+api,tib,with_collection,20,Chromatography injection volume,1,1,1,1,1,1.0,False,DPBO:0010014
+api,tib,with_collection,20,Chromatography injection mode,2,0,1,1,1,0.5,False,DPBO:0010015
+api,tib,with_collection,20,Chromatography gradient,1,1,1,1,1,1.0,False,DPBO:0000081
+api,tib,with_collection,20,split,1,1,1,1,1,1.0,False,PATO:0001786
+api,tib,with_collection,20,material sample,1,1,1,1,1,1.0,False,OBI:0000747
+api,tib,with_collection,20,scan polarity,1,1,1,1,1,1.0,False,MS:1000465
+api,tib,with_collection,20,scan window lower limit,1,1,1,1,1,1.0,False,MS:1000501
+api,tib,with_collection,20,scan window upper limit,1,1,1,1,1,1.0,False,MS:1000500
+api,tib,with_collection,20,scan rate,1,1,1,1,1,1.0,False,MS:1000015
+api,tib,with_collection,20,hertz,1,1,1,1,1,1.0,False,UO:0000106
+api,tib,with_collection,20,instrument model,1,1,1,1,1,1.0,False,MS:1000031
+api,tib,with_collection,20,ionization type,1,1,1,1,1,1.0,False,MS:1000008
+api,tib,with_collection,20,electron ionization,1,1,1,1,1,1.0,False,MS:1000389
+api,tib,with_collection,20,mass analyzer type,1,1,1,1,1,1.0,False,MS:1000443
+api,tib,with_collection,20,quadrupole,1,1,1,1,1,1.0,False,MS:1000081
+api,tib,with_collection,20,detector type,1,1,1,1,1,1.0,False,MS:1000026
+api,tib,with_collection,20,electron multiplier,2,0,1,1,1,0.5,False,MS:1000253
+api,tib,with_collection,20,biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
+api,tib,with_collection,20,extraction method,1,1,1,1,1,1.0,False,DPBO:0000054
+api,tib,with_collection,20,extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
+api,tib,with_collection,20,extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
+api,tib,with_collection,20,RNA quality check,1,1,1,1,1,1.0,False,DPBO:0000062
+api,tib,with_collection,20,library strategy,-1,0,0,0,0,0,False,DPBO:0000035
+api,tib,with_collection,20,RNA-seq,-1,0,0,0,0,0,False,DPBO:1000003
+api,tib,with_collection,20,library selection,-1,0,0,0,0,0,False,DPBO:0000036
+api,tib,with_collection,20,library layout,1,1,1,1,1,1.0,False,DPBO:0000015
+api,tib,with_collection,20,single-end,1,1,1,1,1,1.0,False,DPBO:0000086
+api,tib,with_collection,20,library preparation kit,1,1,1,1,1,1.0,False,GENEPIO:0000085
+api,tib,with_collection,20,library preparation kit version,1,1,1,1,1,1.0,False,GENEPIO:0000149
+api,tib,with_collection,20,adapter sequence,1,1,1,1,1,1.0,False,GENEPIO:0000083
+api,tib,with_collection,20,next generation sequencing instrument model,1,1,1,1,1,1.0,False,DPBO:0000040
+api,tib,with_collection,20,Illumina HiSeq 2000,-1,0,0,0,0,0,False,DPBO:1000041
+api,tib,with_collection,20,base-calling software,1,1,1,1,1,1.0,False,DPBO:0000017
+api,tib,with_collection,20,base-calling software version,1,1,1,1,1,1.0,False,DPBO:0000018
+api,tib,with_collection,20,Raw data file format,1,1,1,1,1,1.0,False,DPBO:0000021
+api,tib,with_collection,20,mRNA Sequencing,1,1,1,1,1,1.0,False,NCIT:C129432
+api,tib,with_collection,20,organism,11,0,0,0,1,0.09090909090909091,False,OBI:0100026
+api,tib,with_collection,20,Organismus,-1,0,0,0,0,0,False,OBI:0100026
+api,tib,with_collection,20,Talinum fruticosum,-1,0,0,0,0,0,False,NCBITaxon:110664
+api,tib,with_collection,20,organism part,1,1,1,1,1,1.0,False,EFO:0000635
+api,tib,with_collection,20,leaf,2,0,1,1,1,0.5,False,PO:0025034
+api,tib,with_collection,20,plant age,1,1,1,1,1,1.0,False,DPBO:0000033
+api,tib,with_collection,20,watering exposure,1,1,1,1,1,1.0,False,PECO:0007383
+api,tib,with_collection,20,Timepoint,1,1,1,1,1,1.0,False,NCIT:C68568
+api,tib,with_collection,20,growth day length,1,1,1,1,1,1.0,False,DPBO:0000041
+api,tib,with_collection,20,light intensity exposure,1,1,1,1,1,1.0,False,PECO:0007224
+api,tib,with_collection,20,microeinstein per square meter per second,1,1,1,1,1,1.0,False,UO:0000160
+api,tib,with_collection,20,humidity day,1,1,1,1,1,1.0,False,DPBO:0000005
+api,tib,with_collection,20,percent,1,1,1,1,1,1.0,False,UO:0000187
+api,tib,with_collection,20,temperature day,1,1,1,1,1,1.0,False,DPBO:0000007
+api,tib,with_collection,20,degree celsius,1,1,1,1,1,1.0,False,UO:0000027
+api,tib,with_collection,20,temperature night,1,1,1,1,1,1.0,False,DPBO:0000008
+api,tib,with_collection,20,temperature at night,1,1,1,1,1,1.0,False,DPBO:0000008
+api,tib,with_collection,20,Likelihood-ratio test,1,1,1,1,1,1.0,False,OBI:0000861
+api,tib,with_collection,20,DOI,-1,0,0,0,0,0,False,OBI:0002110
+api,tib,with_collection,20,Digital Object Identifier,2,0,1,1,1,0.5,False,OBI:0002110
+api,tib,with_collection,20,PubMedID,-1,0,0,0,0,0,False,OBI:0001617
+api,tib,with_collection,20,Public Medical ID,9,0,0,1,1,0.1111111111111111,False,OBI:0001617
+api,tib,with_collection,20,biological entity,7,0,0,1,1,0.14285714285714285,False,DPBO:0000012
+api,tib,with_collection,20,bio sample,-1,0,0,0,0,0,False,DPBO:0000012
+api,tib,with_collection,20,sample entity,-1,0,0,0,0,0,False,DPBO:0000012
+api,tib,with_collection,20,sample mass,-1,0,0,0,0,0,False,DPBO:0000013
+api,tib,with_collection,20,biosource quantity,1,1,1,1,1,1.0,False,DPBO:0000013
+api,tib,with_collection,20,amount of biosource,1,1,1,1,1,1.0,False,DPBO:0000013
+api,tib,with_collection,20,mg,-1,0,0,0,0,0,False,UO:0000022
+api,tib,with_collection,20,milligrams,-1,0,0,0,0,0,False,UO:0000022
+api,tib,with_collection,20,material condition,-1,0,0,0,0,0,False,DPBO:0010009
+api,tib,with_collection,20,sample state,-1,0,0,0,0,0,False,DPBO:0010009
+api,tib,with_collection,20,dried sample,-1,0,0,0,0,0,False,DPBO:0010011
+api,tib,with_collection,20,dry biomass,-1,0,0,0,0,0,False,DPBO:0010011
+api,tib,with_collection,20,buffer solution,-1,0,0,0,0,0,False,DPBO:0000050
+api,tib,with_collection,20,extraction solvent,7,0,0,1,1,0.14285714285714285,False,DPBO:0000050
+api,tib,with_collection,20,buffer vol,3,0,1,1,1,0.3333333333333333,False,DPBO:0000051
+api,tib,with_collection,20,extraction volume,1,1,1,1,1,1.0,False,DPBO:0000051
+api,tib,with_collection,20,internal std,-1,0,0,0,0,0,False,DPBO:0010012
+api,tib,with_collection,20,reference compound,-1,0,0,0,0,0,False,DPBO:0010012
+api,tib,with_collection,20,ribitol standard,-1,0,0,0,0,0,False,CHEBI:15963
+api,tib,with_collection,20,sample vol,-1,0,0,0,0,0,False,DPBO:0010013
+api,tib,with_collection,20,volume of sample,-1,0,0,0,0,0,False,DPBO:0010013
+api,tib,with_collection,20,µl,-1,0,0,0,0,0,False,UO:0000101
+api,tib,with_collection,20,ul,-1,0,0,0,0,0,False,UO:0000101
+api,tib,with_collection,20,microliters,-1,0,0,0,0,0,False,UO:0000101
+api,tib,with_collection,20,post extraction sample,1,1,1,1,1,1.0,False,DPBO:0000043
+api,tib,with_collection,20,resuspended sample,1,1,1,1,1,1.0,False,DPBO:0000044
+api,tib,with_collection,20,derivatization step,5,0,1,1,1,0.2,False,DPBO:0000052
+api,tib,with_collection,20,sample category,-1,0,0,0,0,0,False,DPBO:0000045
+api,tib,with_collection,20,chromatography instrument,2,0,1,1,1,0.5,False,DPBO:0000046
+api,tib,with_collection,20,chrom instrument model,1,1,1,1,1,1.0,False,DPBO:0000046
+api,tib,with_collection,20,autosampler,8,0,0,1,1,0.125,False,DPBO:0000047
+api,tib,with_collection,20,autosampler model,1,1,1,1,1,1.0,False,DPBO:0000047
+api,tib,with_collection,20,column type,1,1,1,1,1,1.0,False,DPBO:0000053
+api,tib,with_collection,20,chrom column,-1,0,0,0,0,0,False,DPBO:0000053
+api,tib,with_collection,20,column model,1,1,1,1,1,1.0,False,DPBO:0000048
+api,tib,with_collection,20,mobile phase solvent,9,0,0,1,1,0.1111111111111111,False,CHMO:0000995
+api,tib,with_collection,20,helium gas,-1,0,0,0,0,0,False,CHEBI:33681
+api,tib,with_collection,20,He,-1,0,0,0,0,0,False,CHEBI:33681
+api,tib,with_collection,20,injection vol,2,0,1,1,1,0.5,False,DPBO:0010014
+api,tib,with_collection,20,injection type,-1,0,0,0,0,0,False,DPBO:0010015
+api,tib,with_collection,20,gradient program,13,0,0,0,1,0.07692307692307693,False,DPBO:0000081
+api,tib,with_collection,20,split mode,5,0,1,1,1,0.2,False,PATO:0001786
+api,tib,with_collection,20,sample material,1,1,1,1,1,1.0,False,OBI:0000747
+api,tib,with_collection,20,polarity,-1,0,0,0,0,0,False,MS:1000465
+api,tib,with_collection,20,ion polarity,2,0,1,1,1,0.5,False,MS:1000465
+api,tib,with_collection,20,lower scan limit,1,1,1,1,1,1.0,False,MS:1000501
+api,tib,with_collection,20,min m/z,-1,0,0,0,0,0,False,MS:1000501
+api,tib,with_collection,20,upper scan limit,1,1,1,1,1,1.0,False,MS:1000500
+api,tib,with_collection,20,max m/z,-1,0,0,0,0,0,False,MS:1000500
+api,tib,with_collection,20,scan frequency,-1,0,0,0,0,0,False,MS:1000015
+api,tib,with_collection,20,Hz,2,0,1,1,1,0.5,False,UO:0000106
+api,tib,with_collection,20,instrument type,-1,0,0,0,0,0,False,MS:1000031
+api,tib,with_collection,20,ionization method,3,0,1,1,1,0.3333333333333333,False,MS:1000008
+api,tib,with_collection,20,EI,-1,0,0,0,0,0,False,MS:1000389
+api,tib,with_collection,20,mass analyzer,4,0,1,1,1,0.25,False,MS:1000443
+api,tib,with_collection,20,quad,12,0,0,0,1,0.08333333333333333,False,MS:1000081
+api,tib,with_collection,20,quadrupole analyzer,-1,0,0,0,0,0,False,MS:1000081
+api,tib,with_collection,20,detector,5,0,1,1,1,0.2,False,MS:1000026
+api,tib,with_collection,20,electron multiplier detector,9,0,0,1,1,0.1111111111111111,False,MS:1000253
+api,tib,with_collection,20,extraction protocol,-1,0,0,0,0,0,False,DPBO:0000054
+api,tib,with_collection,20,RNA QC,-1,0,0,0,0,0,False,DPBO:0000062
+api,tib,with_collection,20,RNA quality,1,1,1,1,1,1.0,False,DPBO:0000062
+api,tib,with_collection,20,seq strategy,-1,0,0,0,0,0,False,DPBO:0000035
+api,tib,with_collection,20,rna sequencing,-1,0,0,0,0,0,False,DPBO:1000003
+api,tib,with_collection,20,library prep method,-1,0,0,0,0,0,False,DPBO:0000036
+api,tib,with_collection,20,layout type,4,0,1,1,1,0.25,False,DPBO:0000015
+api,tib,with_collection,20,single end sequencing,-1,0,0,0,0,0,False,DPBO:0000086
+api,tib,with_collection,20,SE sequencing,-1,0,0,0,0,0,False,DPBO:0000086
+api,tib,with_collection,20,library kit,-1,0,0,0,0,0,False,GENEPIO:0000085
+api,tib,with_collection,20,kit version,-1,0,0,0,0,0,False,GENEPIO:0000149
+api,tib,with_collection,20,adapter seq,2,0,1,1,1,0.5,False,GENEPIO:0000083
+api,tib,with_collection,20,sequencer model,-1,0,0,0,0,0,False,DPBO:0000040
+api,tib,with_collection,20,hiseq 2000,-1,0,0,0,0,0,False,DPBO:1000041
+api,tib,with_collection,20,illumina hiseq,-1,0,0,0,0,0,False,DPBO:1000041
+api,tib,with_collection,20,basecaller,-1,0,0,0,0,0,False,DPBO:0000017
+api,tib,with_collection,20,basecaller version,11,0,0,0,1,0.09090909090909091,False,DPBO:0000018
+api,tib,with_collection,20,raw file format,1,1,1,1,1,1.0,False,DPBO:0000021
+api,tib,with_collection,20,data format,-1,0,0,0,0,0,False,DPBO:0000021
+api,tib,with_collection,20,mrna seq,1,1,1,1,1,1.0,False,NCIT:C129432
+api,tib,with_collection,20,species,-1,0,0,0,0,0,False,OBI:0100026
+api,tib,with_collection,20,organism name,-1,0,0,0,0,0,False,OBI:0100026
+api,tib,with_collection,20,talinum,-1,0,0,0,0,0,False,NCBITaxon:110664
+api,tib,with_collection,20,plant tissue,-1,0,0,0,0,0,False,EFO:0000635
+api,tib,with_collection,20,leaf tissue,-1,0,0,0,0,0,False,PO:0025034
+api,tib,with_collection,20,age of plant,1,1,1,1,1,1.0,False,DPBO:0000033
+api,tib,with_collection,20,watering condition,1,1,1,1,1,1.0,False,PECO:0007383
+api,tib,with_collection,20,time point,-1,0,0,0,0,0,False,NCIT:C68568
+api,tib,with_collection,20,sampling time,-1,0,0,0,0,0,False,NCIT:C68568
+api,tib,with_collection,20,photoperiod,-1,0,0,0,0,0,False,DPBO:0000041
+api,tib,with_collection,20,light exposure,-1,0,0,0,0,0,False,PECO:0007224
+api,tib,with_collection,20,µmol m-2 s-1,-1,0,0,0,0,0,False,UO:0000160
+api,tib,with_collection,20,relative humidity,2,0,1,1,1,0.5,False,DPBO:0000005
+api,tib,with_collection,20,%,1,1,1,1,1,1.0,False,UO:0000187
+api,tib,with_collection,20,day temperature,1,1,1,1,1,1.0,False,DPBO:0000007
+api,tib,with_collection,20,°C,-1,0,0,0,0,0,False,UO:0000027
+api,tib,with_collection,20,celsius,2,0,1,1,1,0.5,False,UO:0000027
+api,tib,with_collection,20,night temperature,1,1,1,1,1,1.0,False,DPBO:0000008
+api,tib,with_collection,20,lrt,19,0,0,0,1,0.05263157894736842,False,OBI:0000861
+api,tib,with_collection,20,doi id,3,0,1,1,1,0.3333333333333333,False,OBI:0002110
+api,tib,with_collection,20,pmid,-1,0,0,0,0,0,False,OBI:0001617
+api,tib,with_collection,20,pubmed id,2,0,1,1,1,0.5,False,OBI:0001617

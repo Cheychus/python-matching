@@ -16,7 +16,7 @@ metadata = None
 model = None
 
 
-def load(reset=False):
+def load_model(reset=False):
     global vectors, metadata, model
     model = get_model(reset=reset)
     all_vectors = []
@@ -59,7 +59,7 @@ def calculate_similarity(value: str, top_k=TOP_K):
         if concept_id not in grouped:
             grouped[concept_id] = {
                 "id": concept_id,
-                "short_id": m["short_id"],
+                "short_form": m["short_id"],
                 "label": m["label"],
                 "definition": m["definition"],
                 "embedding_input": m["embedding_input"],

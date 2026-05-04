@@ -2,13 +2,13 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from src.embeddings.similarity_search import (
     api_search,
-    load,
+    load_model,
 )
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    load()
+    load_model()
     yield
 
 

@@ -13,7 +13,7 @@ def get_terms(entry):
     return terms
 
 
-def load():
+def load_metadata():
     global metadata
     with open(str(EMBEDDINGS_DIR / "ontology_metadata.json")) as f:
         metadata = json.load(f)
@@ -30,7 +30,7 @@ def fuzzy_score(query, text):
 
 def lexical_search(query: str, top_k=10):
     if not metadata:
-        load()
+        load_metadata()
 
     startTime = time.perf_counter()
     query_norm = query.lower()
@@ -42,8 +42,8 @@ def lexical_search(query: str, top_k=10):
 
         best_score = fuzzy_score(query_norm, m["label"])
 
-        # skip if score is to low (make lower if not enough results)
-        if best_score < 30:
+        # skip if score is to low (make lower if not enough results), increases performance
+        if best_score < 50:
             continue
 
         for syn in m.get("synonyms", []):
@@ -53,7 +53,7 @@ def lexical_search(query: str, top_k=10):
         if concept_id not in grouped:
             grouped[concept_id] = {
                 "id": concept_id,
-                "short_id": m["short_id"],
+                "short_form": m["short_id"],
                 "label": m["label"],
                 "definition": m["definition"],
                 "embedding_input": m["embedding_input"],

@@ -66,7 +66,6 @@ def parse(ontology: str):
         term = {
             "id": onto.iri,
             "short_id": onto.name,
-            "type": "class",
             "label": label,
             "definition": list(definition),
             "synonyms": list(synonyms),

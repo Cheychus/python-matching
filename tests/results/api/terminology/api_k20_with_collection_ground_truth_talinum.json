@@ -1,0 +1,4524 @@
+{
+  "method": "api",
+  "method_key": "terminology",
+  "appendix": "with_collection",
+  "top_k": 20,
+  "results": [
+    {
+      "query": "Bio entity",
+      "time_ms": 428.89049999939743,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000012",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000012",
+          "label": "bio entity",
+          "score": null
+        },
+        {
+          "id": "ENVO:06105023",
+          "label": "biofouling",
+          "score": null
+        },
+        {
+          "id": "OBI:0000754",
+          "label": "BIO-RAD",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002504",
+          "label": "bioelectrochemical analysis",
+          "score": null
+        },
+        {
+          "id": "BAO:0000861",
+          "label": "Bio-Tek Instruments",
+          "score": null
+        },
+        {
+          "id": "BAO:0000066",
+          "label": "bio layer interferometry",
+          "score": null
+        },
+        {
+          "id": "OBI:0002107",
+          "label": "bio-layer interferometry assay",
+          "score": null
+        },
+        {
+          "id": "BFO:0000001",
+          "label": "entity",
+          "score": null
+        },
+        {
+          "id": "BAO:0000798",
+          "label": "Mirus Bio LLC",
+          "score": null
+        },
+        {
+          "id": "MS:1001763",
+          "label": "ACQUITY UPLC H-Class Bio",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Biosource amount",
+      "time_ms": 408.3046000014292,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000013",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000013",
+          "label": "biosource amount",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010009",
+          "label": "biosource material state",
+          "score": null
+        },
+        {
+          "id": "PATO:0000070",
+          "label": "amount",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002822",
+          "label": "amount concentration",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010023",
+          "label": "amount harvested",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000143",
+          "label": "inflorescence amount",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000616",
+          "label": "lamina amount",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010013",
+          "label": "mulch amount",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010010",
+          "label": "nutrient amount",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000572",
+          "label": "stem amount",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "milligram",
+      "time_ms": 402.0007000071928,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "UO:0000022",
+      "top_k_results": [
+        {
+          "id": "NCIT:C28253",
+          "label": "Milligram",
+          "score": null
+        },
+        {
+          "id": "UO:0000022",
+          "label": "milligram",
+          "score": null
+        },
+        {
+          "id": "UO:0000022",
+          "label": "milligram",
+          "score": null
+        },
+        {
+          "id": "UO:0010067",
+          "label": "milligram per deciliter",
+          "score": null
+        },
+        {
+          "id": "UO:0000308",
+          "label": "milligram per kilogram",
+          "score": null
+        },
+        {
+          "id": "UO:0000308",
+          "label": "milligram per kilogram",
+          "score": null
+        },
+        {
+          "id": "UO:0000273",
+          "label": "milligram per liter",
+          "score": null
+        },
+        {
+          "id": "UO:0000273",
+          "label": "milligram per liter",
+          "score": null
+        },
+        {
+          "id": "UO:0000176",
+          "label": "milligram per milliliter",
+          "score": null
+        },
+        {
+          "id": "UO:0000176",
+          "label": "milligram per milliliter",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Biosource material state",
+      "time_ms": 389.22399999864865,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0010009",
+      "top_k_results": [
+        {
+          "id": "DPBO:0010009",
+          "label": "biosource material state",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000013",
+          "label": "biosource amount",
+          "score": null
+        },
+        {
+          "id": "MS:1000003",
+          "label": "sample state",
+          "score": null
+        },
+        {
+          "id": "ENVO:01001374",
+          "label": "sea state",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000182",
+          "label": "Material",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010011",
+          "label": "dry material",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010010",
+          "label": "fresh material",
+          "score": null
+        },
+        {
+          "id": "OBI:0600010",
+          "label": "material acquisition",
+          "score": null
+        },
+        {
+          "id": "ENVO2021:01000815",
+          "label": "liquid environmental material",
+          "score": null
+        },
+        {
+          "id": "ENVO:01000814",
+          "label": "solid environmental material",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Dry material",
+      "time_ms": 410.90540000004694,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0010011",
+      "top_k_results": [
+        {
+          "id": "DPBO:0010011",
+          "label": "dry material",
+          "score": null
+        },
+        {
+          "id": "PATO:0001824",
+          "label": "dry",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001329",
+          "label": "dry deposition",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001559",
+          "label": "dry etching",
+          "score": null
+        },
+        {
+          "id": "ENVO:00000277",
+          "label": "dry lake",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001619",
+          "label": "dry spinning",
+          "score": null
+        },
+        {
+          "id": "ENVO:00000278",
+          "label": "dry stream",
+          "score": null
+        },
+        {
+          "id": "ENVO2021:00000128",
+          "label": "dry valley",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010010",
+          "label": "fresh material",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000273",
+          "label": "dry combustion method",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Extraction buffer",
+      "time_ms": 401.30949999729637,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000050",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000050",
+          "label": "extraction buffer",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000051",
+          "label": "extraction buffer volume",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000015",
+          "label": "buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001752",
+          "label": "Good's buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001748",
+          "label": "acetate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001463",
+          "label": "borate buffer",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010160",
+          "label": "buffer planting",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001462",
+          "label": "buffer solution",
+          "score": null
+        },
+        {
+          "id": "BAO:0000696",
+          "label": "phosphate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001734",
+          "label": "phosphate buffer",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Extraction buffer volume",
+      "time_ms": 392.2284000000218,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000051",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000051",
+          "label": "extraction buffer volume",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000050",
+          "label": "extraction buffer",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000015",
+          "label": "buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001752",
+          "label": "Good's buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001748",
+          "label": "acetate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001463",
+          "label": "borate buffer",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010160",
+          "label": "buffer planting",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001462",
+          "label": "buffer solution",
+          "score": null
+        },
+        {
+          "id": "BAO:0000696",
+          "label": "phosphate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001734",
+          "label": "phosphate buffer",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Internal standard",
+      "time_ms": 392.6849999988917,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0010012",
+      "top_k_results": [
+        {
+          "id": "DPBO:0010012",
+          "label": "internal standard",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000005",
+          "label": "internal standard role",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000140",
+          "label": "normalization to a single internal standard",
+          "score": null
+        },
+        {
+          "id": "PATO:0001054",
+          "label": "internal angle",
+          "score": null
+        },
+        {
+          "id": "BTO:0006138",
+          "label": "internal capsule",
+          "score": null
+        },
+        {
+          "id": "UBERON:0001846",
+          "label": "internal ear",
+          "score": null
+        },
+        {
+          "id": "UBERON:0004175",
+          "label": "internal genitalia",
+          "score": null
+        },
+        {
+          "id": "PO:0006216",
+          "label": "internal phloem",
+          "score": null
+        },
+        {
+          "id": "BTO:0002978",
+          "label": "internal secretion",
+          "score": null
+        },
+        {
+          "id": "MS:1000898",
+          "label": "standard",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ribitol",
+      "time_ms": 387.637599997106,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "CHEBI:15963",
+      "top_k_results": [
+        {
+          "id": "NCIT:C206978",
+          "label": "Ribitol",
+          "score": null
+        },
+        {
+          "id": "CHEBI:15963",
+          "label": "ribitol",
+          "score": null
+        },
+        {
+          "id": "CHEBI:15963",
+          "label": "ribitol",
+          "score": null
+        },
+        {
+          "id": "GO:0046362",
+          "label": "ribitol biosynthetic process",
+          "score": null
+        },
+        {
+          "id": "GO:0046363",
+          "label": "ribitol catabolic process",
+          "score": null
+        },
+        {
+          "id": "GO:0110130",
+          "label": "ribitol-5-phosphatase activity",
+          "score": null
+        },
+        {
+          "id": "GO:0050255",
+          "label": "ribitol 2-dehydrogenase (NAD+) activity",
+          "score": null
+        },
+        {
+          "id": "GO:0120053",
+          "label": "ribitol beta-1,4-xylosyltransferase activity",
+          "score": null
+        },
+        {
+          "id": "GO:0047356",
+          "label": "CDP-ribitol ribitolphosphotransferase activity",
+          "score": null
+        },
+        {
+          "id": "GO:0047266",
+          "label": "poly(ribitol-phosphate) beta-glucosyltransferase activity",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Sample volume",
+      "time_ms": 391.17950000218116,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": true,
+      "expected_id": "DPBO:0010013",
+      "top_k_results": [
+        {
+          "id": "MS:1000005",
+          "label": "sample volume",
+          "score": null
+        },
+        {
+          "id": "EFO:0920055",
+          "label": "sample volume",
+          "score": null
+        },
+        {
+          "id": "EFO:0920055",
+          "label": "sample volume",
+          "score": null
+        },
+        {
+          "id": "nmrCV2025:NMR:1000005",
+          "label": "sample volume",
+          "score": null
+        },
+        {
+          "id": "MS:1000457",
+          "label": "sample",
+          "score": null
+        },
+        {
+          "id": "PPEO:sample",
+          "label": "sample",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001310",
+          "label": "sample deposition",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002854",
+          "label": "sample throughput",
+          "score": null
+        },
+        {
+          "id": "PATO:0000918",
+          "label": "volume",
+          "score": null
+        },
+        {
+          "id": "UO:0000205",
+          "label": "volume per unit volume",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "microliter",
+      "time_ms": 380.8830000052694,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "UO:0000101",
+      "top_k_results": [
+        {
+          "id": "NCIT:C48153",
+          "label": "Microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0000101",
+          "label": "microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0000101",
+          "label": "microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0000199",
+          "label": "microliter per kilogram",
+          "score": null
+        },
+        {
+          "id": "UO:0000199",
+          "label": "microliter per kilogram",
+          "score": null
+        },
+        {
+          "id": "BAO:0190008",
+          "label": "cells per microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0000316",
+          "label": "cells per microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0010072",
+          "label": "microgram per microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0010050",
+          "label": "nanogram per microliter",
+          "score": null
+        },
+        {
+          "id": "UO:0010050",
+          "label": "nanogram per microliter",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "MS sample post-extraction",
+      "time_ms": 350.7079999981215,
+      "rank": 4,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.25,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000043",
+      "top_k_results": [
+        {
+          "id": "MS:1001083",
+          "label": "ms-ms search",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000044",
+          "label": "MS sample resuspension",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000045",
+          "label": "MS sample type",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000043",
+          "label": "MS sample post-extraction",
+          "score": null
+        },
+        {
+          "id": "MS:1001584",
+          "label": "combined pmf + ms-ms search",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "MS sample resuspension",
+      "time_ms": 388.3022000081837,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000044",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000044",
+          "label": "MS sample resuspension",
+          "score": null
+        },
+        {
+          "id": "MS:1001083",
+          "label": "ms-ms search",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000045",
+          "label": "MS sample type",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000043",
+          "label": "MS sample post-extraction",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000169",
+          "label": "sample resuspension",
+          "score": null
+        },
+        {
+          "id": "MS:1000457",
+          "label": "sample",
+          "score": null
+        },
+        {
+          "id": "MS:1000004",
+          "label": "sample mass",
+          "score": null
+        },
+        {
+          "id": "MS:1000002",
+          "label": "sample name",
+          "score": null
+        },
+        {
+          "id": "MS:1000001",
+          "label": "sample number",
+          "score": null
+        },
+        {
+          "id": "MS:1000003",
+          "label": "sample state",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "MS derivatization",
+      "time_ms": 374.49579998792615,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000052",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000052",
+          "label": "MS derivatization",
+          "score": null
+        },
+        {
+          "id": "MS:1001083",
+          "label": "ms-ms search",
+          "score": null
+        },
+        {
+          "id": "MS:1000511",
+          "label": "ms level",
+          "score": null
+        },
+        {
+          "id": "BAO:0150092",
+          "label": "Velos-MS",
+          "score": null
+        },
+        {
+          "id": "MS:1001584",
+          "label": "combined pmf + ms-ms search",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000111",
+          "label": "derivatization",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000029",
+          "label": "derivatization agent",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000003",
+          "label": "derivatization agent role",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "MS sample type",
+      "time_ms": 378.3582000032766,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000045",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000045",
+          "label": "MS sample type",
+          "score": null
+        },
+        {
+          "id": "MS:1001083",
+          "label": "ms-ms search",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000044",
+          "label": "MS sample resuspension",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000043",
+          "label": "MS sample post-extraction",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000064",
+          "label": "sample type",
+          "score": null
+        },
+        {
+          "id": "MS:1002422",
+          "label": "Paragon: sample type",
+          "score": null
+        },
+        {
+          "id": "MS:1001938",
+          "label": "sample plate type",
+          "score": null
+        },
+        {
+          "id": "MS:1000457",
+          "label": "sample",
+          "score": null
+        },
+        {
+          "id": "MS:1000002",
+          "label": "sample name",
+          "score": null
+        },
+        {
+          "id": "MS:1000001",
+          "label": "sample number",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Chromatography instrument model",
+      "time_ms": 383.72569999773987,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000046",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000046",
+          "label": "chromatography instrument model",
+          "score": null
+        },
+        {
+          "id": "OBI:0000485",
+          "label": "chromatography instrument",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000047",
+          "label": "chromatography autosampler model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000048",
+          "label": "chromatography column model",
+          "score": null
+        },
+        {
+          "id": "OBI:0001139",
+          "label": "liquid chromatography instrument",
+          "score": null
+        },
+        {
+          "id": "MS:1000031",
+          "label": "instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000123",
+          "label": "IonSpec instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000121",
+          "label": "SCIEX instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000124",
+          "label": "Shimadzu instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000126",
+          "label": "Waters instrument model",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Chromatography autosampler model",
+      "time_ms": 414.77109999686945,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000047",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000047",
+          "label": "chromatography autosampler model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000048",
+          "label": "chromatography column model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000046",
+          "label": "chromatography instrument model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000049",
+          "label": "chromatography guard column model",
+          "score": null
+        },
+        {
+          "id": "OBI:0000494",
+          "label": "liquid chromatography autosampler",
+          "score": null
+        },
+        {
+          "id": "MS:1003730",
+          "label": "gas chromatography system model",
+          "score": null
+        },
+        {
+          "id": "MS:1003605",
+          "label": "liquid chromatography system model",
+          "score": null
+        },
+        {
+          "id": "MS:1003606",
+          "label": "Waters liquid chromatography system model",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002579",
+          "label": "autosampler",
+          "score": null
+        },
+        {
+          "id": "OBI:0000555",
+          "label": "autosampler",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Chromatography column type",
+      "time_ms": 402.0796999975573,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000053",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000053",
+          "label": "chromatography column type",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000997",
+          "label": "chromatography column",
+          "score": null
+        },
+        {
+          "id": "OBI:0000038",
+          "label": "chromatography column",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000160",
+          "label": "chromatography column",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000138",
+          "label": "chromatography column accessories",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002752",
+          "label": "chromatography column length",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000048",
+          "label": "chromatography column model",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001001",
+          "label": "column chromatography",
+          "score": null
+        },
+        {
+          "id": "MMO:0000468",
+          "label": "column chromatography",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001269",
+          "label": "short-column chromatography",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Chromatography column model",
+      "time_ms": 398.0384999886155,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000048",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000048",
+          "label": "chromatography column model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000049",
+          "label": "chromatography guard column model",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000997",
+          "label": "chromatography column",
+          "score": null
+        },
+        {
+          "id": "OBI:0000038",
+          "label": "chromatography column",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000160",
+          "label": "chromatography column",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002752",
+          "label": "chromatography column length",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000053",
+          "label": "chromatography column type",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001001",
+          "label": "column chromatography",
+          "score": null
+        },
+        {
+          "id": "MMO:0000468",
+          "label": "column chromatography",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001269",
+          "label": "short-column chromatography",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "mobile phase",
+      "time_ms": 379.25389999873005,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": true,
+      "expected_id": "CHMO:0000995",
+      "top_k_results": [
+        {
+          "id": "CHMO:0000995",
+          "label": "mobile phase",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000995",
+          "label": "mobile phase",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000139",
+          "label": "mobile phase constituents",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000996",
+          "label": "gaseous mobile phase",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000991",
+          "label": "liquid mobile phase",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000992",
+          "label": "supercritical mobile phase",
+          "score": null
+        },
+        {
+          "id": "PATO:0000299",
+          "label": "mobile",
+          "score": null
+        },
+        {
+          "id": "ENVO2021:01000581",
+          "label": "mobile phone",
+          "score": null
+        },
+        {
+          "id": "EDAM:0798",
+          "label": "Mobile genetic elements",
+          "score": null
+        },
+        {
+          "id": "PATO:0040010",
+          "label": "mobile relative to",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "helium(0)",
+      "time_ms": 349.2619000026025,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "CHEBI:33681",
+      "top_k_results": []
+    },
+    {
+      "query": "Chromatography injection volume",
+      "time_ms": 378.1009999947855,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0010014",
+      "top_k_results": [
+        {
+          "id": "DPBO:0010014",
+          "label": "chromatography injection volume",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001000",
+          "label": "chromatography",
+          "score": null
+        },
+        {
+          "id": "MMO:0000288",
+          "label": "chromatography",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000167",
+          "label": "chromatography injection mode",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010015",
+          "label": "chromatography injection mode",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002890",
+          "label": "sequential injection chromatography",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001001",
+          "label": "column chromatography",
+          "score": null
+        },
+        {
+          "id": "OBI:0000426",
+          "label": "injection",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000052",
+          "label": "soil injection",
+          "score": null
+        },
+        {
+          "id": "OBI:0000504",
+          "label": "sample injection system",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Chromatography injection mode",
+      "time_ms": 381.52169999375474,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "DPBO:0010015",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000167",
+          "label": "chromatography injection mode",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010015",
+          "label": "chromatography injection mode",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010014",
+          "label": "chromatography injection volume",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002890",
+          "label": "sequential injection chromatography",
+          "score": null
+        },
+        {
+          "id": "MS:1003586",
+          "label": "mixed mode chromatography",
+          "score": null
+        },
+        {
+          "id": "OBI:0000426",
+          "label": "injection",
+          "score": null
+        },
+        {
+          "id": "STATO:0000033",
+          "label": "mode",
+          "score": null
+        },
+        {
+          "id": "OBI:0000504",
+          "label": "sample injection system",
+          "score": null
+        },
+        {
+          "id": "GO:1990198",
+          "label": "ModE complex",
+          "score": null
+        },
+        {
+          "id": "OBI:0200117",
+          "label": "mode calculation",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Chromatography gradient",
+      "time_ms": 399.8455999972066,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000081",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000081",
+          "label": "chromatography gradient",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001000",
+          "label": "chromatography",
+          "score": null
+        },
+        {
+          "id": "MMO:0000288",
+          "label": "chromatography",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002303",
+          "label": "gradient-elution chromatography",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001259",
+          "label": "reversed-phase high-performance liquid chromatography",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002877",
+          "label": "gradient elution",
+          "score": null
+        },
+        {
+          "id": "OBI:0600051",
+          "label": "gradient separation",
+          "score": null
+        },
+        {
+          "id": "BAO:0002299",
+          "label": "conjugate gradient method",
+          "score": null
+        },
+        {
+          "id": "OBI:0000573",
+          "label": "gradient pump system",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001883",
+          "label": "pulsed field gradient",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "split",
+      "time_ms": 383.4989000024507,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "PATO:0001786",
+      "top_k_results": [
+        {
+          "id": "NCIT:C54572",
+          "label": "Split",
+          "score": null
+        },
+        {
+          "id": "PATO:0001786",
+          "label": "split",
+          "score": null
+        },
+        {
+          "id": "STATO:0000445",
+          "label": "split split plot design",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0001543",
+          "label": "carpel split",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0004876",
+          "label": "corolla split",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0003941",
+          "label": "fruit split",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0003948",
+          "label": "seed split",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0001558",
+          "label": "stalk split",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0002083",
+          "label": "valve split",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "material sample",
+      "time_ms": 389.2054000025382,
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.3333333333333333,
+      "duplicate_labels": true,
+      "expected_id": "OBI:0000747",
+      "top_k_results": [
+        {
+          "id": "MaterialSample",
+          "label": "Material Sample",
+          "score": null
+        },
+        {
+          "id": "MaterialSample",
+          "label": "Material Sample",
+          "score": null
+        },
+        {
+          "id": "OBI:0000747",
+          "label": "material sample",
+          "score": null
+        },
+        {
+          "id": "OBI:0000747",
+          "label": "material sample",
+          "score": null
+        },
+        {
+          "id": "OBI:0000747",
+          "label": "material sample",
+          "score": null
+        },
+        {
+          "id": "OBI:0000747",
+          "label": "material sample",
+          "score": null
+        },
+        {
+          "id": "OBI:0000747",
+          "label": "material sample",
+          "score": null
+        },
+        {
+          "id": "OBI:0000740",
+          "label": "material sample role",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002746",
+          "label": "experimental sample",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002916",
+          "label": "sample solidification",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "scan polarity",
+      "time_ms": 382.7330000058282,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000465",
+      "top_k_results": [
+        {
+          "id": "MS:1000465",
+          "label": "scan polarity",
+          "score": null
+        },
+        {
+          "id": "MS:1000441",
+          "label": "scan",
+          "score": null
+        },
+        {
+          "id": "PATO:0002186",
+          "label": "polarity",
+          "score": null
+        },
+        {
+          "id": "MS:1000018",
+          "label": "scan direction",
+          "score": null
+        },
+        {
+          "id": "MS:1000019",
+          "label": "scan law",
+          "score": null
+        },
+        {
+          "id": "MS:1000015",
+          "label": "scan rate",
+          "score": null
+        },
+        {
+          "id": "BAO:0000464",
+          "label": "densitometric scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000129",
+          "label": "negative scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000130",
+          "label": "positive scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000497",
+          "label": "zoom scan",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "scan window lower limit",
+      "time_ms": 403.3726000052411,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000501",
+      "top_k_results": [
+        {
+          "id": "MS:1000501",
+          "label": "scan window lower limit",
+          "score": null
+        },
+        {
+          "id": "MS:1000441",
+          "label": "scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000500",
+          "label": "scan window upper limit",
+          "score": null
+        },
+        {
+          "id": "BAO:0000464",
+          "label": "densitometric scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000497",
+          "label": "zoom scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000828",
+          "label": "isolation window lower offset",
+          "score": null
+        },
+        {
+          "id": "STATO:0000315",
+          "label": "lower confidence limit",
+          "score": null
+        },
+        {
+          "id": "MS:1000916",
+          "label": "retention time window lower offset",
+          "score": null
+        },
+        {
+          "id": "ENVO:03501219",
+          "label": "window",
+          "score": null
+        },
+        {
+          "id": "OBI:0003549",
+          "label": "lower limit of detection",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "scan window upper limit",
+      "time_ms": 409.65899999719113,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000500",
+      "top_k_results": [
+        {
+          "id": "MS:1000500",
+          "label": "scan window upper limit",
+          "score": null
+        },
+        {
+          "id": "MS:1000441",
+          "label": "scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000501",
+          "label": "scan window lower limit",
+          "score": null
+        },
+        {
+          "id": "MS:1000497",
+          "label": "zoom scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000829",
+          "label": "isolation window upper offset",
+          "score": null
+        },
+        {
+          "id": "STATO:0000314",
+          "label": "upper confidence limit",
+          "score": null
+        },
+        {
+          "id": "MS:1000917",
+          "label": "retention time window upper offset",
+          "score": null
+        },
+        {
+          "id": "ENVO:03501219",
+          "label": "window",
+          "score": null
+        },
+        {
+          "id": "OBI:0003548",
+          "label": "upper limit of detection",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "scan rate",
+      "time_ms": 392.14779999747407,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000015",
+      "top_k_results": [
+        {
+          "id": "MS:1000015",
+          "label": "scan rate",
+          "score": null
+        },
+        {
+          "id": "MS:1000441",
+          "label": "scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000503",
+          "label": "scan attribute",
+          "score": null
+        },
+        {
+          "id": "MS:1000018",
+          "label": "scan direction",
+          "score": null
+        },
+        {
+          "id": "MS:1000019",
+          "label": "scan law",
+          "score": null
+        },
+        {
+          "id": "MS:1000465",
+          "label": "scan polarity",
+          "score": null
+        },
+        {
+          "id": "BAO:0000464",
+          "label": "densitometric scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000129",
+          "label": "negative scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000130",
+          "label": "positive scan",
+          "score": null
+        },
+        {
+          "id": "MS:1000497",
+          "label": "zoom scan",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "hertz",
+      "time_ms": 374.3666999944253,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "UO:0000106",
+      "top_k_results": [
+        {
+          "id": "NCIT:C42545",
+          "label": "Hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:0000106",
+          "label": "hertz",
+          "score": null
+        },
+        {
+          "id": "UO:1000106",
+          "label": "hertz based unit",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "instrument model",
+      "time_ms": 396.1550999956671,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "MS:1000031",
+      "top_k_results": [
+        {
+          "id": "NCIT:C177610",
+          "label": "Instrument Model",
+          "score": null
+        },
+        {
+          "id": "MS:1000031",
+          "label": "instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000490",
+          "label": "Agilent instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000488",
+          "label": "Hitachi instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000123",
+          "label": "IonSpec instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000121",
+          "label": "SCIEX instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000124",
+          "label": "Shimadzu instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000489",
+          "label": "Varian instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000126",
+          "label": "Waters instrument model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000046",
+          "label": "chromatography instrument model",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ionization type",
+      "time_ms": 402.01879999949597,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000008",
+      "top_k_results": [
+        {
+          "id": "MS:1000008",
+          "label": "ionization type",
+          "score": null
+        },
+        {
+          "id": "OBI:0000385",
+          "label": "ionization function",
+          "score": null
+        },
+        {
+          "id": "MS:1000380",
+          "label": "adiabatic ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000381",
+          "label": "associative ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000386",
+          "label": "chemi-ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000071",
+          "label": "chemical ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000247",
+          "label": "desorption ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000073",
+          "label": "electrospray ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000258",
+          "label": "field ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000227",
+          "label": "multiphoton ionization",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "electron ionization",
+      "time_ms": 367.7741999999853,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000389",
+      "top_k_results": [
+        {
+          "id": "MS:1000389",
+          "label": "electron ionization",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000959",
+          "label": "electron ionisation source",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000958",
+          "label": "electron ionisation mass spectrometer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000480",
+          "label": "electron ionisation mass spectrometry",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002392",
+          "label": "electron ionisation mass spectrum",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000364",
+          "label": "surface Penning-ionisation electron spectroscopy",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000481",
+          "label": "furnace atomisation electron ionisation mass spectrometry",
+          "score": null
+        },
+        {
+          "id": "MS:1000380",
+          "label": "adiabatic ionization",
+          "score": null
+        },
+        {
+          "id": "MS:1000381",
+          "label": "associative ionization",
+          "score": null
+        },
+        {
+          "id": "ENVO:2000024",
+          "label": "ionization energy",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "mass analyzer type",
+      "time_ms": 389.08989999617916,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000443",
+      "top_k_results": [
+        {
+          "id": "MS:1000443",
+          "label": "mass analyzer type",
+          "score": null
+        },
+        {
+          "id": "MS:1001210",
+          "label": "mass type settings",
+          "score": null
+        },
+        {
+          "id": "OBI:0000345",
+          "label": "mass analyzer",
+          "score": null
+        },
+        {
+          "id": "MS:1000451",
+          "label": "mass analyzer",
+          "score": null
+        },
+        {
+          "id": "MS:1000480",
+          "label": "mass analyzer attribute",
+          "score": null
+        },
+        {
+          "id": "MS:1001629",
+          "label": "ProteomeDiscoverer:Spectrum Grouper:Allow Mass Analyzer Mismatch",
+          "score": null
+        },
+        {
+          "id": "MS:1001618",
+          "label": "ProteomeDiscoverer:Spectrum Selector:Unrecognized Mass Analyzer Replacements",
+          "score": null
+        },
+        {
+          "id": "OBI:0400005",
+          "label": "A10-Analyzer",
+          "score": null
+        },
+        {
+          "id": "OBI:0001095",
+          "label": "coagulation analyzer",
+          "score": null
+        },
+        {
+          "id": "OBI:0400055",
+          "label": "inFlux Analyzer",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "quadrupole",
+      "time_ms": 402.5063000008231,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "MS:1000081",
+      "top_k_results": [
+        {
+          "id": "NCIT:C70689",
+          "label": "Quadrupole",
+          "score": null
+        },
+        {
+          "id": "MS:1000081",
+          "label": "quadrupole",
+          "score": null
+        },
+        {
+          "id": "MS:1003950",
+          "label": "quadrupole instrument",
+          "score": null
+        },
+        {
+          "id": "MS:1000082",
+          "label": "quadrupole ion trap",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000963",
+          "label": "quadrupole mass spectrometer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000504",
+          "label": "quadrupole mass spectrometry",
+          "score": null
+        },
+        {
+          "id": "MS:1003769",
+          "label": "quadrupole orbitrap instrument",
+          "score": null
+        },
+        {
+          "id": "MS:1000275",
+          "label": "collision quadrupole",
+          "score": null
+        },
+        {
+          "id": "MS:1003762",
+          "label": "triple quadrupole instrument",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000579",
+          "label": "tandem quadrupole mass spectrometry",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "detector type",
+      "time_ms": 400.41760000167415,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000026",
+      "top_k_results": [
+        {
+          "id": "MS:1000026",
+          "label": "detector type",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002244",
+          "label": "detector",
+          "score": null
+        },
+        {
+          "id": "MS:1000453",
+          "label": "detector",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000141",
+          "label": "detector model",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001063",
+          "label": "Daly detector",
+          "score": null
+        },
+        {
+          "id": "BAO:0150022",
+          "label": "area detector",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001059",
+          "label": "ion detector",
+          "score": null
+        },
+        {
+          "id": "OBI:0000364",
+          "label": "ion detector",
+          "score": null
+        },
+        {
+          "id": "BAO:0150026",
+          "label": "spot detector",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002584",
+          "label": "ultraviolet detector",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "electron multiplier",
+      "time_ms": 413.187400001334,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "MS:1000253",
+      "top_k_results": [
+        {
+          "id": "CHMO:0001060",
+          "label": "electron multiplier",
+          "score": null
+        },
+        {
+          "id": "MS:1000253",
+          "label": "electron multiplier",
+          "score": null
+        },
+        {
+          "id": "MS:1000111",
+          "label": "electron multiplier tube",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001062",
+          "label": "continuous-dynode electron multiplier",
+          "score": null
+        },
+        {
+          "id": "MS:1000108",
+          "label": "conversion dynode electron multiplier",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001061",
+          "label": "discrete-dynode electron multiplier",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000357",
+          "label": "electron-electron coincidence spectroscopy",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000359",
+          "label": "electron-electron-ion coincidence spectroscopy",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000344",
+          "label": "electron-excited Auger electron spectroscopy",
+          "score": null
+        },
+        {
+          "id": "CHMO:0000744",
+          "label": "electron\u2013electron double resonance spectroscopy",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "biosource amount",
+      "time_ms": 366.69319999055006,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000013",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000013",
+          "label": "biosource amount",
+          "score": null
+        },
+        {
+          "id": "DPBO:0010009",
+          "label": "biosource material state",
+          "score": null
+        },
+        {
+          "id": "PATO:0000070",
+          "label": "amount",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002822",
+          "label": "amount concentration",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010023",
+          "label": "amount harvested",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000143",
+          "label": "inflorescence amount",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000616",
+          "label": "lamina amount",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010013",
+          "label": "mulch amount",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010010",
+          "label": "nutrient amount",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000572",
+          "label": "stem amount",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "extraction method",
+      "time_ms": 378.5422000073595,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000054",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000054",
+          "label": "extraction method",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001246",
+          "label": "carrier extraction using pulsed voltage method",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001243",
+          "label": "carrier extraction by linearly increasing voltage method",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001577",
+          "label": "extraction",
+          "score": null
+        },
+        {
+          "id": "OBI:0302884",
+          "label": "extraction",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001609",
+          "label": "Soxhlet extraction",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001579",
+          "label": "headspace extraction",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001593",
+          "label": "membrane extraction",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001597",
+          "label": "sequentional extraction",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001598",
+          "label": "solvent extraction",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "extraction buffer",
+      "time_ms": 401.2436000048183,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000050",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000050",
+          "label": "extraction buffer",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000051",
+          "label": "extraction buffer volume",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000015",
+          "label": "buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001752",
+          "label": "Good's buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001748",
+          "label": "acetate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001463",
+          "label": "borate buffer",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010160",
+          "label": "buffer planting",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001462",
+          "label": "buffer solution",
+          "score": null
+        },
+        {
+          "id": "BAO:0000696",
+          "label": "phosphate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001734",
+          "label": "phosphate buffer",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "extraction buffer volume",
+      "time_ms": 378.3622000046307,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000051",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000051",
+          "label": "extraction buffer volume",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000050",
+          "label": "extraction buffer",
+          "score": null
+        },
+        {
+          "id": "MSIO:0000015",
+          "label": "buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001752",
+          "label": "Good's buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001748",
+          "label": "acetate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001463",
+          "label": "borate buffer",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010160",
+          "label": "buffer planting",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001462",
+          "label": "buffer solution",
+          "score": null
+        },
+        {
+          "id": "BAO:0000696",
+          "label": "phosphate buffer",
+          "score": null
+        },
+        {
+          "id": "CHMO:0001734",
+          "label": "phosphate buffer",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "RNA quality check",
+      "time_ms": 364.264900010312,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000062",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000062",
+          "label": "RNA quality check",
+          "score": null
+        },
+        {
+          "id": "GO:0071025",
+          "label": "RNA surveillance",
+          "score": null
+        },
+        {
+          "id": "GO:0071026",
+          "label": "cytoplasmic RNA surveillance",
+          "score": null
+        },
+        {
+          "id": "GO:2000827",
+          "label": "mitochondrial RNA surveillance",
+          "score": null
+        },
+        {
+          "id": "GO:0071027",
+          "label": "nuclear RNA surveillance",
+          "score": null
+        },
+        {
+          "id": "ENVO2021:00000555",
+          "label": "check dam",
+          "score": null
+        },
+        {
+          "id": "BAO:0002928",
+          "label": "quality",
+          "score": null
+        },
+        {
+          "id": "BFO:0000019",
+          "label": "quality",
+          "score": null
+        },
+        {
+          "id": "PATO:0000001",
+          "label": "quality",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "library strategy",
+      "time_ms": 387.7265999908559,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000035",
+      "top_k_results": [
+        {
+          "id": "GENEPIO:0001973",
+          "label": "library strategy",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000015",
+          "label": "library layout",
+          "score": null
+        },
+        {
+          "id": "DPBO:1000133",
+          "label": "feature extraction strategy",
+          "score": null
+        },
+        {
+          "id": "BAO:0000733",
+          "label": "MLSMR library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000752",
+          "label": "NINDS library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000648",
+          "label": "compound library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000664",
+          "label": "miRNA library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000661",
+          "label": "perturbagen library",
+          "score": null
+        },
+        {
+          "id": "BAO:0002039",
+          "label": "shRNA library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000663",
+          "label": "siRNA library",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "RNA-seq",
+      "time_ms": 363.72219999611843,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:1000003",
+      "top_k_results": []
+    },
+    {
+      "query": "library selection",
+      "time_ms": 397.944299998926,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000036",
+      "top_k_results": [
+        {
+          "id": "GENEPIO:0001940",
+          "label": "library selection",
+          "score": null
+        },
+        {
+          "id": "OBI:0001928",
+          "label": "selection",
+          "score": null
+        },
+        {
+          "id": "BAO:0002501",
+          "label": "affinity selection",
+          "score": null
+        },
+        {
+          "id": "GO:0043366",
+          "label": "beta selection",
+          "score": null
+        },
+        {
+          "id": "GO:0007535",
+          "label": "donor selection",
+          "score": null
+        },
+        {
+          "id": "STATO:0000277",
+          "label": "hit selection",
+          "score": null
+        },
+        {
+          "id": "OBI:0001755",
+          "label": "selection criterion",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000130",
+          "label": "inverse rRNA selection",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000129",
+          "label": "oligo-dT selection",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002233",
+          "label": "site-selection spectroscopy",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "library layout",
+      "time_ms": 393.75279999512713,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000015",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000015",
+          "label": "library layout",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000020",
+          "label": "library strand",
+          "score": null
+        },
+        {
+          "id": "BAO:0000733",
+          "label": "MLSMR library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000648",
+          "label": "compound library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000664",
+          "label": "miRNA library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000661",
+          "label": "perturbagen library",
+          "score": null
+        },
+        {
+          "id": "BAO:0000663",
+          "label": "siRNA library",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000483",
+          "label": "rotation layout",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000484",
+          "label": "serial layout",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000485",
+          "label": "non-serial layout",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "single-end",
+      "time_ms": 358.81249999511056,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000086",
+      "top_k_results": []
+    },
+    {
+      "query": "library preparation kit",
+      "time_ms": 368.6731000052532,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "GENEPIO:0000085",
+      "top_k_results": [
+        {
+          "id": "GENEPIO:0000085",
+          "label": "library preparation kit",
+          "score": null
+        },
+        {
+          "id": "OBI:0000711",
+          "label": "library preparation",
+          "score": null
+        },
+        {
+          "id": "OBI:0002028",
+          "label": "SAGE ditag library preparation",
+          "score": null
+        },
+        {
+          "id": "OBI:0001852",
+          "label": "paired-end library preparation",
+          "score": null
+        },
+        {
+          "id": "OBI:0002474",
+          "label": "material sequencing library preparation role",
+          "score": null
+        },
+        {
+          "id": "BAO:0001201",
+          "label": "Lactate kit",
+          "score": null
+        },
+        {
+          "id": "BAO:0000248",
+          "label": "assay kit",
+          "score": null
+        },
+        {
+          "id": "BTO:0000278",
+          "label": "commercial preparation",
+          "score": null
+        },
+        {
+          "id": "BAO:0002014",
+          "label": "preparation method",
+          "score": null
+        },
+        {
+          "id": "MS:1000831",
+          "label": "sample preparation",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "library preparation kit version",
+      "time_ms": 442.40719999652356,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "GENEPIO:0000149",
+      "top_k_results": [
+        {
+          "id": "GENEPIO:0000149",
+          "label": "library preparation kit version",
+          "score": null
+        },
+        {
+          "id": "NCIT:C182087",
+          "label": "Sequencing Library Preparation Kit Version",
+          "score": null
+        },
+        {
+          "id": "GENEPIO:0000085",
+          "label": "library preparation kit",
+          "score": null
+        },
+        {
+          "id": "OBI:0000711",
+          "label": "library preparation",
+          "score": null
+        },
+        {
+          "id": "DPBO:1000116",
+          "label": "library version",
+          "score": null
+        },
+        {
+          "id": "MS:1003190",
+          "label": "library version",
+          "score": null
+        },
+        {
+          "id": "MS:1003186",
+          "label": "library format version",
+          "score": null
+        },
+        {
+          "id": "OBI:0002028",
+          "label": "SAGE ditag library preparation",
+          "score": null
+        },
+        {
+          "id": "OBI:0001852",
+          "label": "paired-end library preparation",
+          "score": null
+        },
+        {
+          "id": "OBI:0002474",
+          "label": "material sequencing library preparation role",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "adapter sequence",
+      "time_ms": 469.91800000250805,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "GENEPIO:0000083",
+      "top_k_results": [
+        {
+          "id": "GENEPIO:0000083",
+          "label": "adapter sequence",
+          "score": null
+        },
+        {
+          "id": "OBI:0002578",
+          "label": "adapter sequence data",
+          "score": null
+        },
+        {
+          "id": "OBI:0002565",
+          "label": "adapter-sequence trimming",
+          "score": null
+        },
+        {
+          "id": "OBI:0002579",
+          "label": "adapter-trimmed sequence data",
+          "score": null
+        },
+        {
+          "id": "OBI:0000594",
+          "label": "column adapter",
+          "score": null
+        },
+        {
+          "id": "EDAM:2044",
+          "label": "Sequence",
+          "score": null
+        },
+        {
+          "id": "BAO:0002817",
+          "label": "has sequence",
+          "score": null
+        },
+        {
+          "id": "BAO:0002231",
+          "label": "sequence alignment",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000478",
+          "label": "sequence experiment",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000470",
+          "label": "sequence process",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "next generation sequencing instrument model",
+      "time_ms": 483.7330000009388,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000040",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000040",
+          "label": "next generation sequencing instrument model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000057",
+          "label": "next generation sequencing platform",
+          "score": null
+        },
+        {
+          "id": "EDAM:3168",
+          "label": "Sequencing",
+          "score": null
+        },
+        {
+          "id": "MS:1000031",
+          "label": "instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000488",
+          "label": "Hitachi instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000123",
+          "label": "IonSpec instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000121",
+          "label": "SCIEX instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000124",
+          "label": "Shimadzu instrument model",
+          "score": null
+        },
+        {
+          "id": "MS:1000126",
+          "label": "Waters instrument model",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000046",
+          "label": "chromatography instrument model",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Illumina HiSeq 2000",
+      "time_ms": 549.6183000068413,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": true,
+      "expected_id": "DPBO:1000041",
+      "top_k_results": [
+        {
+          "id": "OBI:0002001",
+          "label": "Illumina HiSeq 2000",
+          "score": null
+        },
+        {
+          "id": "EFO:0004203",
+          "label": "Illumina HiSeq 2000",
+          "score": null
+        },
+        {
+          "id": "EFO:0004203",
+          "label": "Illumina HiSeq 2000",
+          "score": null
+        },
+        {
+          "id": "OBI:0002001",
+          "label": "Illumina HiSeq 2000",
+          "score": null
+        },
+        {
+          "id": "OBI:0002022",
+          "label": "Illumina HiSeq 1000",
+          "score": null
+        },
+        {
+          "id": "OBI:0003386",
+          "label": "Illumina HiSeq 1500",
+          "score": null
+        },
+        {
+          "id": "OBI:0002002",
+          "label": "Illumina HiSeq 2500",
+          "score": null
+        },
+        {
+          "id": "OBI:0002048",
+          "label": "Illumina HiSeq 3000",
+          "score": null
+        },
+        {
+          "id": "OBI:0002049",
+          "label": "Illumina HiSeq 4000",
+          "score": null
+        },
+        {
+          "id": "OBI:0002129",
+          "label": "Illumina HiSeq X Ten",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "base-calling software",
+      "time_ms": 445.13560000632424,
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.3333333333333333,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000017",
+      "top_k_results": [
+        {
+          "id": "BAO:0003119",
+          "label": "software",
+          "score": null
+        },
+        {
+          "id": "MS:1000531",
+          "label": "software",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000017",
+          "label": "base-calling software",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000019",
+          "label": "base-calling software parameters",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000018",
+          "label": "base-calling software version",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "base-calling software version",
+      "time_ms": 368.1783999927575,
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.3333333333333333,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000018",
+      "top_k_results": [
+        {
+          "id": "MS:1003200",
+          "label": "software version",
+          "score": null
+        },
+        {
+          "id": "DPBO:1000123",
+          "label": "imaging software version",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000018",
+          "label": "base-calling software version",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000024",
+          "label": "data filtering software version",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000003",
+          "label": "read alignment software version",
+          "score": null
+        },
+        {
+          "id": "BAO:0003119",
+          "label": "software",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000017",
+          "label": "base-calling software",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000019",
+          "label": "base-calling software parameters",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Raw data file format",
+      "time_ms": 397.3979000002146,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000021",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000021",
+          "label": "raw data file format",
+          "score": null
+        },
+        {
+          "id": "MS:1003083",
+          "label": "raw data file",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000022",
+          "label": "raw data file checksum",
+          "score": null
+        },
+        {
+          "id": "EDAM:3828",
+          "label": "Raw microarray data format",
+          "score": null
+        },
+        {
+          "id": "MS:1000563",
+          "label": "Thermo RAW format",
+          "score": null
+        },
+        {
+          "id": "MS:1000526",
+          "label": "Waters raw format",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000027",
+          "label": "processed data file format",
+          "score": null
+        },
+        {
+          "id": "MS:1001459",
+          "label": "file format",
+          "score": null
+        },
+        {
+          "id": "EDAM:3824",
+          "label": "NMR data format",
+          "score": null
+        },
+        {
+          "id": "EDAM:1915",
+          "label": "Format",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "mRNA Sequencing",
+      "time_ms": 408.32840000803117,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C129432",
+      "top_k_results": [
+        {
+          "id": "NCIT:C129432",
+          "label": "mRNA Sequencing",
+          "score": null
+        },
+        {
+          "id": "BAO:0000274",
+          "label": "mRNA",
+          "score": null
+        },
+        {
+          "id": "OBI:0003108",
+          "label": "single-nucleus chromatin accessibility and mRNA expression sequencing assay",
+          "score": null
+        },
+        {
+          "id": "EDAM:3168",
+          "label": "Sequencing",
+          "score": null
+        },
+        {
+          "id": "EDAM:3676",
+          "label": "Exome sequencing",
+          "score": null
+        },
+        {
+          "id": "EDAM:3837",
+          "label": "Metagenomic sequencing",
+          "score": null
+        },
+        {
+          "id": "OBI:0002575",
+          "label": "isoform sequencing",
+          "score": null
+        },
+        {
+          "id": "DPBO:0002006",
+          "label": "sequencing method",
+          "score": null
+        },
+        {
+          "id": "OBI:0003069",
+          "label": "sequencing protocol",
+          "score": null
+        },
+        {
+          "id": "OBI:0001904",
+          "label": "sequencing service",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "organism",
+      "time_ms": 397.9719000053592,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": true,
+      "expected_id": "OBI:0100026",
+      "top_k_results": [
+        {
+          "id": "NCIT:C14250",
+          "label": "Organism",
+          "score": null
+        },
+        {
+          "id": "BAO:0000551",
+          "label": "organism",
+          "score": null
+        },
+        {
+          "id": "COB:0000022",
+          "label": "organism",
+          "score": null
+        },
+        {
+          "id": "EDAM:2908",
+          "label": "Organism accession",
+          "score": null
+        },
+        {
+          "id": "EDAM:1869",
+          "label": "Organism identifier",
+          "score": null
+        },
+        {
+          "id": "EDAM:2530",
+          "label": "Organism report",
+          "score": null
+        },
+        {
+          "id": "BTO:0000284",
+          "label": "organism form",
+          "score": null
+        },
+        {
+          "id": "BAO:0002921",
+          "label": "has organism",
+          "score": null
+        },
+        {
+          "id": "UBERON:0000468",
+          "label": "multicellular organism",
+          "score": null
+        },
+        {
+          "id": "BAO:0030063",
+          "label": "whole organism",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Talinum fruticosum",
+      "time_ms": 348.1549999996787,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCBITaxon:110664",
+      "top_k_results": []
+    },
+    {
+      "query": "organism part",
+      "time_ms": 379.05240000691265,
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.3333333333333333,
+      "duplicate_labels": true,
+      "expected_id": "EFO:0000635",
+      "top_k_results": [
+        {
+          "id": "NCIT:C103199",
+          "label": "Organism Part",
+          "score": null
+        },
+        {
+          "id": "NCIT:C103199",
+          "label": "Organism Part",
+          "score": null
+        },
+        {
+          "id": "EFO:0000635",
+          "label": "organism part",
+          "score": null
+        },
+        {
+          "id": "GO:0044217",
+          "label": "other organism part",
+          "score": null
+        },
+        {
+          "id": "DPBO:1000145",
+          "label": "prepared organism part",
+          "score": null
+        },
+        {
+          "id": "OBI:0001422",
+          "label": "organism part comparison design",
+          "score": null
+        },
+        {
+          "id": "BAO:0000551",
+          "label": "organism",
+          "score": null
+        },
+        {
+          "id": "COB:0000022",
+          "label": "organism",
+          "score": null
+        },
+        {
+          "id": "UBERON:0000475",
+          "label": "organism subdivision",
+          "score": null
+        },
+        {
+          "id": "OBI:1000048",
+          "label": "transgenic organism",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "leaf",
+      "time_ms": 354.9907999986317,
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.3333333333333333,
+      "duplicate_labels": true,
+      "expected_id": "PO:0025034",
+      "top_k_results": [
+        {
+          "id": "NCIT:C79219",
+          "label": "Leaf",
+          "score": null
+        },
+        {
+          "id": "BTO:0000713",
+          "label": "leaf",
+          "score": null
+        },
+        {
+          "id": "PO:0025034",
+          "label": "leaf",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0003722",
+          "label": "leaf leaf-like",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0010789",
+          "label": "leaf midvein leaf-like",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0002449",
+          "label": "leaf vascular system leaf-like",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0009317",
+          "label": "palmate leaf leaf-like",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0015584",
+          "label": "vascular leaf leaf-like",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0020046",
+          "label": "tertiary leaf vein leaf-like",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "plant age",
+      "time_ms": 400.5165999988094,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000033",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000033",
+          "label": "plant age",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0005654",
+          "label": "whole plant age",
+          "score": null
+        },
+        {
+          "id": "PATO:0000011",
+          "label": "age",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0001184",
+          "label": "bark age",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0001916",
+          "label": "bud age",
+          "score": null
+        },
+        {
+          "id": "ENVO:01001643",
+          "label": "ice age",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0000679",
+          "label": "inflorescence age",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0001560",
+          "label": "leaf age",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0002830",
+          "label": "pericarp age",
+          "score": null
+        },
+        {
+          "id": "GO:0090644",
+          "label": "age-related resistance",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "watering exposure",
+      "time_ms": 406.67399999802,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "PECO:0007383",
+      "top_k_results": [
+        {
+          "id": "PECO:0007383",
+          "label": "watering exposure",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000677",
+          "label": "watering bowl",
+          "score": null
+        },
+        {
+          "id": "PECO:0001010",
+          "label": "carbohydrate exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0001011",
+          "label": "monosaccharide exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0001005",
+          "label": "nickel exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0001006",
+          "label": "phosphate exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0001001",
+          "label": "plant exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0001008",
+          "label": "sulfate exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007198",
+          "label": "water environment exposure",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Timepoint",
+      "time_ms": 354.35160000633914,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": true,
+      "expected_id": "NCIT:C68568",
+      "top_k_results": [
+        {
+          "id": "NCIT:C68568",
+          "label": "Timepoint",
+          "score": null
+        },
+        {
+          "id": "EFO:0000724",
+          "label": "timepoint",
+          "score": null
+        },
+        {
+          "id": "NCIT:C222253",
+          "label": "Archival Timepoint",
+          "score": null
+        },
+        {
+          "id": "NCIT:C87922",
+          "label": "Microbiology Specimen Timepoint",
+          "score": null
+        },
+        {
+          "id": "NCIT:C222254",
+          "label": "Post-Treatment Timepoint",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "growth day length",
+      "time_ms": 385.79359999857843,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000041",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000041",
+          "label": "growth day length",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0010928",
+          "label": "growth ring length",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0010927",
+          "label": "growth ring increased length",
+          "score": null
+        },
+        {
+          "id": "PECO:0007199",
+          "label": "long day length exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007200",
+          "label": "short day length exposure",
+          "score": null
+        },
+        {
+          "id": "ENVO:01003005",
+          "label": "day",
+          "score": null
+        },
+        {
+          "id": "UO:0000033",
+          "label": "day",
+          "score": null
+        },
+        {
+          "id": "UO:0000033",
+          "label": "day",
+          "score": null
+        },
+        {
+          "id": "PATO:0000122",
+          "label": "length",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "light intensity exposure",
+      "time_ms": 425.08789998828433,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "PECO:0007224",
+      "top_k_results": [
+        {
+          "id": "PECO:0007224",
+          "label": "light intensity exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007075",
+          "label": "high light intensity exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007271",
+          "label": "low light intensity exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007076",
+          "label": "moderate light intensity exposure",
+          "score": null
+        },
+        {
+          "id": "TO:0000460",
+          "label": "light intensity response",
+          "score": null
+        },
+        {
+          "id": "PECO:0007078",
+          "label": "light quantity exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007162",
+          "label": "continuous light exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007163",
+          "label": "day light exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007128",
+          "label": "intermittent light exposure",
+          "score": null
+        },
+        {
+          "id": "PECO:0007152",
+          "label": "radiation intensity exposure",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "microeinstein per square meter per second",
+      "time_ms": 387.69809999212157,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": true,
+      "expected_id": "UO:0000160",
+      "top_k_results": [
+        {
+          "id": "UO:0000160",
+          "label": "microeinstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000160",
+          "label": "microeinstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000160",
+          "label": "microeinstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000160",
+          "label": "microeinstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000160",
+          "label": "microeinstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000156",
+          "label": "einstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000156",
+          "label": "einstein per square meter per second",
+          "score": null
+        },
+        {
+          "id": "UO:1000156",
+          "label": "einstein per square meter per second based unit",
+          "score": null
+        },
+        {
+          "id": "UO:0000077",
+          "label": "meter per second per second",
+          "score": null
+        },
+        {
+          "id": "UO:0000077",
+          "label": "meter per second per second",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "humidity day",
+      "time_ms": 401.6352000035113,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000005",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000005",
+          "label": "humidity day",
+          "score": null
+        },
+        {
+          "id": "PATO:0015009",
+          "label": "humidity",
+          "score": null
+        },
+        {
+          "id": "PECO:0007197",
+          "label": "humidity exposure",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000006",
+          "label": "humidity night",
+          "score": null
+        },
+        {
+          "id": "ENVO:09200015",
+          "label": "humidity of soil",
+          "score": null
+        },
+        {
+          "id": "PATO:0015011",
+          "label": "decreased humidity",
+          "score": null
+        },
+        {
+          "id": "PATO:0015010",
+          "label": "increased humidity",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000637",
+          "label": "relative humidity",
+          "score": null
+        },
+        {
+          "id": "GO:0098513",
+          "label": "detection of humidity",
+          "score": null
+        },
+        {
+          "id": "GO:0009270",
+          "label": "response to humidity",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "percent",
+      "time_ms": 393.05839998996817,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "UO:0000187",
+      "top_k_results": [
+        {
+          "id": "UO:0000187",
+          "label": "percent",
+          "score": null
+        },
+        {
+          "id": "BAO:0000200",
+          "label": "percent activation",
+          "score": null
+        },
+        {
+          "id": "BAO:0001103",
+          "label": "percent activity",
+          "score": null
+        },
+        {
+          "id": "BAO:0001252",
+          "label": "percent change",
+          "score": null
+        },
+        {
+          "id": "BAO:0000143",
+          "label": "percent control",
+          "score": null
+        },
+        {
+          "id": "BAO:0000006",
+          "label": "percent cytotoxicity",
+          "score": null
+        },
+        {
+          "id": "BAO:0001253",
+          "label": "percent growth",
+          "score": null
+        },
+        {
+          "id": "BAO:0000201",
+          "label": "percent inhibition",
+          "score": null
+        },
+        {
+          "id": "BAO:0001254",
+          "label": "percent protection",
+          "score": null
+        },
+        {
+          "id": "BAO:0000082",
+          "label": "percent response",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "temperature day",
+      "time_ms": 371.62000000535045,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000007",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000007",
+          "label": "temperature day",
+          "score": null
+        },
+        {
+          "id": "PATO:0000146",
+          "label": "temperature",
+          "score": null
+        },
+        {
+          "id": "BAO:0000585",
+          "label": "temperature endpoint",
+          "score": null
+        },
+        {
+          "id": "BAO:0002770",
+          "label": "temperature profile",
+          "score": null
+        },
+        {
+          "id": "BAO:0190002",
+          "label": "temperature unit",
+          "score": null
+        },
+        {
+          "id": "ENVO:01003005",
+          "label": "day",
+          "score": null
+        },
+        {
+          "id": "UO:0000033",
+          "label": "day",
+          "score": null
+        },
+        {
+          "id": "UO:0000033",
+          "label": "day",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000005",
+          "label": "humidity day",
+          "score": null
+        },
+        {
+          "id": "ENVO:01003006",
+          "label": "rainy day",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "degree celsius",
+      "time_ms": 376.8687999981921,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": true,
+      "expected_id": "UO:0000027",
+      "top_k_results": [
+        {
+          "id": "NCIT:C42559",
+          "label": "Degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:0000027",
+          "label": "degree Celsius",
+          "score": null
+        },
+        {
+          "id": "UO:1000027",
+          "label": "degree Celsius based unit",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "temperature night",
+      "time_ms": 373.1145999918226,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000008",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000008",
+          "label": "temperature night",
+          "score": null
+        },
+        {
+          "id": "PATO:0000146",
+          "label": "temperature",
+          "score": null
+        },
+        {
+          "id": "MS:1000822",
+          "label": "temperature array",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000007",
+          "label": "temperature day",
+          "score": null
+        },
+        {
+          "id": "BAO:0000585",
+          "label": "temperature endpoint",
+          "score": null
+        },
+        {
+          "id": "GO:0001659",
+          "label": "temperature homeostasis",
+          "score": null
+        },
+        {
+          "id": "BAO:0002770",
+          "label": "temperature profile",
+          "score": null
+        },
+        {
+          "id": "BAO:0190002",
+          "label": "temperature unit",
+          "score": null
+        },
+        {
+          "id": "DPBO:0000006",
+          "label": "humidity night",
+          "score": null
+        },
+        {
+          "id": "MS:1002040",
+          "label": "inlet temperature",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "Likelihood-ratio test",
+      "time_ms": 356.1980999947991,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": true,
+      "expected_id": "OBI:0000861",
+      "top_k_results": [
+        {
+          "id": "OBI:0000861",
+          "label": "Likelihood-ratio test",
+          "score": null
+        },
+        {
+          "id": "OBI:0000861",
+          "label": "Likelihood-ratio test",
+          "score": null
+        },
+        {
+          "id": "STATO:0000247",
+          "label": "odds ratio homogeneity test",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "DOI",
+      "time_ms": 365.32050000096206,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "OBI:0002110",
+      "top_k_results": [
+        {
+          "id": "EDAM:1188",
+          "label": "DOI",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasDOI",
+          "label": "has DOI",
+          "score": null
+        },
+        {
+          "id": "MS:1001922",
+          "label": "Digital Object Identifier (DOI)",
+          "score": null
+        },
+        {
+          "id": "MS:1002480",
+          "label": "regular expression for a digital object identifier (DOI)",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "PubMedID",
+      "time_ms": 366.3894000055734,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "OBI:0001617",
+      "top_k_results": [
+        {
+          "id": "NCIT:P171",
+          "label": "PubMedID_Primary_Reference",
+          "score": null
+        },
+        {
+          "id": "NCIT:C43708",
+          "label": "PubMedID_Primary_Reference",
+          "score": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,15 @@
 import csv
 import json
 from pathlib import Path
+import time
+
+import pandas as pd
 
 from src.lexical.lexical_search import lexical_search
 from src.api.api_search import api_search
 from config import TEST_DIR
 import config
-from src.embeddings.similarity_search import calculate_similarity, load
+from src.embeddings.similarity_search import calculate_similarity
 
 GROUND_TRUTH_DIR = TEST_DIR / "ground_truth"
 RESULTS_DIR = TEST_DIR / "results"
@@ -17,212 +20,130 @@ def normalize_id(iri: str):
     return iri.replace("_", ":")
 
 
-def evaluate_lexical():
-    with open(str(GROUND_TRUTH_DIR) + "/ground_truth_stress.json") as f:
-        ground_truth = json.load(f)
+def evaluate_search_method(
+    ground_truth: str, method="api", method_key="terminology", appendix="standard"
+):
+    with open(GROUND_TRUTH_DIR / ground_truth) as f:
+        ground_truth_json = json.load(f)
 
-    results = []
-    for query, truth_value in ground_truth.items():
-        print(f"Lexical search for {query}...")
-        lexical_results = lexical_search(query)["results"]
-        rank = -1
-        count = 1
-        for r in lexical_results:
-            short_id = normalize_id(r["short_id"])
-            if truth_value == short_id:
-                rank = count
-            count += 1
-        top_k_results = [
-            {
-                "id": normalize_id(r["short_id"]),
-                "label": r["label"],
-            }
-            for r in lexical_results[: config.TOP_K]
-        ]
-        hit_1 = rank == 1
-        hit_5 = rank != -1 and rank <= 5
-        hit_10 = rank != -1 and rank <= 10
-        hit_20 = rank != -1 and rank <= 20
-        same_label = [r for r in top_k_results if r["label"].lower() == query.lower()]
+    querycount = 1
+    data = []
 
-        results.append(
-            {
-                "query": query,
-                "rank": rank,
-                "hit@1": hit_1,
-                "hit@5": hit_5,
-                "hit@10": hit_10,
-                "hit@20": hit_20,
-                "reciprocal_rank": 1 / rank if rank > 0 else 0,
-                "duplicate_labels": len(same_label) > 1,
-                "expected_id": truth_value,
-                "top_k_results": top_k_results,
-            }
+    for query, truth_value in ground_truth_json.items():
+        print(
+            f"Get Results for: {query} ({querycount}/{len(ground_truth_json.items())})"
         )
-        output = {
-            "model": "Lexical Fuzzy Matching",
-            "method": "lexical",
-            "top_k": config.TOP_K,
-            "results": results,
-        }
+        querycount += 1
+        start = time.perf_counter()
 
-    filename = f"lexical_k{output['top_k']}.json"
-    path = Path(RESULTS_DIR / "lexical_search")
-    path.mkdir(parents=True, exist_ok=True)
+        if method == "api":
+            collection = False if appendix == "without_collection" else True
+            results = api_search(query, method_key, collection)
+        elif method == "embedding":
+            results = calculate_similarity(query)["results"]
+        elif method == "lexical":
+            results = lexical_search(query, top_k=config.TOP_K)["results"]
+        else:
+            print(f"Unsupported search method {method} {method_key}")
+            return
 
-    with open(path / filename, "w") as f:
-        json.dump(output, f, indent=2)
-    json_to_csv(path / filename, str(path) + "/result.csv")
-    print("Finished lexical evaluation")
-
-
-def evaluate_api():
-    with open(str(GROUND_TRUTH_DIR) + "/ground_truth_stress.json") as f:
-        ground_truth = json.load(f)
-
-    results = []
-    for query, truth_value in ground_truth.items():
-        print(f"GET API result for {query}...")
-        api_results = api_search(query)
-        rank = -1
-        count = 1
-        for r in api_results:
+        elapsed = time.perf_counter() - start
+        rank = -1  # if truth term not found, rank = -1
+        rankcount = 1
+        score = None
+        best_score = None
+        for r in results:
+            if hasattr(r, "score"):
+                score = r["score"]
+                best_score = score if score > best_score else best_score
             short_id = normalize_id(r["short_form"])
             if truth_value == short_id:
-                rank = count
-            count += 1
+                rank = rankcount
+                break
+            rankcount += 1
 
-        top_k_results = [
+        # save topk results
+        topk_results = [
             {
                 "id": normalize_id(r["short_form"]),
                 "label": r["label"],
+                "score": getattr(r, "score", None),
             }
-            for r in api_results[: config.TOP_K]
+            for r in results[: config.TOP_K]
         ]
+
         hit_1 = rank == 1
         hit_5 = rank != -1 and rank <= 5
         hit_10 = rank != -1 and rank <= 10
-        hit_20 = rank != -1 and rank <= 20
-        same_label = [r for r in top_k_results if r["label"].lower() == query.lower()]
+        hit_20 = (
+            rank != -1 and rank <= 20
+        )  # probably unneccessary, but good for evaluation
+        same_label = [
+            r for r in topk_results if getattr(r, "label", "").lower() == query.lower()
+        ]  # useful to identify results, where the query exactly matches the truth term
 
-        results.append(
+        data.append(
             {
                 "query": query,
+                "time_ms": elapsed * 1000,
                 "rank": rank,
                 "hit@1": hit_1,
                 "hit@5": hit_5,
                 "hit@10": hit_10,
                 "hit@20": hit_20,
-                "reciprocal_rank": 1 / rank if rank > 0 else 0,
-                "duplicate_labels": len(same_label) > 1,
-                "expected_id": truth_value,
-                "top_k_results": top_k_results,
-            }
-        )
-        output = {
-            "model": "Terminology API Search",
-            "method": "api_search",
-            "top_k": config.TOP_K,
-            "results": results,
-        }
-
-    filename = f"api_k{output['top_k']}.json"
-    path = Path(RESULTS_DIR / "api_search")
-    path.mkdir(parents=True, exist_ok=True)
-
-    with open(path / filename, "w") as f:
-        json.dump(output, f, indent=2)
-    json_to_csv(path / filename, str(path) + "/result.csv")
-    print("Finished api evaluation")
-
-
-def evaluate_groundtruth(model_name):
-    with open(str(GROUND_TRUTH_DIR) + "/ground_truth_stress.json") as f:
-        ground_truth = json.load(f)
-
-    results = []
-    for query, truth_value in ground_truth.items():
-        result = calculate_similarity(query)
-        predictions = result["results"]
-
-        rank = -1
-        correct_score = None
-        for p in predictions:
-            short_id = normalize_id(p["short_id"])
-            if truth_value == short_id:
-                rank = p["rank"] + 1
-                correct_score = p["score"]
-                break
-
-        top_k_results = [
-            {
-                "id": normalize_id(r["short_id"]),
-                "label": r["label"],
-                "score": r["score"],
-            }
-            for r in predictions[: config.TOP_K]
-        ]
-        best_score = predictions[0]["score"] if predictions else None
-        same_label = [r for r in top_k_results if r["label"].lower() == query.lower()]
-
-        hit_1 = rank == 1
-        hit_5 = rank != -1 and rank <= 5
-        hit_10 = rank != -1 and rank <= 10
-        hit_20 = rank != -1 and rank <= 20
-        # print(f"{query}: rank={rank}, hit@1={hit_1}, hit@5={hit_5}, hit@10={hit_10}")
-        results.append(
-            {
-                "query": query,
-                "rank": rank,
-                "hit@1": hit_1,
-                "hit@5": hit_5,
-                "hit@10": hit_10,
-                "hit@20": hit_20,
-                "reciprocal_rank": 1 / rank if rank > 0 else 0,
-                "duplicate_labels": len(same_label) > 1,
+                "score": score,
                 "best_score": best_score,
-                "correct_score": correct_score,
+                "reciprocal_rank": 1 / rank if rank > 0 else 0,
+                "duplicate_labels": len(same_label) > 1,
                 "expected_id": truth_value,
-                "top_k_results": top_k_results,
+                "top_k_results": topk_results,
             }
         )
-        output = {
-            "model": model_name,
-            "method": "embedding",
-            "top_k": config.TOP_K,
-            "results": results,
-        }
 
-    filename = f"embedding_k{output['top_k']}.json"
-    path = Path(RESULTS_DIR / str(output["model"]))
+    # Output for results json file
+    output = {
+        "method": method,  # search method: api, embedding, lexical
+        "method_key": method_key,  # Terminology, Tib, Embedding Model oder Fuzzy Matching Method
+        "appendix": appendix,  # extra information for custom runs, default = standard
+        "top_k": config.TOP_K,  # the configurated top k setting
+        "results": data,  # result data
+    }
+
+    # save results as json file
+    filename = f"{method}_k{output['top_k']}_{appendix}_{ground_truth}"
+    path = Path(RESULTS_DIR / method / method_key)
     path.mkdir(parents=True, exist_ok=True)
 
     with open(path / filename, "w") as f:
         json.dump(output, f, indent=2)
+
+    # convert json data to csv data for excel analysis
     json_to_csv(path / filename, str(path) + "/result.csv")
-    print("Finished evaluation")
+
+    print(f"Finished {method}_{method_key} evaluation")
 
 
 def json_to_csv(json_path, csv_path):
     with open(json_path) as f:
         data = json.load(f)
 
-    model = data["model"]
-    method = data["method"]
-    top_k = data["top_k"]
-
     rows = []
 
     for r in data["results"]:
         row = {
-            "model": model,
-            "method": method,
-            "top_k": top_k,
+            "method": data["method"],
+            "method_key": data["method_key"],
+            "appendix": data["appendix"],
+            "top_k": data["top_k"],
             "query": r["query"],
             "rank": r["rank"],
             "hit@1": int(r["hit@1"]),
             "hit@5": int(r["hit@5"]),
             "hit@10": int(r["hit@10"]),
+            "hit@20": int(r["hit@20"]),
+            "reciprocal_rank": r["reciprocal_rank"],
+            "duplicate_labels": r["duplicate_labels"],
+            "expected_id": r["expected_id"],
         }
         rows.append(row)
 
@@ -230,3 +151,62 @@ def json_to_csv(json_path, csv_path):
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()
         writer.writerows(rows)
+
+
+def compute_metrics(df):
+    grouped = df.groupby("method_key")
+
+    summary = pd.DataFrame(
+        {
+            "MRR": grouped["reciprocal_rank"].mean(),
+            "Hit@1": grouped["hit@1"].mean(),
+            "Hit@5": grouped["hit@5"].mean(),
+            "Hit@10": grouped["hit@10"].mean(),
+            "Avg_Rank": grouped["rank"].mean(),
+            "Median_Rank": grouped["rank"].median(),
+            "Avg_Time_ms": grouped["time_ms"].mean(),
+            "Avg_Num_Results": grouped["num_results"].mean(),
+        }
+    )
+
+    return summary.reset_index()
+
+
+def load_and_combine_results(json_folder_path):
+    all_rows = []
+    files = Path(json_folder_path).rglob("*.json")
+
+    print(files)
+    for file in files:
+        with open(file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        method = data.get("method")
+        method_key = data.get("method_key")
+
+        for r in data["results"]:
+            row = {
+                "method": method,
+                "method_key": method_key,
+                "appendix": data.get("appendix"),
+                "query": r.get("query"),
+                "expected_id": r.get("expected_id"),
+                "rank": r.get("rank"),
+                "hit@1": int(r.get("hit@1", False)),
+                "hit@5": int(r.get("hit@5", False)),
+                "hit@10": int(r.get("hit@10", False)),
+                "hit@20": int(r.get("hit@20", False)),
+                "reciprocal_rank": r.get("reciprocal_rank"),
+                "time_ms": r.get("time_ms"),
+                "duplicate_labels": r.get("duplicate_labels"),
+                "num_results": len(r.get("top_k_results", [])),
+            }
+
+            all_rows.append(row)
+
+    df = pd.DataFrame(all_rows)
+    summary_df = compute_metrics(df)
+    df.to_csv(json_folder_path / "combined_results.csv", index=False)
+    summary_df.to_csv(json_folder_path / "summary_metrics.csv", index=False)
+
+    print("Generated CSV Data")

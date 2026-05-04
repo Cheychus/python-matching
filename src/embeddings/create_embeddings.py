@@ -51,6 +51,7 @@ def create_metadata():
     for ontology in ONTOLOGIES_LIST:
         with open(str(PARSED_DIR / ontology) + ".json") as f:
             terms = json.load(f)
+            print(f"{ontology} = {len(terms)} terms")
 
         if EMBEDDING_LIMIT is not None:
             terms = terms[:EMBEDDING_LIMIT]

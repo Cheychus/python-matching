@@ -1,177 +1,177 @@
 [
     {
         "name": "Agronomy Ontology",
-        "short_form": "AGRO",
+        "ontology": "AGRO",
         "url": "https://raw.githubusercontent.com/AgriculturalSemantics/agro/refs/heads/master/agro.owl"
     },
     {
         "name": "Basic Formal Ontology",
-        "short_form": "BFO",
+        "ontology": "BFO",
         "url": "https://raw.githubusercontent.com/BFO-ontology/BFO/refs/heads/master/bfo_classes_only.owl"
     },
     {
         "name": "BioAssay Ontology",
-        "short_form": "BAO",
+        "ontology": "BAO",
         "url": "https://raw.githubusercontent.com/BioAssayOntology/BAO/master/bao_complete_merged.owl"
     },
     {
         "name": "Bioinformatics operations, data types, formats, identifiers and topics",
-        "short_form": "EDAM",
+        "ontology": "EDAM",
         "url": "https://raw.githubusercontent.com/edamontology/edamontology/refs/heads/main/releases/EDAM.owl"
     },
     {
         "name": "The Biological Collections Ontology",
-        "short_form": "BCO",
+        "ontology": "BCO",
         "url": "https://raw.githubusercontent.com/BiodiversityOntologies/bco/master/bco.owl"
     },
     {
         "name": "The BRENDA Tissue Ontology",
-        "short_form": "BTO",
+        "ontology": "BTO",
         "url": "https://raw.githubusercontent.com/BRENDA-Enzymes/BTO/master/bto.owl"
     },
     {
         "name": "Chemical Entities of Biological Interest",
-        "short_form": "CHEBI",
+        "ontology": "CHEBI",
         "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl"
     },
     {
         "name": "Chemical Methods Ontology",
-        "short_form": "CHMO",
+        "ontology": "CHMO",
         "url": "https://raw.githubusercontent.com/rsc-ontology/rsc-cmo/master/chmo.owl"
     },
     {
         "name": "Core Ontology for Biology and Biomedicine",
-        "short_form": "COB",
+        "ontology": "COB",
         "url": "https://raw.githubusercontent.com/OBOFoundry/COB/master/cob.owl"
     },
     {
         "name": "DataPLANT biology ontology",
-        "short_form": "DPBO",
+        "ontology": "DPBO",
         "url": "https://raw.githubusercontent.com/nfdi4plants/nfdi4plants_ontology/refs/heads/main/DPBO.owl"
     },
     {
         "name": "The Environment Ontology 2023-02-13 release",
-        "short_form": "ENVO2023",
+        "ontology": "ENVO2023",
         "url": "https://raw.githubusercontent.com/EnvironmentOntology/envo/refs/tags/v2023-02-13/envo.owl"
     },
     {
         "name": "The Environment Ontology",
-        "short_form": "ENVO",
+        "ontology": "ENVO",
         "url": "https://raw.githubusercontent.com/EnvironmentOntology/envo/master/envo.owl"
     },
     {
         "name": "Experimental Factor Ontology",
-        "short_form": "EFO",
+        "ontology": "EFO",
         "url": "http://www.ebi.ac.uk/efo/releases/v3.86.0/efo.owl"
     },
     {
         "name": "Flora Phenotype Ontology",
-        "short_form": "FLOPO",
+        "ontology": "FLOPO",
         "url": "https://raw.githubusercontent.com/flora-phenotype-ontology/flopoontology/master/ontology/flopo.owl"
     },
     {
         "name": "Gene Ontology",
-        "short_form": "GO",
+        "ontology": "GO",
         "url": "https://release.geneontology.org/2026-01-23/ontology/go.owl"
     },
     {
         "name": "Mass Spectrometry",
-        "short_form": "MS",
+        "ontology": "MS",
         "url": "https://github.com/HUPO-PSI/psi-ms-CV/releases/download/v4.1.238/ms.owl"
     },
     {
         "name": "Measurement Method Ontology",
-        "short_form": "MMO",
+        "ontology": "MMO",
         "url": "https://download.rgd.mcw.edu/ontology/measurement_method/measurement_method.owl"
     },
     {
         "name": "Metabolomics Standards Initiative Ontology",
-        "short_form": "MSIO",
+        "ontology": "MSIO",
         "url": "https://raw.githubusercontent.com/MSI-Metabolomics-Standards-Initiative/MSIO/master/releases/latest_release/MSIO-merged-reasoned.owl"
     },
     {
         "name": "NCI Thesaurus OBO Edition",
-        "short_form": "NCIT",
+        "ontology": "NCIT",
         "url": "https://github.com/NCI-Thesaurus/thesaurus-obo-edition/releases/download/v2024-05-07/ncit.owl"
     },
     {
         "name": "Ontology for Biomedical Investigations",
-        "short_form": "OBI",
+        "ontology": "OBI",
         "url": "https://raw.githubusercontent.com/obi-ontology/obi/refs/heads/master/obi.owl"
     },
     {
         "name": "Ontology of Microbial Phenotypes",
-        "short_form": "OMP",
+        "ontology": "OMP",
         "url": "https://raw.githubusercontent.com/microbialphenotypes/OMP-ontology/master/omp.owl"
     },
     {
         "name": "Phenotype And Trait Ontology",
-        "short_form": "PATO",
+        "ontology": "PATO",
         "url": "https://raw.githubusercontent.com/pato-ontology/pato/master/pato.owl"
     },
     {
         "name": "Plant Environmental Conditions Ontology",
-        "short_form": "PECO",
+        "ontology": "PECO",
         "url": "https://raw.githubusercontent.com/Planteome/plant-experimental-conditions-ontology/master/peco.owl"
     },
     {
         "name": "Plant Ontology",
-        "short_form": "PO",
+        "ontology": "PO",
         "url": "https://raw.githubusercontent.com/Planteome/plant-ontology/master/po.owl"
     },
     {
         "name": "Plant Phenology Ontology",
-        "short_form": "PPO",
+        "ontology": "PPO",
         "url": "https://raw.githubusercontent.com/PlantPhenoOntology/ppo/refs/heads/main/ppo.owl"
     },
     {
         "name": "Plant Phenotyping Experiment Ontology",
-        "short_form": "PPEO",
+        "ontology": "PPEO",
         "url": "https://raw.githubusercontent.com/MIAPPE/MIAPPE-ontology/master/PPEO.owl"
     },
     {
         "name": "Plant Stress Ontology",
-        "short_form": "PSO",
+        "ontology": "PSO",
         "url": "https://raw.githubusercontent.com/Planteome/plant-stress-ontology/master/pso.owl"
     },
     {
         "name": "Plant Trait Ontology",
-        "short_form": "TO",
+        "ontology": "TO",
         "url": "https://raw.githubusercontent.com/Planteome/plant-trait-ontology/master/to.owl"
     },
     {
         "name": "Population and Community Ontology",
-        "short_form": "PCO",
+        "ontology": "PCO",
         "url": "https://raw.githubusercontent.com/PopulationAndCommunityOntology/pco/master/pco.owl"
     },
     {
         "name": "Protein Modification",
-        "short_form": "MOD",
+        "ontology": "MOD",
         "url": "https://raw.githubusercontent.com/HUPO-PSI/psi-mod-CV/master/PSI-MOD.owl"
     },
     {
         "name": "Relation Ontology",
-        "short_form": "RO",
+        "ontology": "RO",
         "url": "https://raw.githubusercontent.com/oborel/obo-relations/master/ro.owl"
     },
     {
         "name": "The Software Ontology (SWO)",
-        "short_form": "SWO",
+        "ontology": "SWO",
         "url": "https://raw.githubusercontent.com/allysonlister/swo/master/swo.owl"
     },
     {
         "name": "The statistical methods ontology",
-        "short_form": "STATO",
+        "ontology": "STATO",
         "url": "https://raw.githubusercontent.com/ISA-tools/stato/dev/releases/latest_release/stato.owl"
     },
     {
         "name": "Uber-anatomy ontology",
-        "short_form": "UBERON",
+        "ontology": "UBERON",
         "url": "https://github.com/obophenotype/uberon/releases/download/v2025-12-04/uberon.owl"
     },
     {
         "name": "Units of measurement ontology",
-        "short_form": "UO",
+        "ontology": "UO",
         "url": "https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/master/uo.owl"
     }
 ]

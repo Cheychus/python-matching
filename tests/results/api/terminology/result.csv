@@ -1,0 +1,76 @@
+method,method_key,appendix,top_k,query,rank,hit@1,hit@5,hit@10,hit@20,reciprocal_rank,duplicate_labels,expected_id
+api,terminology,without_collection,20,Bio entity,15,0,0,0,1,0.06666666666666667,False,DPBO:0000012
+api,terminology,without_collection,20,Biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
+api,terminology,without_collection,20,milligram,8,0,0,1,1,0.125,True,UO:0000022
+api,terminology,without_collection,20,Biosource material state,1,1,1,1,1,1.0,False,DPBO:0010009
+api,terminology,without_collection,20,Dry material,30,0,0,0,0,0.03333333333333333,False,DPBO:0010011
+api,terminology,without_collection,20,Extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
+api,terminology,without_collection,20,Extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
+api,terminology,without_collection,20,Internal standard,1,1,1,1,1,1.0,True,DPBO:0010012
+api,terminology,without_collection,20,ribitol,8,0,0,1,1,0.125,True,CHEBI:15963
+api,terminology,without_collection,20,Sample volume,-1,0,0,0,0,0,False,DPBO:0010013
+api,terminology,without_collection,20,microliter,6,0,0,1,1,0.16666666666666666,True,UO:0000101
+api,terminology,without_collection,20,MS sample post-extraction,10,0,0,1,1,0.1,False,DPBO:0000043
+api,terminology,without_collection,20,MS sample resuspension,1,1,1,1,1,1.0,False,DPBO:0000044
+api,terminology,without_collection,20,MS derivatization,1,1,1,1,1,1.0,False,DPBO:0000052
+api,terminology,without_collection,20,MS sample type,1,1,1,1,1,1.0,False,DPBO:0000045
+api,terminology,without_collection,20,Chromatography instrument model,1,1,1,1,1,1.0,False,DPBO:0000046
+api,terminology,without_collection,20,Chromatography autosampler model,1,1,1,1,1,1.0,False,DPBO:0000047
+api,terminology,without_collection,20,Chromatography column type,1,1,1,1,1,1.0,False,DPBO:0000053
+api,terminology,without_collection,20,Chromatography column model,1,1,1,1,1,1.0,False,DPBO:0000048
+api,terminology,without_collection,20,mobile phase,2,0,1,1,1,0.5,True,CHMO:0000995
+api,terminology,without_collection,20,helium(0),-1,0,0,0,0,0,False,CHEBI:33681
+api,terminology,without_collection,20,Chromatography injection volume,1,1,1,1,1,1.0,False,DPBO:0010014
+api,terminology,without_collection,20,Chromatography injection mode,2,0,1,1,1,0.5,True,DPBO:0010015
+api,terminology,without_collection,20,Chromatography gradient,1,1,1,1,1,1.0,False,DPBO:0000081
+api,terminology,without_collection,20,split,10,0,0,1,1,0.1,True,PATO:0001786
+api,terminology,without_collection,20,material sample,25,0,0,0,0,0.04,True,OBI:0000747
+api,terminology,without_collection,20,scan polarity,9,0,0,1,1,0.1111111111111111,True,MS:1000465
+api,terminology,without_collection,20,scan window lower limit,18,0,0,0,1,0.05555555555555555,True,MS:1000501
+api,terminology,without_collection,20,scan window upper limit,18,0,0,0,1,0.05555555555555555,True,MS:1000500
+api,terminology,without_collection,20,scan rate,8,0,0,1,1,0.125,True,MS:1000015
+api,terminology,without_collection,20,hertz,16,0,0,0,1,0.0625,True,UO:0000106
+api,terminology,without_collection,20,instrument model,24,0,0,0,0,0.041666666666666664,True,MS:1000031
+api,terminology,without_collection,20,ionization type,1,1,1,1,1,1.0,True,MS:1000008
+api,terminology,without_collection,20,electron ionization,25,0,0,0,0,0.04,False,MS:1000389
+api,terminology,without_collection,20,mass analyzer type,-1,0,0,0,0,0,False,MS:1000443
+api,terminology,without_collection,20,quadrupole,3,0,1,1,1,0.3333333333333333,True,MS:1000081
+api,terminology,without_collection,20,detector type,3,0,1,1,1,0.3333333333333333,True,MS:1000026
+api,terminology,without_collection,20,electron multiplier,2,0,1,1,1,0.5,True,MS:1000253
+api,terminology,without_collection,20,biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
+api,terminology,without_collection,20,extraction method,1,1,1,1,1,1.0,True,DPBO:0000054
+api,terminology,without_collection,20,extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
+api,terminology,without_collection,20,extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
+api,terminology,without_collection,20,RNA quality check,1,1,1,1,1,1.0,False,DPBO:0000062
+api,terminology,without_collection,20,library strategy,-1,0,0,0,0,0,True,DPBO:0000035
+api,terminology,without_collection,20,RNA-seq,-1,0,0,0,0,0,False,DPBO:1000003
+api,terminology,without_collection,20,library selection,-1,0,0,0,0,0,True,DPBO:0000036
+api,terminology,without_collection,20,library layout,1,1,1,1,1,1.0,False,DPBO:0000015
+api,terminology,without_collection,20,single-end,-1,0,0,0,0,0,False,DPBO:0000086
+api,terminology,without_collection,20,library preparation kit,1,1,1,1,1,1.0,True,GENEPIO:0000085
+api,terminology,without_collection,20,library preparation kit version,1,1,1,1,1,1.0,True,GENEPIO:0000149
+api,terminology,without_collection,20,adapter sequence,1,1,1,1,1,1.0,True,GENEPIO:0000083
+api,terminology,without_collection,20,next generation sequencing instrument model,1,1,1,1,1,1.0,False,DPBO:0000040
+api,terminology,without_collection,20,Illumina HiSeq 2000,-1,0,0,0,0,0,True,DPBO:1000041
+api,terminology,without_collection,20,base-calling software,-1,0,0,0,0,0,False,DPBO:0000017
+api,terminology,without_collection,20,base-calling software version,15,0,0,0,1,0.06666666666666667,False,DPBO:0000018
+api,terminology,without_collection,20,Raw data file format,25,0,0,0,0,0.04,False,DPBO:0000021
+api,terminology,without_collection,20,mRNA Sequencing,1,1,1,1,1,1.0,True,NCIT:C129432
+api,terminology,without_collection,20,organism,30,0,0,0,0,0.03333333333333333,True,OBI:0100026
+api,terminology,without_collection,20,Talinum fruticosum,9,0,0,1,1,0.1111111111111111,True,NCBITaxon:110664
+api,terminology,without_collection,20,organism part,74,0,0,0,0,0.013513513513513514,False,EFO:0000635
+api,terminology,without_collection,20,leaf,18,0,0,0,1,0.05555555555555555,True,PO:0025034
+api,terminology,without_collection,20,plant age,6,0,0,1,1,0.16666666666666666,True,DPBO:0000033
+api,terminology,without_collection,20,watering exposure,7,0,0,1,1,0.14285714285714285,True,PECO:0007383
+api,terminology,without_collection,20,Timepoint,1,1,1,1,1,1.0,True,NCIT:C68568
+api,terminology,without_collection,20,growth day length,1,1,1,1,1,1.0,False,DPBO:0000041
+api,terminology,without_collection,20,light intensity exposure,72,0,0,0,0,0.013888888888888888,False,PECO:0007224
+api,terminology,without_collection,20,microeinstein per square meter per second,1,1,1,1,1,1.0,True,UO:0000160
+api,terminology,without_collection,20,humidity day,1,1,1,1,1,1.0,False,DPBO:0000005
+api,terminology,without_collection,20,percent,8,0,0,1,1,0.125,True,UO:0000187
+api,terminology,without_collection,20,temperature day,1,1,1,1,1,1.0,False,DPBO:0000007
+api,terminology,without_collection,20,degree celsius,7,0,0,1,1,0.14285714285714285,True,UO:0000027
+api,terminology,without_collection,20,temperature night,1,1,1,1,1,1.0,False,DPBO:0000008
+api,terminology,without_collection,20,Likelihood-ratio test,-1,0,0,0,0,0,False,OBI:0000861
+api,terminology,without_collection,20,DOI,-1,0,0,0,0,0,True,OBI:0002110
+api,terminology,without_collection,20,PubMedID,-1,0,0,0,0,0,False,OBI:0001617
