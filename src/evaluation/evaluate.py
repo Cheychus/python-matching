@@ -37,7 +37,7 @@ def evaluate_search_method(
         start = time.perf_counter()
 
         if method == "api":
-            collection = False if appendix == "without_collection" else True
+            collection = False if "without_collection" in appendix else True
             results = api_search(query, method_key, collection)
         elif method == "embedding":
             results = calculate_similarity(query)["results"]
@@ -50,15 +50,17 @@ def evaluate_search_method(
         elapsed = time.perf_counter() - start
         rank = -1  # if truth term not found, rank = -1
         rankcount = 1
-        score = None
-        best_score = None
+        score = -1
+        best_score = -1
+        hit_score = None
         for r in results:
-            if hasattr(r, "score"):
-                score = r["score"]
-                best_score = score if score > best_score else best_score
+            score = r.get("score")
+            best_score = max(best_score, score)
+
             short_id = normalize_id(r["short_form"])
             if truth_value == short_id:
                 rank = rankcount
+                hit_score = score
                 break
             rankcount += 1
 
@@ -67,7 +69,7 @@ def evaluate_search_method(
             {
                 "id": normalize_id(r["short_form"]),
                 "label": r["label"],
-                "score": getattr(r, "score", None),
+                "score": r.get("score"),
             }
             for r in results[: config.TOP_K]
         ]
@@ -91,7 +93,7 @@ def evaluate_search_method(
                 "hit@5": hit_5,
                 "hit@10": hit_10,
                 "hit@20": hit_20,
-                "score": score,
+                "score": hit_score,
                 "best_score": best_score,
                 "reciprocal_rank": 1 / rank if rank > 0 else 0,
                 "duplicate_labels": len(same_label) > 1,

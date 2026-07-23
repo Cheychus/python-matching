@@ -1,0 +1,939 @@
+{
+  "method": "api",
+  "method_key": "terminology",
+  "appendix": "with_collection_database_truth",
+  "top_k": 20,
+  "results": [
+    {
+      "query": "ACCENAME",
+      "time_ms": 435.40310000025784,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2091",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCENUMB",
+      "time_ms": 367.03660000057425,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25402",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCEURL",
+      "time_ms": 350.38170000188984,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:1052",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCID",
+      "time_ms": 353.7350000005972,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:0842",
+      "top_k_results": []
+    },
+    {
+      "query": "ANCEST",
+      "time_ms": 343.85910000128206,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C42609",
+      "top_k_results": []
+    },
+    {
+      "query": "ANNUALITY",
+      "time_ms": 367.5470999987738,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "TO:0000369",
+      "top_k_results": []
+    },
+    {
+      "query": "AVAILABILITY",
+      "time_ms": 411.2007999974594,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25429",
+      "top_k_results": [
+        {
+          "id": "NCIT:C25429",
+          "label": "Availability",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "COLLSITE",
+      "time_ms": 356.90600000089034,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "BFO:0000029",
+      "top_k_results": []
+    },
+    {
+      "query": "COORDUNCERT",
+      "time_ms": 356.0986000011326,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinateUncertaintyInMeters",
+      "top_k_results": []
+    },
+    {
+      "query": "COORRANGE",
+      "time_ms": 348.51870000056806,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinatePrecision",
+      "top_k_results": []
+    },
+    {
+      "query": "COUNTRY_NAME",
+      "time_ms": 347.3224000008486,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "OBI:0001627",
+      "top_k_results": []
+    },
+    {
+      "query": "CROPNAME",
+      "time_ms": 357.49589999977616,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "AGRO:00000325",
+      "top_k_results": []
+    },
+    {
+      "query": "DECLATITUDE",
+      "time_ms": 351.4595999986341,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLatitude",
+      "top_k_results": []
+    },
+    {
+      "query": "DECLLONGITUDE",
+      "time_ms": 370.9562999974878,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLongitude",
+      "top_k_results": []
+    },
+    {
+      "query": "ELEVATION",
+      "time_ms": 432.5284000005922,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25494",
+      "top_k_results": [
+        {
+          "id": "NCIT:C25494",
+          "label": "Elevation",
+          "score": null
+        },
+        {
+          "id": "PATO:0001687",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0017626",
+          "label": "bract elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0011919",
+          "label": "bracteole elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0018098",
+          "label": "branch elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0010994",
+          "label": "calyx elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0012769",
+          "label": "chalaza elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0016645",
+          "label": "receptacle elevation",
+          "score": null
+        },
+        {
+          "id": "FLOPO:0012022",
+          "label": "sorus elevation",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "GENUS",
+      "time_ms": 372.6819000003161,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45292",
+      "top_k_results": [
+        {
+          "id": "NCIT:C45292",
+          "label": "Genus",
+          "score": null
+        },
+        {
+          "id": "genus",
+          "label": "Genus",
+          "score": null
+        },
+        {
+          "id": "EDAM:1870",
+          "label": "Genus name",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasGenus",
+          "label": "has genus",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "LATITUDE",
+      "time_ms": 388.6311999995087,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000319",
+      "top_k_results": [
+        {
+          "id": "NCIT:C68642",
+          "label": "Latitude",
+          "score": null
+        },
+        {
+          "id": "SIO:000319",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001620",
+          "label": "latitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasLatitude",
+          "label": "has latitude",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000574",
+          "label": "field latitude coordinate",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000620",
+          "label": "weather station latitude",
+          "score": null
+        },
+        {
+          "id": "AGRO:00002073",
+          "label": "plot latitude coordinate measurement datum",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "LONGITUDE",
+      "time_ms": 385.7991000004404,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000318",
+      "top_k_results": [
+        {
+          "id": "NCIT:C68643",
+          "label": "Longitude",
+          "score": null
+        },
+        {
+          "id": "SIO:000318",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001621",
+          "label": "longitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "decimalLongitude",
+          "label": "Decimal Longitude",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasLongitude",
+          "label": "has longitude",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000575",
+          "label": "field longitude coordinate",
+          "score": null
+        },
+        {
+          "id": "AGRO:00000621",
+          "label": "weather station longitude",
+          "score": null
+        },
+        {
+          "id": "AGRO:00002074",
+          "label": "plot longitude coordinate measurement datum",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ORIGCTY",
+      "time_ms": 347.9818999985582,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "PPEO:hasCountryOfOrigin",
+      "top_k_results": []
+    },
+    {
+      "query": "SAMPSTAT",
+      "time_ms": 361.0597000006237,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25688",
+      "top_k_results": []
+    },
+    {
+      "query": "SPECIES",
+      "time_ms": 397.86540000204695,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45293",
+      "top_k_results": [
+        {
+          "id": "NCIT:C45293",
+          "label": "Species",
+          "score": null
+        },
+        {
+          "id": "EDAM:1045",
+          "label": "Species name",
+          "score": null
+        },
+        {
+          "id": "EDAM:3272",
+          "label": "Species tree",
+          "score": null
+        },
+        {
+          "id": "PCO:0000022",
+          "label": "species extinction",
+          "score": null
+        },
+        {
+          "id": "OBI:0001310",
+          "label": "species comparison design",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasSpecies",
+          "label": "has species",
+          "score": null
+        },
+        {
+          "id": "PCO:0000019",
+          "label": "community species diversity",
+          "score": null
+        },
+        {
+          "id": "PCO:0000023",
+          "label": "community species evenness",
+          "score": null
+        },
+        {
+          "id": "PCO:0000010",
+          "label": "community species richness",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasSpeciesAuthority",
+          "label": "has species authority",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "STORAGE",
+      "time_ms": 377.0427999988897,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C60824",
+      "top_k_results": [
+        {
+          "id": "NCIT:C60824",
+          "label": "Storage",
+          "score": null
+        },
+        {
+          "id": "OBI:0302893",
+          "label": "storage",
+          "score": null
+        },
+        {
+          "id": "AGRO:00010135",
+          "label": "storage date",
+          "score": null
+        },
+        {
+          "id": "BTO:0006518",
+          "label": "storage parenchyma",
+          "score": null
+        },
+        {
+          "id": "BTO:0005681",
+          "label": "storage root",
+          "score": null
+        },
+        {
+          "id": "BTO:0001310",
+          "label": "storage tissue",
+          "score": null
+        },
+        {
+          "id": "OBI:0000915",
+          "label": "freezing storage",
+          "score": null
+        },
+        {
+          "id": "OBI:0000927",
+          "label": "lyophilization storage",
+          "score": null
+        },
+        {
+          "id": "OBI:0000977",
+          "label": "paraffin storage",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "SUBTAXA",
+      "time_ms": 384.4614999979967,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "infraspecificEpithet",
+      "top_k_results": []
+    },
+    {
+      "query": "REMARKS",
+      "time_ms": 434.39589999979944,
+      "rank": 7,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.14285714285714285,
+      "duplicate_labels": false,
+      "expected_id": "organismRemarks",
+      "top_k_results": [
+        {
+          "id": "eventRemarks",
+          "label": "Event Remarks",
+          "score": null
+        },
+        {
+          "id": "georeferenceRemarks",
+          "label": "Georeference Remarks",
+          "score": null
+        },
+        {
+          "id": "identificationRemarks",
+          "label": "Identification Remarks",
+          "score": null
+        },
+        {
+          "id": "locationRemarks",
+          "label": "Location Remarks",
+          "score": null
+        },
+        {
+          "id": "measurementRemarks",
+          "label": "Measurement Remarks",
+          "score": null
+        },
+        {
+          "id": "occurrenceRemarks",
+          "label": "Occurrence Remarks",
+          "score": null
+        },
+        {
+          "id": "organismRemarks",
+          "label": "Organism Remarks",
+          "score": null
+        },
+        {
+          "id": "relationshipRemarks",
+          "label": "Relationship Remarks",
+          "score": null
+        },
+        {
+          "id": "taxonRemarks",
+          "label": "Taxon Remarks",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "PEDIGREE",
+      "time_ms": 378.4897000005003,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C27957",
+      "top_k_results": [
+        {
+          "id": "NCIT:C27957",
+          "label": "Pedigree",
+          "score": null
+        },
+        {
+          "id": "STATO:0000122",
+          "label": "pedigree chart",
+          "score": null
+        },
+        {
+          "id": "NCIT:C209891",
+          "label": "Pedigree File Format",
+          "score": null
+        },
+        {
+          "id": "SWO:0000655",
+          "label": "pedigree data file",
+          "score": null
+        },
+        {
+          "id": "STATO:0000478",
+          "label": "pedigree data set",
+          "score": null
+        },
+        {
+          "id": "STATO:0000339",
+          "label": "breeding value estimation using pedigree data",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "INSTCODE",
+      "time_ms": 364.16190000090864,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "institutionCode",
+      "top_k_results": []
+    },
+    {
+      "query": "TRIVIALNAME",
+      "time_ms": 376.740299998346,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2099",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCID_PRE",
+      "time_ms": 355.0768000022799,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C54066",
+      "top_k_results": []
+    },
+    {
+      "query": "BEMERKUNG",
+      "time_ms": 348.5723000012513,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "materialEntityRemarks",
+      "top_k_results": []
+    },
+    {
+      "query": "MATERIALTYP",
+      "time_ms": 351.10319999876083,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000177",
+      "top_k_results": []
+    },
+    {
+      "query": "ACC_NR",
+      "time_ms": 360.1127000001725,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25337",
+      "top_k_results": []
+    },
+    {
+      "query": "CODE",
+      "time_ms": 386.6127000001143,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25162",
+      "top_k_results": [
+        {
+          "id": "NCIT:C25162",
+          "label": "Code",
+          "score": null
+        },
+        {
+          "id": "NCIT:NHC0",
+          "label": "code",
+          "score": null
+        },
+        {
+          "id": "NCIT:NHC0",
+          "label": "code",
+          "score": null
+        },
+        {
+          "id": "EDAM:3103",
+          "label": "ATC code",
+          "score": null
+        },
+        {
+          "id": "PPO:0000013",
+          "label": "BBCH code",
+          "score": null
+        },
+        {
+          "id": "EDAM:1598",
+          "label": "Genetic code",
+          "score": null
+        },
+        {
+          "id": "EDAM:1007",
+          "label": "Nucleotide code",
+          "score": null
+        },
+        {
+          "id": "EDAM:1137",
+          "label": "PRINTS code",
+          "score": null
+        },
+        {
+          "id": "EDAM:2102",
+          "label": "KEGG organism code",
+          "score": null
+        },
+        {
+          "id": "EDAM:1856",
+          "label": "PDB insertion code",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ID",
+      "time_ms": 373.84490000113146,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25364",
+      "top_k_results": [
+        {
+          "id": "EDAM:0842",
+          "label": "Identifier",
+          "score": null
+        },
+        {
+          "id": "EDAM:1088",
+          "label": "Article ID",
+          "score": null
+        },
+        {
+          "id": "EDAM:0983",
+          "label": "Atom ID",
+          "score": null
+        },
+        {
+          "id": "EDAM:1048",
+          "label": "Database ID",
+          "score": null
+        },
+        {
+          "id": "EDAM:1089",
+          "label": "FlyBase ID",
+          "score": null
+        },
+        {
+          "id": "OBI:0001614",
+          "label": "GenBank ID",
+          "score": null
+        },
+        {
+          "id": "OBI:0001617",
+          "label": "PubMed ID",
+          "score": null
+        },
+        {
+          "id": "EDAM:1070",
+          "label": "Structure ID",
+          "score": null
+        },
+        {
+          "id": "EDAM:1083",
+          "label": "Workflow ID",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "FREMD_ID",
+      "time_ms": 373.4939999994822,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000878",
+      "top_k_results": []
+    }
+  ]
+}

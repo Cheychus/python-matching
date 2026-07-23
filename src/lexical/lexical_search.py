@@ -42,12 +42,8 @@ def lexical_search(query: str, top_k=10):
 
         best_score = fuzzy_score(query_norm, m["label"])
 
-        # skip if score is to low (make lower if not enough results), increases performance
-        if best_score < 50:
-            continue
-
         for syn in m.get("synonyms", []):
-            score = fuzzy_score(query_norm, syn)
+            score = fuzzy_score(query_norm, syn.lower())
             best_score = max(best_score, score)
 
         if concept_id not in grouped:

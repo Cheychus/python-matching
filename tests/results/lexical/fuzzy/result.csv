@@ -1,76 +1,35 @@
-method,method_key,top_k,query,rank,hit@1,hit@5,hit@10,hit@20,reciprocal_rank,duplicate_labels,expected_id
-lexical,fuzzy,20,Bio entity,1,1,1,1,1,1.0,False,DPBO:0000012
-lexical,fuzzy,20,Biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
-lexical,fuzzy,20,milligram,1,1,1,1,1,1.0,True,UO:0000022
-lexical,fuzzy,20,Biosource material state,1,1,1,1,1,1.0,False,DPBO:0010009
-lexical,fuzzy,20,Dry material,1,1,1,1,1,1.0,False,DPBO:0010011
-lexical,fuzzy,20,Extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
-lexical,fuzzy,20,Extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
-lexical,fuzzy,20,Internal standard,1,1,1,1,1,1.0,False,DPBO:0010012
-lexical,fuzzy,20,ribitol,1,1,1,1,1,1.0,False,CHEBI:15963
-lexical,fuzzy,20,Sample volume,1,1,1,1,1,1.0,True,DPBO:0010013
-lexical,fuzzy,20,microliter,1,1,1,1,1,1.0,True,UO:0000101
-lexical,fuzzy,20,MS sample post-extraction,1,1,1,1,1,1.0,False,DPBO:0000043
-lexical,fuzzy,20,MS sample resuspension,1,1,1,1,1,1.0,False,DPBO:0000044
-lexical,fuzzy,20,MS derivatization,2,0,1,1,1,0.5,False,DPBO:0000052
-lexical,fuzzy,20,MS sample type,2,0,1,1,1,0.5,False,DPBO:0000045
-lexical,fuzzy,20,Chromatography instrument model,1,1,1,1,1,1.0,False,DPBO:0000046
-lexical,fuzzy,20,Chromatography autosampler model,1,1,1,1,1,1.0,False,DPBO:0000047
-lexical,fuzzy,20,Chromatography column type,1,1,1,1,1,1.0,False,DPBO:0000053
-lexical,fuzzy,20,Chromatography column model,1,1,1,1,1,1.0,False,DPBO:0000048
-lexical,fuzzy,20,mobile phase,1,1,1,1,1,1.0,False,CHMO:0000995
-lexical,fuzzy,20,helium(0),1,1,1,1,1,1.0,False,CHEBI:33681
-lexical,fuzzy,20,Chromatography injection volume,1,1,1,1,1,1.0,False,DPBO:0010014
-lexical,fuzzy,20,Chromatography injection mode,1,1,1,1,1,1.0,False,DPBO:0010015
-lexical,fuzzy,20,Chromatography gradient,1,1,1,1,1,1.0,False,DPBO:0000081
-lexical,fuzzy,20,split,-1,0,0,0,0,0,False,PATO:0001786
-lexical,fuzzy,20,material sample,-1,0,0,0,0,0,False,OBI:0000747
-lexical,fuzzy,20,scan polarity,1,1,1,1,1,1.0,False,MS:1000465
-lexical,fuzzy,20,scan window lower limit,1,1,1,1,1,1.0,False,MS:1000501
-lexical,fuzzy,20,scan window upper limit,1,1,1,1,1,1.0,False,MS:1000500
-lexical,fuzzy,20,scan rate,1,1,1,1,1,1.0,False,MS:1000015
-lexical,fuzzy,20,hertz,-1,0,0,0,0,0,False,UO:0000106
-lexical,fuzzy,20,instrument model,1,1,1,1,1,1.0,True,MS:1000031
-lexical,fuzzy,20,ionization type,1,1,1,1,1,1.0,False,MS:1000008
-lexical,fuzzy,20,electron ionization,1,1,1,1,1,1.0,False,MS:1000389
-lexical,fuzzy,20,mass analyzer type,1,1,1,1,1,1.0,False,MS:1000443
-lexical,fuzzy,20,quadrupole,1,1,1,1,1,1.0,True,MS:1000081
-lexical,fuzzy,20,detector type,1,1,1,1,1,1.0,False,MS:1000026
-lexical,fuzzy,20,electron multiplier,1,1,1,1,1,1.0,True,MS:1000253
-lexical,fuzzy,20,biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
-lexical,fuzzy,20,extraction method,1,1,1,1,1,1.0,False,DPBO:0000054
-lexical,fuzzy,20,extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
-lexical,fuzzy,20,extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
-lexical,fuzzy,20,RNA quality check,1,1,1,1,1,1.0,False,DPBO:0000062
-lexical,fuzzy,20,library strategy,-1,0,0,0,0,0,True,DPBO:0000035
-lexical,fuzzy,20,RNA-seq,-1,0,0,0,0,0,False,DPBO:1000003
-lexical,fuzzy,20,library selection,2,0,1,1,1,0.5,False,DPBO:0000036
-lexical,fuzzy,20,library layout,1,1,1,1,1,1.0,False,DPBO:0000015
-lexical,fuzzy,20,single-end,1,1,1,1,1,1.0,False,DPBO:0000086
-lexical,fuzzy,20,library preparation kit,1,1,1,1,1,1.0,False,GENEPIO:0000085
-lexical,fuzzy,20,library preparation kit version,1,1,1,1,1,1.0,False,GENEPIO:0000149
-lexical,fuzzy,20,adapter sequence,1,1,1,1,1,1.0,False,GENEPIO:0000083
-lexical,fuzzy,20,next generation sequencing instrument model,1,1,1,1,1,1.0,False,DPBO:0000040
-lexical,fuzzy,20,Illumina HiSeq 2000,19,0,0,0,1,0.05263157894736842,True,DPBO:1000041
-lexical,fuzzy,20,base-calling software,1,1,1,1,1,1.0,False,DPBO:0000017
-lexical,fuzzy,20,base-calling software version,1,1,1,1,1,1.0,False,DPBO:0000018
-lexical,fuzzy,20,Raw data file format,1,1,1,1,1,1.0,False,DPBO:0000021
-lexical,fuzzy,20,mRNA Sequencing,-1,0,0,0,0,0,False,NCIT:C129432
-lexical,fuzzy,20,organism,3,0,1,1,1,0.3333333333333333,True,OBI:0100026
-lexical,fuzzy,20,Talinum fruticosum,-1,0,0,0,0,0,False,NCBITaxon:110664
-lexical,fuzzy,20,organism part,1,1,1,1,1,1.0,True,EFO:0000635
-lexical,fuzzy,20,leaf,1,1,1,1,1,1.0,True,PO:0025034
-lexical,fuzzy,20,plant age,1,1,1,1,1,1.0,False,DPBO:0000033
-lexical,fuzzy,20,watering exposure,-1,0,0,0,0,0,False,PECO:0007383
-lexical,fuzzy,20,Timepoint,2,0,1,1,1,0.5,True,NCIT:C68568
-lexical,fuzzy,20,growth day length,4,0,1,1,1,0.25,False,DPBO:0000041
-lexical,fuzzy,20,light intensity exposure,-1,0,0,0,0,0,False,PECO:0007224
-lexical,fuzzy,20,microeinstein per square meter per second,1,1,1,1,1,1.0,False,UO:0000160
-lexical,fuzzy,20,humidity day,1,1,1,1,1,1.0,False,DPBO:0000005
-lexical,fuzzy,20,percent,1,1,1,1,1,1.0,False,UO:0000187
-lexical,fuzzy,20,temperature day,1,1,1,1,1,1.0,False,DPBO:0000007
-lexical,fuzzy,20,degree celsius,1,1,1,1,1,1.0,True,UO:0000027
-lexical,fuzzy,20,temperature night,1,1,1,1,1,1.0,False,DPBO:0000008
-lexical,fuzzy,20,Likelihood-ratio test,1,1,1,1,1,1.0,False,OBI:0000861
-lexical,fuzzy,20,DOI,-1,0,0,0,0,0,False,OBI:0002110
-lexical,fuzzy,20,PubMedID,-1,0,0,0,0,0,False,OBI:0001617
+method,method_key,appendix,top_k,query,rank,hit@1,hit@5,hit@10,hit@20,reciprocal_rank,duplicate_labels,expected_id
+lexical,fuzzy,ground_truth_b,20,ACCENAME,-1,0,0,0,0,0,False,EDAM:2091
+lexical,fuzzy,ground_truth_b,20,ACCENUMB,7,0,0,1,1,0.14285714285714285,False,NCIT:C25402
+lexical,fuzzy,ground_truth_b,20,ACCEURL,-1,0,0,0,0,0,False,EDAM:1052
+lexical,fuzzy,ground_truth_b,20,ACCID,-1,0,0,0,0,0,False,EDAM:0842
+lexical,fuzzy,ground_truth_b,20,ANCEST,3,0,1,1,1,0.3333333333333333,False,NCIT:C42609
+lexical,fuzzy,ground_truth_b,20,ANNUALITY,-1,0,0,0,0,0,False,TO:0000369
+lexical,fuzzy,ground_truth_b,20,AVAILABILITY,2,0,1,1,1,0.5,False,NCIT:C25429
+lexical,fuzzy,ground_truth_b,20,COLLSITE,-1,0,0,0,0,0,False,BFO:0000029
+lexical,fuzzy,ground_truth_b,20,COORDUNCERT,-1,0,0,0,0,0,False,coordinateUncertaintyInMeters
+lexical,fuzzy,ground_truth_b,20,COORRANGE,-1,0,0,0,0,0,False,coordinatePrecision
+lexical,fuzzy,ground_truth_b,20,COUNTRY_NAME,1,1,1,1,1,1.0,False,OBI:0001627
+lexical,fuzzy,ground_truth_b,20,CROPNAME,-1,0,0,0,0,0,False,AGRO:00000325
+lexical,fuzzy,ground_truth_b,20,DECLATITUDE,4,0,1,1,1,0.25,False,decimalLatitude
+lexical,fuzzy,ground_truth_b,20,DECLLONGITUDE,1,1,1,1,1,1.0,False,decimalLongitude
+lexical,fuzzy,ground_truth_b,20,ELEVATION,3,0,1,1,1,0.3333333333333333,False,NCIT:C25494
+lexical,fuzzy,ground_truth_b,20,GENUS,2,0,1,1,1,0.5,False,NCIT:C45292
+lexical,fuzzy,ground_truth_b,20,LATITUDE,1,1,1,1,1,1.0,False,SIO:000319
+lexical,fuzzy,ground_truth_b,20,LONGITUDE,1,1,1,1,1,1.0,False,SIO:000318
+lexical,fuzzy,ground_truth_b,20,ORIGCTY,-1,0,0,0,0,0,False,PPEO:hasCountryOfOrigin
+lexical,fuzzy,ground_truth_b,20,SAMPSTAT,-1,0,0,0,0,0,False,NCIT:C25688
+lexical,fuzzy,ground_truth_b,20,SPECIES,1,1,1,1,1,1.0,False,NCIT:C45293
+lexical,fuzzy,ground_truth_b,20,STORAGE,3,0,1,1,1,0.3333333333333333,False,NCIT:C60824
+lexical,fuzzy,ground_truth_b,20,SUBTAXA,-1,0,0,0,0,0,False,infraspecificEpithet
+lexical,fuzzy,ground_truth_b,20,REMARKS,-1,0,0,0,0,0,False,organismRemarks
+lexical,fuzzy,ground_truth_b,20,PEDIGREE,1,1,1,1,1,1.0,False,NCIT:C27957
+lexical,fuzzy,ground_truth_b,20,INSTCODE,-1,0,0,0,0,0,False,institutionCode
+lexical,fuzzy,ground_truth_b,20,TRIVIALNAME,-1,0,0,0,0,0,False,EDAM:2099
+lexical,fuzzy,ground_truth_b,20,ACCID_PRE,-1,0,0,0,0,0,False,NCIT:C54066
+lexical,fuzzy,ground_truth_b,20,BEMERKUNG,-1,0,0,0,0,0,False,materialEntityRemarks
+lexical,fuzzy,ground_truth_b,20,MATERIALTYP,-1,0,0,0,0,0,False,DPBO:0000177
+lexical,fuzzy,ground_truth_b,20,ACC_NR,-1,0,0,0,0,0,False,NCIT:C25337
+lexical,fuzzy,ground_truth_b,20,CODE,1,1,1,1,1,1.0,False,NCIT:C25162
+lexical,fuzzy,ground_truth_b,20,ID,-1,0,0,0,0,0,False,NCIT:C25364
+lexical,fuzzy,ground_truth_b,20,FREMD_ID,-1,0,0,0,0,0,False,MS:1000878

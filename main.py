@@ -7,6 +7,7 @@ from src.evaluation.evaluate import (
 from src.embeddings.create_embeddings import create_embeddings, create_metadata
 from src.parser.parse_ontology import parse_ontologies
 from src.download.download import download_ontologies
+from fuzzywuzzy import fuzz
 
 
 def setup_pipeline():
@@ -30,43 +31,45 @@ def setup_pipeline():
 
 
 def evaluation_pipeline():
-    ground_truth = "ground_truth_talinum.json"
+    ground_truth_a = "ground_truth_talinum.json"
+    ground_truth_b = "ground_truth_database.json"
 
     # evaluate baseline methods
-    # evaluate_search_method(
-    #     ground_truth,
-    #     method="lexical",
-    #     method_key="fuzzy",
-    # )
+    evaluate_search_method(
+        ground_truth_a, method="lexical", method_key="fuzzy", appendix="ground_truth_a"
+    )
+    evaluate_search_method(
+        ground_truth_b, method="lexical", method_key="fuzzy", appendix="ground_truth_b"
+    )
 
     # # with collection
     # evaluate_search_method(
     #     ground_truth,
     #     method="api",
     #     method_key="terminology",
-    #     appendix="with_collection",
+    #     appendix="with_collection_database_truth",
     # )
 
     # evaluate_search_method(
     #     ground_truth,
     #     method="api",
     #     method_key="tib",
-    #     appendix="with_collection",
+    #     appendix="with_collection_database_truth",
     # )
 
-    # # without collection
+    # # # without collection
     # evaluate_search_method(
     #     ground_truth,
     #     method="api",
     #     method_key="terminology",
-    #     appendix="without_collection",
+    #     appendix="without_collection_database_truth",
     # )
 
     # evaluate_search_method(
     #     ground_truth,
     #     method="api",
     #     method_key="tib",
-    #     appendix="without_collection",
+    #     appendix="without_collection_database_truth",
     # )
 
     # evaluate all models
@@ -77,6 +80,7 @@ def evaluation_pipeline():
     #         ground_truth,
     #         method="embedding",
     #         method_key=model.replace("/", "_"),
+    #         appendix="ground_truth_b",
     #     )
 
     # load all json results from the previous evaluation and combine them into csv data
@@ -92,7 +96,8 @@ def main():
     # ---- MAIN RUN ----
     # create_metadata()
 
-    evaluation_pipeline()
+    # evaluation_pipeline()
+    print(fuzz.token_sort_ratio("Gerste", "Barley"))
 
 
 if __name__ == "__main__":

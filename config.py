@@ -72,7 +72,7 @@ MODELS = [
 
 args = None
 SELECTED_MODEL: str = MODELS[
-    0
+    9
 ]  # Select API Model here and model for testing with main()
 DEVICE: str = "gpu"  # cpu | gpu
 EMBEDDING_LIMIT: None | int = None  # reduce calculation time, for testing only

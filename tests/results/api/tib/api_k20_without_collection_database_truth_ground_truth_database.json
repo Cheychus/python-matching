@@ -1,0 +1,1837 @@
+{
+  "method": "api",
+  "method_key": "tib",
+  "appendix": "without_collection_database_truth",
+  "top_k": 20,
+  "results": [
+    {
+      "query": "ACCENAME",
+      "time_ms": 361.27879999912693,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2091",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCENUMB",
+      "time_ms": 350.66079999887734,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25402",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCEURL",
+      "time_ms": 346.3937000014994,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:1052",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCID",
+      "time_ms": 388.4405999997398,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:0842",
+      "top_k_results": [
+        {
+          "id": "Accidental",
+          "label": "accidental",
+          "score": null
+        },
+        {
+          "id": "ECLAS:013.04.00.0050",
+          "label": "Occupational accidents",
+          "score": null
+        },
+        {
+          "id": "GEMET:25",
+          "label": "accident",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:accidentInvolvingBus",
+          "label": "Accident - accidentInvolvingBus",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:accidentInvolvingHazardousMaterials",
+          "label": "Accident - accidentInvolvingHazardousMaterials",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:accidentInvolvingLorry",
+          "label": "Accident - accidentInvolvingLorry",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:accidentOnOppositeLane",
+          "label": "Accident - accidentOnOppositeLane",
+          "score": null
+        },
+        {
+          "id": "LISTDB:I0000000154",
+          "label": "Accident_Statistics",
+          "score": null
+        },
+        {
+          "id": "s4mari:Accident",
+          "label": "Accident",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident",
+          "label": "Accident",
+          "score": null
+        },
+        {
+          "id": "EDCC:abe6ad6b",
+          "label": "Accidents, statistics",
+          "score": null
+        },
+        {
+          "id": "MT:accidents-and-incidents",
+          "label": "Accidents and incidents",
+          "score": null
+        },
+        {
+          "id": "MT:accidents-and-incidents",
+          "label": "Accidents and incidents",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:assistanceRequested",
+          "label": "Accident - assistanceRequested",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:heavyAccident",
+          "label": "Accident - heavyAccident",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:multiVehicleAccident",
+          "label": "Accident - multiVehicleAccident",
+          "score": null
+        },
+        {
+          "id": "s4auto:Accident:unsecuredAccident",
+          "label": "Accident - unsecuredAccident",
+          "score": null
+        },
+        {
+          "id": "GEMET:12784",
+          "label": "technological accident",
+          "score": null
+        },
+        {
+          "id": "ECLAS:002.04.02.0600",
+          "label": "Home accidents",
+          "score": null
+        },
+        {
+          "id": "ECLAS:008.11.03.0050",
+          "label": "Nuclear accidents",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ANCEST",
+      "time_ms": 398.0407999988529,
+      "rank": 4,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.25,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C42609",
+      "top_k_results": [
+        {
+          "id": "ancestralData",
+          "label": "Ancestral Data",
+          "score": null
+        },
+        {
+          "id": "DUO:0000033",
+          "label": "ancestry research",
+          "score": null
+        },
+        {
+          "id": "HANCESTRO:0304",
+          "label": "ancestry status",
+          "score": null
+        },
+        {
+          "id": "NCIT:C42609",
+          "label": "Ancestor",
+          "score": null
+        },
+        {
+          "id": "NCIT:C104680",
+          "label": "Ancestry-Informative Marker",
+          "score": null
+        },
+        {
+          "id": "NCIT:C1646",
+          "label": "Ancestim",
+          "score": null
+        },
+        {
+          "id": "NCIT:C176763",
+          "label": "Ancestry",
+          "score": null
+        },
+        {
+          "id": "operation:3745",
+          "label": "Ancestral reconstruction",
+          "score": null
+        },
+        {
+          "id": "HANCESTRO:0004",
+          "label": "ancestry category",
+          "score": null
+        },
+        {
+          "id": "EDAM:3943",
+          "label": "Paleogenomics",
+          "score": null
+        },
+        {
+          "id": "CSO:lowest:common:ancestors",
+          "label": "lowest common ancestors",
+          "score": null
+        },
+        {
+          "id": "CommonCoreOntologies:is:ancestor:of",
+          "label": "is ancestor of",
+          "score": null
+        },
+        {
+          "id": "RO:0002158",
+          "label": "shares ancestor with",
+          "score": null
+        },
+        {
+          "id": "CSO:european:continental:ancestry:group",
+          "label": "european continental ancestry group",
+          "score": null
+        },
+        {
+          "id": "CSO:african:continental:ancestry:group",
+          "label": "african continental ancestry group",
+          "score": null
+        },
+        {
+          "id": "CSO:asian:continental:ancestry:group",
+          "label": "asian continental ancestry group",
+          "score": null
+        },
+        {
+          "id": "OBI:0002077",
+          "label": "specimens derived from shared ancestor",
+          "score": null
+        },
+        {
+          "id": "RO:0002374",
+          "label": "derived from ancestral fusion of",
+          "score": null
+        },
+        {
+          "id": "DUO:00000044",
+          "label": "population origins or ancestry research prohibited",
+          "score": null
+        },
+        {
+          "id": "DUO:0000011",
+          "label": "population origins or ancestry research only",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ANNUALITY",
+      "time_ms": 358.82850000052713,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "TO:0000369",
+      "top_k_results": []
+    },
+    {
+      "query": "AVAILABILITY",
+      "time_ms": 370.19320000035805,
+      "rank": 19,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.05263157894736842,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25429",
+      "top_k_results": [
+        {
+          "id": "Availability:Heuristic:Bias",
+          "label": "Availability Heuristic Bias",
+          "score": null
+        },
+        {
+          "id": "AVAILABILITY",
+          "label": "Availability",
+          "score": null
+        },
+        {
+          "id": "IAO:0000611",
+          "label": "availability section",
+          "score": null
+        },
+        {
+          "id": "schema:availability",
+          "label": "availability",
+          "score": null
+        },
+        {
+          "id": "schema:availabilityEnds",
+          "label": "availabilityEnds",
+          "score": null
+        },
+        {
+          "id": "schema:availabilityStarts",
+          "label": "availabilityStarts",
+          "score": null
+        },
+        {
+          "id": "sto:Availability",
+          "label": "Availability",
+          "score": null
+        },
+        {
+          "id": "brick:Availability:Status",
+          "label": "Availability Status",
+          "score": null
+        },
+        {
+          "id": "dr:availability:date",
+          "label": "availability date",
+          "score": null
+        },
+        {
+          "id": "IAO:0000612",
+          "label": "availability textual entity",
+          "score": null
+        },
+        {
+          "id": "MT:availability-of-delivery-areas",
+          "label": "Availability of delivery areas",
+          "score": null
+        },
+        {
+          "id": "MT:availability-of-filling-stations",
+          "label": "Availability of filling stations",
+          "score": null
+        },
+        {
+          "id": "MT:availability-of-delivery-areas",
+          "label": "Availability of delivery areas",
+          "score": null
+        },
+        {
+          "id": "MT:availability-of-filling-stations",
+          "label": "Availability of filling stations",
+          "score": null
+        },
+        {
+          "id": "MT:availability-of-charging-points-for-electric-vehicles",
+          "label": "Availability of charging points for electric vehicles",
+          "score": null
+        },
+        {
+          "id": "MT:availability-of-charging-points-for-electric-vehicles",
+          "label": "Availability of charging points for electric vehicles",
+          "score": null
+        },
+        {
+          "id": "IAO:0000611",
+          "label": "availability section",
+          "score": null
+        },
+        {
+          "id": "IAO:0000611",
+          "label": "availability section",
+          "score": null
+        },
+        {
+          "id": "NCIT:C25429",
+          "label": "Availability",
+          "score": null
+        },
+        {
+          "id": "IAO:0000611",
+          "label": "availability section",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "COLLSITE",
+      "time_ms": 339.0304999993532,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "BFO:0000029",
+      "top_k_results": []
+    },
+    {
+      "query": "COORDUNCERT",
+      "time_ms": 351.8227000022307,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinateUncertaintyInMeters",
+      "top_k_results": []
+    },
+    {
+      "query": "COORRANGE",
+      "time_ms": 360.7106000017666,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinatePrecision",
+      "top_k_results": []
+    },
+    {
+      "query": "COUNTRY_NAME",
+      "time_ms": 381.4509000003454,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "OBI:0001627",
+      "top_k_results": []
+    },
+    {
+      "query": "CROPNAME",
+      "time_ms": 385.7348000019556,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "AGRO:00000325",
+      "top_k_results": []
+    },
+    {
+      "query": "DECLATITUDE",
+      "time_ms": 379.84250000226893,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLatitude",
+      "top_k_results": []
+    },
+    {
+      "query": "DECLLONGITUDE",
+      "time_ms": 377.19940000170027,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLongitude",
+      "top_k_results": []
+    },
+    {
+      "query": "ELEVATION",
+      "time_ms": 373.88609999834443,
+      "rank": 17,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.058823529411764705,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25494",
+      "top_k_results": [
+        {
+          "id": "Elevation",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "Elevation",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "ETS:elevation",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "et:21553",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "ENVO:00000176",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "ifc:elevationOfRefHeight:IfcBuilding",
+          "label": "ElevationOfRefHeight",
+          "score": null
+        },
+        {
+          "id": "ifc:elevationOfTerrain:IfcBuilding",
+          "label": "ElevationOfTerrain",
+          "score": null
+        },
+        {
+          "id": "ifc:elevationWithFlooring:IfcSpace",
+          "label": "ElevationWithFlooring",
+          "score": null
+        },
+        {
+          "id": "ifc:elevation:IfcBuildingStorey",
+          "label": "Elevation",
+          "score": null
+        },
+        {
+          "id": "ifc:ELEVATION:VIEW",
+          "label": "ELEVATION_VIEW",
+          "score": null
+        },
+        {
+          "id": "PATO:0001687",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "schema:elevation",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "bau:B10058837726:4",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "bau:B20129834783:4",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "bau:B10058837726:4",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "bau:B20129834783:4",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "NCIT:C25494",
+          "label": "Elevation",
+          "score": null
+        },
+        {
+          "id": "PATO:0001687",
+          "label": "Elevation",
+          "score": null
+        },
+        {
+          "id": "ECSO:00001567",
+          "label": "elevation",
+          "score": null
+        },
+        {
+          "id": "ENVO:00000176",
+          "label": "elevation",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "GENUS",
+      "time_ms": 354.62230000121053,
+      "rank": 7,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.14285714285714285,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45292",
+      "top_k_results": [
+        {
+          "id": "genusOrMonomial",
+          "label": "Genus Or Monomial",
+          "score": null
+        },
+        {
+          "id": "genusgroup",
+          "label": "genusgroup",
+          "score": null
+        },
+        {
+          "id": "genus",
+          "label": "Genus",
+          "score": null
+        },
+        {
+          "id": "genus",
+          "label": "genus",
+          "score": null
+        },
+        {
+          "id": "EDAM:1870",
+          "label": "Genus name",
+          "score": null
+        },
+        {
+          "id": "stw:descriptor/13727-1",
+          "label": "Jouissance share",
+          "score": null
+        },
+        {
+          "id": "NCIT:C45292",
+          "label": "Genus",
+          "score": null
+        },
+        {
+          "id": "ECSO:00002734",
+          "label": "genus name",
+          "score": null
+        },
+        {
+          "id": "PPEO:hasGenus",
+          "label": "has genus",
+          "score": null
+        },
+        {
+          "id": "stw:descriptor/13219-6",
+          "label": "Food trade",
+          "score": null
+        },
+        {
+          "id": "UBERON:0001485",
+          "label": "knee joint",
+          "score": null
+        },
+        {
+          "id": "UBERON:0015350",
+          "label": "saphenous artery",
+          "score": null
+        },
+        {
+          "id": "stw:descriptor/13160-6",
+          "label": "Food industry",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q684764",
+          "label": "B 62382-508: Delicatessen bumpers",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q672712",
+          "label": "B 29152-101: Luxury food taster",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q683822",
+          "label": "B 62122-106: Stall vendor (food, luxury foods)",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q672713",
+          "label": "B 29152-102: Food and luxury food taster",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q672864",
+          "label": "B 29201-158: Food and luxury food assistant",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q672822",
+          "label": "B 29201-115: Helper - Food and luxury foodstuffs",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q522620",
+          "label": "B 292: Occupations in the production of foodstuffs, confectionery and tobacco products",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "LATITUDE",
+      "time_ms": 362.46939999909955,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000319",
+      "top_k_results": [
+        {
+          "id": "latitudeDecimal",
+          "label": "Latitude Decimal",
+          "score": null
+        },
+        {
+          "id": "latitudeText",
+          "label": "Latitude Text",
+          "score": null
+        },
+        {
+          "id": "latitude",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "LatitudeBand",
+          "label": "latitude band",
+          "score": null
+        },
+        {
+          "id": "LatitudeLine",
+          "label": "latitude line",
+          "score": null
+        },
+        {
+          "id": "Latitude",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "GEMET:14936",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "CF:CFSN0600/",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001620",
+          "label": "latitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "brick:latitude",
+          "label": "Latitude",
+          "score": null
+        },
+        {
+          "id": "gist:latitude",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "core:latitude",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "schema:latitude",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "sio:000319",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "gesah:latitude",
+          "label": "gesah_latitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001620",
+          "label": "latitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "NCIT:C68642",
+          "label": "Latitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001620",
+          "label": "latitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "lat",
+          "label": "latitude",
+          "score": null
+        },
+        {
+          "id": "lat",
+          "label": "latitude",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "LONGITUDE",
+      "time_ms": 377.54929999937303,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000318",
+      "top_k_results": [
+        {
+          "id": "longitudeDecimal",
+          "label": "Longitude Decimal",
+          "score": null
+        },
+        {
+          "id": "longitudeText",
+          "label": "Longitude Text",
+          "score": null
+        },
+        {
+          "id": "longitude",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "Longitude",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "GEMET:14937",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001621",
+          "label": "longitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "CF:CFSN0554/",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "brick:longitude",
+          "label": "Longitude",
+          "score": null
+        },
+        {
+          "id": "gist:longitude",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "core:longitude",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "schema:longitude",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "sio:000318",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "UAT:936",
+          "label": "Longitude of the ascending node",
+          "score": null
+        },
+        {
+          "id": "UAT:937",
+          "label": "Longitude of the descending node",
+          "score": null
+        },
+        {
+          "id": "et:21507",
+          "label": "longitude",
+          "score": null
+        },
+        {
+          "id": "gesah:longitude",
+          "label": "gesah_longitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001621",
+          "label": "longitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "NCIT:C68643",
+          "label": "Longitude",
+          "score": null
+        },
+        {
+          "id": "OBI:0001621",
+          "label": "longitude coordinate measurement datum",
+          "score": null
+        },
+        {
+          "id": "long",
+          "label": "longitude",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ORIGCTY",
+      "time_ms": 356.5978000005998,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "PPEO:hasCountryOfOrigin",
+      "top_k_results": []
+    },
+    {
+      "query": "SAMPSTAT",
+      "time_ms": 354.8845999976038,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25688",
+      "top_k_results": []
+    },
+    {
+      "query": "SPECIES",
+      "time_ms": 372.6396999991266,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45293",
+      "top_k_results": [
+        {
+          "id": "speciesEpithet",
+          "label": "Species Epithet",
+          "score": null
+        },
+        {
+          "id": "Species",
+          "label": "Species",
+          "score": null
+        },
+        {
+          "id": "SpeciesInteraction",
+          "label": "species interaction",
+          "score": null
+        },
+        {
+          "id": "SpeciesRecruitment",
+          "label": "species recruitment",
+          "score": null
+        },
+        {
+          "id": "SpeciesExtinction",
+          "label": "species extinction",
+          "score": null
+        },
+        {
+          "id": "Species",
+          "label": "species",
+          "score": null
+        },
+        {
+          "id": "et:10018",
+          "label": "species abundance",
+          "score": null
+        },
+        {
+          "id": "EDAM:1045",
+          "label": "Species name",
+          "score": null
+        },
+        {
+          "id": "et:10024",
+          "label": "species trait",
+          "score": null
+        },
+        {
+          "id": "et:30173",
+          "label": "species coverage",
+          "score": null
+        },
+        {
+          "id": "et:10081",
+          "label": "species presence",
+          "score": null
+        },
+        {
+          "id": "et:21499",
+          "label": "species-area curve",
+          "score": null
+        },
+        {
+          "id": "et:22285",
+          "label": "species composition",
+          "score": null
+        },
+        {
+          "id": "et:22288",
+          "label": "species turnover",
+          "score": null
+        },
+        {
+          "id": "chemrof:ClassificationLevelEnum#Species",
+          "label": "Species",
+          "score": null
+        },
+        {
+          "id": "mdo:structure/Species",
+          "label": "Species",
+          "score": null
+        },
+        {
+          "id": "CIF:EMMO:a83504f1:b203:40f9:9379:23f0c0b61be0",
+          "label": "Species",
+          "score": null
+        },
+        {
+          "id": "EDCC:7e28d30d",
+          "label": "Species",
+          "score": null
+        },
+        {
+          "id": "et:10021",
+          "label": "species group abundance",
+          "score": null
+        },
+        {
+          "id": "CSO:species:inventory",
+          "label": "species inventory",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "STORAGE",
+      "time_ms": 356.95900000064285,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C60824",
+      "top_k_results": [
+        {
+          "id": "Storage:virtualization",
+          "label": "Storage_virtualization",
+          "score": null
+        },
+        {
+          "id": "Storage:virtualization",
+          "label": "Storage_virtualization",
+          "score": null
+        },
+        {
+          "id": "Storage",
+          "label": "Storage",
+          "score": null
+        },
+        {
+          "id": "StorageCoefficient",
+          "label": "storage coefficient",
+          "score": null
+        },
+        {
+          "id": "Storage",
+          "label": "storage",
+          "score": null
+        },
+        {
+          "id": "ifc:STORAGE",
+          "label": "STORAGE",
+          "score": null
+        },
+        {
+          "id": "BTO:0006518",
+          "label": "storage parenchyma",
+          "score": null
+        },
+        {
+          "id": "T4FS:0000053",
+          "label": "storage management",
+          "score": null
+        },
+        {
+          "id": "dpv:StorageCondition",
+          "label": "Storage Condition",
+          "score": null
+        },
+        {
+          "id": "dpv:StorageDuration",
+          "label": "Storage Duration",
+          "score": null
+        },
+        {
+          "id": "KITMTXX:/sto:xxx:xxx-d409156b3b464957b1fd1250738a243b-vp",
+          "label": "Storage Type",
+          "score": null
+        },
+        {
+          "id": "CHMO:0002829",
+          "label": "storage in dimethyl sulfoxide",
+          "score": null
+        },
+        {
+          "id": "dices::Storage",
+          "label": "Storage",
+          "score": null
+        },
+        {
+          "id": "n4e:ServiceTypeEnum#Storage",
+          "label": "Storage",
+          "score": null
+        },
+        {
+          "id": "dogont:StorageRoom",
+          "label": "StorageRoom",
+          "score": null
+        },
+        {
+          "id": "OBI:0302893",
+          "label": "storage",
+          "score": null
+        },
+        {
+          "id": "schema:storageRequirements",
+          "label": "storageRequirements",
+          "score": null
+        },
+        {
+          "id": "s4ener:Storage",
+          "label": "Storage",
+          "score": null
+        },
+        {
+          "id": "CAO:000038",
+          "label": "Storage condition",
+          "score": null
+        },
+        {
+          "id": "CommonCoreOntologies:StorageFacility",
+          "label": "Storage Facility",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "SUBTAXA",
+      "time_ms": 356.43899999922724,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "infraspecificEpithet",
+      "top_k_results": []
+    },
+    {
+      "query": "REMARKS",
+      "time_ms": 378.89799999902607,
+      "rank": 20,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.05,
+      "duplicate_labels": false,
+      "expected_id": "organismRemarks",
+      "top_k_results": [
+        {
+          "id": "LISTDB:AP0000000064",
+          "label": "Remarks",
+          "score": null
+        },
+        {
+          "id": "notes",
+          "label": "Notes",
+          "score": null
+        },
+        {
+          "id": "ETS:measurementRemarks",
+          "label": "measurementRemarks",
+          "score": null
+        },
+        {
+          "id": "ta:hasRemarks",
+          "label": "has remarks",
+          "score": null
+        },
+        {
+          "id": "growthConditionsText",
+          "label": "Growth Conditions Text",
+          "score": null
+        },
+        {
+          "id": "IAO:0000615",
+          "label": "conclusion section",
+          "score": null
+        },
+        {
+          "id": "NCIT:C100687",
+          "label": "NPI - Say Crude Things or Make Sexual Remarks",
+          "score": null
+        },
+        {
+          "id": "NCIT:C142004",
+          "label": "DRRI-2 - K: Made Crude Sexual Remarks at Me",
+          "score": null
+        },
+        {
+          "id": "NCIT:C100670",
+          "label": "NPI - Tell Jokes or Make Remarks That are Not Funny to Others",
+          "score": null
+        },
+        {
+          "id": "NCIT:C25393",
+          "label": "Comment",
+          "score": null
+        },
+        {
+          "id": "IAO:0000615",
+          "label": "conclusion section",
+          "score": null
+        },
+        {
+          "id": "IAO:0000615",
+          "label": "conclusion section",
+          "score": null
+        },
+        {
+          "id": "hasRemarks",
+          "label": "has remarks",
+          "score": null
+        },
+        {
+          "id": "eventRemarks",
+          "label": "Event Remarks",
+          "score": null
+        },
+        {
+          "id": "georeferenceRemarks",
+          "label": "Georeference Remarks",
+          "score": null
+        },
+        {
+          "id": "identificationRemarks",
+          "label": "Identification Remarks",
+          "score": null
+        },
+        {
+          "id": "locationRemarks",
+          "label": "Location Remarks",
+          "score": null
+        },
+        {
+          "id": "measurementRemarks",
+          "label": "Measurement Remarks",
+          "score": null
+        },
+        {
+          "id": "occurrenceRemarks",
+          "label": "Occurrence Remarks",
+          "score": null
+        },
+        {
+          "id": "organismRemarks",
+          "label": "Organism Remarks",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "PEDIGREE",
+      "time_ms": 369.9783000010939,
+      "rank": 3,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0.3333333333333333,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C27957",
+      "top_k_results": [
+        {
+          "id": "STATO:0000122",
+          "label": "pedigree chart",
+          "score": null
+        },
+        {
+          "id": "STATO:0000478",
+          "label": "pedigree data set",
+          "score": null
+        },
+        {
+          "id": "NCIT:C27957",
+          "label": "Pedigree",
+          "score": null
+        },
+        {
+          "id": "NCIT:C209891",
+          "label": "Pedigree File Format",
+          "score": null
+        },
+        {
+          "id": "SWO:0000655",
+          "label": "pedigree data file",
+          "score": null
+        },
+        {
+          "id": "STATO:0000339",
+          "label": "breeding value estimation using pedigree data",
+          "score": null
+        },
+        {
+          "id": "STATO:0000528",
+          "label": "G matrix",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q657493",
+          "label": "B 11223-501: Breeder of pedigree poultry",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q657529",
+          "label": "B 11282-121: Breeder of pedigree dogs",
+          "score": null
+        },
+        {
+          "id": "ohdab:Q657530",
+          "label": "B 11282-122: Breeder of pedigree pigeons",
+          "score": null
+        },
+        {
+          "id": "ancestralData",
+          "label": "Ancestral Data",
+          "score": null
+        },
+        {
+          "id": "STATO:0000337",
+          "label": "breeding value estimation",
+          "score": null
+        },
+        {
+          "id": "ORDO:998",
+          "label": "Albinism-deafness syndrome",
+          "score": null
+        },
+        {
+          "id": "ORDO:998",
+          "label": "Albinism-deafness syndrome",
+          "score": null
+        },
+        {
+          "id": "ORDO:998",
+          "label": "Albinism-deafness syndrome",
+          "score": null
+        },
+        {
+          "id": "ORDO:998",
+          "label": "Albinism-deafness syndrome",
+          "score": null
+        },
+        {
+          "id": "ORDO:998",
+          "label": "Albinism-deafness syndrome",
+          "score": null
+        },
+        {
+          "id": "ORDO:998",
+          "label": "Albinism-deafness syndrome",
+          "score": null
+        },
+        {
+          "id": "Orphanet:3135",
+          "label": "Familial Scheuermann disease",
+          "score": null
+        },
+        {
+          "id": "Orphanet:3135",
+          "label": "Familial Scheuermann disease",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "INSTCODE",
+      "time_ms": 355.6730999989668,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "institutionCode",
+      "top_k_results": []
+    },
+    {
+      "query": "TRIVIALNAME",
+      "time_ms": 352.49210000256426,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2099",
+      "top_k_results": []
+    },
+    {
+      "query": "ACCID_PRE",
+      "time_ms": 353.5450999988825,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C54066",
+      "top_k_results": []
+    },
+    {
+      "query": "BEMERKUNG",
+      "time_ms": 340.4793999980029,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "materialEntityRemarks",
+      "top_k_results": [
+        {
+          "id": "ohdab:Q522826",
+          "label": "A 10010-105: Remark",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "MATERIALTYP",
+      "time_ms": 365.7430999992357,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000177",
+      "top_k_results": []
+    },
+    {
+      "query": "ACC_NR",
+      "time_ms": 376.07049999860465,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25337",
+      "top_k_results": []
+    },
+    {
+      "query": "CODE",
+      "time_ms": 367.1598000000813,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25162",
+      "top_k_results": [
+        {
+          "id": "code",
+          "label": "Code",
+          "score": null
+        },
+        {
+          "id": "codeAssessment",
+          "label": "Code Assessment",
+          "score": null
+        },
+        {
+          "id": "codeStandard",
+          "label": "Code Standard",
+          "score": null
+        },
+        {
+          "id": "codecName",
+          "label": "Codec Name",
+          "score": null
+        },
+        {
+          "id": "codecQuality",
+          "label": "Codec Quality",
+          "score": null
+        },
+        {
+          "id": "code",
+          "label": "code",
+          "score": null
+        },
+        {
+          "id": "code",
+          "label": "code",
+          "score": null
+        },
+        {
+          "id": "Code",
+          "label": "Code",
+          "score": null
+        },
+        {
+          "id": "Code-excited:linear:prediction",
+          "label": "Code-excited_linear_prediction",
+          "score": null
+        },
+        {
+          "id": "Code:division:multiple:access",
+          "label": "Code_division_multiple_access",
+          "score": null
+        },
+        {
+          "id": "Code:refactoring",
+          "label": "Code_refactoring",
+          "score": null
+        },
+        {
+          "id": "Code:reuse",
+          "label": "Code_reuse",
+          "score": null
+        },
+        {
+          "id": "Code:smell",
+          "label": "Code_smell",
+          "score": null
+        },
+        {
+          "id": "Codebook",
+          "label": "Codebook",
+          "score": null
+        },
+        {
+          "id": "Code:division:multiple:access",
+          "label": "Code_division_multiple_access",
+          "score": null
+        },
+        {
+          "id": "Code:refactoring",
+          "label": "Code_refactoring",
+          "score": null
+        },
+        {
+          "id": "Code:reuse",
+          "label": "Code_reuse",
+          "score": null
+        },
+        {
+          "id": "Code:smell",
+          "label": "Code_smell",
+          "score": null
+        },
+        {
+          "id": "Codebook",
+          "label": "Codebook",
+          "score": null
+        },
+        {
+          "id": "code1",
+          "label": "code1",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "ID",
+      "time_ms": 378.07839999732096,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25364",
+      "top_k_results": [
+        {
+          "id": "id",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "identificationHistory",
+          "label": "Identification History",
+          "score": null
+        },
+        {
+          "id": "identificationQualifier",
+          "label": "Identification Qualifier",
+          "score": null
+        },
+        {
+          "id": "identificationQualifierInsertionPoint",
+          "label": "Identification Qualifier Insertion Point",
+          "score": null
+        },
+        {
+          "id": "identifiedMaterial",
+          "label": "Identified Material",
+          "score": null
+        },
+        {
+          "id": "Identification",
+          "label": "Identification",
+          "score": null
+        },
+        {
+          "id": "IdentifiedTaxon",
+          "label": "Identified Taxon",
+          "score": null
+        },
+        {
+          "id": "ID",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "iD",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "id",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "ID",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "ID",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "ID",
+          "label": "ID",
+          "score": null
+        },
+        {
+          "id": "Identification",
+          "label": "Identification",
+          "score": null
+        },
+        {
+          "id": "Identification",
+          "label": "Identification",
+          "score": null
+        },
+        {
+          "id": "id",
+          "label": "id",
+          "score": null
+        },
+        {
+          "id": "id",
+          "label": "id",
+          "score": null
+        },
+        {
+          "id": "id",
+          "label": "id",
+          "score": null
+        },
+        {
+          "id": "identifier",
+          "label": "identifier",
+          "score": null
+        },
+        {
+          "id": "identificationID",
+          "label": "Identification ID",
+          "score": null
+        }
+      ]
+    },
+    {
+      "query": "FREMD_ID",
+      "time_ms": 357.94779999923776,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": null,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000878",
+      "top_k_results": []
+    }
+  ]
+}

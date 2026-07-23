@@ -1,0 +1,3952 @@
+{
+  "method": "embedding",
+  "method_key": "pritamdeka_BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
+  "appendix": "ground_truth_b",
+  "top_k": 20,
+  "results": [
+    {
+      "query": "ACCENAME",
+      "time_ms": 158.40710001066327,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.684873104095459,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2091",
+      "top_k_results": [
+        {
+          "id": "SWO:1100003",
+          "label": "'ACME'",
+          "score": 0.684873104095459
+        },
+        {
+          "id": "MS:1003684",
+          "label": "Accela",
+          "score": 0.678379476070404
+        },
+        {
+          "id": "CHEBI:216870",
+          "label": "Acaulone A",
+          "score": 0.6485036611557007
+        },
+        {
+          "id": "NCIT:C240",
+          "label": "Amsacrine",
+          "score": 0.6344552636146545
+        },
+        {
+          "id": "CHEBI:2687",
+          "label": "amsacrine",
+          "score": 0.6344552040100098
+        },
+        {
+          "id": "CHEBI:34017",
+          "label": "(S)-ACPA",
+          "score": 0.6332520246505737
+        },
+        {
+          "id": "CHEBI:216875",
+          "label": "Acaulone B",
+          "score": 0.6271051168441772
+        },
+        {
+          "id": "CHEBI:206216",
+          "label": "Accramycin A",
+          "score": 0.623187780380249
+        },
+        {
+          "id": "CHEBI:217181",
+          "label": "Aranazole C",
+          "score": 0.6193660497665405
+        },
+        {
+          "id": "MS:1002319",
+          "label": "Amanda:AmandaScore",
+          "score": 0.6090782880783081
+        },
+        {
+          "id": "NCIT:C43880",
+          "label": "Apache",
+          "score": 0.5969282388687134
+        },
+        {
+          "id": "NCIT:C103885",
+          "label": "ACACA Gene",
+          "score": 0.5935267806053162
+        },
+        {
+          "id": "CHEBI:217170",
+          "label": "Aranazole A",
+          "score": 0.5930140018463135
+        },
+        {
+          "id": "CHEBI:212819",
+          "label": "Aestuaramide A",
+          "score": 0.5916446447372437
+        },
+        {
+          "id": "NCIT:C15967",
+          "label": "ADME Study",
+          "score": 0.5875349640846252
+        },
+        {
+          "id": "CHEBI:2355",
+          "label": "AMCC",
+          "score": 0.585008978843689
+        },
+        {
+          "id": "CHEBI:212680",
+          "label": "Amantelide A",
+          "score": 0.5837557315826416
+        },
+        {
+          "id": "NCIT:C94219",
+          "label": "Acimtamig",
+          "score": 0.5836411714553833
+        },
+        {
+          "id": "CHEBI:2433",
+          "label": "acrifoline",
+          "score": 0.5830619931221008
+        },
+        {
+          "id": "ENVO:00000538",
+          "label": "arrugado",
+          "score": 0.5804271697998047
+        }
+      ]
+    },
+    {
+      "query": "ACCENUMB",
+      "time_ms": 160.7930999598466,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.5021636486053467,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25402",
+      "top_k_results": [
+        {
+          "id": "NCBITaxon:13524",
+          "label": "Exacum",
+          "score": 0.5021636486053467
+        },
+        {
+          "id": "FLOPO:0020354",
+          "label": "awn obtuse",
+          "score": 0.5007348656654358
+        },
+        {
+          "id": "PATO:0002228",
+          "label": "acuminate",
+          "score": 0.48690110445022583
+        },
+        {
+          "id": "NCBITaxon:13525",
+          "label": "Exacum affine",
+          "score": 0.4843253195285797
+        },
+        {
+          "id": "FLOPO:0014653",
+          "label": "corm up",
+          "score": 0.46962815523147583
+        },
+        {
+          "id": "FLOPO:0018481",
+          "label": "connective abaxial to",
+          "score": 0.4602699279785156
+        },
+        {
+          "id": "FLOPO:0008262",
+          "label": "awn emarginate",
+          "score": 0.46012336015701294
+        },
+        {
+          "id": "CHEBI:2355",
+          "label": "AMCC",
+          "score": 0.45739859342575073
+        },
+        {
+          "id": "MS:1003684",
+          "label": "Accela",
+          "score": 0.4561220407485962
+        },
+        {
+          "id": "MONDO:0859262",
+          "label": "ACCES syndrome",
+          "score": 0.450473427772522
+        },
+        {
+          "id": "FLOPO:0008228",
+          "label": "awn acuminate",
+          "score": 0.4465601444244385
+        },
+        {
+          "id": "FLOPO:0021515",
+          "label": "axil wholeness",
+          "score": 0.4447782039642334
+        },
+        {
+          "id": "FLOPO:0014898",
+          "label": "connective acuminate",
+          "score": 0.44082528352737427
+        },
+        {
+          "id": "data:2631",
+          "label": "ACLAME ID",
+          "score": 0.4405403137207031
+        },
+        {
+          "id": "FLOPO:0006889",
+          "label": "connective acute",
+          "score": 0.44031164050102234
+        },
+        {
+          "id": "data:1723",
+          "label": "EMAP",
+          "score": 0.44023531675338745
+        },
+        {
+          "id": "FLOPO:0009179",
+          "label": "awn acute",
+          "score": 0.4377933740615845
+        },
+        {
+          "id": "CHEBI:169782",
+          "label": "Pisumoside A",
+          "score": 0.43687403202056885
+        },
+        {
+          "id": "PATO:0001965",
+          "label": "reclinate",
+          "score": 0.43639492988586426
+        },
+        {
+          "id": "BAO:0000009",
+          "label": "ADME",
+          "score": 0.434985876083374
+        }
+      ]
+    },
+    {
+      "query": "ACCEURL",
+      "time_ms": 155.04659997532144,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.652448296546936,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:1052",
+      "top_k_results": [
+        {
+          "id": "NMR:1000229",
+          "label": "acqus",
+          "score": 0.652448296546936
+        },
+        {
+          "id": "CHEBI:225749",
+          "label": "ardeemin",
+          "score": 0.6389147639274597
+        },
+        {
+          "id": "CHEBI:2821",
+          "label": "Aricine",
+          "score": 0.6268670558929443
+        },
+        {
+          "id": "MS:1003684",
+          "label": "Accela",
+          "score": 0.6193444132804871
+        },
+        {
+          "id": "NCIT:C117213",
+          "label": "ACHN",
+          "score": 0.6148691177368164
+        },
+        {
+          "id": "EFO:0002108",
+          "label": "ACHN",
+          "score": 0.6148691177368164
+        },
+        {
+          "id": "MONDO:0859262",
+          "label": "ACCES syndrome",
+          "score": 0.6107019186019897
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=88",
+          "label": "ACADL (human)",
+          "score": 0.6057449579238892
+        },
+        {
+          "id": "NCIT:C189962",
+          "label": "Acoltremon",
+          "score": 0.6030416488647461
+        },
+        {
+          "id": "CHEBI:216870",
+          "label": "Acaulone A",
+          "score": 0.5919027328491211
+        },
+        {
+          "id": "OBI:0000321",
+          "label": "ACS",
+          "score": 0.5911909937858582
+        },
+        {
+          "id": "NCIT:C73069",
+          "label": "Aclantate",
+          "score": 0.591045081615448
+        },
+        {
+          "id": "format:3830",
+          "label": "ARB",
+          "score": 0.5909115076065063
+        },
+        {
+          "id": "CHEBI:216875",
+          "label": "Acaulone B",
+          "score": 0.5879663825035095
+        },
+        {
+          "id": "CHEBI:186632",
+          "label": "AAPH",
+          "score": 0.5877432823181152
+        },
+        {
+          "id": "CHEBI:216169",
+          "label": "Asperterreusine C",
+          "score": 0.5859997272491455
+        },
+        {
+          "id": "CHEBI:199536",
+          "label": "Aspergione F",
+          "score": 0.5827702283859253
+        },
+        {
+          "id": "CHEBI:2515",
+          "label": "agnuside",
+          "score": 0.5811560153961182
+        },
+        {
+          "id": "CHEBI:208379",
+          "label": "Auxarthrol G",
+          "score": 0.5797423124313354
+        },
+        {
+          "id": "CHEBI:2425",
+          "label": "achillin",
+          "score": 0.5767618417739868
+        }
+      ]
+    },
+    {
+      "query": "ACCID",
+      "time_ms": 152.6764999725856,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.5923689603805542,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:0842",
+      "top_k_results": [
+        {
+          "id": "UBERON:4300212",
+          "label": "acrodin",
+          "score": 0.5923689603805542
+        },
+        {
+          "id": "NMR:1000229",
+          "label": "acqus",
+          "score": 0.5894166231155396
+        },
+        {
+          "id": "CHEBI:225749",
+          "label": "ardeemin",
+          "score": 0.582946240901947
+        },
+        {
+          "id": "CHEBI:174152",
+          "label": "Acoramone",
+          "score": 0.5706758499145508
+        },
+        {
+          "id": "CHEBI:70235",
+          "label": "Argutin D",
+          "score": 0.5523360967636108
+        },
+        {
+          "id": "NCIT:C169786",
+          "label": "Ardacin",
+          "score": 0.5506821870803833
+        },
+        {
+          "id": "MONDO:0859262",
+          "label": "ACCES syndrome",
+          "score": 0.5482363700866699
+        },
+        {
+          "id": "CHEBI:29509",
+          "label": "abietal",
+          "score": 0.5477920174598694
+        },
+        {
+          "id": "NCIT:C71537",
+          "label": "Acadesine",
+          "score": 0.547218918800354
+        },
+        {
+          "id": "CHEBI:28498",
+          "label": "acadesine",
+          "score": 0.547218918800354
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=30205",
+          "label": "AAMDC (human)",
+          "score": 0.5449196696281433
+        },
+        {
+          "id": "CHEBI:2821",
+          "label": "Aricine",
+          "score": 0.5444908142089844
+        },
+        {
+          "id": "SWO:1100003",
+          "label": "'ACME'",
+          "score": 0.5444663763046265
+        },
+        {
+          "id": "CHEBI:224041",
+          "label": "Amphiepicoccin D",
+          "score": 0.5443785786628723
+        },
+        {
+          "id": "format:3582",
+          "label": "afg",
+          "score": 0.5432801246643066
+        },
+        {
+          "id": "data:2631",
+          "label": "ACLAME ID",
+          "score": 0.5431123971939087
+        },
+        {
+          "id": "NCIT:C119707",
+          "label": "ACD Gene",
+          "score": 0.5408799052238464
+        },
+        {
+          "id": "CHEBI:141600",
+          "label": "acaulide",
+          "score": 0.5392003059387207
+        },
+        {
+          "id": "OBI:0000321",
+          "label": "ACS",
+          "score": 0.5385218858718872
+        },
+        {
+          "id": "CHEBI:212906",
+          "label": "Arundinone A",
+          "score": 0.53850257396698
+        }
+      ]
+    },
+    {
+      "query": "ANCEST",
+      "time_ms": 150.87930002482608,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7928818464279175,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C42609",
+      "top_k_results": [
+        {
+          "id": "NCIT:C1646",
+          "label": "Ancestim",
+          "score": 0.7928818464279175
+        },
+        {
+          "id": "PATO:0095009",
+          "label": "anecic",
+          "score": 0.5831177830696106
+        },
+        {
+          "id": "FLOPO:0003307",
+          "label": "anther acute",
+          "score": 0.5711113214492798
+        },
+        {
+          "id": "FLOPO:0017980",
+          "label": "anther abaxial to",
+          "score": 0.5550317764282227
+        },
+        {
+          "id": "CHEBI:214460",
+          "label": "Anaephene A",
+          "score": 0.5548767447471619
+        },
+        {
+          "id": "FLOPO:0011784",
+          "label": "anther occurrence",
+          "score": 0.5537068843841553
+        },
+        {
+          "id": "NCIT:C133885",
+          "label": "Anetoderma",
+          "score": 0.5489745140075684
+        },
+        {
+          "id": "NCIT:C14144",
+          "label": "Anaplastic",
+          "score": 0.5443410873413086
+        },
+        {
+          "id": "PATO:0002092",
+          "label": "anaplastic",
+          "score": 0.5443410873413086
+        },
+        {
+          "id": "HP:0000458",
+          "label": "Anosmia",
+          "score": 0.5434769988059998
+        },
+        {
+          "id": "NCIT:C116369",
+          "label": "Anosmia",
+          "score": 0.543476939201355
+        },
+        {
+          "id": "FLOPO:0003593",
+          "label": "anther obtuse",
+          "score": 0.5425597429275513
+        },
+        {
+          "id": "CHEBI:33835",
+          "label": "anthrone",
+          "score": 0.5423316955566406
+        },
+        {
+          "id": "CHEBI:2701",
+          "label": "Anantine",
+          "score": 0.5422390699386597
+        },
+        {
+          "id": "UBERON:0003180",
+          "label": "obsolete anepisternum",
+          "score": 0.5417250394821167
+        },
+        {
+          "id": "CHEBI:212293",
+          "label": "Ananatoside A",
+          "score": 0.5408455729484558
+        },
+        {
+          "id": "FLOPO:0018908",
+          "label": "anther warty",
+          "score": 0.5405652523040771
+        },
+        {
+          "id": "CHEBI:214454",
+          "label": "Anaephene B",
+          "score": 0.5372037887573242
+        },
+        {
+          "id": "PATO:0000817",
+          "label": "obsolete anosmia",
+          "score": 0.5368750095367432
+        },
+        {
+          "id": "NCIT:C17706",
+          "label": "Anergy",
+          "score": 0.5317374467849731
+        }
+      ]
+    },
+    {
+      "query": "ANNUALITY",
+      "time_ms": 147.7677000220865,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.8381131291389465,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "TO:0000369",
+      "top_k_results": [
+        {
+          "id": "NCIT:C54647",
+          "label": "Annual",
+          "score": 0.8381131291389465
+        },
+        {
+          "id": "NCIT:C96089",
+          "label": "Annual Report",
+          "score": 0.7141673564910889
+        },
+        {
+          "id": "NCIT:C159612",
+          "label": "Year Date",
+          "score": 0.6806710362434387
+        },
+        {
+          "id": "NCIT:C53355",
+          "label": "Annual Percent Change",
+          "score": 0.6668577194213867
+        },
+        {
+          "id": "UO:0000036",
+          "label": "year",
+          "score": 0.6552057862281799
+        },
+        {
+          "id": "year",
+          "label": "Year",
+          "score": 0.6552057862281799
+        },
+        {
+          "id": "NCIT:C29848",
+          "label": "Year",
+          "score": 0.6552057862281799
+        },
+        {
+          "id": "NCIT:C53356",
+          "label": "Average Annual Percent Change",
+          "score": 0.6397088170051575
+        },
+        {
+          "id": "NCIT:C74924",
+          "label": "Per Year",
+          "score": 0.5814870595932007
+        },
+        {
+          "id": "NCIT:C79161",
+          "label": "Module 1: Annual Report",
+          "score": 0.571772038936615
+        },
+        {
+          "id": "NCIT:C93494",
+          "label": "Accrual Status Date",
+          "score": 0.5675078630447388
+        },
+        {
+          "id": "OBI:0000679",
+          "label": "average value",
+          "score": 0.5528250336647034
+        },
+        {
+          "id": "NCIT:C179777",
+          "label": "Organism by Year Collected",
+          "score": 0.5518956184387207
+        },
+        {
+          "id": "AGRO:00000630",
+          "label": "temperature of air average yearly",
+          "score": 0.5474039316177368
+        },
+        {
+          "id": "NCIT:C172739",
+          "label": "Average Amount",
+          "score": 0.5424917936325073
+        },
+        {
+          "id": "NCIT:C53352",
+          "label": "Age-Adjusted Incidence Rate",
+          "score": 0.5315725803375244
+        },
+        {
+          "id": "UO:1000036",
+          "label": "year based unit",
+          "score": 0.5197277069091797
+        },
+        {
+          "id": "NCIT:C205531",
+          "label": "Within the Last Year",
+          "score": 0.5193544030189514
+        },
+        {
+          "id": "NCIT:C63345",
+          "label": "Alphanumeric",
+          "score": 0.5130617618560791
+        },
+        {
+          "id": "ENVO:03000095",
+          "label": "season generating process",
+          "score": 0.5085114240646362
+        }
+      ]
+    },
+    {
+      "query": "AVAILABILITY",
+      "time_ms": 109.78729999624193,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.9999999403953552,
+      "best_score": 0.9999999403953552,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25429",
+      "top_k_results": [
+        {
+          "id": "NCIT:C25429",
+          "label": "Availability",
+          "score": 0.9999999403953552
+        },
+        {
+          "id": "NCIT:C25396",
+          "label": "Access",
+          "score": 0.6503399610519409
+        },
+        {
+          "id": "NCIT:C70589",
+          "label": "Abundance",
+          "score": 0.6250638365745544
+        },
+        {
+          "id": "NCIT:C25457",
+          "label": "Condition",
+          "score": 0.5790563225746155
+        },
+        {
+          "id": "data:0005",
+          "label": "Resource type",
+          "score": 0.5667914152145386
+        },
+        {
+          "id": "NCIT:C45781",
+          "label": "Density",
+          "score": 0.5629644393920898
+        },
+        {
+          "id": "STATO:0000675",
+          "label": "density",
+          "score": 0.5629644393920898
+        },
+        {
+          "id": "NCIT:C25256",
+          "label": "Quantity",
+          "score": 0.5508754253387451
+        },
+        {
+          "id": "NCIT:C123937",
+          "label": "Distribution",
+          "score": 0.5505011677742004
+        },
+        {
+          "id": "NCIT:C45273",
+          "label": "Distribution",
+          "score": 0.5505011677742004
+        },
+        {
+          "id": "NCIT:C25332",
+          "label": "Extent",
+          "score": 0.5461618900299072
+        },
+        {
+          "id": "NCIT:C142988",
+          "label": "Limited",
+          "score": 0.5420171618461609
+        },
+        {
+          "id": "AGRO:00010010",
+          "label": "nutrient amount",
+          "score": 0.540569007396698
+        },
+        {
+          "id": "NCIT:C60759",
+          "label": "Supplies",
+          "score": 0.5364539623260498
+        },
+        {
+          "id": "RO:0002178",
+          "label": "supplies",
+          "score": 0.536453902721405
+        },
+        {
+          "id": "NCIT:C25374",
+          "label": "Options",
+          "score": 0.5352489948272705
+        },
+        {
+          "id": "NCIT:C70913",
+          "label": "Bioavailability",
+          "score": 0.5329176783561707
+        },
+        {
+          "id": "data:2140",
+          "label": "Concentration",
+          "score": 0.531983494758606
+        },
+        {
+          "id": "STATO:0000704",
+          "label": "concentration",
+          "score": 0.531983494758606
+        },
+        {
+          "id": "NCIT:C41185",
+          "label": "Concentration",
+          "score": 0.531983494758606
+        }
+      ]
+    },
+    {
+      "query": "COLLSITE",
+      "time_ms": 110.19779997877777,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6712652444839478,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "BFO:0000029",
+      "top_k_results": [
+        {
+          "id": "NCIT:C174890",
+          "label": "Cotadutide",
+          "score": 0.6712652444839478
+        },
+        {
+          "id": "CHEBI:199317",
+          "label": "Colletol",
+          "score": 0.6657654047012329
+        },
+        {
+          "id": "CHEBI:217204",
+          "label": "Cotteslosin A",
+          "score": 0.6568238139152527
+        },
+        {
+          "id": "CHEBI:51113",
+          "label": "covellite",
+          "score": 0.648959755897522
+        },
+        {
+          "id": "NCIT:C43958",
+          "label": "Coushatta",
+          "score": 0.6465357542037964
+        },
+        {
+          "id": "CHEBI:172577",
+          "label": "Coriandrone D",
+          "score": 0.6368331909179688
+        },
+        {
+          "id": "CHEBI:176141",
+          "label": "Corossoline",
+          "score": 0.633840799331665
+        },
+        {
+          "id": "NCBITaxon:13442",
+          "label": "Coffea",
+          "score": 0.6259032487869263
+        },
+        {
+          "id": "CHEBI:60963",
+          "label": "colanic acid",
+          "score": 0.6228219270706177
+        },
+        {
+          "id": "NCIT:C44825",
+          "label": "Cochiti",
+          "score": 0.6225510835647583
+        },
+        {
+          "id": "CHEBI:60957",
+          "label": "colneleate",
+          "score": 0.6213804483413696
+        },
+        {
+          "id": "NCBITaxon:102106",
+          "label": "Collinsella",
+          "score": 0.6180014610290527
+        },
+        {
+          "id": "NCIT:C86300",
+          "label": "Collinsella",
+          "score": 0.6180014610290527
+        },
+        {
+          "id": "NCIT:C77407",
+          "label": "Cicortonide",
+          "score": 0.6170661449432373
+        },
+        {
+          "id": "CHEBI:207619",
+          "label": "Cotteslosin C",
+          "score": 0.6164792776107788
+        },
+        {
+          "id": "CHEBI:174777",
+          "label": "Coriandrone A",
+          "score": 0.6160937547683716
+        },
+        {
+          "id": "CHEBI:189928",
+          "label": "Collybial",
+          "score": 0.615649938583374
+        },
+        {
+          "id": "CHEBI:174270",
+          "label": "Coriandrone C",
+          "score": 0.613411009311676
+        },
+        {
+          "id": "CHEBI:172489",
+          "label": "Coriandrone E",
+          "score": 0.6123123168945312
+        },
+        {
+          "id": "NCIT:C43956",
+          "label": "Coquilles",
+          "score": 0.6096773147583008
+        }
+      ]
+    },
+    {
+      "query": "COORDUNCERT",
+      "time_ms": 109.8858000477776,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6595713496208191,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinateUncertaintyInMeters",
+      "top_k_results": [
+        {
+          "id": "CHEBI:60957",
+          "label": "colneleate",
+          "score": 0.6595713496208191
+        },
+        {
+          "id": "BTO:0006017",
+          "label": "cormel",
+          "score": 0.6203680634498596
+        },
+        {
+          "id": "NCIT:C174890",
+          "label": "Cotadutide",
+          "score": 0.6187381744384766
+        },
+        {
+          "id": "CHEBI:60960",
+          "label": "colnelenate",
+          "score": 0.615444004535675
+        },
+        {
+          "id": "CHEBI:81125",
+          "label": "Coryneine",
+          "score": 0.6115059852600098
+        },
+        {
+          "id": "CHEBI:223154",
+          "label": "Colletorin D",
+          "score": 0.6058162450790405
+        },
+        {
+          "id": "SWO:1100057",
+          "label": "'CORREP'",
+          "score": 0.6037901639938354
+        },
+        {
+          "id": "CHEBI:35653",
+          "label": "corynan",
+          "score": 0.6029378175735474
+        },
+        {
+          "id": "FLOPO:0002501",
+          "label": "corm position",
+          "score": 0.5968313217163086
+        },
+        {
+          "id": "CHEBI:34655",
+          "label": "cortancyl",
+          "score": 0.593059778213501
+        },
+        {
+          "id": "CHEBI:199317",
+          "label": "Colletol",
+          "score": 0.589962363243103
+        },
+        {
+          "id": "CHEBI:138946",
+          "label": "cochalate",
+          "score": 0.5874795913696289
+        },
+        {
+          "id": "CHEBI:229928",
+          "label": "corylin",
+          "score": 0.5837199687957764
+        },
+        {
+          "id": "NCIT:C79628",
+          "label": "Corm",
+          "score": 0.5812780857086182
+        },
+        {
+          "id": "BTO:0000285",
+          "label": "corm",
+          "score": 0.5812780857086182
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=2180",
+          "label": "COCH (human)",
+          "score": 0.5793130397796631
+        },
+        {
+          "id": "NCBITaxon:13450",
+          "label": "Corylus",
+          "score": 0.578198254108429
+        },
+        {
+          "id": "CHEBI:217070",
+          "label": "Collimonin D",
+          "score": 0.5776180624961853
+        },
+        {
+          "id": "CHEBI:211154",
+          "label": "Connatusin A",
+          "score": 0.5773130655288696
+        },
+        {
+          "id": "FLOPO:0014654",
+          "label": "corm direction",
+          "score": 0.5753995180130005
+        }
+      ]
+    },
+    {
+      "query": "COORRANGE",
+      "time_ms": 110.0200000219047,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7167747616767883,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinatePrecision",
+      "top_k_results": [
+        {
+          "id": "CHEBI:138946",
+          "label": "cochalate",
+          "score": 0.7167747616767883
+        },
+        {
+          "id": "NCIT:C43949",
+          "label": "Coharie",
+          "score": 0.7037020921707153
+        },
+        {
+          "id": "CHEBI:203994",
+          "label": "Cohaerin E",
+          "score": 0.6864584684371948
+        },
+        {
+          "id": "CHEBI:3806",
+          "label": "Coelogin",
+          "score": 0.6729503273963928
+        },
+        {
+          "id": "NCIT:C43956",
+          "label": "Coquilles",
+          "score": 0.6690506935119629
+        },
+        {
+          "id": "NCBITaxon:13450",
+          "label": "Corylus",
+          "score": 0.6579580307006836
+        },
+        {
+          "id": "CHEBI:3884",
+          "label": "corilagin",
+          "score": 0.657935380935669
+        },
+        {
+          "id": "CHEBI:206431",
+          "label": "Cohaerin F",
+          "score": 0.6568812131881714
+        },
+        {
+          "id": "CHEBI:196272",
+          "label": "Corylinal",
+          "score": 0.6560693979263306
+        },
+        {
+          "id": "CHEBI:29863",
+          "label": "coronene",
+          "score": 0.6551786065101624
+        },
+        {
+          "id": "CHEBI:34655",
+          "label": "cortancyl",
+          "score": 0.6541213989257812
+        },
+        {
+          "id": "CHEBI:226279",
+          "label": "Cohaerin A",
+          "score": 0.6522889733314514
+        },
+        {
+          "id": "CHEBI:199317",
+          "label": "Colletol",
+          "score": 0.6518270373344421
+        },
+        {
+          "id": "data:2729",
+          "label": "COGEME EST ID",
+          "score": 0.6411453485488892
+        },
+        {
+          "id": "NCIT:C1877",
+          "label": "Cositecan",
+          "score": 0.640663743019104
+        },
+        {
+          "id": "CHEBI:177492",
+          "label": "cositecan",
+          "score": 0.640663743019104
+        },
+        {
+          "id": "CHEBI:35653",
+          "label": "corynan",
+          "score": 0.6397964358329773
+        },
+        {
+          "id": "CHEBI:132864",
+          "label": "corianin",
+          "score": 0.6384233832359314
+        },
+        {
+          "id": "NCIT:C122269",
+          "label": "Corynebacterium coyleae",
+          "score": 0.6365430355072021
+        },
+        {
+          "id": "FLOPO:0023112",
+          "label": "corolla beige",
+          "score": 0.6364800930023193
+        }
+      ]
+    },
+    {
+      "query": "COUNTRY_NAME",
+      "time_ms": 108.98389999056235,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.8715178370475769,
+      "best_score": 0.8715178370475769,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "OBI:0001627",
+      "top_k_results": [
+        {
+          "id": "OBI:0001627",
+          "label": "country name",
+          "score": 0.8715178370475769
+        },
+        {
+          "id": "hasCountry",
+          "label": "has country",
+          "score": 0.6728005409240723
+        },
+        {
+          "id": "country",
+          "label": "Country",
+          "score": 0.66454017162323
+        },
+        {
+          "id": "country",
+          "label": "country",
+          "score": 0.66454017162323
+        },
+        {
+          "id": "NCIT:C25464",
+          "label": "Country",
+          "score": 0.6645401120185852
+        },
+        {
+          "id": "hasCountryOfOrigin",
+          "label": "has country of origin",
+          "score": 0.6327754259109497
+        },
+        {
+          "id": "NCIT:C176365",
+          "label": "Country of Permanent Address",
+          "score": 0.6318251490592957
+        },
+        {
+          "id": "hasCountryCode",
+          "label": "has country code",
+          "score": 0.6260822415351868
+        },
+        {
+          "id": "NCIT:C20108",
+          "label": "Country Code",
+          "score": 0.62348473072052
+        },
+        {
+          "id": "countryCode",
+          "label": "Country Code",
+          "score": 0.62348473072052
+        },
+        {
+          "id": "NCIT:C95378",
+          "label": "Place Name",
+          "score": 0.6093102693557739
+        },
+        {
+          "id": "nameAccordingTo",
+          "label": "Name According To",
+          "score": 0.5973275899887085
+        },
+        {
+          "id": "from:country",
+          "label": "from country",
+          "score": 0.5953459739685059
+        },
+        {
+          "id": "NCIT:C156472",
+          "label": "Name and Version",
+          "score": 0.5816556215286255
+        },
+        {
+          "id": "NCIT:C54076",
+          "label": "Domain Name",
+          "score": 0.5789917707443237
+        },
+        {
+          "id": "NCIT:C93616",
+          "label": "Participating Country Code",
+          "score": 0.5785802602767944
+        },
+        {
+          "id": "namePublishedInYear",
+          "label": "Name Published In Year",
+          "score": 0.5777386426925659
+        },
+        {
+          "id": "vernacularName",
+          "label": "Vernacular Name",
+          "score": 0.5753229856491089
+        },
+        {
+          "id": "data:1044",
+          "label": "Kingdom name",
+          "score": 0.5740300416946411
+        },
+        {
+          "id": "NCIT:C28407",
+          "label": "National Origin",
+          "score": 0.5711255669593811
+        }
+      ]
+    },
+    {
+      "query": "CROPNAME",
+      "time_ms": 108.26809995342046,
+      "rank": 4,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.7248467206954956,
+      "best_score": 0.7485156655311584,
+      "reciprocal_rank": 0.25,
+      "duplicate_labels": false,
+      "expected_id": "AGRO:00000325",
+      "top_k_results": [
+        {
+          "id": "AGRO:00002001",
+          "label": "crop role",
+          "score": 0.7485156655311584
+        },
+        {
+          "id": "BTO:0000301",
+          "label": "crop",
+          "score": 0.7248467206954956
+        },
+        {
+          "id": "NCIT:C111162",
+          "label": "Crop",
+          "score": 0.7248467206954956
+        },
+        {
+          "id": "AGRO:00000325",
+          "label": "crop",
+          "score": 0.7248467206954956
+        },
+        {
+          "id": "GO:0170071",
+          "label": "CROP complex",
+          "score": 0.6756392121315002
+        },
+        {
+          "id": "AGRO:00000326",
+          "label": "number of crops",
+          "score": 0.6525619626045227
+        },
+        {
+          "id": "AGRO:00010144",
+          "label": "crop cultivation date",
+          "score": 0.6468589305877686
+        },
+        {
+          "id": "AGRO:00002049",
+          "label": "harvested crop",
+          "score": 0.6458956003189087
+        },
+        {
+          "id": "cultivarEpithet",
+          "label": "Cultivar Epithet",
+          "score": 0.6367177367210388
+        },
+        {
+          "id": "AGRO:00000592",
+          "label": "previous crop",
+          "score": 0.6362354159355164
+        },
+        {
+          "id": "AGRO:00010098",
+          "label": "seeding date",
+          "score": 0.6344743967056274
+        },
+        {
+          "id": "AGRO:00000154",
+          "label": "crop residue",
+          "score": 0.6342414021492004
+        },
+        {
+          "id": "ENVO:01000892",
+          "label": "area of cropland",
+          "score": 0.6298519372940063
+        },
+        {
+          "id": "AGRO:00002002",
+          "label": "first crop role",
+          "score": 0.6253249049186707
+        },
+        {
+          "id": "ENVO:01000311",
+          "label": "cultivated environment",
+          "score": 0.6090295314788818
+        },
+        {
+          "id": "UBERON:0012422",
+          "label": "secretion of crop",
+          "score": 0.6070457696914673
+        },
+        {
+          "id": "AGRO:01000020",
+          "label": "crop cultivation process",
+          "score": 0.602601170539856
+        },
+        {
+          "id": "AGRO:00010131",
+          "label": "plant transplanting date",
+          "score": 0.5887450575828552
+        },
+        {
+          "id": "ENVO:01001244",
+          "label": "cropland ecosystem",
+          "score": 0.5883849859237671
+        },
+        {
+          "id": "AGRO:00000142",
+          "label": "seeding process",
+          "score": 0.587733268737793
+        }
+      ]
+    },
+    {
+      "query": "DECLATITUDE",
+      "time_ms": 109.59340003319085,
+      "rank": 9,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.6022108197212219,
+      "best_score": 0.6592081785202026,
+      "reciprocal_rank": 0.1111111111111111,
+      "duplicate_labels": false,
+      "expected_id": "decimalLatitude",
+      "top_k_results": [
+        {
+          "id": "NCBITaxon:6683",
+          "label": "Decapoda",
+          "score": 0.6592081785202026
+        },
+        {
+          "id": "CHEBI:27689",
+          "label": "decanoate",
+          "score": 0.6419116854667664
+        },
+        {
+          "id": "CHEBI:4345",
+          "label": "Decaline",
+          "score": 0.6402682065963745
+        },
+        {
+          "id": "CHEBI:195598",
+          "label": "decanol",
+          "score": 0.6183932423591614
+        },
+        {
+          "id": "AGRO:00010062",
+          "label": "detrashing date",
+          "score": 0.6116746664047241
+        },
+        {
+          "id": "CHEBI:213145",
+          "label": "Decytospolide A",
+          "score": 0.6113916635513306
+        },
+        {
+          "id": "NCIT:C113687",
+          "label": "Decimal Point",
+          "score": 0.6077775955200195
+        },
+        {
+          "id": "NCIT:C191360",
+          "label": "Decapascal",
+          "score": 0.6035274267196655
+        },
+        {
+          "id": "decimalLatitude",
+          "label": "Decimal Latitude",
+          "score": 0.6022108197212219
+        },
+        {
+          "id": "NCIT:C67209",
+          "label": "DECAL Regimen",
+          "score": 0.595210611820221
+        },
+        {
+          "id": "CHEBI:134219",
+          "label": "decenals",
+          "score": 0.594584047794342
+        },
+        {
+          "id": "NCIT:C42646",
+          "label": "Decimal Place",
+          "score": 0.5939483642578125
+        },
+        {
+          "id": "CHEBI:38853",
+          "label": "decalin",
+          "score": 0.5933921933174133
+        },
+        {
+          "id": "decimalLongitude",
+          "label": "Decimal Longitude",
+          "score": 0.5872792601585388
+        },
+        {
+          "id": "CHEBI:31457",
+          "label": "decanal",
+          "score": 0.5835312604904175
+        },
+        {
+          "id": "NCIT:C43190",
+          "label": "Dewar",
+          "score": 0.5813922882080078
+        },
+        {
+          "id": "CHEBI:213695",
+          "label": "Deconin A",
+          "score": 0.5775365829467773
+        },
+        {
+          "id": "NCIT:C106192",
+          "label": "December",
+          "score": 0.576478123664856
+        },
+        {
+          "id": "EFO:0022824",
+          "label": "Dede",
+          "score": 0.5752970576286316
+        },
+        {
+          "id": "NCIT:C67272",
+          "label": "Decimal Ratio",
+          "score": 0.5717849731445312
+        }
+      ]
+    },
+    {
+      "query": "DECLLONGITUDE",
+      "time_ms": 110.36749999038875,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7189282178878784,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLongitude",
+      "top_k_results": [
+        {
+          "id": "CHEBI:135961",
+          "label": "degarelix",
+          "score": 0.7189282178878784
+        },
+        {
+          "id": "NCIT:C48385",
+          "label": "Degarelix",
+          "score": 0.7189282178878784
+        },
+        {
+          "id": "CHEBI:65727",
+          "label": "Decarine",
+          "score": 0.6988294720649719
+        },
+        {
+          "id": "NCIT:C63666",
+          "label": "Deguelin",
+          "score": 0.6930593252182007
+        },
+        {
+          "id": "CHEBI:4357",
+          "label": "deguelin",
+          "score": 0.6930593252182007
+        },
+        {
+          "id": "CHEBI:221730",
+          "label": "Deconin D",
+          "score": 0.6818141341209412
+        },
+        {
+          "id": "CHEBI:4345",
+          "label": "Decaline",
+          "score": 0.6730039119720459
+        },
+        {
+          "id": "CHEBI:134219",
+          "label": "decenals",
+          "score": 0.6698542237281799
+        },
+        {
+          "id": "CHEBI:181169",
+          "label": "Decarestrictine D",
+          "score": 0.6689442992210388
+        },
+        {
+          "id": "NCIT:C69096",
+          "label": "Decagram",
+          "score": 0.6651254296302795
+        },
+        {
+          "id": "CHEBI:38853",
+          "label": "decalin",
+          "score": 0.6613014340400696
+        },
+        {
+          "id": "CHEBI:31457",
+          "label": "decanal",
+          "score": 0.6582287549972534
+        },
+        {
+          "id": "MONDO:0859181",
+          "label": "DEGCAGS syndrome",
+          "score": 0.6573346853256226
+        },
+        {
+          "id": "NCIT:C106192",
+          "label": "December",
+          "score": 0.650923490524292
+        },
+        {
+          "id": "NCIT:C169893",
+          "label": "Dexclamol",
+          "score": 0.6490899324417114
+        },
+        {
+          "id": "CHEBI:200101",
+          "label": "Decarestrictine L",
+          "score": 0.6478762626647949
+        },
+        {
+          "id": "NCIT:C184887",
+          "label": "Dexepicatechin",
+          "score": 0.6478651165962219
+        },
+        {
+          "id": "CHEBI:219113",
+          "label": "Decarestrictine E",
+          "score": 0.6463875770568848
+        },
+        {
+          "id": "CHEBI:203430",
+          "label": "Decipienolide A",
+          "score": 0.6423540711402893
+        },
+        {
+          "id": "CHEBI:213486",
+          "label": "Decarestrictine G",
+          "score": 0.6423410177230835
+        }
+      ]
+    },
+    {
+      "query": "ELEVATION",
+      "time_ms": 108.11999998986721,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0000001192092896,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25494",
+      "top_k_results": [
+        {
+          "id": "PATO:0001687",
+          "label": "elevation",
+          "score": 1.0000001192092896
+        },
+        {
+          "id": "NCIT:C25494",
+          "label": "Elevation",
+          "score": 1.0
+        },
+        {
+          "id": "ENVO:00000176",
+          "label": "elevation",
+          "score": 1.0
+        },
+        {
+          "id": "PATO:0001688",
+          "label": "increased elevation",
+          "score": 0.9122025966644287
+        },
+        {
+          "id": "NCIT:C25493",
+          "label": "Elevated",
+          "score": 0.8811947107315063
+        },
+        {
+          "id": "PATO:0002515",
+          "label": "increased elevation relative to",
+          "score": 0.8634781837463379
+        },
+        {
+          "id": "NCIT:C159493",
+          "label": "Highly Elevated",
+          "score": 0.7945737838745117
+        },
+        {
+          "id": "maximumElevationInMeters",
+          "label": "Maximum Elevation In Meters",
+          "score": 0.7524687051773071
+        },
+        {
+          "id": "PATO:0000570",
+          "label": "increased height",
+          "score": 0.7261031866073608
+        },
+        {
+          "id": "PATO:0001369",
+          "label": "raised",
+          "score": 0.7233680486679077
+        },
+        {
+          "id": "NCIT:C129474",
+          "label": "High Level",
+          "score": 0.7130742073059082
+        },
+        {
+          "id": "NCIT:C75329",
+          "label": "Above",
+          "score": 0.7113257050514221
+        },
+        {
+          "id": "NCIT:C25533",
+          "label": "Increase",
+          "score": 0.7051504254341125
+        },
+        {
+          "id": "BAO:0001251",
+          "label": "Increase",
+          "score": 0.7051504254341125
+        },
+        {
+          "id": "FLOPO:0019538",
+          "label": "style elevation",
+          "score": 0.7048414945602417
+        },
+        {
+          "id": "NCIT:C25227",
+          "label": "High",
+          "score": 0.6760513782501221
+        },
+        {
+          "id": "NCIT:C164135",
+          "label": "Increased",
+          "score": 0.672694206237793
+        },
+        {
+          "id": "PATO:0000119",
+          "label": "height",
+          "score": 0.6634581089019775
+        },
+        {
+          "id": "NCIT:C25347",
+          "label": "Height",
+          "score": 0.6634581089019775
+        },
+        {
+          "id": "PATO:0000370",
+          "label": "up",
+          "score": 0.6619224548339844
+        }
+      ]
+    },
+    {
+      "query": "GENUS",
+      "time_ms": 107.88029996911064,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45292",
+      "top_k_results": [
+        {
+          "id": "genus",
+          "label": "Genus",
+          "score": 1.0
+        },
+        {
+          "id": "NCIT:C45292",
+          "label": "Genus",
+          "score": 1.0
+        },
+        {
+          "id": "hasGenus",
+          "label": "has genus",
+          "score": 0.8733121156692505
+        },
+        {
+          "id": "data:1870",
+          "label": "Genus name",
+          "score": 0.760435938835144
+        },
+        {
+          "id": "NCIT:C45293",
+          "label": "Species",
+          "score": 0.7475394606590271
+        },
+        {
+          "id": "subgenus",
+          "label": "Subgenus",
+          "score": 0.7351876497268677
+        },
+        {
+          "id": "NCIT:C62692",
+          "label": "Subgenus",
+          "score": 0.7351876497268677
+        },
+        {
+          "id": "NCIT:C62691",
+          "label": "Species Subgroup",
+          "score": 0.7292544841766357
+        },
+        {
+          "id": "NCIT:C62690",
+          "label": "Species Group",
+          "score": 0.7105783820152283
+        },
+        {
+          "id": "data:1045",
+          "label": "Species name",
+          "score": 0.6563456058502197
+        },
+        {
+          "id": "Taxon",
+          "label": "Taxon",
+          "score": 0.6474749445915222
+        },
+        {
+          "id": "NCIT:C40098",
+          "label": "Taxon",
+          "score": 0.6474749445915222
+        },
+        {
+          "id": "data:1868",
+          "label": "Taxon",
+          "score": 0.6474749445915222
+        },
+        {
+          "id": "NCIT:C62700",
+          "label": "Subspecies",
+          "score": 0.6346786022186279
+        },
+        {
+          "id": "associatedTaxa",
+          "label": "Associated Taxa",
+          "score": 0.6109597682952881
+        },
+        {
+          "id": "NCIT:C45278",
+          "label": "Subphylum",
+          "score": 0.600662112236023
+        },
+        {
+          "id": "NCIT:C179767",
+          "label": "Clade",
+          "score": 0.599889874458313
+        },
+        {
+          "id": "NCIT:C17469",
+          "label": "Taxonomy",
+          "score": 0.5995466709136963
+        },
+        {
+          "id": "topic:0637",
+          "label": "Taxonomy",
+          "score": 0.5995466709136963
+        },
+        {
+          "id": "data:3028",
+          "label": "Taxonomy",
+          "score": 0.5995466709136963
+        }
+      ]
+    },
+    {
+      "query": "LATITUDE",
+      "time_ms": 110.62539997510612,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000319",
+      "top_k_results": [
+        {
+          "id": "SIO:000319",
+          "label": "latitude",
+          "score": 1.0
+        },
+        {
+          "id": "NCIT:C68642",
+          "label": "Latitude",
+          "score": 1.0
+        },
+        {
+          "id": "hasLatitude",
+          "label": "has latitude",
+          "score": 0.83815598487854
+        },
+        {
+          "id": "verbatimLatitude",
+          "label": "Verbatim Latitude",
+          "score": 0.6820378303527832
+        },
+        {
+          "id": "AGRO:00000620",
+          "label": "weather station latitude",
+          "score": 0.6754660606384277
+        },
+        {
+          "id": "EFO:0005020",
+          "label": "collection latitude",
+          "score": 0.6712183356285095
+        },
+        {
+          "id": "OBI:0001620",
+          "label": "latitude coordinate measurement datum",
+          "score": 0.6317744851112366
+        },
+        {
+          "id": "NCIT:C68643",
+          "label": "Longitude",
+          "score": 0.6291300058364868
+        },
+        {
+          "id": "SIO:000318",
+          "label": "longitude",
+          "score": 0.6291300058364868
+        },
+        {
+          "id": "NCIT:C37957",
+          "label": "Geographic",
+          "score": 0.6072108149528503
+        },
+        {
+          "id": "PATO:0000146",
+          "label": "temperature",
+          "score": 0.5993363857269287
+        },
+        {
+          "id": "EFO:0001702",
+          "label": "temperature",
+          "score": 0.5993362665176392
+        },
+        {
+          "id": "NCIT:C25206",
+          "label": "Temperature",
+          "score": 0.5993362665176392
+        },
+        {
+          "id": "NCIT:C41129",
+          "label": "Region",
+          "score": 0.5870863199234009
+        },
+        {
+          "id": "HANCESTRO:0002",
+          "label": "region",
+          "score": 0.5870863199234009
+        },
+        {
+          "id": "NCIT:C164644",
+          "label": "Temperature Range",
+          "score": 0.5820246934890747
+        },
+        {
+          "id": "AGRO:00000574",
+          "label": "field latitude coordinate",
+          "score": 0.5807977914810181
+        },
+        {
+          "id": "AGRO:00002073",
+          "label": "plot latitude coordinate measurement datum",
+          "score": 0.5695449709892273
+        },
+        {
+          "id": "ENVO:01001082",
+          "label": "climate",
+          "score": 0.5666599273681641
+        },
+        {
+          "id": "NCIT:C87174",
+          "label": "Temperature Finding",
+          "score": 0.5516948103904724
+        }
+      ]
+    },
+    {
+      "query": "LONGITUDE",
+      "time_ms": 107.61549999006093,
+      "rank": 2,
+      "hit@1": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0,
+      "reciprocal_rank": 0.5,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000318",
+      "top_k_results": [
+        {
+          "id": "NCIT:C68643",
+          "label": "Longitude",
+          "score": 1.0
+        },
+        {
+          "id": "SIO:000318",
+          "label": "longitude",
+          "score": 1.0
+        },
+        {
+          "id": "hasLongitude",
+          "label": "has longitude",
+          "score": 0.8910384178161621
+        },
+        {
+          "id": "OBI:0001621",
+          "label": "longitude coordinate measurement datum",
+          "score": 0.7911413908004761
+        },
+        {
+          "id": "AGRO:00000621",
+          "label": "weather station longitude",
+          "score": 0.7635535001754761
+        },
+        {
+          "id": "AGRO:00000575",
+          "label": "field longitude coordinate",
+          "score": 0.7457991242408752
+        },
+        {
+          "id": "EFO:0005021",
+          "label": "collection longitude",
+          "score": 0.7337055206298828
+        },
+        {
+          "id": "verbatimLongitude",
+          "label": "Verbatim Longitude",
+          "score": 0.7308268547058105
+        },
+        {
+          "id": "AGRO:00002074",
+          "label": "plot longitude coordinate measurement datum",
+          "score": 0.7160894870758057
+        },
+        {
+          "id": "decimalLongitude",
+          "label": "Decimal Longitude",
+          "score": 0.6674134731292725
+        },
+        {
+          "id": "SIO:000319",
+          "label": "latitude",
+          "score": 0.6291300058364868
+        },
+        {
+          "id": "NCIT:C68642",
+          "label": "Latitude",
+          "score": 0.6291300058364868
+        },
+        {
+          "id": "hasLatitude",
+          "label": "has latitude",
+          "score": 0.5741989612579346
+        },
+        {
+          "id": "MS:1000712",
+          "label": "Compass",
+          "score": 0.5591768622398376
+        },
+        {
+          "id": "AGRO:00000328",
+          "label": "slope orientation",
+          "score": 0.5521726608276367
+        },
+        {
+          "id": "OBI:0001620",
+          "label": "latitude coordinate measurement datum",
+          "score": 0.5279227495193481
+        },
+        {
+          "id": "AGRO:00002073",
+          "label": "plot latitude coordinate measurement datum",
+          "score": 0.526481568813324
+        },
+        {
+          "id": "NCIT:C96557",
+          "label": "Perpendicular",
+          "score": 0.5144931077957153
+        },
+        {
+          "id": "NCIT:C37957",
+          "label": "Geographic",
+          "score": 0.506666898727417
+        },
+        {
+          "id": "NCIT:C94956",
+          "label": "Polar Map",
+          "score": 0.5034648180007935
+        }
+      ]
+    },
+    {
+      "query": "ORIGCTY",
+      "time_ms": 109.90689997561276,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6704363822937012,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "PPEO:hasCountryOfOrigin",
+      "top_k_results": [
+        {
+          "id": "NCBITaxon:50156",
+          "label": "Oryctanthus",
+          "score": 0.6704363822937012
+        },
+        {
+          "id": "CHEBI:64473",
+          "label": "orlandin",
+          "score": 0.6424192190170288
+        },
+        {
+          "id": "NCIT:C161040",
+          "label": "Oryctolagus",
+          "score": 0.6390678882598877
+        },
+        {
+          "id": "FLOPO:0009506",
+          "label": "glume orbicular",
+          "score": 0.6233380436897278
+        },
+        {
+          "id": "AfPO:0000559",
+          "label": "Oron",
+          "score": 0.6180381774902344
+        },
+        {
+          "id": "AfPO:0000113",
+          "label": "Oromo",
+          "score": 0.6099521517753601
+        },
+        {
+          "id": "CHEBI:7779",
+          "label": "Orchinol",
+          "score": 0.6067501902580261
+        },
+        {
+          "id": "PATO:0001934",
+          "label": "orbicular",
+          "score": 0.6064400672912598
+        },
+        {
+          "id": "CHEBI:61668",
+          "label": "oroxylin A",
+          "score": 0.6062886714935303
+        },
+        {
+          "id": "NCBITaxon:4527",
+          "label": "Oryza",
+          "score": 0.6034954786300659
+        },
+        {
+          "id": "CHEBI:70037",
+          "label": "Oroidine",
+          "score": 0.6013144254684448
+        },
+        {
+          "id": "FLOPO:0011411",
+          "label": "style orbicular",
+          "score": 0.6005460023880005
+        },
+        {
+          "id": "FLOPO:0017184",
+          "label": "ligule orbicular",
+          "score": 0.5930913090705872
+        },
+        {
+          "id": "NCIT:C154070",
+          "label": "Oromo Language",
+          "score": 0.5877314805984497
+        },
+        {
+          "id": "CHEBI:133921",
+          "label": "ornaline",
+          "score": 0.5867471694946289
+        },
+        {
+          "id": "CHEBI:208547",
+          "label": "Orirubenone G",
+          "score": 0.5813491344451904
+        },
+        {
+          "id": "CHEBI:224801",
+          "label": "Orienticin A",
+          "score": 0.5793040990829468
+        },
+        {
+          "id": "FLOPO:0016923",
+          "label": "axil orbicular",
+          "score": 0.5745022892951965
+        },
+        {
+          "id": "CHEBI:175986",
+          "label": "Orientaloside",
+          "score": 0.5631033182144165
+        },
+        {
+          "id": "NCBITaxon:147380",
+          "label": "Oryzeae",
+          "score": 0.5629920363426208
+        }
+      ]
+    },
+    {
+      "query": "SAMPSTAT",
+      "time_ms": 109.2880999785848,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7215004563331604,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25688",
+      "top_k_results": [
+        {
+          "id": "NCIT:C204964",
+          "label": "Sacsin",
+          "score": 0.7215004563331604
+        },
+        {
+          "id": "CHEBI:174860",
+          "label": "Santal",
+          "score": 0.6925119161605835
+        },
+        {
+          "id": "SWO:0000374",
+          "label": "SAM",
+          "score": 0.6823207139968872
+        },
+        {
+          "id": "NCIT:C44112",
+          "label": "Salinan",
+          "score": 0.6779924035072327
+        },
+        {
+          "id": "NCIT:C44810",
+          "label": "Samish",
+          "score": 0.6753085255622864
+        },
+        {
+          "id": "SWO:0000121",
+          "label": "SAS",
+          "score": 0.6753026247024536
+        },
+        {
+          "id": "CHEBI:36312",
+          "label": "sarpagan",
+          "score": 0.6656173467636108
+        },
+        {
+          "id": "CHEBI:9024",
+          "label": "santin",
+          "score": 0.663641095161438
+        },
+        {
+          "id": "CHEBI:66155",
+          "label": "salvin A",
+          "score": 0.659804105758667
+        },
+        {
+          "id": "CHEBI:233502",
+          "label": "salpn",
+          "score": 0.6555137634277344
+        },
+        {
+          "id": "NCIT:C963",
+          "label": "SarCNU",
+          "score": 0.6477409601211548
+        },
+        {
+          "id": "NCIT:C44784",
+          "label": "Salamatof",
+          "score": 0.6470690965652466
+        },
+        {
+          "id": "CHEBI:26604",
+          "label": "santonin",
+          "score": 0.6459503173828125
+        },
+        {
+          "id": "NCIT:C87627",
+          "label": "Santonin",
+          "score": 0.6459503173828125
+        },
+        {
+          "id": "NCIT:C72128",
+          "label": "Sampirtine",
+          "score": 0.6458436846733093
+        },
+        {
+          "id": "CHEBI:75701",
+          "label": "sarin",
+          "score": 0.6456623077392578
+        },
+        {
+          "id": "NCBITaxon:2698737",
+          "label": "Sar",
+          "score": 0.6445032358169556
+        },
+        {
+          "id": "UBERON:0018374",
+          "label": "sallet",
+          "score": 0.6441739797592163
+        },
+        {
+          "id": "CHEBI:174293",
+          "label": "Samin",
+          "score": 0.6416351199150085
+        },
+        {
+          "id": "CHEBI:173622",
+          "label": "Sakacin P",
+          "score": 0.6375778913497925
+        }
+      ]
+    },
+    {
+      "query": "SPECIES",
+      "time_ms": 106.82300000917166,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45293",
+      "top_k_results": [
+        {
+          "id": "NCIT:C45293",
+          "label": "Species",
+          "score": 1.0
+        },
+        {
+          "id": "NCIT:C62691",
+          "label": "Species Subgroup",
+          "score": 0.7815726399421692
+        },
+        {
+          "id": "NCIT:C62690",
+          "label": "Species Group",
+          "score": 0.7688066959381104
+        },
+        {
+          "id": "genus",
+          "label": "Genus",
+          "score": 0.7475394010543823
+        },
+        {
+          "id": "NCIT:C45292",
+          "label": "Genus",
+          "score": 0.7475394010543823
+        },
+        {
+          "id": "associatedTaxa",
+          "label": "Associated Taxa",
+          "score": 0.6925901174545288
+        },
+        {
+          "id": "data:1045",
+          "label": "Species name",
+          "score": 0.6594511270523071
+        },
+        {
+          "id": "hasGenus",
+          "label": "has genus",
+          "score": 0.6448462605476379
+        },
+        {
+          "id": "PCO:0000017",
+          "label": "species as a collection of organisms",
+          "score": 0.630325198173523
+        },
+        {
+          "id": "NCIT:C62700",
+          "label": "Subspecies",
+          "score": 0.6257929801940918
+        },
+        {
+          "id": "NCIT:C62692",
+          "label": "Subgenus",
+          "score": 0.6222131252288818
+        },
+        {
+          "id": "subgenus",
+          "label": "Subgenus",
+          "score": 0.6222130656242371
+        },
+        {
+          "id": "NCIT:C93672",
+          "label": "Species Code",
+          "score": 0.6086785197257996
+        },
+        {
+          "id": "OBI:0001310",
+          "label": "species comparison design",
+          "score": 0.5779479742050171
+        },
+        {
+          "id": "hasSpeciesAuthority",
+          "label": "has species authority",
+          "score": 0.5763334035873413
+        },
+        {
+          "id": "PCO:0000019",
+          "label": "community species diversity",
+          "score": 0.5758237838745117
+        },
+        {
+          "id": "NCIT:C94326",
+          "label": "Botanical",
+          "score": 0.5689901113510132
+        },
+        {
+          "id": "NCIT:C40098",
+          "label": "Taxon",
+          "score": 0.5602337121963501
+        },
+        {
+          "id": "data:1868",
+          "label": "Taxon",
+          "score": 0.5602337121963501
+        },
+        {
+          "id": "Taxon",
+          "label": "Taxon",
+          "score": 0.5602337121963501
+        }
+      ]
+    },
+    {
+      "query": "STORAGE",
+      "time_ms": 105.95080000348389,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C60824",
+      "top_k_results": [
+        {
+          "id": "NCIT:C60824",
+          "label": "Storage",
+          "score": 1.0
+        },
+        {
+          "id": "OBI:0302893",
+          "label": "storage",
+          "score": 1.0
+        },
+        {
+          "id": "NCIT:C96145",
+          "label": "Storage Condition",
+          "score": 0.8228082656860352
+        },
+        {
+          "id": "BTO:0001310",
+          "label": "storage tissue",
+          "score": 0.786322832107544
+        },
+        {
+          "id": "NCIT:C164363",
+          "label": "Material Storage",
+          "score": 0.7716917395591736
+        },
+        {
+          "id": "DPBO:0000011",
+          "label": "sample storage",
+          "score": 0.7626373171806335
+        },
+        {
+          "id": "NCIT:C189365",
+          "label": "Storage Facility",
+          "score": 0.7519890666007996
+        },
+        {
+          "id": "NCIT:C48445",
+          "label": "Storage Medium",
+          "score": 0.7404802441596985
+        },
+        {
+          "id": "NCIT:C101704",
+          "label": "Special Storage Condition",
+          "score": 0.7400357723236084
+        },
+        {
+          "id": "AGRO:00010135",
+          "label": "storage date",
+          "score": 0.7398717999458313
+        },
+        {
+          "id": "NCIT:C45322",
+          "label": "Storage Unit",
+          "score": 0.7113248109817505
+        },
+        {
+          "id": "NCIT:C185341",
+          "label": "Material Storage Method",
+          "score": 0.7047605514526367
+        },
+        {
+          "id": "GO:0140089",
+          "label": "protein storage",
+          "score": 0.6763969659805298
+        },
+        {
+          "id": "NCIT:C92119",
+          "label": "Storage Problem Identified",
+          "score": 0.6720997095108032
+        },
+        {
+          "id": "NCIT:C101707",
+          "label": "Recommended Storage Temperature",
+          "score": 0.6606954336166382
+        },
+        {
+          "id": "OBI:0001557",
+          "label": "material storage service",
+          "score": 0.6594635844230652
+        },
+        {
+          "id": "EFO:0000997",
+          "label": "storage organ",
+          "score": 0.6569004654884338
+        },
+        {
+          "id": "NCIT:C96148",
+          "label": "Proprietary Storage Condition",
+          "score": 0.6556606292724609
+        },
+        {
+          "id": "OBI:0000915",
+          "label": "freezing storage",
+          "score": 0.6543314456939697
+        },
+        {
+          "id": "NCIT:C162666",
+          "label": "Defined Material Storage",
+          "score": 0.6538134217262268
+        }
+      ]
+    },
+    {
+      "query": "SUBTAXA",
+      "time_ms": 109.91900000954047,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7275006771087646,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "infraspecificEpithet",
+      "top_k_results": [
+        {
+          "id": "hasSubtaxon",
+          "label": "has subtaxon",
+          "score": 0.7275006771087646
+        },
+        {
+          "id": "hasSubtaxonAuthority",
+          "label": "has subtaxon authority",
+          "score": 0.6622648239135742
+        },
+        {
+          "id": "NCIT:C156270",
+          "label": "Subasumstat",
+          "score": 0.6332030296325684
+        },
+        {
+          "id": "UBERON:0023787",
+          "label": "subicular complex",
+          "score": 0.632142186164856
+        },
+        {
+          "id": "CHEBI:60973",
+          "label": "suberin",
+          "score": 0.6319918632507324
+        },
+        {
+          "id": "CHEBI:69834",
+          "label": "subereamine A",
+          "score": 0.6317688226699829
+        },
+        {
+          "id": "FLOPO:0020942",
+          "label": "sepal subtriangular",
+          "score": 0.6296049356460571
+        },
+        {
+          "id": "UBERON:0012375",
+          "label": "subserosa",
+          "score": 0.6290624141693115
+        },
+        {
+          "id": "NCIT:C94494",
+          "label": "Subserosa",
+          "score": 0.6290624141693115
+        },
+        {
+          "id": "CHEBI:213721",
+          "label": "Subnudatone A",
+          "score": 0.6258867979049683
+        },
+        {
+          "id": "UBERON:3010747",
+          "label": "submentalis",
+          "score": 0.6226763129234314
+        },
+        {
+          "id": "CHEBI:216701",
+          "label": "Subtulene A",
+          "score": 0.6225000619888306
+        },
+        {
+          "id": "UBERON:3000387",
+          "label": "subotic alae",
+          "score": 0.6196855306625366
+        },
+        {
+          "id": "FLOPO:0005610",
+          "label": "staminode subulate",
+          "score": 0.6158227324485779
+        },
+        {
+          "id": "NCBITaxon:39702",
+          "label": "Septoria",
+          "score": 0.6074984073638916
+        },
+        {
+          "id": "PATO:0002230",
+          "label": "subtriangular",
+          "score": 0.6068986654281616
+        },
+        {
+          "id": "SWO:1100133",
+          "label": "Stavrox",
+          "score": 0.6067709922790527
+        },
+        {
+          "id": "UBERON:0010295",
+          "label": "substantia propria of sclera",
+          "score": 0.5987498760223389
+        },
+        {
+          "id": "UBERON:0002191",
+          "label": "subiculum",
+          "score": 0.5928131341934204
+        },
+        {
+          "id": "NCIT:C33648",
+          "label": "Subiculum",
+          "score": 0.5928130745887756
+        }
+      ]
+    },
+    {
+      "query": "REMARKS",
+      "time_ms": 106.54920001979917,
+      "rank": 10,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.6167104840278625,
+      "best_score": 0.8072062730789185,
+      "reciprocal_rank": 0.1,
+      "duplicate_labels": false,
+      "expected_id": "organismRemarks",
+      "top_k_results": [
+        {
+          "id": "PEFF:0001033",
+          "label": "Comment",
+          "score": 0.8072062730789185
+        },
+        {
+          "id": "NCIT:C25393",
+          "label": "Comment",
+          "score": 0.8072062730789185
+        },
+        {
+          "id": "eventRemarks",
+          "label": "Event Remarks",
+          "score": 0.680692732334137
+        },
+        {
+          "id": "occurrenceRemarks",
+          "label": "Occurrence Remarks",
+          "score": 0.6757393479347229
+        },
+        {
+          "id": "SampleRemarks",
+          "label": "Sample Remarks",
+          "score": 0.6696121096611023
+        },
+        {
+          "id": "BAO:0000384",
+          "label": "summary comment",
+          "score": 0.6308484077453613
+        },
+        {
+          "id": "NCIT:C42619",
+          "label": "Note",
+          "score": 0.6300366520881653
+        },
+        {
+          "id": "NCIT:C54033",
+          "label": "Conclusion",
+          "score": 0.6236238479614258
+        },
+        {
+          "id": "NCIT:C48313",
+          "label": "Suggestion",
+          "score": 0.6209688782691956
+        },
+        {
+          "id": "organismRemarks",
+          "label": "Organism Remarks",
+          "score": 0.6167104840278625
+        },
+        {
+          "id": "NCIT:C71323",
+          "label": "Discussion",
+          "score": 0.616428017616272
+        },
+        {
+          "id": "NCIT:C49154",
+          "label": "Statement",
+          "score": 0.6122987270355225
+        },
+        {
+          "id": "NCIT:C60731",
+          "label": "Advising",
+          "score": 0.6102738380432129
+        },
+        {
+          "id": "NCIT:C82504",
+          "label": "Reference Comment",
+          "score": 0.5977057218551636
+        },
+        {
+          "id": "NCIT:C80504",
+          "label": "Paragraph",
+          "score": 0.5966963768005371
+        },
+        {
+          "id": "NCIT:C62638",
+          "label": "Sentence",
+          "score": 0.590589165687561
+        },
+        {
+          "id": "relationshipRemarks",
+          "label": "Relationship Remarks",
+          "score": 0.5804105401039124
+        },
+        {
+          "id": "NCIT:C155692",
+          "label": "Questioning",
+          "score": 0.5779135227203369
+        },
+        {
+          "id": "NCIT:C25375",
+          "label": "Report",
+          "score": 0.5677186846733093
+        },
+        {
+          "id": "data:2048",
+          "label": "Report",
+          "score": 0.5677186846733093
+        }
+      ]
+    },
+    {
+      "query": "PEDIGREE",
+      "time_ms": 108.50279999431223,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.9999999403953552,
+      "best_score": 0.9999999403953552,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C27957",
+      "top_k_results": [
+        {
+          "id": "NCIT:C27957",
+          "label": "Pedigree",
+          "score": 0.9999999403953552
+        },
+        {
+          "id": "STATO:0000122",
+          "label": "pedigree chart",
+          "score": 0.8875979781150818
+        },
+        {
+          "id": "STATO:0000478",
+          "label": "pedigree data set",
+          "score": 0.8843376636505127
+        },
+        {
+          "id": "SWO:0000655",
+          "label": "pedigree data file",
+          "score": 0.8594604730606079
+        },
+        {
+          "id": "STATO:0000339",
+          "label": "breeding value estimation using pedigree data",
+          "score": 0.7018795013427734
+        },
+        {
+          "id": "EFO:0000493",
+          "label": "family history",
+          "score": 0.6811058521270752
+        },
+        {
+          "id": "PCO:0000032",
+          "label": "biological family",
+          "score": 0.6711254715919495
+        },
+        {
+          "id": "NCIT:C17726",
+          "label": "Family Medical History",
+          "score": 0.6307647228240967
+        },
+        {
+          "id": "NCIT:C132433",
+          "label": "Allelic Family",
+          "score": 0.6221092939376831
+        },
+        {
+          "id": "OBI:0001329",
+          "label": "family history design",
+          "score": 0.6151651740074158
+        },
+        {
+          "id": "NCIT:C49588",
+          "label": "Family History Domain",
+          "score": 0.6127164363861084
+        },
+        {
+          "id": "EFO:0004802",
+          "label": "family size",
+          "score": 0.6085100173950195
+        },
+        {
+          "id": "data:2732",
+          "label": "Family name",
+          "score": 0.6066734790802002
+        },
+        {
+          "id": "NCIT:C79273",
+          "label": "Family Collection",
+          "score": 0.5965650677680969
+        },
+        {
+          "id": "NCIT:C25173",
+          "label": "Family",
+          "score": 0.5923815965652466
+        },
+        {
+          "id": "family",
+          "label": "Family",
+          "score": 0.5923815965652466
+        },
+        {
+          "id": "STATO:0000257",
+          "label": "family",
+          "score": 0.5923815965652466
+        },
+        {
+          "id": "NCIT:C45290",
+          "label": "Family",
+          "score": 0.5923815965652466
+        },
+        {
+          "id": "PCO:0000020",
+          "label": "family",
+          "score": 0.5923815965652466
+        },
+        {
+          "id": "NCIT:C204540",
+          "label": "Family Identifier",
+          "score": 0.587775468826294
+        }
+      ]
+    },
+    {
+      "query": "INSTCODE",
+      "time_ms": 108.92660001991317,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7456130981445312,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "institutionCode",
+      "top_k_results": [
+        {
+          "id": "EFO:0008782",
+          "label": "INSeq",
+          "score": 0.7456130981445312
+        },
+        {
+          "id": "format:2185",
+          "label": "INSDSeq",
+          "score": 0.6641006469726562
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=6081",
+          "label": "INS (human)",
+          "score": 0.6365469694137573
+        },
+        {
+          "id": "NCIT:C54587",
+          "label": "Report Source ICSR Terminology",
+          "score": 0.6278188228607178
+        },
+        {
+          "id": "NCIT:C24514",
+          "label": "INS Gene",
+          "score": 0.6194784641265869
+        },
+        {
+          "id": "NCIT:C175800",
+          "label": "Insulin Icodec",
+          "score": 0.6187846064567566
+        },
+        {
+          "id": "NCIT:C113516",
+          "label": "INS Gene Product",
+          "score": 0.6175797581672668
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=6093",
+          "label": "INSRR (human)",
+          "score": 0.6175594925880432
+        },
+        {
+          "id": "EFO:0002529",
+          "label": "INS-1",
+          "score": 0.6145912408828735
+        },
+        {
+          "id": "NCIT:C43691",
+          "label": "IND_Code",
+          "score": 0.6127272844314575
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=6083",
+          "label": "INSIG1 (human)",
+          "score": 0.6079462170600891
+        },
+        {
+          "id": "NCIT:C155946",
+          "label": "INC Terminology",
+          "score": 0.6059147119522095
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=6091",
+          "label": "INSR (human)",
+          "score": 0.6055675148963928
+        },
+        {
+          "id": "NCIT:C192551",
+          "label": "ICD Code",
+          "score": 0.5929758548736572
+        },
+        {
+          "id": "CHEBI:141439",
+          "label": "Ile-Asp",
+          "score": 0.5838087797164917
+        },
+        {
+          "id": "CHEBI:74599",
+          "label": "Ins-1-P-Cer-D",
+          "score": 0.5834685564041138
+        },
+        {
+          "id": "NCIT:C54588",
+          "label": "Type of Report ICSR Terminology",
+          "score": 0.5815157294273376
+        },
+        {
+          "id": "CHEBI:74505",
+          "label": "Ins-1-P-Cer-A",
+          "score": 0.5795583128929138
+        },
+        {
+          "id": "NCIT:C99174",
+          "label": "Product Characteristic ICSR Terminology",
+          "score": 0.5776589512825012
+        },
+        {
+          "id": "CHEBI:74078",
+          "label": "Ile-Ser",
+          "score": 0.5765236020088196
+        }
+      ]
+    },
+    {
+      "query": "TRIVIALNAME",
+      "time_ms": 108.0406000255607,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.5410351753234863,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2099",
+      "top_k_results": [
+        {
+          "id": "NCIT:C47922",
+          "label": "Pathname",
+          "score": 0.5410351753234863
+        },
+        {
+          "id": "PEFF:0001005",
+          "label": "GName",
+          "score": 0.534557044506073
+        },
+        {
+          "id": "data:1689",
+          "label": "Username",
+          "score": 0.5178284645080566
+        },
+        {
+          "id": "NCIT:C95696",
+          "label": "Trivial Name Data Type",
+          "score": 0.5145395994186401
+        },
+        {
+          "id": "PATO:0002440",
+          "label": "ornamentation",
+          "score": 0.5123403072357178
+        },
+        {
+          "id": "FLOPO:0006737",
+          "label": "petiolule simple",
+          "score": 0.5100377798080444
+        },
+        {
+          "id": "PEFF:0001002",
+          "label": "PName",
+          "score": 0.5044286251068115
+        },
+        {
+          "id": "FLOPO:0001927",
+          "label": "petal simple",
+          "score": 0.49869322776794434
+        },
+        {
+          "id": "FLOPO:0005846",
+          "label": "style ornamentation",
+          "score": 0.4901711344718933
+        },
+        {
+          "id": "SWO:0000696",
+          "label": "simpleaffy",
+          "score": 0.4873667359352112
+        },
+        {
+          "id": "vernacularName",
+          "label": "Vernacular Name",
+          "score": 0.4827426075935364
+        },
+        {
+          "id": "NCIT:C80243",
+          "label": "Nickname",
+          "score": 0.47644510865211487
+        },
+        {
+          "id": "FLOPO:0023590",
+          "label": "ligule simple",
+          "score": 0.47383952140808105
+        },
+        {
+          "id": "PATO:0002441",
+          "label": "ornamented",
+          "score": 0.47309964895248413
+        },
+        {
+          "id": "UBERON:0000472",
+          "label": "simple organ",
+          "score": 0.4713175892829895
+        },
+        {
+          "id": "FLOPO:0018814",
+          "label": "valve ornamented",
+          "score": 0.46659162640571594
+        },
+        {
+          "id": "NCIT:C95657",
+          "label": "Entity Name Trivial Data Type",
+          "score": 0.46459805965423584
+        },
+        {
+          "id": "NCIT:C42614",
+          "label": "Name",
+          "score": 0.46413108706474304
+        },
+        {
+          "id": "data:2099",
+          "label": "Name",
+          "score": 0.46413108706474304
+        },
+        {
+          "id": "FLOPO:0016768",
+          "label": "gynophore simple",
+          "score": 0.4638923406600952
+        }
+      ]
+    },
+    {
+      "query": "ACCID_PRE",
+      "time_ms": 109.63049996644258,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.5601323246955872,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C54066",
+      "top_k_results": [
+        {
+          "id": "CHEBI:227342",
+          "label": "Preacredinone A",
+          "score": 0.5601323246955872
+        },
+        {
+          "id": "NCIT:C96447",
+          "label": "Prelamin-A/C",
+          "score": 0.5385363698005676
+        },
+        {
+          "id": "CHEBI:207492",
+          "label": "Preubetailide D",
+          "score": 0.5309075117111206
+        },
+        {
+          "id": "BTO:0003160",
+          "label": "PrEC cell",
+          "score": 0.5277543663978577
+        },
+        {
+          "id": "CHEBI:208259",
+          "label": "Preubetain F",
+          "score": 0.5249882340431213
+        },
+        {
+          "id": "CHEBI:208249",
+          "label": "Preubetain D",
+          "score": 0.5218098759651184
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=9358",
+          "label": "PREP (human)",
+          "score": 0.5199483633041382
+        },
+        {
+          "id": "EFO:0010558",
+          "label": "preprint",
+          "score": 0.5163952112197876
+        },
+        {
+          "id": "CHEBI:207505",
+          "label": "Preubetailide F",
+          "score": 0.5104115009307861
+        },
+        {
+          "id": "CHEBI:207472",
+          "label": "Preubetailide A",
+          "score": 0.5062671303749084
+        },
+        {
+          "id": "NCIT:C82251",
+          "label": "Preclamol",
+          "score": 0.5044834613800049
+        },
+        {
+          "id": "CHEBI:156521",
+          "label": "premycofactocinol",
+          "score": 0.5020166635513306
+        },
+        {
+          "id": "NCIT:C76627",
+          "label": "Prethcamide",
+          "score": 0.501707911491394
+        },
+        {
+          "id": "CHEBI:8368",
+          "label": "precocene I",
+          "score": 0.49510887265205383
+        },
+        {
+          "id": "CHEBI:150862",
+          "label": "premycofactocin",
+          "score": 0.4925590753555298
+        },
+        {
+          "id": "CHEBI:207487",
+          "label": "Preubetailide C",
+          "score": 0.4889335036277771
+        },
+        {
+          "id": "CHEBI:206240",
+          "label": "Preubetain B",
+          "score": 0.4886743724346161
+        },
+        {
+          "id": "CHEBI:223507",
+          "label": "Prenpenicillide",
+          "score": 0.48744672536849976
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=9357",
+          "label": "PRELP (human)",
+          "score": 0.48545223474502563
+        },
+        {
+          "id": "MS:1000144",
+          "label": "API 150EX Prep",
+          "score": 0.4849337637424469
+        }
+      ]
+    },
+    {
+      "query": "BEMERKUNG",
+      "time_ms": 109.18390000006184,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6646965742111206,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "materialEntityRemarks",
+      "top_k_results": [
+        {
+          "id": "CHEBI:173803",
+          "label": "Berteroin",
+          "score": 0.6646965742111206
+        },
+        {
+          "id": "EFO:0002050",
+          "label": "BeWo",
+          "score": 0.632766842842102
+        },
+        {
+          "id": "CHEBI:188567",
+          "label": "Belnacasan",
+          "score": 0.6180196404457092
+        },
+        {
+          "id": "NCIT:C171755",
+          "label": "Belnacasan",
+          "score": 0.6180196404457092
+        },
+        {
+          "id": "CHEBI:33391",
+          "label": "berkelium atom",
+          "score": 0.6154585480690002
+        },
+        {
+          "id": "NCIT:C171736",
+          "label": "Beclanorsen",
+          "score": 0.6147048473358154
+        },
+        {
+          "id": "CHEBI:3004",
+          "label": "Beiwutine",
+          "score": 0.6076577305793762
+        },
+        {
+          "id": "NCIT:C1668",
+          "label": "Becaplermin",
+          "score": 0.6058993339538574
+        },
+        {
+          "id": "CHEBI:23858",
+          "label": "behenate",
+          "score": 0.6033443212509155
+        },
+        {
+          "id": "NCIT:C43973",
+          "label": "Fort Belknap",
+          "score": 0.6021709442138672
+        },
+        {
+          "id": "NCIT:C86188",
+          "label": "Bergeyella",
+          "score": 0.5979349613189697
+        },
+        {
+          "id": "PATO:0002410",
+          "label": "beige",
+          "score": 0.5924778580665588
+        },
+        {
+          "id": "NCIT:C76314",
+          "label": "Bemoradan",
+          "score": 0.5907340049743652
+        },
+        {
+          "id": "NCIT:C109737",
+          "label": "Belmont County, OH",
+          "score": 0.5835838317871094
+        },
+        {
+          "id": "AfPO:0000385",
+          "label": "Beja",
+          "score": 0.582528829574585
+        },
+        {
+          "id": "NCIT:C175748",
+          "label": "Bepirovirsen",
+          "score": 0.582014799118042
+        },
+        {
+          "id": "NCIT:C71200",
+          "label": "Bel",
+          "score": 0.5817362070083618
+        },
+        {
+          "id": "format:3691",
+          "label": "BEL",
+          "score": 0.5817362070083618
+        },
+        {
+          "id": "CHEBI:223799",
+          "label": "Beauverichelin A",
+          "score": 0.5817129015922546
+        },
+        {
+          "id": "CHEBI:16777",
+          "label": "berbamunine",
+          "score": 0.5804455876350403
+        }
+      ]
+    },
+    {
+      "query": "MATERIALTYP",
+      "time_ms": 108.3078000228852,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6094298362731934,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000177",
+      "top_k_results": [
+        {
+          "id": "BFO:0000040",
+          "label": "material entity",
+          "score": 0.6094298362731934
+        },
+        {
+          "id": "BAO:0003116",
+          "label": "material entity",
+          "score": 0.6094298362731934
+        },
+        {
+          "id": "NCIT:C93859",
+          "label": "Material Description",
+          "score": 0.599259614944458
+        },
+        {
+          "id": "BCO:0000070",
+          "label": "material entity A",
+          "score": 0.5941681265830994
+        },
+        {
+          "id": "NCIT:C93858",
+          "label": "Material Actual Indicator",
+          "score": 0.5623884201049805
+        },
+        {
+          "id": "NCIT:C93410",
+          "label": "Material Name",
+          "score": 0.5613382458686829
+        },
+        {
+          "id": "MaterialSample",
+          "label": "Material Sample",
+          "score": 0.5412182211875916
+        },
+        {
+          "id": "SWO:0000484",
+          "label": "Bitmap object",
+          "score": 0.5407334566116333
+        },
+        {
+          "id": "NCIT:C93866",
+          "label": "Material Name Type Code",
+          "score": 0.5366324186325073
+        },
+        {
+          "id": "NCIT:C164408",
+          "label": "Performed Material Process Step",
+          "score": 0.5336290597915649
+        },
+        {
+          "id": "NCIT:C48187",
+          "label": "Material",
+          "score": 0.5325925946235657
+        },
+        {
+          "id": "OBI:0000686",
+          "label": "material combination objective",
+          "score": 0.5322889685630798
+        },
+        {
+          "id": "NCIT:C100585",
+          "label": "MMSE - Copy This Design",
+          "score": 0.526121199131012
+        },
+        {
+          "id": "NCIT:C93864",
+          "label": "Material Name Code",
+          "score": 0.5249960422515869
+        },
+        {
+          "id": "NCIT:C164850",
+          "label": "Material Characteristic Behavior Code",
+          "score": 0.5239549875259399
+        },
+        {
+          "id": "OBI:0000434",
+          "label": "adding material objective",
+          "score": 0.5238112211227417
+        },
+        {
+          "id": "NCIT:C164851",
+          "label": "Material Code",
+          "score": 0.5167527198791504
+        },
+        {
+          "id": "NCIT:C93865",
+          "label": "Material Name with Attribute Name",
+          "score": 0.5150700211524963
+        },
+        {
+          "id": "materialSampleID",
+          "label": "Material Sample ID",
+          "score": 0.5146035552024841
+        },
+        {
+          "id": "OBI:0001528",
+          "label": "material service",
+          "score": 0.5134472846984863
+        }
+      ]
+    },
+    {
+      "query": "ACC_NR",
+      "time_ms": 109.12400000961497,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6994885206222534,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25337",
+      "top_k_results": [
+        {
+          "id": "NCIT:C43700",
+          "label": "NSC_Number",
+          "score": 0.6994885206222534
+        },
+        {
+          "id": "format:3551",
+          "label": "nrrd",
+          "score": 0.6758583784103394
+        },
+        {
+          "id": "MS:1001304",
+          "label": "Asp-N",
+          "score": 0.663689374923706
+        },
+        {
+          "id": "CHEBI:168525",
+          "label": "Bn-NCC-1",
+          "score": 0.6549062728881836
+        },
+        {
+          "id": "EFO:0008832",
+          "label": "NSCR",
+          "score": 0.6528248190879822
+        },
+        {
+          "id": "NCIT:C117209",
+          "label": "NCI/ADR-RES",
+          "score": 0.6517319679260254
+        },
+        {
+          "id": "NCIT:C14747",
+          "label": "NBC",
+          "score": 0.6495883464813232
+        },
+        {
+          "id": "NCIT:C41243",
+          "label": "NSC Number",
+          "score": 0.6357021927833557
+        },
+        {
+          "id": "SO:0000655",
+          "label": "ncRNA",
+          "score": 0.6283538341522217
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=8045",
+          "label": "NUDC (human)",
+          "score": 0.623104453086853
+        },
+        {
+          "id": "EFO:0007115",
+          "label": "NC-NC",
+          "score": 0.6219046711921692
+        },
+        {
+          "id": "CHEBI:80552",
+          "label": "NPC",
+          "score": 0.6209859848022461
+        },
+        {
+          "id": "EFO:0004041",
+          "label": "NPC",
+          "score": 0.6209859848022461
+        },
+        {
+          "id": "CHEBI:73419",
+          "label": "Asn-Asp",
+          "score": 0.6157547235488892
+        },
+        {
+          "id": "CHEBI:78786",
+          "label": "ascr#1",
+          "score": 0.6156333684921265
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=7667",
+          "label": "NCL (human)",
+          "score": 0.6153291463851929
+        },
+        {
+          "id": "CHEBI:157798",
+          "label": "Asn-Thr",
+          "score": 0.6091119647026062
+        },
+        {
+          "id": "CHEBI:7421",
+          "label": "NAC",
+          "score": 0.6076614856719971
+        },
+        {
+          "id": "CHEBI:159624",
+          "label": "Asn-Asp-Ser",
+          "score": 0.6064709424972534
+        },
+        {
+          "id": "CHEBI:160081",
+          "label": "Asn-Ser-Asp",
+          "score": 0.6051864624023438
+        }
+      ]
+    },
+    {
+      "query": "CODE",
+      "time_ms": 106.06000002007931,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 1.0,
+      "best_score": 1.0,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25162",
+      "top_k_results": [
+        {
+          "id": "NCIT:C25162",
+          "label": "Code",
+          "score": 1.0
+        },
+        {
+          "id": "NCIT:C70895",
+          "label": "Code System",
+          "score": 0.8780488967895508
+        },
+        {
+          "id": "NCIT:C85440",
+          "label": "Codec",
+          "score": 0.8732457160949707
+        },
+        {
+          "id": "NCIT:C70964",
+          "label": "Code System Version",
+          "score": 0.8371356129646301
+        },
+        {
+          "id": "NCIT:C164602",
+          "label": "Result Code",
+          "score": 0.8304081559181213
+        },
+        {
+          "id": "NCIT:C47901",
+          "label": "Source Code",
+          "score": 0.8116164803504944
+        },
+        {
+          "id": "NCIT:C188858",
+          "label": "Code Value",
+          "score": 0.7711405754089355
+        },
+        {
+          "id": "NCIT:C93893",
+          "label": "Package Type Code",
+          "score": 0.7661962509155273
+        },
+        {
+          "id": "NCIT:C192550",
+          "label": "Charge Code",
+          "score": 0.7607316970825195
+        },
+        {
+          "id": "NCIT:C164851",
+          "label": "Material Code",
+          "score": 0.7563823461532593
+        },
+        {
+          "id": "NCIT:C95366",
+          "label": "Package Handling Code",
+          "score": 0.751085102558136
+        },
+        {
+          "id": "IAO:0000096",
+          "label": "source code module",
+          "score": 0.7504881024360657
+        },
+        {
+          "id": "NCIT:C93888",
+          "label": "Package Form Code",
+          "score": 0.7460086941719055
+        },
+        {
+          "id": "NCIT:C164587",
+          "label": "Purpose Code",
+          "score": 0.7452152967453003
+        },
+        {
+          "id": "NCIT:C82503",
+          "label": "Test Code",
+          "score": 0.7355362176895142
+        },
+        {
+          "id": "NCIT:C164447",
+          "label": "Algorithm Code",
+          "score": 0.7328615188598633
+        },
+        {
+          "id": "SWO:9000020",
+          "label": "Source code available",
+          "score": 0.7315912842750549
+        },
+        {
+          "id": "NCIT:C70897",
+          "label": "Code Qualifier",
+          "score": 0.7286498546600342
+        },
+        {
+          "id": "NCIT:C95339",
+          "label": "Handling Code",
+          "score": 0.7270693778991699
+        },
+        {
+          "id": "NCIT:C154626",
+          "label": "Procedure Code",
+          "score": 0.7238081693649292
+        }
+      ]
+    },
+    {
+      "query": "ID",
+      "time_ms": 106.46370000904426,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 1.0,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25364",
+      "top_k_results": [
+        {
+          "id": "PEFF:0001026",
+          "label": "ID",
+          "score": 1.0
+        },
+        {
+          "id": "CHEBI:17808",
+          "label": "IDP",
+          "score": 0.7968488931655884
+        },
+        {
+          "id": "BAO:0000383",
+          "label": "has ID",
+          "score": 0.756060004234314
+        },
+        {
+          "id": "CHEBI:37709",
+          "label": "idose",
+          "score": 0.7444326877593994
+        },
+        {
+          "id": "EFO:0008776",
+          "label": "iDES",
+          "score": 0.7329127788543701
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=5389",
+          "label": "IDS (human)",
+          "score": 0.730173647403717
+        },
+        {
+          "id": "format:3578",
+          "label": "IDAT",
+          "score": 0.7234646081924438
+        },
+        {
+          "id": "identifiedByID",
+          "label": "Identified By ID",
+          "score": 0.7214711904525757
+        },
+        {
+          "id": "occurrenceID",
+          "label": "Occurrence ID",
+          "score": 0.7167578935623169
+        },
+        {
+          "id": "MS:1000668",
+          "label": "Pro ID",
+          "score": 0.713437557220459
+        },
+        {
+          "id": "organismID",
+          "label": "Organism ID",
+          "score": 0.7123507261276245
+        },
+        {
+          "id": "BAO:0000203",
+          "label": "has id value",
+          "score": 0.7092190980911255
+        },
+        {
+          "id": "recordedByID",
+          "label": "Recorded By ID",
+          "score": 0.7084474563598633
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=5381",
+          "label": "IDE (human)",
+          "score": 0.6985878944396973
+        },
+        {
+          "id": "NCIT:C69258",
+          "label": "Subject ID",
+          "score": 0.6966607570648193
+        },
+        {
+          "id": "nameAccordingToID",
+          "label": "Name According To ID",
+          "score": 0.6809054017066956
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=5360",
+          "label": "ID1 (human)",
+          "score": 0.6764441728591919
+        },
+        {
+          "id": "individualID",
+          "label": "Individual ID",
+          "score": 0.6692452430725098
+        },
+        {
+          "id": "data:2295",
+          "label": "Gene ID",
+          "score": 0.6665432453155518
+        },
+        {
+          "id": "CHEBI:231607",
+          "label": "IDPN",
+          "score": 0.6663993000984192
+        }
+      ]
+    },
+    {
+      "query": "FREMD_ID",
+      "time_ms": 108.6799000040628,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7176666259765625,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000878",
+      "top_k_results": [
+        {
+          "id": "NCIT:C17779",
+          "label": "FADD",
+          "score": 0.7176666259765625
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=3573",
+          "label": "FADD (human)",
+          "score": 0.6917757987976074
+        },
+        {
+          "id": "CHEBI:16238",
+          "label": "FAD",
+          "score": 0.6872586011886597
+        },
+        {
+          "id": "NCIT:C29039",
+          "label": "FDG",
+          "score": 0.68723464012146
+        },
+        {
+          "id": "SWO:1100102",
+          "label": "'FDR'",
+          "score": 0.678227424621582
+        },
+        {
+          "id": "CHEBI:30788",
+          "label": "FADH(.)",
+          "score": 0.663251519203186
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=23399",
+          "label": "FREM1 (human)",
+          "score": 0.6626404523849487
+        },
+        {
+          "id": "NCIT:C108260",
+          "label": "Fremont County, ID",
+          "score": 0.6610214114189148
+        },
+        {
+          "id": "EFO:0002178",
+          "label": "FaDu",
+          "score": 0.6492078304290771
+        },
+        {
+          "id": "CHEBI:213328",
+          "label": "F-DAT",
+          "score": 0.6388944387435913
+        },
+        {
+          "id": "CHEBI:74356",
+          "label": "Met-FMDP",
+          "score": 0.638275682926178
+        },
+        {
+          "id": "BTO:0005005",
+          "label": "FEPD cell",
+          "score": 0.6253055334091187
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=3774",
+          "label": "FMOD (human)",
+          "score": 0.6210182309150696
+        },
+        {
+          "id": "CHEBI:50528",
+          "label": "FMNH(.)",
+          "score": 0.6202559471130371
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=25396",
+          "label": "FREM2 (human)",
+          "score": 0.6160300970077515
+        },
+        {
+          "id": "NCIT:C63454",
+          "label": "FND Regimen",
+          "score": 0.6131542325019836
+        },
+        {
+          "id": "SWO:0000533",
+          "label": "fbat",
+          "score": 0.6127522587776184
+        },
+        {
+          "id": "data:1182",
+          "label": "FMA concept ID",
+          "score": 0.6125974655151367
+        },
+        {
+          "id": "data:1722",
+          "label": "FMA",
+          "score": 0.6119534373283386
+        },
+        {
+          "id": "CHEBI:17621",
+          "label": "FMN",
+          "score": 0.6087659597396851
+        }
+      ]
+    }
+  ]
+}

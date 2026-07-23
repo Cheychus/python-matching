@@ -1,76 +1,35 @@
 method,method_key,appendix,top_k,query,rank,hit@1,hit@5,hit@10,hit@20,reciprocal_rank,duplicate_labels,expected_id
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Bio entity,1,1,1,1,1,1.0,False,DPBO:0000012
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,milligram,2,0,1,1,1,0.5,False,UO:0000022
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Biosource material state,1,1,1,1,1,1.0,False,DPBO:0010009
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Dry material,1,1,1,1,1,1.0,False,DPBO:0010011
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Internal standard,1,1,1,1,1,1.0,False,DPBO:0010012
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,ribitol,1,1,1,1,1,1.0,False,CHEBI:15963
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Sample volume,1,1,1,1,1,1.0,False,DPBO:0010013
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,microliter,1,1,1,1,1,1.0,False,UO:0000101
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,MS sample post-extraction,1,1,1,1,1,1.0,False,DPBO:0000043
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,MS sample resuspension,1,1,1,1,1,1.0,False,DPBO:0000044
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,MS derivatization,1,1,1,1,1,1.0,False,DPBO:0000052
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,MS sample type,1,1,1,1,1,1.0,False,DPBO:0000045
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography instrument model,1,1,1,1,1,1.0,False,DPBO:0000046
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography autosampler model,1,1,1,1,1,1.0,False,DPBO:0000047
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography column type,1,1,1,1,1,1.0,False,DPBO:0000053
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography column model,1,1,1,1,1,1.0,False,DPBO:0000048
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,mobile phase,1,1,1,1,1,1.0,False,CHMO:0000995
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,helium(0),1,1,1,1,1,1.0,False,CHEBI:33681
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography injection volume,1,1,1,1,1,1.0,False,DPBO:0010014
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography injection mode,1,1,1,1,1,1.0,False,DPBO:0010015
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Chromatography gradient,1,1,1,1,1,1.0,False,DPBO:0000081
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,split,18,0,0,0,1,0.05555555555555555,False,PATO:0001786
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,material sample,4,0,1,1,1,0.25,False,OBI:0000747
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,scan polarity,1,1,1,1,1,1.0,False,MS:1000465
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,scan window lower limit,1,1,1,1,1,1.0,False,MS:1000501
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,scan window upper limit,1,1,1,1,1,1.0,False,MS:1000500
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,scan rate,1,1,1,1,1,1.0,False,MS:1000015
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,hertz,-1,0,0,0,0,0,False,UO:0000106
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,instrument model,2,0,1,1,1,0.5,False,MS:1000031
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,ionization type,1,1,1,1,1,1.0,False,MS:1000008
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,electron ionization,1,1,1,1,1,1.0,False,MS:1000389
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,mass analyzer type,1,1,1,1,1,1.0,False,MS:1000443
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,quadrupole,1,1,1,1,1,1.0,False,MS:1000081
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,detector type,1,1,1,1,1,1.0,False,MS:1000026
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,electron multiplier,1,1,1,1,1,1.0,False,MS:1000253
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,biosource amount,1,1,1,1,1,1.0,False,DPBO:0000013
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,extraction method,1,1,1,1,1,1.0,False,DPBO:0000054
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,extraction buffer,1,1,1,1,1,1.0,False,DPBO:0000050
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,extraction buffer volume,1,1,1,1,1,1.0,False,DPBO:0000051
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,RNA quality check,1,1,1,1,1,1.0,False,DPBO:0000062
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,library strategy,-1,0,0,0,0,0,False,DPBO:0000035
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,RNA-seq,-1,0,0,0,0,0,False,DPBO:1000003
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,library selection,-1,0,0,0,0,0,False,DPBO:0000036
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,library layout,1,1,1,1,1,1.0,False,DPBO:0000015
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,single-end,1,1,1,1,1,1.0,False,DPBO:0000086
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,library preparation kit,1,1,1,1,1,1.0,False,GENEPIO:0000085
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,library preparation kit version,1,1,1,1,1,1.0,False,GENEPIO:0000149
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,adapter sequence,1,1,1,1,1,1.0,False,GENEPIO:0000083
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,next generation sequencing instrument model,1,1,1,1,1,1.0,False,DPBO:0000040
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Illumina HiSeq 2000,-1,0,0,0,0,0,False,DPBO:1000041
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,base-calling software,1,1,1,1,1,1.0,False,DPBO:0000017
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,base-calling software version,1,1,1,1,1,1.0,False,DPBO:0000018
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Raw data file format,1,1,1,1,1,1.0,False,DPBO:0000021
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,mRNA Sequencing,1,1,1,1,1,1.0,False,NCIT:C129432
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,organism,1,1,1,1,1,1.0,False,OBI:0100026
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Talinum fruticosum,-1,0,0,0,0,0,False,NCBITaxon:110664
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,organism part,1,1,1,1,1,1.0,False,EFO:0000635
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,leaf,1,1,1,1,1,1.0,False,PO:0025034
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,plant age,1,1,1,1,1,1.0,False,DPBO:0000033
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,watering exposure,1,1,1,1,1,1.0,False,PECO:0007383
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Timepoint,2,0,1,1,1,0.5,False,NCIT:C68568
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,growth day length,1,1,1,1,1,1.0,False,DPBO:0000041
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,light intensity exposure,1,1,1,1,1,1.0,False,PECO:0007224
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,microeinstein per square meter per second,1,1,1,1,1,1.0,False,UO:0000160
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,humidity day,1,1,1,1,1,1.0,False,DPBO:0000005
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,percent,1,1,1,1,1,1.0,False,UO:0000187
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,temperature day,1,1,1,1,1,1.0,False,DPBO:0000007
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,degree celsius,2,0,1,1,1,0.5,False,UO:0000027
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,temperature night,1,1,1,1,1,1.0,False,DPBO:0000008
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,Likelihood-ratio test,1,1,1,1,1,1.0,False,OBI:0000861
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,DOI,-1,0,0,0,0,0,False,OBI:0002110
-embedding,NeuML_pubmedbert-base-embeddings,standard,20,PubMedID,5,0,1,1,1,0.2,False,OBI:0001617
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ACCENAME,-1,0,0,0,0,0,False,EDAM:2091
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ACCENUMB,-1,0,0,0,0,0,False,NCIT:C25402
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ACCEURL,-1,0,0,0,0,0,False,EDAM:1052
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ACCID,-1,0,0,0,0,0,False,EDAM:0842
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ANCEST,-1,0,0,0,0,0,False,NCIT:C42609
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ANNUALITY,-1,0,0,0,0,0,False,TO:0000369
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,AVAILABILITY,1,1,1,1,1,1.0,False,NCIT:C25429
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,COLLSITE,-1,0,0,0,0,0,False,BFO:0000029
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,COORDUNCERT,-1,0,0,0,0,0,False,coordinateUncertaintyInMeters
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,COORRANGE,-1,0,0,0,0,0,False,coordinatePrecision
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,COUNTRY_NAME,1,1,1,1,1,1.0,False,OBI:0001627
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,CROPNAME,1,1,1,1,1,1.0,False,AGRO:00000325
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,DECLATITUDE,8,0,0,1,1,0.125,False,decimalLatitude
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,DECLLONGITUDE,-1,0,0,0,0,0,False,decimalLongitude
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ELEVATION,1,1,1,1,1,1.0,False,NCIT:C25494
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,GENUS,2,0,1,1,1,0.5,False,NCIT:C45292
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,LATITUDE,2,0,1,1,1,0.5,False,SIO:000319
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,LONGITUDE,2,0,1,1,1,0.5,False,SIO:000318
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ORIGCTY,-1,0,0,0,0,0,False,PPEO:hasCountryOfOrigin
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,SAMPSTAT,-1,0,0,0,0,0,False,NCIT:C25688
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,SPECIES,1,1,1,1,1,1.0,False,NCIT:C45293
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,STORAGE,2,0,1,1,1,0.5,False,NCIT:C60824
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,SUBTAXA,-1,0,0,0,0,0,False,infraspecificEpithet
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,REMARKS,6,0,0,1,1,0.16666666666666666,False,organismRemarks
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,PEDIGREE,1,1,1,1,1,1.0,False,NCIT:C27957
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,INSTCODE,-1,0,0,0,0,0,False,institutionCode
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,TRIVIALNAME,-1,0,0,0,0,0,False,EDAM:2099
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ACCID_PRE,-1,0,0,0,0,0,False,NCIT:C54066
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,BEMERKUNG,-1,0,0,0,0,0,False,materialEntityRemarks
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,MATERIALTYP,-1,0,0,0,0,0,False,DPBO:0000177
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ACC_NR,-1,0,0,0,0,0,False,NCIT:C25337
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,CODE,1,1,1,1,1,1.0,False,NCIT:C25162
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,ID,-1,0,0,0,0,0,False,NCIT:C25364
+embedding,NeuML_pubmedbert-base-embeddings,ground_truth_b,20,FREMD_ID,-1,0,0,0,0,0,False,MS:1000878

@@ -1,0 +1,3952 @@
+{
+  "method": "embedding",
+  "method_key": "nomic-ai_nomic-embed-text-v1.5",
+  "appendix": "database_truth",
+  "top_k": 20,
+  "results": [
+    {
+      "query": "ACCENAME",
+      "time_ms": 196.53740001376718,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6397470235824585,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2091",
+      "top_k_results": [
+        {
+          "id": "CHEBI:217278",
+          "label": "Azacoccone C",
+          "score": 0.6397470235824585
+        },
+        {
+          "id": "CHEBI:232171",
+          "label": "atacamatriene C",
+          "score": 0.6372599601745605
+        },
+        {
+          "id": "CHEBI:224273",
+          "label": "Baraphenazine C",
+          "score": 0.6358978748321533
+        },
+        {
+          "id": "CHEBI:211606",
+          "label": "Alokicenone C",
+          "score": 0.6355654001235962
+        },
+        {
+          "id": "CHEBI:227394",
+          "label": "Applanlactone C",
+          "score": 0.6347850561141968
+        },
+        {
+          "id": "CHEBI:88047",
+          "label": "triazaacenaphthylene",
+          "score": 0.6344213485717773
+        },
+        {
+          "id": "CHEBI:83501",
+          "label": "acesulfame",
+          "score": 0.6338209509849548
+        },
+        {
+          "id": "NCIT:C76511",
+          "label": "Acesulfame",
+          "score": 0.6338209509849548
+        },
+        {
+          "id": "CHEBI:226659",
+          "label": "Asenjonamide C",
+          "score": 0.6337405443191528
+        },
+        {
+          "id": "CHEBI:224470",
+          "label": "Talascortene C",
+          "score": 0.6310279965400696
+        },
+        {
+          "id": "CHEBI:215020",
+          "label": "Tumescenamide C",
+          "score": 0.6279026865959167
+        },
+        {
+          "id": "CHEBI:221572",
+          "label": "Xenoacremone C",
+          "score": 0.6270219087600708
+        },
+        {
+          "id": "CHEBI:214993",
+          "label": "Takanawaene C",
+          "score": 0.6267096996307373
+        },
+        {
+          "id": "CHEBI:227368",
+          "label": "Applanone C",
+          "score": 0.625967264175415
+        },
+        {
+          "id": "CHEBI:211308",
+          "label": "Atlanticone C",
+          "score": 0.6252427101135254
+        },
+        {
+          "id": "CHEBI:234978",
+          "label": "Ac-O-9-NeuAcalpha2-3Galbeta1-3GalNAcbeta1-4Galbeta1-4Glc-ceramide",
+          "score": 0.624213457107544
+        },
+        {
+          "id": "CHEBI:206377",
+          "label": "Spiroapplanatumine C",
+          "score": 0.6240347623825073
+        },
+        {
+          "id": "CHEBI:227520",
+          "label": "Applanatine C",
+          "score": 0.6235381364822388
+        },
+        {
+          "id": "CHEBI:47800",
+          "label": "anthracenamine",
+          "score": 0.6225713491439819
+        },
+        {
+          "id": "CHEBI:184415",
+          "label": "Acesulfame k",
+          "score": 0.6218959093093872
+        }
+      ]
+    },
+    {
+      "query": "ACCENUMB",
+      "time_ms": 144.41919996170327,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6347793936729431,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25402",
+      "top_k_results": [
+        {
+          "id": "CHEBI:215674",
+          "label": "Mycenarubin C",
+          "score": 0.6347793936729431
+        },
+        {
+          "id": "CHEBI:221280",
+          "label": "Sandacrabin C",
+          "score": 0.6100407838821411
+        },
+        {
+          "id": "NCIT:C121551",
+          "label": "Carbon C 14 Roniciclib",
+          "score": 0.6098384857177734
+        },
+        {
+          "id": "CHEBI:205423",
+          "label": "Epicoccin C",
+          "score": 0.5984524488449097
+        },
+        {
+          "id": "CHEBI:205414",
+          "label": "Cristatumin C",
+          "score": 0.5950019955635071
+        },
+        {
+          "id": "CHEBI:202965",
+          "label": "Colletobredin C",
+          "score": 0.5942310094833374
+        },
+        {
+          "id": "CHEBI:198144",
+          "label": "Tenacibactin C",
+          "score": 0.5932318568229675
+        },
+        {
+          "id": "CHEBI:202142",
+          "label": "Epicoccamide C",
+          "score": 0.59209144115448
+        },
+        {
+          "id": "CHEBI:217410",
+          "label": "Atacamycin C",
+          "score": 0.5915732383728027
+        },
+        {
+          "id": "CHEBI:221572",
+          "label": "Xenoacremone C",
+          "score": 0.5908480286598206
+        },
+        {
+          "id": "GO:0034750",
+          "label": "Scrib-APC-beta-catenin complex",
+          "score": 0.5905349850654602
+        },
+        {
+          "id": "CHEBI:69862",
+          "label": "ajugaciliatin C",
+          "score": 0.5904154777526855
+        },
+        {
+          "id": "CHEBI:81144",
+          "label": "Isocolumbin",
+          "score": 0.5894951820373535
+        },
+        {
+          "id": "CHEBI:206170",
+          "label": "Sclerotiorumin C",
+          "score": 0.5891760587692261
+        },
+        {
+          "id": "CHEBI:195588",
+          "label": "1-Acetamidocyclopentanecarboxylic acid",
+          "score": 0.5877163410186768
+        },
+        {
+          "id": "CHEBI:69568",
+          "label": "Katsumain C",
+          "score": 0.5874477624893188
+        },
+        {
+          "id": "CHEBI:3942",
+          "label": "Cucurbitacin C",
+          "score": 0.5874181985855103
+        },
+        {
+          "id": "CHEBI:70205",
+          "label": "cassiaoccidentalin B",
+          "score": 0.5871015191078186
+        },
+        {
+          "id": "CHEBI:214900",
+          "label": "Mycenaflavin C",
+          "score": 0.5866532325744629
+        },
+        {
+          "id": "NCBITaxon:1247214",
+          "label": "Cercospora aff. canescens CBS 153.55",
+          "score": 0.5858719944953918
+        }
+      ]
+    },
+    {
+      "query": "ACCEURL",
+      "time_ms": 97.27710002334788,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6799970865249634,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:1052",
+      "top_k_results": [
+        {
+          "id": "DPBO:0000094",
+          "label": "RCurl",
+          "score": 0.6799970865249634
+        },
+        {
+          "id": "CHEBI:747454",
+          "label": "atirmociclib",
+          "score": 0.6128321886062622
+        },
+        {
+          "id": "NCIT:C121456",
+          "label": "Atuveciclib",
+          "score": 0.6117744445800781
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=92",
+          "label": "ACADVL (human)",
+          "score": 0.609096109867096
+        },
+        {
+          "id": "CHEBI:233410",
+          "label": "Atuveciclib Racemate",
+          "score": 0.6058937311172485
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=88",
+          "label": "ACADL (human)",
+          "score": 0.6058770418167114
+        },
+        {
+          "id": "CHEBI:34655",
+          "label": "cortancyl",
+          "score": 0.6039576530456543
+        },
+        {
+          "id": "NCIT:C76501",
+          "label": "Abecarnil",
+          "score": 0.6003987789154053
+        },
+        {
+          "id": "CHEBI:186582",
+          "label": "cyclicarchaeol",
+          "score": 0.592454731464386
+        },
+        {
+          "id": "CHEBI:217019",
+          "label": "Acaulin B",
+          "score": 0.5895506143569946
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=9948",
+          "label": "RECQL (human)",
+          "score": 0.5886784791946411
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=175",
+          "label": "ACVRL1 (human)",
+          "score": 0.5872265100479126
+        },
+        {
+          "id": "NCIT:C75021",
+          "label": "Alacepril",
+          "score": 0.5870851278305054
+        },
+        {
+          "id": "CHEBI:31182",
+          "label": "Alacepril",
+          "score": 0.5870851278305054
+        },
+        {
+          "id": "NCIT:C155652",
+          "label": "Samuraciclib",
+          "score": 0.5858221054077148
+        },
+        {
+          "id": "NCIT:C182116",
+          "label": "Data Analysis Workflow URL",
+          "score": 0.5853724479675293
+        },
+        {
+          "id": "CHEBI:69660",
+          "label": "Athrolide C, (rel)-",
+          "score": 0.5842739343643188
+        },
+        {
+          "id": "CHEBI:53627",
+          "label": "agatharesinol",
+          "score": 0.583448052406311
+        },
+        {
+          "id": "NMR:1000588",
+          "label": "contact URL",
+          "score": 0.5831815600395203
+        },
+        {
+          "id": "MS:1000588",
+          "label": "contact URL",
+          "score": 0.5831815600395203
+        }
+      ]
+    },
+    {
+      "query": "ACCID",
+      "time_ms": 81.57560002291575,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6679116487503052,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:0842",
+      "top_k_results": [
+        {
+          "id": "BAO:0000834",
+          "label": "Ac-DEVD-CHO",
+          "score": 0.6679116487503052
+        },
+        {
+          "id": "CHEBI:214375",
+          "label": "Acaciicolide C",
+          "score": 0.660729169845581
+        },
+        {
+          "id": "PATO:0001370",
+          "label": "viscid",
+          "score": 0.6539632081985474
+        },
+        {
+          "id": "NCIT:C188272",
+          "label": "ORCID",
+          "score": 0.6525051593780518
+        },
+        {
+          "id": "FLOPO:0015689",
+          "label": "aril viscid",
+          "score": 0.6509066224098206
+        },
+        {
+          "id": "FLOPO:0018009",
+          "label": "calyx viscid",
+          "score": 0.646476686000824
+        },
+        {
+          "id": "MS:1001787",
+          "label": "Acquity SQD",
+          "score": 0.6439412832260132
+        },
+        {
+          "id": "CHEBI:214370",
+          "label": "Acaciicolide B",
+          "score": 0.6435805559158325
+        },
+        {
+          "id": "MS:1001788",
+          "label": "Acquity TQD",
+          "score": 0.642951250076294
+        },
+        {
+          "id": "CHEBI:214363",
+          "label": "Acaciicolide A",
+          "score": 0.6341123580932617
+        },
+        {
+          "id": "MS:1002534",
+          "label": "ProLuCID:xcorr",
+          "score": 0.6336246132850647
+        },
+        {
+          "id": "CHEBI:214030",
+          "label": "Aspericacid A",
+          "score": 0.6272857189178467
+        },
+        {
+          "id": "CHEBI:33405",
+          "label": "hydracid",
+          "score": 0.6240439414978027
+        },
+        {
+          "id": "CHEBI:208029",
+          "label": "Applanoxidic acid C",
+          "score": 0.6227782368659973
+        },
+        {
+          "id": "FLOPO:0021524",
+          "label": "stem viscid",
+          "score": 0.6201304197311401
+        },
+        {
+          "id": "CHEBI:214399",
+          "label": "Acaciicolinol D",
+          "score": 0.6194760203361511
+        },
+        {
+          "id": "CHEBI:224026",
+          "label": "Lasalocid C",
+          "score": 0.6192084550857544
+        },
+        {
+          "id": "CHEBI:206428",
+          "label": "Penicacid C",
+          "score": 0.6185935139656067
+        },
+        {
+          "id": "NCIT:C166922",
+          "label": "Arprinocid",
+          "score": 0.6171573996543884
+        },
+        {
+          "id": "CHEBI:182830",
+          "label": "Arprinocid",
+          "score": 0.6171572804450989
+        }
+      ]
+    },
+    {
+      "query": "ANCEST",
+      "time_ms": 93.78439997090027,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6228068470954895,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C42609",
+      "top_k_results": [
+        {
+          "id": "NCIT:C43548",
+          "label": "Reactance",
+          "score": 0.6228068470954895
+        },
+        {
+          "id": "NCIT:C174460",
+          "label": "EP2/EP4 Antagonist TPST-1495",
+          "score": 0.6078944206237793
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=917",
+          "label": "B3GALT2 (human)",
+          "score": 0.6055744886398315
+        },
+        {
+          "id": "MS:1002177",
+          "label": "TOPP FeatureLinkerUnlabeledQT",
+          "score": 0.6052602529525757
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=15629",
+          "label": "B3GNT2 (human)",
+          "score": 0.6048679351806641
+        },
+        {
+          "id": "NCIT:C75142",
+          "label": "Revenast",
+          "score": 0.6044055819511414
+        },
+        {
+          "id": "NCIT:C154404",
+          "label": "PCORnet-defined Condition Algorithm",
+          "score": 0.6022055149078369
+        },
+        {
+          "id": "CHEBI:32092",
+          "label": "Repirinast",
+          "score": 0.6013073325157166
+        },
+        {
+          "id": "NCIT:C73053",
+          "label": "Repirinast",
+          "score": 0.6013072729110718
+        },
+        {
+          "id": "format:3605",
+          "label": "rast",
+          "score": 0.5976411700248718
+        },
+        {
+          "id": "NCIT:C152220",
+          "label": "Rimegepant",
+          "score": 0.5973317623138428
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=925",
+          "label": "B4GALT2 (human)",
+          "score": 0.596642255783081
+        },
+        {
+          "id": "SWO:1000078",
+          "label": "CC BY-ND 4.0",
+          "score": 0.5959998369216919
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=12021",
+          "label": "TPST2 (human)",
+          "score": 0.59422767162323
+        },
+        {
+          "id": "BAO:0000735",
+          "label": "DIVERSet",
+          "score": 0.5933475494384766
+        },
+        {
+          "id": "NCIT:C76054",
+          "label": "Begacestat",
+          "score": 0.5931680202484131
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=17968",
+          "label": "A4GNT (human)",
+          "score": 0.592578113079071
+        },
+        {
+          "id": "CHEBI:189654",
+          "label": "4E2RCat",
+          "score": 0.5905895233154297
+        },
+        {
+          "id": "SWO:1000083",
+          "label": "CC BY-NC-ND 2.5",
+          "score": 0.5873486995697021
+        },
+        {
+          "id": "MS:1001903",
+          "label": "MaxQuant:feature intensity",
+          "score": 0.5871471762657166
+        }
+      ]
+    },
+    {
+      "query": "ANNUALITY",
+      "time_ms": 79.42379999440163,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.692818820476532,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "TO:0000369",
+      "top_k_results": [
+        {
+          "id": "PATO:0001813",
+          "label": "atonicity",
+          "score": 0.692818820476532
+        },
+        {
+          "id": "GSSO:004911",
+          "label": "autochorisexuality",
+          "score": 0.6745230555534363
+        },
+        {
+          "id": "GSSO:001379",
+          "label": "non-heterosexuality",
+          "score": 0.6574909687042236
+        },
+        {
+          "id": "PATO:0001431",
+          "label": "adhesivity",
+          "score": 0.6484869122505188
+        },
+        {
+          "id": "NCIT:C142567",
+          "label": "Granularity",
+          "score": 0.6462481021881104
+        },
+        {
+          "id": "GSSO:000712",
+          "label": "demisexuality",
+          "score": 0.6431722640991211
+        },
+        {
+          "id": "NCIT:C25185",
+          "label": "Laterality",
+          "score": 0.6406503319740295
+        },
+        {
+          "id": "NCIT:C84362",
+          "label": "Heterosexuality",
+          "score": 0.6386484503746033
+        },
+        {
+          "id": "NCIT:C54215",
+          "label": "Directionality",
+          "score": 0.6383041739463806
+        },
+        {
+          "id": "GSSO:000700",
+          "label": "allosexuality",
+          "score": 0.6369754076004028
+        },
+        {
+          "id": "FLOPO:0005351",
+          "label": "awn pilosity",
+          "score": 0.6359090805053711
+        },
+        {
+          "id": "NCIT:C148063",
+          "label": "Nullizygosity",
+          "score": 0.6343640089035034
+        },
+        {
+          "id": "NCIT:C82552",
+          "label": "Causality",
+          "score": 0.6342195272445679
+        },
+        {
+          "id": "PATO:0002333",
+          "label": "increased adhesivity",
+          "score": 0.6332284212112427
+        },
+        {
+          "id": "PATO:0002190",
+          "label": "aromaticity",
+          "score": 0.6308397054672241
+        },
+        {
+          "id": "GSSO:000702",
+          "label": "plurisexuality",
+          "score": 0.629934549331665
+        },
+        {
+          "id": "PATO:0001439",
+          "label": "tonicity",
+          "score": 0.6289325952529907
+        },
+        {
+          "id": "NCIT:C19453",
+          "label": "Allogenicity",
+          "score": 0.627843976020813
+        },
+        {
+          "id": "NCIT:C180327",
+          "label": "Pansexuality",
+          "score": 0.6242349743843079
+        },
+        {
+          "id": "NCIT:C180991",
+          "label": "Sapiosexuality",
+          "score": 0.6238425970077515
+        }
+      ]
+    },
+    {
+      "query": "AVAILABILITY",
+      "time_ms": 80.85460000438616,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7110543251037598,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25429",
+      "top_k_results": [
+        {
+          "id": "NCIT:C154838",
+          "label": "Absolute Bioavailability",
+          "score": 0.7110543251037598
+        },
+        {
+          "id": "NCIT:C70913",
+          "label": "Bioavailability",
+          "score": 0.7098622918128967
+        },
+        {
+          "id": "NCIT:C154839",
+          "label": "Relative Bioavailability",
+          "score": 0.7080721855163574
+        },
+        {
+          "id": "NCIT:C28015",
+          "label": "Bioavailable",
+          "score": 0.6975977420806885
+        },
+        {
+          "id": "NCIT:C49664",
+          "label": "Bioavailability Study",
+          "score": 0.6797223091125488
+        },
+        {
+          "id": "BAO:0003042",
+          "label": "F",
+          "score": 0.6784893274307251
+        },
+        {
+          "id": "NCIT:C79398",
+          "label": "Bioavailability (BA) Study Reports and Related Information",
+          "score": 0.6772886514663696
+        },
+        {
+          "id": "NCIT:C101511",
+          "label": "Clinical Bioequivalence or Bioavailability Study",
+          "score": 0.6706597805023193
+        },
+        {
+          "id": "NCIT:C179004",
+          "label": "Viability by Automated Count",
+          "score": 0.6620862483978271
+        },
+        {
+          "id": "NCIT:C190883",
+          "label": "Palatability",
+          "score": 0.6612359285354614
+        },
+        {
+          "id": "PATO:0000169",
+          "label": "viability",
+          "score": 0.6532678604125977
+        },
+        {
+          "id": "NCIT:C179005",
+          "label": "Viability by Hemocytometry",
+          "score": 0.6531404852867126
+        },
+        {
+          "id": "NCIT:C79235",
+          "label": "Request for Waiver of In Vivo Bioavailability Studies",
+          "score": 0.6520569324493408
+        },
+        {
+          "id": "NCIT:C139278",
+          "label": "Sample Viability Percent Measurement",
+          "score": 0.650617241859436
+        },
+        {
+          "id": "BAO:0002530",
+          "label": "bioavailability assay",
+          "score": 0.6488168239593506
+        },
+        {
+          "id": "PATO:0000338",
+          "label": "obsolete compatability value",
+          "score": 0.6485161781311035
+        },
+        {
+          "id": "PATO:0000340",
+          "label": "obsolete relative compatability value",
+          "score": 0.6472907066345215
+        },
+        {
+          "id": "FLOPO:0017887",
+          "label": "stem viability",
+          "score": 0.6457316875457764
+        },
+        {
+          "id": "IAO:0000611",
+          "label": "availability section",
+          "score": 0.6447149515151978
+        },
+        {
+          "id": "FLOPO:0020971",
+          "label": "branch viability",
+          "score": 0.6438854932785034
+        }
+      ]
+    },
+    {
+      "query": "COLLSITE",
+      "time_ms": 84.27799999481067,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6075911521911621,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "BFO:0000029",
+      "top_k_results": [
+        {
+          "id": "NCIT:C90405",
+          "label": "Lead Site CV5RL",
+          "score": 0.6075911521911621
+        },
+        {
+          "id": "NCIT:C45966",
+          "label": "Subsite",
+          "score": 0.588019609451294
+        },
+        {
+          "id": "EFO:0010100",
+          "label": "multisite chronic pain",
+          "score": 0.5863701105117798
+        },
+        {
+          "id": "MOD:01214",
+          "label": "iodoacetamide - site C",
+          "score": 0.5814191102981567
+        },
+        {
+          "id": "NCIT:C90406",
+          "label": "Lead Site CV6LL",
+          "score": 0.578234851360321
+        },
+        {
+          "id": "CHEBI:226876",
+          "label": "Orbiocrellone C",
+          "score": 0.5777756571769714
+        },
+        {
+          "id": "SWO:1000089",
+          "label": "CC BY-NC-SA 2.5 IN",
+          "score": 0.5776479244232178
+        },
+        {
+          "id": "NCIT:C144196",
+          "label": "Grade 1 Infusion Site Extravasation, CTCAE",
+          "score": 0.5772521495819092
+        },
+        {
+          "id": "SWO:1000086",
+          "label": "CC BY-NC-SA 2.5",
+          "score": 0.5772439241409302
+        },
+        {
+          "id": "MOD:01365",
+          "label": "fluorescein-5-thiosemicarbazide - site C",
+          "score": 0.5772076845169067
+        },
+        {
+          "id": "NCIT:C145312",
+          "label": "Grade 3 General Disorders and Administration Site Conditions - Other, Specify, CTCAE",
+          "score": 0.5755789279937744
+        },
+        {
+          "id": "NCIT:C90407",
+          "label": "Lead Site CV6LU",
+          "score": 0.5743622779846191
+        },
+        {
+          "id": "NCIT:C144759",
+          "label": "Grade 2 Infusion Site Extravasation, CTCAE",
+          "score": 0.574323832988739
+        },
+        {
+          "id": "NCIT:C146377",
+          "label": "Grade 5 Infusion Site Extravasation, CTCAE",
+          "score": 0.5740228295326233
+        },
+        {
+          "id": "NCIT:C145382",
+          "label": "Grade 3 Injection Site Reaction, CTCAE",
+          "score": 0.5738387107849121
+        },
+        {
+          "id": "NCIT:C146327",
+          "label": "Grade 5 General Disorders and Administration Site Conditions - Other, Specify, CTCAE",
+          "score": 0.5725321769714355
+        },
+        {
+          "id": "NCIT:C145381",
+          "label": "Grade 3 Infusion Site Extravasation, CTCAE",
+          "score": 0.5719942450523376
+        },
+        {
+          "id": "NCIT:C144197",
+          "label": "Grade 1 Injection Site Reaction, CTCAE",
+          "score": 0.5717105269432068
+        },
+        {
+          "id": "NCIT:C57678",
+          "label": "Grade 5 Colon or Cecum or Appendix Necrosis, CTCAE",
+          "score": 0.5715615153312683
+        },
+        {
+          "id": "NCIT:C146378",
+          "label": "Grade 5 Injection Site Reaction, CTCAE",
+          "score": 0.5715343356132507
+        }
+      ]
+    },
+    {
+      "query": "COORDUNCERT",
+      "time_ms": 91.1297999555245,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6504501700401306,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinateUncertaintyInMeters",
+      "top_k_results": [
+        {
+          "id": "SWO:0000246",
+          "label": "KCsmart",
+          "score": 0.6504501700401306
+        },
+        {
+          "id": "NCIT:C71881",
+          "label": "COSTART",
+          "score": 0.6432250142097473
+        },
+        {
+          "id": "NCIT:C154404",
+          "label": "PCORnet-defined Condition Algorithm",
+          "score": 0.6405398845672607
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=28334",
+          "label": "UPRT (human)",
+          "score": 0.6376266479492188
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=5157",
+          "label": "HPRT1 (human)",
+          "score": 0.6315559148788452
+        },
+        {
+          "id": "EFO:0008953",
+          "label": "STRT-seq",
+          "score": 0.6305242776870728
+        },
+        {
+          "id": "EFO:0008982",
+          "label": "VirCapSeq-VERT",
+          "score": 0.6303385496139526
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=3760",
+          "label": "FLRT1 (human)",
+          "score": 0.6302992105484009
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=24101",
+          "label": "SRRT (human)",
+          "score": 0.6249508857727051
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=20412",
+          "label": "KRT20 (human)",
+          "score": 0.6237349510192871
+        },
+        {
+          "id": "NCIT:C146819",
+          "label": "SMRT Sequencing",
+          "score": 0.6235469579696655
+        },
+        {
+          "id": "SWO:0000246",
+          "label": "obsolete KCsmart",
+          "score": 0.6233929395675659
+        },
+        {
+          "id": "NCIT:C1133",
+          "label": "ImuVert",
+          "score": 0.6222952604293823
+        },
+        {
+          "id": "NCIT:C56786",
+          "label": "Grade 1 Spermatic Cord Stricture or Stenosis, CTCAE",
+          "score": 0.6181289553642273
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=28927",
+          "label": "KRT71 (human)",
+          "score": 0.6180276870727539
+        },
+        {
+          "id": "MS:1001086",
+          "label": "SEQUEST:sort by XCorr",
+          "score": 0.6176817417144775
+        },
+        {
+          "id": "MS:1002252",
+          "label": "Comet:xcorr",
+          "score": 0.6173931360244751
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=6436",
+          "label": "KRT19 (human)",
+          "score": 0.6166555285453796
+        },
+        {
+          "id": "NCIT:C65171",
+          "label": "Spearman Rank-Order Correlation",
+          "score": 0.616156816482544
+        },
+        {
+          "id": "NCIT:C90956",
+          "label": "Naflocort",
+          "score": 0.6149671077728271
+        }
+      ]
+    },
+    {
+      "query": "COORRANGE",
+      "time_ms": 81.06140000745654,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6228923797607422,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "coordinatePrecision",
+      "top_k_results": [
+        {
+          "id": "CHEBI:34655",
+          "label": "cortancyl",
+          "score": 0.6228923797607422
+        },
+        {
+          "id": "NCIT:C177095",
+          "label": "Cotoretigene Toliparvovec",
+          "score": 0.6121742725372314
+        },
+        {
+          "id": "NCIT:C174766",
+          "label": "Catridecacog",
+          "score": 0.6107034683227539
+        },
+        {
+          "id": "NCIT:C143377",
+          "label": "Colonic Stenosis, CTCAE",
+          "score": 0.6080430150032043
+        },
+        {
+          "id": "NCIT:C98251",
+          "label": "Clocortolone Caproate",
+          "score": 0.6074709892272949
+        },
+        {
+          "id": "CHEBI:225853",
+          "label": "Pyranterrone C",
+          "score": 0.6062192916870117
+        },
+        {
+          "id": "UBERON:2001274",
+          "label": "coronomeckelian",
+          "score": 0.6054669618606567
+        },
+        {
+          "id": "CHEBI:217536",
+          "label": "Chartarolide C",
+          "score": 0.6050125360488892
+        },
+        {
+          "id": "NCIT:C43949",
+          "label": "Coharie",
+          "score": 0.6041643619537354
+        },
+        {
+          "id": "CHEBI:212979",
+          "label": "Scopararane C",
+          "score": 0.6041347980499268
+        },
+        {
+          "id": "SWO:1000084",
+          "label": "CC BY-NC-ND 2.5 CH",
+          "score": 0.6030709743499756
+        },
+        {
+          "id": "CHEBI:190265",
+          "label": "Condurangogenin C",
+          "score": 0.6030364036560059
+        },
+        {
+          "id": "CHEBI:174270",
+          "label": "Coriandrone C",
+          "score": 0.6014891862869263
+        },
+        {
+          "id": "NCIT:C166283",
+          "label": "FACT-COG Version 3 - Trouble Finding Familiar Place",
+          "score": 0.60085129737854
+        },
+        {
+          "id": "NCIT:C144036",
+          "label": "Grade 1 Colonic Stenosis, CTCAE",
+          "score": 0.6003825664520264
+        },
+        {
+          "id": "SWO:1000083",
+          "label": "CC BY-NC-ND 2.5",
+          "score": 0.5994769334793091
+        },
+        {
+          "id": "CHEBI:223273",
+          "label": "Clonocoprogen C",
+          "score": 0.598413348197937
+        },
+        {
+          "id": "CHEBI:3884",
+          "label": "corilagin",
+          "score": 0.5982711315155029
+        },
+        {
+          "id": "NCIT:C57139",
+          "label": "Colon Stricture or Stenosis, CTCAE",
+          "score": 0.5975408554077148
+        },
+        {
+          "id": "SWO:0000067",
+          "label": "CRG RCoffee Web Tool",
+          "score": 0.5975141525268555
+        }
+      ]
+    },
+    {
+      "query": "COUNTRY_NAME",
+      "time_ms": 84.10670002922416,
+      "rank": 1,
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@20": true,
+      "score": 0.7130927443504333,
+      "best_score": 0.7130927443504333,
+      "reciprocal_rank": 1.0,
+      "duplicate_labels": false,
+      "expected_id": "OBI:0001627",
+      "top_k_results": [
+        {
+          "id": "OBI:0001627",
+          "label": "country name",
+          "score": 0.7130927443504333
+        },
+        {
+          "id": "HANCESTRO:0308",
+          "label": "hasCountryOfOrigin",
+          "score": 0.6779845952987671
+        },
+        {
+          "id": "NCIT:C43501",
+          "label": "Colorado",
+          "score": 0.6551307439804077
+        },
+        {
+          "id": "data:2735",
+          "label": "Database name (SwissRegulon)",
+          "score": 0.6516283750534058
+        },
+        {
+          "id": "NCIT:C43457",
+          "label": "Maine",
+          "score": 0.6512183547019958
+        },
+        {
+          "id": "NCIT:C44706",
+          "label": "Wales",
+          "score": 0.6485922336578369
+        },
+        {
+          "id": "NCIT:C43503",
+          "label": "Nevada",
+          "score": 0.6433807611465454
+        },
+        {
+          "id": "NCIT:C43484",
+          "label": "Kentucky",
+          "score": 0.6425535082817078
+        },
+        {
+          "id": "data:2747",
+          "label": "Database name (CMD)",
+          "score": 0.6421756744384766
+        },
+        {
+          "id": "NCIT:C202465",
+          "label": "Compendial Name",
+          "score": 0.6407438516616821
+        },
+        {
+          "id": "CHEBI:60995",
+          "label": "Ac-Cha-Gpg-Tic-Nle-NMeBn",
+          "score": 0.6404125690460205
+        },
+        {
+          "id": "SWO:1000067",
+          "label": "CC BY 2.0 UK",
+          "score": 0.6400952339172363
+        },
+        {
+          "id": "data:1044",
+          "label": "Kingdom name",
+          "score": 0.6385681629180908
+        },
+        {
+          "id": "NCIT:C43500",
+          "label": "Wyoming",
+          "score": 0.6379457712173462
+        },
+        {
+          "id": "NCIT:C101814",
+          "label": "CDISC Questionnaire COWS Test Name Terminology",
+          "score": 0.6360687613487244
+        },
+        {
+          "id": "NCIT:C43930",
+          "label": "Chickahominy",
+          "score": 0.6338985562324524
+        },
+        {
+          "id": "CHEBI:60992",
+          "label": "Ac-Cha-Gpg-Tic-Nle-NHCH2CH2Ph",
+          "score": 0.6324903964996338
+        },
+        {
+          "id": "NCIT:C43449",
+          "label": "North Central States",
+          "score": 0.631382167339325
+        },
+        {
+          "id": "MS:1001013",
+          "label": "database name",
+          "score": 0.6295327544212341
+        },
+        {
+          "id": "data:1056",
+          "label": "Database name",
+          "score": 0.6295327544212341
+        }
+      ]
+    },
+    {
+      "query": "CROPNAME",
+      "time_ms": 82.1338000241667,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6580551862716675,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "AGRO:00000325",
+      "top_k_results": [
+        {
+          "id": "ENVO:01000302",
+          "label": "outcrop",
+          "score": 0.6580551862716675
+        },
+        {
+          "id": "NCIT:C44932",
+          "label": "Clatsop",
+          "score": 0.6464816331863403
+        },
+        {
+          "id": "CHEBI:230371",
+          "label": "CTOP",
+          "score": 0.6380605697631836
+        },
+        {
+          "id": "EFO:0010008",
+          "label": "irCLIP",
+          "score": 0.6360757350921631
+        },
+        {
+          "id": "CHEBI:82195",
+          "label": "Clofop",
+          "score": 0.6312600374221802
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=17888",
+          "label": "CRCP (human)",
+          "score": 0.6276800632476807
+        },
+        {
+          "id": "CHEBI:225994",
+          "label": "Cordycepol C",
+          "score": 0.6266830563545227
+        },
+        {
+          "id": "CHEBI:221343",
+          "label": "Chlorocylindrocarpol",
+          "score": 0.6264735460281372
+        },
+        {
+          "id": "UBERON:0013412",
+          "label": "crotaphion",
+          "score": 0.626301109790802
+        },
+        {
+          "id": "CHEBI:60985",
+          "label": "Ac-Cha-Gpg-Tic-Nle-betaPhPro-[S(oxaz)L]-NMe2",
+          "score": 0.6262192726135254
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=37276",
+          "label": "CRPPA (human)",
+          "score": 0.6258242130279541
+        },
+        {
+          "id": "CHEBI:145403",
+          "label": "(R)-diclofop",
+          "score": 0.6231002807617188
+        },
+        {
+          "id": "CHEBI:60975",
+          "label": "Ac-Cha-Gpg-Tic-Met-betaPhPro-[S(oxaz)L]-NMe2",
+          "score": 0.6226906180381775
+        },
+        {
+          "id": "NCIT:C161032",
+          "label": "Chlorocebus aethiops",
+          "score": 0.6218268871307373
+        },
+        {
+          "id": "NCBITaxon:9534",
+          "label": "Chlorocebus aethiops",
+          "score": 0.6218268871307373
+        },
+        {
+          "id": "BAO:0002639",
+          "label": "Chlorocebus aethiops",
+          "score": 0.6218268275260925
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=2356",
+          "label": "CRHBP (human)",
+          "score": 0.6217147707939148
+        },
+        {
+          "id": "CHEBI:195283",
+          "label": "cratoxylumxanthone C",
+          "score": 0.6210317611694336
+        },
+        {
+          "id": "UBERON:0014409",
+          "label": "metacromion",
+          "score": 0.6199813485145569
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=2367",
+          "label": "CRP (human)",
+          "score": 0.6188310980796814
+        }
+      ]
+    },
+    {
+      "query": "DECLATITUDE",
+      "time_ms": 83.16420001210645,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6850349307060242,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLatitude",
+      "top_k_results": [
+        {
+          "id": "NCIT:C79127",
+          "label": "Diclometide",
+          "score": 0.6850349307060242
+        },
+        {
+          "id": "CHEBI:209076",
+          "label": "4-dechloro-14-deoxy-oxacyclododecindione",
+          "score": 0.6799876689910889
+        },
+        {
+          "id": "CHEBI:213216",
+          "label": "Desmethyldichlorodiaportintone",
+          "score": 0.6687769889831543
+        },
+        {
+          "id": "CHEBI:65748",
+          "label": "desacetylpyramidaglain D",
+          "score": 0.6680424213409424
+        },
+        {
+          "id": "PR:Q8TEA8",
+          "label": "D-aminoacyl-tRNA deacylase 1 (human)",
+          "score": 0.66792893409729
+        },
+        {
+          "id": "CHEBI:188411",
+          "label": "2,4,6,8-Decatetraenoic acid dehydropiperidide",
+          "score": 0.6674298048019409
+        },
+        {
+          "id": "CHEBI:201813",
+          "label": "Oxacyclododecindione",
+          "score": 0.665111780166626
+        },
+        {
+          "id": "CHEBI:181215",
+          "label": "Deoxycommendamide (putative) or in source fragment-H2O observed in AGP sample",
+          "score": 0.6633113622665405
+        },
+        {
+          "id": "CHEBI:84322",
+          "label": "dapdiamide C zwitterion",
+          "score": 0.6621013879776001
+        },
+        {
+          "id": "CHEBI:85333",
+          "label": "dapdiamide C",
+          "score": 0.6607165932655334
+        },
+        {
+          "id": "CHEBI:16968",
+          "label": "1,8-diazacyclotetradecane-2,9-dione",
+          "score": 0.6586195230484009
+        },
+        {
+          "id": "CHEBI:78740",
+          "label": "cyclooctadepsipeptide",
+          "score": 0.6581766605377197
+        },
+        {
+          "id": "CHEBI:53090",
+          "label": "1,3-dicyclohexylcarbodiimide",
+          "score": 0.6564048528671265
+        },
+        {
+          "id": "GO:0043696",
+          "label": "dedifferentiation",
+          "score": 0.6562204360961914
+        },
+        {
+          "id": "CHEBI:18326",
+          "label": "cyclobutadipyrimidine bis(deoxyribonucleotide)",
+          "score": 0.6556106805801392
+        },
+        {
+          "id": "CHEBI:17623",
+          "label": "cyclomaltodextrin",
+          "score": 0.653795599937439
+        },
+        {
+          "id": "SWO:1000078",
+          "label": "CC BY-ND 4.0",
+          "score": 0.6532671451568604
+        },
+        {
+          "id": "CHEBI:187126",
+          "label": "(2E,4E,6Z)-2,4,6-Decatrienoic acid dehydropiperidide",
+          "score": 0.6530781984329224
+        },
+        {
+          "id": "CHEBI:199779",
+          "label": "Desmethoxymajusculamide C",
+          "score": 0.6529750823974609
+        },
+        {
+          "id": "NCIT:C130353",
+          "label": "HAMD 24 - Depersonalization and Derealisation",
+          "score": 0.652908205986023
+        }
+      ]
+    },
+    {
+      "query": "DECLLONGITUDE",
+      "time_ms": 79.43569996859878,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6529874801635742,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "decimalLongitude",
+      "top_k_results": [
+        {
+          "id": "NCIT:C92863",
+          "label": "Prolonged Acceleration",
+          "score": 0.6529874801635742
+        },
+        {
+          "id": "GO:0060291",
+          "label": "long-term synaptic potentiation",
+          "score": 0.6377193331718445
+        },
+        {
+          "id": "NCIT:C91482",
+          "label": "Long-Term Potentiation Pathway",
+          "score": 0.6374374628067017
+        },
+        {
+          "id": "NCIT:C141832",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Minutes per Day",
+          "score": 0.6345630884170532
+        },
+        {
+          "id": "NCIT:C141831",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Hr and Min per Day",
+          "score": 0.6331083178520203
+        },
+        {
+          "id": "NCIT:C141830",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Days Vigorous in Your Leisure Time",
+          "score": 0.6325526237487793
+        },
+        {
+          "id": "NCIT:C93083",
+          "label": "Lassitude",
+          "score": 0.6304891109466553
+        },
+        {
+          "id": "NCIT:C147488",
+          "label": "Absolute Change in Longest Diameter From Nadir Product of Perpendicular Diameters Timepoint",
+          "score": 0.6298081874847412
+        },
+        {
+          "id": "NCIT:C141781",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Work Hr and Min per Day",
+          "score": 0.6271870136260986
+        },
+        {
+          "id": "NCIT:C147489",
+          "label": "Absolute Change in Longest Perpendicular from Nadir Product of Perpendicular Diameters Timepoint",
+          "score": 0.6267997622489929
+        },
+        {
+          "id": "NCIT:C141834",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Minutes per Week",
+          "score": 0.625779390335083
+        },
+        {
+          "id": "NCIT:C141833",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Hr and Min per Week",
+          "score": 0.6256884932518005
+        },
+        {
+          "id": "NCIT:C141782",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Work Minutes per Day",
+          "score": 0.6240949630737305
+        },
+        {
+          "id": "NCIT:C141826",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Walking Leisure Hr and Min per Day",
+          "score": 0.6240752339363098
+        },
+        {
+          "id": "NCIT:C118041",
+          "label": "C-SSRS Lifetime/Recent Version - Duration of Most Severe Ideation (Past 1 Month)",
+          "score": 0.6238359212875366
+        },
+        {
+          "id": "NCIT:C141780",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Days Vigorous as Part of Work",
+          "score": 0.623466968536377
+        },
+        {
+          "id": "NCIT:C141827",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Walking Leisure Minutes Per Day",
+          "score": 0.6230979561805725
+        },
+        {
+          "id": "CHEBI:222109",
+          "label": "Longicatenamide D",
+          "score": 0.6228578090667725
+        },
+        {
+          "id": "NCIT:C141797",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Traveling Minutes per Day",
+          "score": 0.6223641037940979
+        },
+        {
+          "id": "NCIT:C118040",
+          "label": "C-SSRS Lifetime/Recent Version - Duration of Most Severe Ideation (Lifetime)",
+          "score": 0.6217601895332336
+        }
+      ]
+    },
+    {
+      "query": "ELEVATION",
+      "time_ms": 80.08220000192523,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6601780652999878,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25494",
+      "top_k_results": [
+        {
+          "id": "ENVO:03000003",
+          "label": "nivation",
+          "score": 0.6601780652999878
+        },
+        {
+          "id": "GO:0031136",
+          "label": "obsolete positive regulation of conjugation",
+          "score": 0.6178967952728271
+        },
+        {
+          "id": "NCIT:C55399",
+          "label": "Grade 4 Extrapyramidal and Involuntary Movement and Restlessness, CTCAE",
+          "score": 0.6174907088279724
+        },
+        {
+          "id": "NCIT:C16475",
+          "label": "Cryopreservation",
+          "score": 0.6162148714065552
+        },
+        {
+          "id": "MS:1000390",
+          "label": "ion desolvation",
+          "score": 0.6161078810691833
+        },
+        {
+          "id": "MONDO:0007828",
+          "label": "obsolete indifference to pain, congenital, autosomal dominant",
+          "score": 0.6153091192245483
+        },
+        {
+          "id": "NCIT:C138578",
+          "label": "PedsQL Neuromuscular Module Acute Version 3.0 Parent Report for Young Adults - Get Hurt Accidentally",
+          "score": 0.6151213645935059
+        },
+        {
+          "id": "NCIT:C138653",
+          "label": "PedsQL Neuromuscular Module Acute Version 3.0 Young Adult Report - Get Hurt Accidentally",
+          "score": 0.614910364151001
+        },
+        {
+          "id": "NCIT:C182820",
+          "label": "Kurtzke Functional System Scores KFSS104 Original Result - Sensation essentially lost below the head",
+          "score": 0.6149061918258667
+        },
+        {
+          "id": "NCIT:C138503",
+          "label": "PedsQL Neuromuscular Module Acute Version 3.0 Parent of Toddler - Get Hurt Accidentally",
+          "score": 0.6148377656936646
+        },
+        {
+          "id": "GO:0051944",
+          "label": "positive regulation of catecholamine uptake involved in synaptic transmission",
+          "score": 0.6147842407226562
+        },
+        {
+          "id": "OBA:2057596",
+          "label": "level of pyruvate dehydrogenase E1 component subunit alpha, testis-specific form, mitochondrial (human) in cerebrospinal fluid",
+          "score": 0.6146247386932373
+        },
+        {
+          "id": "NCIT:C138628",
+          "label": "PedsQL Neuromuscular Module Acute Version 3.0 Teen Report - Get Hurt Accidentally",
+          "score": 0.6146014332771301
+        },
+        {
+          "id": "CHMO:0001859",
+          "label": "delays alternating with nutation for tailored excitation",
+          "score": 0.6145371198654175
+        },
+        {
+          "id": "NCIT:C138572",
+          "label": "PedsQL Neuromuscular Module Acute Version 3.0 Parent Report for Young Adults - Hands Are Weak",
+          "score": 0.614182710647583
+        },
+        {
+          "id": "GO:0097364",
+          "label": "obsolete stretch-activated, monoatomic cation-selective, calcium channel activity involved in regulation of action potential",
+          "score": 0.614058256149292
+        },
+        {
+          "id": "GO:0044641",
+          "label": "obsolete envenomation resulting in positive regulation of complement activation, lectin pathway in another organism",
+          "score": 0.6138975620269775
+        },
+        {
+          "id": "NCIT:C114037",
+          "label": "MSQOL-54 - Ability to Satisfy Sexual Partner",
+          "score": 0.613896369934082
+        },
+        {
+          "id": "NCIT:C55396",
+          "label": "Grade 1 Extrapyramidal and Involuntary Movement and Restlessness, CTCAE",
+          "score": 0.6138778328895569
+        },
+        {
+          "id": "MS:1001145",
+          "label": "SEQUEST:SelectAdvancedCV",
+          "score": 0.613798975944519
+        }
+      ]
+    },
+    {
+      "query": "GENUS",
+      "time_ms": 81.58420003019273,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7055572271347046,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45292",
+      "top_k_results": [
+        {
+          "id": "NCIT:C52928",
+          "label": "Genioglossus",
+          "score": 0.7055572271347046
+        },
+        {
+          "id": "FLOPO:0013508",
+          "label": "pappus autogenous",
+          "score": 0.6753020286560059
+        },
+        {
+          "id": "FLOPO:0010515",
+          "label": "glume autogenous",
+          "score": 0.6675702929496765
+        },
+        {
+          "id": "HP:0002857",
+          "label": "Genu valgum",
+          "score": 0.667012631893158
+        },
+        {
+          "id": "NCIT:C84726",
+          "label": "Genu Varum",
+          "score": 0.6646750569343567
+        },
+        {
+          "id": "HP:0002970",
+          "label": "Genu varum",
+          "score": 0.6646750569343567
+        },
+        {
+          "id": "ENVO:01001417",
+          "label": "silvagenitus cloud",
+          "score": 0.6644092798233032
+        },
+        {
+          "id": "NCIT:C32675",
+          "label": "Genu of the Corpus Callosum",
+          "score": 0.6627809405326843
+        },
+        {
+          "id": "UBERON:0005362",
+          "label": "vagus X ganglion",
+          "score": 0.6607898473739624
+        },
+        {
+          "id": "UBERON:0015599",
+          "label": "genu of corpus callosum",
+          "score": 0.6605600714683533
+        },
+        {
+          "id": "UBERON:0001571",
+          "label": "genioglossus muscle",
+          "score": 0.6571011543273926
+        },
+        {
+          "id": "FLOPO:0016628",
+          "label": "phyllome sinus autogenous",
+          "score": 0.6570407152175903
+        },
+        {
+          "id": "CHEBI:51070",
+          "label": "Janus Green B cation",
+          "score": 0.6559675931930542
+        },
+        {
+          "id": "FLOPO:0006518",
+          "label": "gynoecium autogenous",
+          "score": 0.6506657600402832
+        },
+        {
+          "id": "Orphanet:156622",
+          "label": "Genetic urogenital tract malformation",
+          "score": 0.6503984928131104
+        },
+        {
+          "id": "UBERON:0004026",
+          "label": "caudal ganglionic eminence",
+          "score": 0.6471738815307617
+        },
+        {
+          "id": "FLOPO:0012660",
+          "label": "upper glume autogenous",
+          "score": 0.6459035277366638
+        },
+        {
+          "id": "CHEBI:189510",
+          "label": "Apigenin 7-O-(2G-rhamnosyl)gentiobioside",
+          "score": 0.6432526707649231
+        },
+        {
+          "id": "UBERON:0011909",
+          "label": "gastrocnemius internus",
+          "score": 0.642449676990509
+        },
+        {
+          "id": "PATO:0001737",
+          "label": "gaseus configuration",
+          "score": 0.6419657468795776
+        }
+      ]
+    },
+    {
+      "query": "LATITUDE",
+      "time_ms": 85.97630000440404,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6581071615219116,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000319",
+      "top_k_results": [
+        {
+          "id": "NCIT:C93083",
+          "label": "Lassitude",
+          "score": 0.6581071615219116
+        },
+        {
+          "id": "NCIT:C155602",
+          "label": "FACT-BL Version 4 - My Work Is Fulfilling",
+          "score": 0.6483142971992493
+        },
+        {
+          "id": "MS:1001902",
+          "label": "MaxQuant:LFQ intensity",
+          "score": 0.6410003900527954
+        },
+        {
+          "id": "NCIT:C151255",
+          "label": "FACT-L Version 4 - My Work Is Fulfilling",
+          "score": 0.640087366104126
+        },
+        {
+          "id": "BAO:0000562",
+          "label": "assay readout content parametricity",
+          "score": 0.6396588087081909
+        },
+        {
+          "id": "MS:1001903",
+          "label": "MaxQuant:feature intensity",
+          "score": 0.6374890208244324
+        },
+        {
+          "id": "MS:1002564",
+          "label": "MaxQuant:P-site localization probability threshold",
+          "score": 0.6371592283248901
+        },
+        {
+          "id": "NCIT:C151097",
+          "label": "FACT-C Version 4 - My Work Is Fulfilling",
+          "score": 0.6365585327148438
+        },
+        {
+          "id": "BAO:0002851",
+          "label": "has assay readout content parametricity",
+          "score": 0.6352596282958984
+        },
+        {
+          "id": "NCIT:C147614",
+          "label": "FACT-BMT Version 4 - My Work Is Fulfilling",
+          "score": 0.6346116662025452
+        },
+        {
+          "id": "NCIT:C129209",
+          "label": "FACT-B Version 4 - My Work Is Fulfilling",
+          "score": 0.6334237456321716
+        },
+        {
+          "id": "NCIT:C151217",
+          "label": "FACT/GOG-NTX Version 4 - My Work Is Fulfilling",
+          "score": 0.6300314664840698
+        },
+        {
+          "id": "MS:1001982",
+          "label": "MaxQuant:P-site localization probability",
+          "score": 0.6299195289611816
+        },
+        {
+          "id": "NCIT:C127486",
+          "label": "FACT-P Version 4 - My Work Is Fulfilling",
+          "score": 0.6293820142745972
+        },
+        {
+          "id": "NCIT:C181143",
+          "label": "EORTC QLQ-C30 Version 3 - EOR01-FS:Physical Functioning",
+          "score": 0.6270139217376709
+        },
+        {
+          "id": "NCIT:C127442",
+          "label": "FACT-G Version 4 - My Work Is Fulfilling",
+          "score": 0.6267765760421753
+        },
+        {
+          "id": "NCIT:C130667",
+          "label": "Q-LES-Q - Pleased With Course Accomplishment",
+          "score": 0.6267508864402771
+        },
+        {
+          "id": "NCIT:C151195",
+          "label": "FACT-BRM Version 4 - I Feel Motivated to Do Things",
+          "score": 0.6259346008300781
+        },
+        {
+          "id": "NCIT:C151177",
+          "label": "FACT-BRM Version 4 - My Work Is Fulfilling",
+          "score": 0.6254608631134033
+        },
+        {
+          "id": "NCIT:C130435",
+          "label": "FACT-LEU Version 4 - My Work Is Fulfilling",
+          "score": 0.6246418952941895
+        }
+      ]
+    },
+    {
+      "query": "LONGITUDE",
+      "time_ms": 86.81740000611171,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6397616863250732,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "SIO:000318",
+      "top_k_results": [
+        {
+          "id": "GO:0060291",
+          "label": "long-term synaptic potentiation",
+          "score": 0.6397616863250732
+        },
+        {
+          "id": "NCIT:C91482",
+          "label": "Long-Term Potentiation Pathway",
+          "score": 0.6383461952209473
+        },
+        {
+          "id": "NCIT:C141832",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Minutes per Day",
+          "score": 0.6357043981552124
+        },
+        {
+          "id": "NCIT:C141831",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Hr and Min per Day",
+          "score": 0.6339980363845825
+        },
+        {
+          "id": "NCIT:C93083",
+          "label": "Lassitude",
+          "score": 0.6337167024612427
+        },
+        {
+          "id": "NCIT:C141830",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Days Vigorous in Your Leisure Time",
+          "score": 0.6321054697036743
+        },
+        {
+          "id": "NCIT:C141834",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Minutes per Week",
+          "score": 0.6295875310897827
+        },
+        {
+          "id": "NCIT:C141833",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Leisure Hr and Min per Week",
+          "score": 0.6291028261184692
+        },
+        {
+          "id": "NCIT:C92863",
+          "label": "Prolonged Acceleration",
+          "score": 0.6278946995735168
+        },
+        {
+          "id": "NCIT:C141781",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Work Hr and Min per Day",
+          "score": 0.6277049779891968
+        },
+        {
+          "id": "NCIT:C141782",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Work Minutes per Day",
+          "score": 0.6250438094139099
+        },
+        {
+          "id": "NCIT:C141826",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Walking Leisure Hr and Min per Day",
+          "score": 0.6241836547851562
+        },
+        {
+          "id": "NCIT:C141837",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Moderate Leisure Minutes per Day",
+          "score": 0.6230997443199158
+        },
+        {
+          "id": "NCIT:C141783",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Work Hr and Min per Week",
+          "score": 0.6229307651519775
+        },
+        {
+          "id": "NCIT:C141827",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Walking Leisure Minutes Per Day",
+          "score": 0.6228262186050415
+        },
+        {
+          "id": "NCIT:C141682",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version Questionnaire Question",
+          "score": 0.6222367286682129
+        },
+        {
+          "id": "NCIT:C141836",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Moderate Leisure Hr and Min per Day",
+          "score": 0.6218827366828918
+        },
+        {
+          "id": "NCIT:C141810",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Days Vigorous in the Garden/Yard",
+          "score": 0.6216074228286743
+        },
+        {
+          "id": "NCIT:C141780",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Days Vigorous as Part of Work",
+          "score": 0.6208726167678833
+        },
+        {
+          "id": "NCIT:C141811",
+          "label": "IPAQ Long Last 7 Days Telephone Format Version - Vigorous Garden Hr and Min per Day",
+          "score": 0.6201621294021606
+        }
+      ]
+    },
+    {
+      "query": "ORIGCTY",
+      "time_ms": 79.82019998598844,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6267920732498169,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "PPEO:hasCountryOfOrigin",
+      "top_k_results": [
+        {
+          "id": "NCIT:C114069",
+          "label": "RAND-36 - Have a Lot of Energy",
+          "score": 0.6267920732498169
+        },
+        {
+          "id": "NCIT:C114078",
+          "label": "RAND-36 - My Health is Excellent",
+          "score": 0.6181952953338623
+        },
+        {
+          "id": "NCIT:C43649",
+          "label": "NCI Thesaurus Property Qualifier",
+          "score": 0.6175661087036133
+        },
+        {
+          "id": "NCIT:C178986",
+          "label": "Semi-Quantitative Concept",
+          "score": 0.6160948276519775
+        },
+        {
+          "id": "NCIT:C119190",
+          "label": "RPQ - Restlessness",
+          "score": 0.6146805882453918
+        },
+        {
+          "id": "NCIT:C111658",
+          "label": "Rigor",
+          "score": 0.6137055158615112
+        },
+        {
+          "id": "CHEBI:747165",
+          "label": "(R)-dimpyrargyl",
+          "score": 0.6097006797790527
+        },
+        {
+          "id": "NCIT:C103742",
+          "label": "SIQR - Energy",
+          "score": 0.6087852716445923
+        },
+        {
+          "id": "NCIT:C103743",
+          "label": "SIQR - Stiffness",
+          "score": 0.608639121055603
+        },
+        {
+          "id": "CHEBI:226445",
+          "label": "Ilyoresorcy G",
+          "score": 0.6084169149398804
+        },
+        {
+          "id": "NCIT:C84557",
+          "label": "Radiolucency",
+          "score": 0.6081430912017822
+        },
+        {
+          "id": "EFO:0004825",
+          "label": "temperament and character inventory",
+          "score": 0.6077107191085815
+        },
+        {
+          "id": "NCIT:C141890",
+          "label": "DRRI-2 - B: Opinions Were Valued by Family",
+          "score": 0.6074398756027222
+        },
+        {
+          "id": "NCIT:C166027",
+          "label": "Penicillium chrysogenum IgE Antibody RAST Score Measurement",
+          "score": 0.6069226861000061
+        },
+        {
+          "id": "BFO:0000145",
+          "label": "relational quality",
+          "score": 0.6060389280319214
+        },
+        {
+          "id": "NCIT:C114070",
+          "label": "RAND-36 - Felt Downhearted and Blue",
+          "score": 0.6058394908905029
+        },
+        {
+          "id": "NCIT:C141985",
+          "label": "DRRI-2 - J: People in Unit Were Trustworthy",
+          "score": 0.6056593656539917
+        },
+        {
+          "id": "NCIT:C72882",
+          "label": "Reluctance",
+          "score": 0.6056268215179443
+        },
+        {
+          "id": "NCIT:C114068",
+          "label": "RAND-36 - Felt Calm and Peaceful",
+          "score": 0.6055619716644287
+        },
+        {
+          "id": "NCIT:C114060",
+          "label": "RAND-36 - Emotional Problem Accomplished Less",
+          "score": 0.6046333312988281
+        }
+      ]
+    },
+    {
+      "query": "SAMPSTAT",
+      "time_ms": 87.77020004345104,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7181423306465149,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25688",
+      "top_k_results": [
+        {
+          "id": "NCIT:C156270",
+          "label": "Subasumstat",
+          "score": 0.7181423306465149
+        },
+        {
+          "id": "NCIT:C154328",
+          "label": "Seclidemstat",
+          "score": 0.6886298656463623
+        },
+        {
+          "id": "NCIT:C81115",
+          "label": "Semagacestat",
+          "score": 0.6829726696014404
+        },
+        {
+          "id": "NCIT:C49084",
+          "label": "Imetelstat",
+          "score": 0.6759330034255981
+        },
+        {
+          "id": "NCIT:C166470",
+          "label": "Soticlestat",
+          "score": 0.6595064401626587
+        },
+        {
+          "id": "CHEBI:233158",
+          "label": "soticlestat",
+          "score": 0.6595064401626587
+        },
+        {
+          "id": "NCIT:C91100",
+          "label": "Emvododstat",
+          "score": 0.6492166519165039
+        },
+        {
+          "id": "NCIT:C166726",
+          "label": "Umibecestat",
+          "score": 0.6491162776947021
+        },
+        {
+          "id": "NCIT:C203215",
+          "label": "Redafamdastat",
+          "score": 0.6448304653167725
+        },
+        {
+          "id": "NCIT:C199111",
+          "label": "Seclidemstat Mesylate",
+          "score": 0.6443389058113098
+        },
+        {
+          "id": "NCIT:C131908",
+          "label": "Iadademstat",
+          "score": 0.6407546997070312
+        },
+        {
+          "id": "CHEBI:234592",
+          "label": "Iadademstat",
+          "score": 0.6407546997070312
+        },
+        {
+          "id": "NCIT:C97363",
+          "label": "Semagacestat Dihydrate",
+          "score": 0.6405837535858154
+        },
+        {
+          "id": "NCIT:C188494",
+          "label": "Quabodepistat",
+          "score": 0.6394429206848145
+        },
+        {
+          "id": "CHEBI:138886",
+          "label": "prinomastat(1+)",
+          "score": 0.6382961273193359
+        },
+        {
+          "id": "NCIT:C191082",
+          "label": "PASI Fredriksson Version - Head: Sum of Symptom Scores",
+          "score": 0.635562539100647
+        },
+        {
+          "id": "NCIT:C191088",
+          "label": "PASI Fredriksson Version - Trunk: Sum of Symptom Scores",
+          "score": 0.6352704167366028
+        },
+        {
+          "id": "NCIT:C174681",
+          "label": "Vafidemstat",
+          "score": 0.6333410143852234
+        },
+        {
+          "id": "NCIT:C131303",
+          "label": "Pulrodemstat",
+          "score": 0.6317424178123474
+        },
+        {
+          "id": "NCIT:C170012",
+          "label": "Fulacimstat",
+          "score": 0.6315901279449463
+        }
+      ]
+    },
+    {
+      "query": "SPECIES",
+      "time_ms": 84.33939999667928,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6922619342803955,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C45293",
+      "top_k_results": [
+        {
+          "id": "PCO:0000002",
+          "label": "ecological community",
+          "score": 0.6922619342803955
+        },
+        {
+          "id": "GO:0044402",
+          "label": "obsolete competition with other organism",
+          "score": 0.677108883857727
+        },
+        {
+          "id": "NCBITaxon:84563",
+          "label": "ant, tsetse, mealybug, aphid, etc. endosymbionts",
+          "score": 0.6715326905250549
+        },
+        {
+          "id": "NCIT:C124385",
+          "label": "Sarcocystis hominis",
+          "score": 0.670067548751831
+        },
+        {
+          "id": "GO:0052097",
+          "label": "obsolete interspecies quorum sensing",
+          "score": 0.6682655811309814
+        },
+        {
+          "id": "ENVO:01001055",
+          "label": "environment associated with an animal part or small animal",
+          "score": 0.6656463146209717
+        },
+        {
+          "id": "GO:0044419",
+          "label": "biological process involved in interspecies interaction between organisms",
+          "score": 0.665348470211029
+        },
+        {
+          "id": "NCBITaxon:8353",
+          "label": "Xenopus <genus>",
+          "score": 0.665027379989624
+        },
+        {
+          "id": "NCBITaxon:63221",
+          "label": "Homo sapiens neanderthalensis",
+          "score": 0.6648226976394653
+        },
+        {
+          "id": "NCBITaxon:8364",
+          "label": "Xenopus (Silurana) tropicalis",
+          "score": 0.6621135473251343
+        },
+        {
+          "id": "NCIT:C161024",
+          "label": "Xenopus tropicalis",
+          "score": 0.658463716506958
+        },
+        {
+          "id": "ENVO:01001030",
+          "label": "environment determined by a metazoan secretion",
+          "score": 0.6580172777175903
+        },
+        {
+          "id": "PCO:0000010",
+          "label": "community species richness",
+          "score": 0.6559284925460815
+        },
+        {
+          "id": "NCIT:C63636",
+          "label": "Biospecimen Core Resource",
+          "score": 0.6531669497489929
+        },
+        {
+          "id": "NCIT:C178871",
+          "label": "Biospecimen Group",
+          "score": 0.6530917882919312
+        },
+        {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens",
+          "score": 0.6530214548110962
+        },
+        {
+          "id": "NCIT:C111137",
+          "label": "Biospecimen Domain",
+          "score": 0.6523404717445374
+        },
+        {
+          "id": "NCIT:C181715",
+          "label": "Biospecimen Core Resource Identifier",
+          "score": 0.6522082090377808
+        },
+        {
+          "id": "GO:0052215",
+          "label": "obsolete energy taxis in environment of other organism involved in symbiotic interaction",
+          "score": 0.6521169543266296
+        },
+        {
+          "id": "GO:0051703",
+          "label": "biological process involved in intraspecies interaction between organisms",
+          "score": 0.649544358253479
+        }
+      ]
+    },
+    {
+      "query": "STORAGE",
+      "time_ms": 86.0792999737896,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.5913408994674683,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C60824",
+      "top_k_results": [
+        {
+          "id": "data:1634",
+          "label": "Linkage disequilibrium (report)",
+          "score": 0.5913408994674683
+        },
+        {
+          "id": "NCIT:C176210",
+          "label": "NSCLC-SAQ Version 1.0 - Appetite Domain Subscore",
+          "score": 0.5913265943527222
+        },
+        {
+          "id": "MS:1003139",
+          "label": "ProSight:Run Subsequence Search mode",
+          "score": 0.5869094133377075
+        },
+        {
+          "id": "NCIT:C176148",
+          "label": "SF36 v1.0 Standard - Role Emotional 0-100 Score",
+          "score": 0.5827457904815674
+        },
+        {
+          "id": "PEFF:0000012",
+          "label": "DbSource",
+          "score": 0.5821447372436523
+        },
+        {
+          "id": "MS:1001506",
+          "label": "ProteinScape:SequestMetaScore",
+          "score": 0.5812637805938721
+        },
+        {
+          "id": "OBI:0001557",
+          "label": "material storage service",
+          "score": 0.5793842077255249
+        },
+        {
+          "id": "NCIT:C176190",
+          "label": "SF-36 v2.0 Standard - Role Emotional 0-100 Score",
+          "score": 0.5784933567047119
+        },
+        {
+          "id": "NCIT:C151204",
+          "label": "FACT/GOG-NTX Version 4 - Get Emotional Support From Family",
+          "score": 0.5779349207878113
+        },
+        {
+          "id": "NCIT:C14735",
+          "label": "JC DeFries, Colorado U, Heterogeneous Stock",
+          "score": 0.5755205154418945
+        },
+        {
+          "id": "NCIT:C151211",
+          "label": "FACT/GOG-NTX Version 4 - Satisfied With How I Am Coping",
+          "score": 0.5752846002578735
+        },
+        {
+          "id": "MS:1002248",
+          "label": "SEQUEST:spscore",
+          "score": 0.5741392374038696
+        },
+        {
+          "id": "NCIT:C203060",
+          "label": "Sitocabnagene Loxiveleucel",
+          "score": 0.5736992359161377
+        },
+        {
+          "id": "MS:1001708",
+          "label": "ProteomeDiscoverer:SEQUEST:Std Medium Confidence XCorr Charge1",
+          "score": 0.572978675365448
+        },
+        {
+          "id": "NCIT:C155409",
+          "label": "UHDRS 1999 Version - Self-esteem/Guilt: Severity",
+          "score": 0.5722428560256958
+        },
+        {
+          "id": "MS:1001711",
+          "label": "ProteomeDiscoverer:SEQUEST:Std Medium Confidence XCorr Charge4",
+          "score": 0.5720804333686829
+        },
+        {
+          "id": "MS:1001710",
+          "label": "ProteomeDiscoverer:SEQUEST:Std Medium Confidence XCorr Charge3",
+          "score": 0.5719578266143799
+        },
+        {
+          "id": "NCIT:C16734",
+          "label": "Information Storage and Retrieval",
+          "score": 0.5715032815933228
+        },
+        {
+          "id": "CHEBI:181331",
+          "label": "Swertiamaroside",
+          "score": 0.5714683532714844
+        },
+        {
+          "id": "NCIT:C155408",
+          "label": "UHDRS 1999 Version - Self-esteem/Guilt: Frequency",
+          "score": 0.5713685750961304
+        }
+      ]
+    },
+    {
+      "query": "SUBTAXA",
+      "time_ms": 79.61320003960282,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6124877333641052,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "infraspecificEpithet",
+      "top_k_results": [
+        {
+          "id": "gene:symbol:report?hgnc:id=11433",
+          "label": "STX1A (human)",
+          "score": 0.6124877333641052
+        },
+        {
+          "id": "CHEBI:6786",
+          "label": "mesuaxanthone B",
+          "score": 0.6086004972457886
+        },
+        {
+          "id": "BAO:0010176",
+          "label": "UGT1A4 with BSA assay",
+          "score": 0.6016544103622437
+        },
+        {
+          "id": "CHEBI:232570",
+          "label": "1beta,2alpha,4alpha,10beta-tetrahydroxy-5beta,20-epoxytax-11-en-9-one",
+          "score": 0.5965938568115234
+        },
+        {
+          "id": "CHEBI:232569",
+          "label": "1beta,2alpha,4alpha,7beta,10beta,13alpha-hexahydroxy-5beta,20-epoxytax-11-en-9-one",
+          "score": 0.5964008569717407
+        },
+        {
+          "id": "BAO:0010177",
+          "label": "UGT1A4 without BSA assay",
+          "score": 0.5963900089263916
+        },
+        {
+          "id": "CHEBI:6785",
+          "label": "mesuaxanthone A",
+          "score": 0.5942927598953247
+        },
+        {
+          "id": "BAO:0010182",
+          "label": "UGT2B15 with BSA assay",
+          "score": 0.5942084193229675
+        },
+        {
+          "id": "CHEBI:229707",
+          "label": "4alpha,5beta-5,20-epoxytax-11-ene-4-ol",
+          "score": 0.5929019451141357
+        },
+        {
+          "id": "BAO:0010183",
+          "label": "UGT2B15 without BSA assay",
+          "score": 0.5924447774887085
+        },
+        {
+          "id": "BAO:0010180",
+          "label": "UGT1A9 with BSA assay",
+          "score": 0.5906611680984497
+        },
+        {
+          "id": "CHEBI:232576",
+          "label": "4alpha,10beta-dihydroxy-5beta,20-epoxytax-11-en-9-one",
+          "score": 0.590542197227478
+        },
+        {
+          "id": "CHEBI:232081",
+          "label": "4alpha-hydroxy-5beta-5,20-epoxytax-11-en-9-one",
+          "score": 0.5900890827178955
+        },
+        {
+          "id": "NCIT:C105611",
+          "label": "Copper Cu 62 Ethylglyoxal Bis(thiosemicarbazone)",
+          "score": 0.5899960994720459
+        },
+        {
+          "id": "BAO:0010181",
+          "label": "UGT1A9 without BSA assay",
+          "score": 0.5895382761955261
+        },
+        {
+          "id": "CHEBI:232579",
+          "label": "1beta,2alpha,4alpha,10beta,13alpha-pentahydroxy-5beta,20-epoxytax-11-en-9-one",
+          "score": 0.5888620615005493
+        },
+        {
+          "id": "BAO:0010178",
+          "label": "UGT1A6 with BSA assay",
+          "score": 0.5867017507553101
+        },
+        {
+          "id": "BAO:0010175",
+          "label": "UGT1A1 without BSA assay",
+          "score": 0.584746241569519
+        },
+        {
+          "id": "CHEBI:229708",
+          "label": "4alpha,5beta,9alpha-5,20-epoxytax-11-ene-4,9-diol",
+          "score": 0.5845630764961243
+        },
+        {
+          "id": "BAO:0010174",
+          "label": "UGT1A1 with BSA assay",
+          "score": 0.5842934846878052
+        }
+      ]
+    },
+    {
+      "query": "REMARKS",
+      "time_ms": 93.09570002369583,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.603793203830719,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "organismRemarks",
+      "top_k_results": [
+        {
+          "id": "UBERON:3010754",
+          "label": "ramus recurrens",
+          "score": 0.603793203830719
+        },
+        {
+          "id": "format:4000",
+          "label": "R markdown",
+          "score": 0.5880742073059082
+        },
+        {
+          "id": "BAO:0010087",
+          "label": "RRCK permeability assay",
+          "score": 0.5854759216308594
+        },
+        {
+          "id": "MOD:01506",
+          "label": "iTRAQ4plex-117, mTRAQ heavy, reporter+balance reagent acylated residue",
+          "score": 0.583102822303772
+        },
+        {
+          "id": "MOD:02028",
+          "label": "iTRAQ4plex reporter+balance reagent acylated residue, average mass modification",
+          "score": 0.5824023485183716
+        },
+        {
+          "id": "MOD:01525",
+          "label": "iTRAQ4plex-117, mTRAQ heavy, reporter fragment",
+          "score": 0.5815143585205078
+        },
+        {
+          "id": "NCIT:C100509",
+          "label": "MDS-UPDRS - Right Finger Tapping",
+          "score": 0.5802500247955322
+        },
+        {
+          "id": "topic:3923",
+          "label": "Genome resequencing",
+          "score": 0.5801779627799988
+        },
+        {
+          "id": "MS:1002668",
+          "label": "frag: iTRAQ 4plex reporter ion",
+          "score": 0.5791414976119995
+        },
+        {
+          "id": "NCIT:C100388",
+          "label": "BPRS-Anchored - Excitement",
+          "score": 0.5786004662513733
+        },
+        {
+          "id": "STATO:0000206",
+          "label": "RPKM-reads per kilobase of transcript per million fragments mapped",
+          "score": 0.578283429145813
+        },
+        {
+          "id": "OBI:0001862",
+          "label": "reduced representation bisulfite sequencing assay",
+          "score": 0.5773417949676514
+        },
+        {
+          "id": "NCIT:C182055",
+          "label": "RECIST Baseline Target Lesion Sum",
+          "score": 0.5771124362945557
+        },
+        {
+          "id": "NCIT:C100381",
+          "label": "BPRS-Anchored - Hostility",
+          "score": 0.5764665603637695
+        },
+        {
+          "id": "NCIT:C155338",
+          "label": "CDRS-R - Appetite Disturbance Comment",
+          "score": 0.5763921737670898
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=30309",
+          "label": "RER1 (human)",
+          "score": 0.5759769678115845
+        },
+        {
+          "id": "CHMO:0001786",
+          "label": "RapidFire(R) mass spectrometry",
+          "score": 0.5759507417678833
+        },
+        {
+          "id": "NCIT:C114066",
+          "label": "RAND-36 - Been a Nervous Person",
+          "score": 0.5757279396057129
+        },
+        {
+          "id": "MS:1003667",
+          "label": "Chromaster RS",
+          "score": 0.5756191611289978
+        },
+        {
+          "id": "NCIT:C176063",
+          "label": "Apgar Score Version 1 - Grimace or Reflex Irritability",
+          "score": 0.5755317807197571
+        }
+      ]
+    },
+    {
+      "query": "PEDIGREE",
+      "time_ms": 93.78499997546896,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.5857603549957275,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C27957",
+      "top_k_results": [
+        {
+          "id": "CHEBI:136027",
+          "label": "trimegestone",
+          "score": 0.5857603549957275
+        },
+        {
+          "id": "NCIT:C152746",
+          "label": "Trimegestone",
+          "score": 0.5857603549957275
+        },
+        {
+          "id": "CHEBI:73390",
+          "label": "promegestone",
+          "score": 0.583008885383606
+        },
+        {
+          "id": "NCIT:C66478",
+          "label": "Promegestone",
+          "score": 0.583008885383606
+        },
+        {
+          "id": "SWO:0000362",
+          "label": "Rmagpie",
+          "score": 0.5813829898834229
+        },
+        {
+          "id": "CHEBI:185126",
+          "label": "OHODiA-PG",
+          "score": 0.5798506736755371
+        },
+        {
+          "id": "NCIT:C184864",
+          "label": "Galegenimab",
+          "score": 0.5773847103118896
+        },
+        {
+          "id": "CHEBI:196823",
+          "label": "PE-NMe(18:1(9E)/18:1(9E))",
+          "score": 0.574331521987915
+        },
+        {
+          "id": "CHEBI:192302",
+          "label": "Trimethylpropylpyrazine",
+          "score": 0.5706613063812256
+        },
+        {
+          "id": "CHEBI:230372",
+          "label": "CDP-DG(a-25:0/PGE1)",
+          "score": 0.5684167742729187
+        },
+        {
+          "id": "OBI:0002008",
+          "label": "Mouse 385K Whole Genome CGH Tiling Array",
+          "score": 0.5683015584945679
+        },
+        {
+          "id": "NCIT:C179247",
+          "label": "PDGFRA NM_006206.6:c.1153_1154delinsTT",
+          "score": 0.5682623386383057
+        },
+        {
+          "id": "NCIT:C179248",
+          "label": "PDGFRA NM_006206.6:c.1153_1154delinsTC",
+          "score": 0.568000316619873
+        },
+        {
+          "id": "OBI:0002011",
+          "label": "Human 2.1M Whole-Genome CGH Tiling Array v2.0",
+          "score": 0.5676628947257996
+        },
+        {
+          "id": "NCIT:C188780",
+          "label": "Voxeralgagene Autotemcel",
+          "score": 0.5674566030502319
+        },
+        {
+          "id": "CHEBI:233893",
+          "label": "ADpSGEGDFXAEGGGVR*",
+          "score": 0.5674521923065186
+        },
+        {
+          "id": "NCIT:C179245",
+          "label": "PDGFRA NM_006206.6:c.1154_1155delinsTT",
+          "score": 0.567360520362854
+        },
+        {
+          "id": "BAO:0000303",
+          "label": "Promega",
+          "score": 0.5672017335891724
+        },
+        {
+          "id": "CHEBI:185239",
+          "label": "Fagopyrine",
+          "score": 0.5664962530136108
+        },
+        {
+          "id": "CHEBI:60986",
+          "label": "Ac-Cha-Gpg-Disc-Nle-betaPhPro-[S(oxaz)L]-NMe2",
+          "score": 0.566145658493042
+        }
+      ]
+    },
+    {
+      "query": "INSTCODE",
+      "time_ms": 93.54809997603297,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6700409650802612,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "institutionCode",
+      "top_k_results": [
+        {
+          "id": "BTO:0000636",
+          "label": "internode",
+          "score": 0.6700409650802612
+        },
+        {
+          "id": "NCIT:C87394",
+          "label": "Indium In-111 Pentetate Disodium",
+          "score": 0.649730920791626
+        },
+        {
+          "id": "PO:0020142",
+          "label": "stem internode",
+          "score": 0.6497079133987427
+        },
+        {
+          "id": "PO:0025080",
+          "label": "branch internode",
+          "score": 0.6373370885848999
+        },
+        {
+          "id": "SWO:1000078",
+          "label": "CC BY-ND 4.0",
+          "score": 0.6354995965957642
+        },
+        {
+          "id": "data:1158",
+          "label": "Pathway ID (INOH)",
+          "score": 0.634651243686676
+        },
+        {
+          "id": "CHEBI:200713",
+          "label": "Insuetolide C",
+          "score": 0.6321579813957214
+        },
+        {
+          "id": "NCIT:C1640",
+          "label": "Indium In-111",
+          "score": 0.630200207233429
+        },
+        {
+          "id": "CHEBI:82281",
+          "label": "Indium phosphide",
+          "score": 0.6268285512924194
+        },
+        {
+          "id": "NCIT:C62481",
+          "label": "Indium In 111-CMD-193",
+          "score": 0.6264283657073975
+        },
+        {
+          "id": "NCIT:C1672",
+          "label": "Indium In-111 Pentetreotide",
+          "score": 0.6262935996055603
+        },
+        {
+          "id": "NCIT:C2579",
+          "label": "Indium In-111 Ibritumomab Tiuxetan",
+          "score": 0.6241289377212524
+        },
+        {
+          "id": "NCIT:C193218",
+          "label": "mCode Carcinoma In-Situ Disorder Value Set",
+          "score": 0.6238664984703064
+        },
+        {
+          "id": "PO:0006326",
+          "label": "inflorescence axis internode",
+          "score": 0.6192340850830078
+        },
+        {
+          "id": "SO:0000141",
+          "label": "terminator",
+          "score": 0.6183884739875793
+        },
+        {
+          "id": "SWO:1000115",
+          "label": "IUPAC/InChI-Trust InChI Licence No. 1.0",
+          "score": 0.6179227232933044
+        },
+        {
+          "id": "CHEBI:214803",
+          "label": "Insuetolide B",
+          "score": 0.6171355247497559
+        },
+        {
+          "id": "CHEBI:62684",
+          "label": "Ins-1-P-6-Man-1-6-Ins-1-P-Cer(t18:0/2,3-OH-26:0)",
+          "score": 0.6162133812904358
+        },
+        {
+          "id": "NCIT:C179546",
+          "label": "Indium In 111-DOTA-Basiliximab",
+          "score": 0.6159186363220215
+        },
+        {
+          "id": "NCIT:C158816",
+          "label": "Indium In 111-FPI-1547",
+          "score": 0.6159046292304993
+        }
+      ]
+    },
+    {
+      "query": "TRIVIALNAME",
+      "time_ms": 93.12060003867373,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6181381940841675,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "EDAM:2099",
+      "top_k_results": [
+        {
+          "id": "data:2735",
+          "label": "Database name (SwissRegulon)",
+          "score": 0.6181381940841675
+        },
+        {
+          "id": "SWO:0000716",
+          "label": "tilingArray",
+          "score": 0.593580424785614
+        },
+        {
+          "id": "CHEBI:30481",
+          "label": "trihydridotellurium(.)",
+          "score": 0.5928891897201538
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=14085",
+          "label": "RTN4 (human)",
+          "score": 0.5890591144561768
+        },
+        {
+          "id": "CHEBI:67750",
+          "label": "Trigohownin I, (rel)-",
+          "score": 0.5877975225448608
+        },
+        {
+          "id": "NCIT:C179500",
+          "label": "WT1/PRAME/Survivin-specific T-cells MANA-312",
+          "score": 0.5872626304626465
+        },
+        {
+          "id": "CHEBI:166014",
+          "label": "Tyr-Trp-Val",
+          "score": 0.5861135721206665
+        },
+        {
+          "id": "MOD:01358",
+          "label": "Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, medium form - site N-term",
+          "score": 0.5852577686309814
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=21329",
+          "label": "RTN4RL1 (human)",
+          "score": 0.5851166248321533
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=18647",
+          "label": "RTN4IP1 (human)",
+          "score": 0.5848852396011353
+        },
+        {
+          "id": "CHEBI:164316",
+          "label": "Thr-Trp-Val",
+          "score": 0.5844149589538574
+        },
+        {
+          "id": "CHEBI:164368",
+          "label": "Thr-Val-Gln",
+          "score": 0.5840826034545898
+        },
+        {
+          "id": "CHEBI:70154",
+          "label": "(3R)-Dunnione, (rel)-",
+          "score": 0.5835049152374268
+        },
+        {
+          "id": "CHEBI:164359",
+          "label": "Thr-Val-Ala",
+          "score": 0.5830420851707458
+        },
+        {
+          "id": "NCIT:C77011",
+          "label": "Taltirelin",
+          "score": 0.5826339721679688
+        },
+        {
+          "id": "CHEBI:135653",
+          "label": "taltirelin",
+          "score": 0.5826338529586792
+        },
+        {
+          "id": "CHEBI:163574",
+          "label": "Ser-Tyr-Val",
+          "score": 0.582557737827301
+        },
+        {
+          "id": "CHEBI:67744",
+          "label": "Trigohownin C, (rel)-",
+          "score": 0.5820642709732056
+        },
+        {
+          "id": "CHEBI:166052",
+          "label": "Tyr-Val-Trp",
+          "score": 0.5819993019104004
+        },
+        {
+          "id": "CHEBI:164917",
+          "label": "Trp-Val-Gln",
+          "score": 0.5814802646636963
+        }
+      ]
+    },
+    {
+      "query": "ACCID_PRE",
+      "time_ms": 93.74909999314696,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6290671229362488,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C54066",
+      "top_k_results": [
+        {
+          "id": "CHEBI:207487",
+          "label": "Preubetailide C",
+          "score": 0.6290671229362488
+        },
+        {
+          "id": "BAO:0000834",
+          "label": "Ac-DEVD-CHO",
+          "score": 0.627187967300415
+        },
+        {
+          "id": "CHEBI:227342",
+          "label": "Preacredinone A",
+          "score": 0.6242601871490479
+        },
+        {
+          "id": "NCIT:C143778",
+          "label": "Presyncope, CTCAE",
+          "score": 0.61857008934021
+        },
+        {
+          "id": "CHEBI:227071",
+          "label": "Preaspernidgulene A1",
+          "score": 0.6166514158248901
+        },
+        {
+          "id": "CHEBI:142769",
+          "label": "precondylocarpine acetate",
+          "score": 0.6157718896865845
+        },
+        {
+          "id": "FLOPO:0015689",
+          "label": "aril viscid",
+          "score": 0.6130971908569336
+        },
+        {
+          "id": "NCIT:C146645",
+          "label": "Precocious Puberty, CTCAE 5.0",
+          "score": 0.6129254102706909
+        },
+        {
+          "id": "NCIT:C55743",
+          "label": "Precocious Puberty, CTCAE 3.0",
+          "score": 0.6127142906188965
+        },
+        {
+          "id": "NCIT:C96447",
+          "label": "Prelamin-A/C",
+          "score": 0.6113048791885376
+        },
+        {
+          "id": "MS:1002534",
+          "label": "ProLuCID:xcorr",
+          "score": 0.6096319556236267
+        },
+        {
+          "id": "CHEBI:232434",
+          "label": "preandiloid C",
+          "score": 0.6095690727233887
+        },
+        {
+          "id": "CHEBI:227076",
+          "label": "Preaspernidgulene A2",
+          "score": 0.605843186378479
+        },
+        {
+          "id": "CHEBI:67532",
+          "label": "prenylcandidusin C",
+          "score": 0.6054829359054565
+        },
+        {
+          "id": "CHEBI:156346",
+          "label": "preaustinoid A3",
+          "score": 0.6049176454544067
+        },
+        {
+          "id": "MS:1001787",
+          "label": "Acquity SQD",
+          "score": 0.6046079993247986
+        },
+        {
+          "id": "CHEBI:207472",
+          "label": "Preubetailide A",
+          "score": 0.6030261516571045
+        },
+        {
+          "id": "CHEBI:206497",
+          "label": "(18S)-18-O-b-D-Glucopyranoside of protoconstipaticacid",
+          "score": 0.6009553670883179
+        },
+        {
+          "id": "CHEBI:35590",
+          "label": "precocene III",
+          "score": 0.6006230115890503
+        },
+        {
+          "id": "NCIT:C166922",
+          "label": "Arprinocid",
+          "score": 0.5999307632446289
+        }
+      ]
+    },
+    {
+      "query": "BEMERKUNG",
+      "time_ms": 94.41690001403913,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6703912019729614,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "materialEntityRemarks",
+      "top_k_results": [
+        {
+          "id": "AfPO:0000335",
+          "label": "Banareng",
+          "score": 0.6703912019729614
+        },
+        {
+          "id": "CHEBI:198334",
+          "label": "Berkedrimane B",
+          "score": 0.6265848278999329
+        },
+        {
+          "id": "NCIT:C190429",
+          "label": "Bezeparsen",
+          "score": 0.6235992312431335
+        },
+        {
+          "id": "NCIT:C190337",
+          "label": "Bempikibart",
+          "score": 0.6216452121734619
+        },
+        {
+          "id": "GO:0016006",
+          "label": "Nebenkern",
+          "score": 0.6165434718132019
+        },
+        {
+          "id": "NCIT:C203098",
+          "label": "Tegrenmeran",
+          "score": 0.611663818359375
+        },
+        {
+          "id": "NCIT:C71414",
+          "label": "ChemBank",
+          "score": 0.6059131622314453
+        },
+        {
+          "id": "CHEBI:219503",
+          "label": "Berkedrimane A",
+          "score": 0.605873703956604
+        },
+        {
+          "id": "NCIT:C199063",
+          "label": "Izumerogant",
+          "score": 0.6002759337425232
+        },
+        {
+          "id": "NCIT:C76617",
+          "label": "Bemegride",
+          "score": 0.5997124314308167
+        },
+        {
+          "id": "CHEBI:35920",
+          "label": "berbaman",
+          "score": 0.5982365608215332
+        },
+        {
+          "id": "GO:0007287",
+          "label": "Nebenkern assembly",
+          "score": 0.596513032913208
+        },
+        {
+          "id": "NCIT:C171736",
+          "label": "Beclanorsen",
+          "score": 0.5962491035461426
+        },
+        {
+          "id": "CHEBI:224969",
+          "label": "Maduraktermol B",
+          "score": 0.5955334901809692
+        },
+        {
+          "id": "NCIT:C175748",
+          "label": "Bepirovirsen",
+          "score": 0.5951286554336548
+        },
+        {
+          "id": "CHEBI:67792",
+          "label": "Blumeaene K, (rel)-",
+          "score": 0.594251275062561
+        },
+        {
+          "id": "CHEBI:57894",
+          "label": "berbamuninium(2+)",
+          "score": 0.5936237573623657
+        },
+        {
+          "id": "CHEBI:219816",
+          "label": "Hamigeran K",
+          "score": 0.5926333665847778
+        },
+        {
+          "id": "NCIT:C43920",
+          "label": "Chemakuan",
+          "score": 0.5920851230621338
+        },
+        {
+          "id": "MONDO:0008857",
+          "label": "Beemer-Ertbruggen syndrome",
+          "score": 0.5920678973197937
+        }
+      ]
+    },
+    {
+      "query": "MATERIALTYP",
+      "time_ms": 93.88280002167448,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6192159652709961,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "DPBO:0000177",
+      "top_k_results": [
+        {
+          "id": "MOD:01358",
+          "label": "Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, medium form - site N-term",
+          "score": 0.6192159652709961
+        },
+        {
+          "id": "MOD:01359",
+          "label": "Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, medium form - site K",
+          "score": 0.6182341575622559
+        },
+        {
+          "id": "AGRO:00000242",
+          "label": "material area density mesurement protocol",
+          "score": 0.6029359698295593
+        },
+        {
+          "id": "NCIT:C188235",
+          "label": "Manganese-based Contrast Agent RVP-001",
+          "score": 0.5966408252716064
+        },
+        {
+          "id": "MOD:01230",
+          "label": "Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, light form - site K",
+          "score": 0.5952924489974976
+        },
+        {
+          "id": "MOD:01287",
+          "label": "Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, heavy form - site K",
+          "score": 0.5946570634841919
+        },
+        {
+          "id": "OBI:0001547",
+          "label": "material analysis service",
+          "score": 0.5940639972686768
+        },
+        {
+          "id": "PR:000010478",
+          "label": "matrix metalloproteinase-19",
+          "score": 0.5940284132957458
+        },
+        {
+          "id": "PR:Q7Z553",
+          "label": "MAM domain-containing glycosylphosphatidylinositol anchor protein 2 (human)",
+          "score": 0.5853009819984436
+        },
+        {
+          "id": "PR:000020561",
+          "label": "MAM domain-containing glycosylphosphatidylinositol anchor protein 1 proteolytic cleavage product",
+          "score": 0.5849725604057312
+        },
+        {
+          "id": "PR:Q99542",
+          "label": "matrix metalloproteinase-19 (human)",
+          "score": 0.584846019744873
+        },
+        {
+          "id": "PR:000010262",
+          "label": "MAM domain-containing glycosylphosphatidylinositol anchor protein 2",
+          "score": 0.5832728147506714
+        },
+        {
+          "id": "BAO:0010117",
+          "label": "MAO reaction phenotyping assay",
+          "score": 0.5826678276062012
+        },
+        {
+          "id": "EFO:0001729",
+          "label": "biomaterial provider",
+          "score": 0.58201003074646
+        },
+        {
+          "id": "data:2635",
+          "label": "Compound ID (3DMET)",
+          "score": 0.581879198551178
+        },
+        {
+          "id": "NCIT:C162287",
+          "label": "MET NM_000245.3:c.3598T>A",
+          "score": 0.5817627906799316
+        },
+        {
+          "id": "BTO:0005410",
+          "label": "culture condition:monomethylamine-grown cell",
+          "score": 0.5813261270523071
+        },
+        {
+          "id": "CHEBI:70377",
+          "label": "Maoecrystal M",
+          "score": 0.5808485746383667
+        },
+        {
+          "id": "CHEBI:214394",
+          "label": "[D-Asp3,DMAdda5]MC-HtyR",
+          "score": 0.5800425410270691
+        },
+        {
+          "id": "MOD:00790",
+          "label": "Bruker Daltonics SERVA-ICPL(TM) quantification chemistry, light form",
+          "score": 0.5786231160163879
+        }
+      ]
+    },
+    {
+      "query": "ACC_NR",
+      "time_ms": 94.18630000436679,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6923258900642395,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25337",
+      "top_k_results": [
+        {
+          "id": "NCIT:C155669",
+          "label": "NRAS NP_002515.1:p.G12C",
+          "score": 0.6923258900642395
+        },
+        {
+          "id": "NCIT:C98446",
+          "label": "NRAS NM_002524.4:c.181C>A",
+          "score": 0.6843772530555725
+        },
+        {
+          "id": "MS:1001084",
+          "label": "database nr",
+          "score": 0.6825020909309387
+        },
+        {
+          "id": "NCIT:C98441",
+          "label": "NRAS NM_002524.4:c.181C>G",
+          "score": 0.6790324449539185
+        },
+        {
+          "id": "CHEBI:7427",
+          "label": "NAc-FnorLRF-amide",
+          "score": 0.6706852912902832
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=7978",
+          "label": "NR3C1 (human)",
+          "score": 0.6680238246917725
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=7979",
+          "label": "NR3C2 (human)",
+          "score": 0.6642440557479858
+        },
+        {
+          "id": "NCIT:C98454",
+          "label": "NRAS NM_002524.4:c.182A>C",
+          "score": 0.6631568670272827
+        },
+        {
+          "id": "NCIT:C158927",
+          "label": "NRAS NP_002515.1:p.G12R",
+          "score": 0.662650465965271
+        },
+        {
+          "id": "NCIT:C98456",
+          "label": "NRAS NP_002515.1:p.Q61R",
+          "score": 0.6599889993667603
+        },
+        {
+          "id": "NCIT:C98458",
+          "label": "NRAS NM_002524.4:c.181_182delinsAG",
+          "score": 0.6583667397499084
+        },
+        {
+          "id": "NCIT:C98448",
+          "label": "NRAS NM_002524.4:c.181_183delinsAAG",
+          "score": 0.6568306684494019
+        },
+        {
+          "id": "MS:1001291",
+          "label": "decoy DB from nr",
+          "score": 0.6552319526672363
+        },
+        {
+          "id": "NCIT:C98459",
+          "label": "NRAS NM_002524.4:c.182_183delinsGG",
+          "score": 0.6548330783843994
+        },
+        {
+          "id": "NCIT:C98451",
+          "label": "NRAS NM_002524.4:c.181_182delinsTT",
+          "score": 0.6540184020996094
+        },
+        {
+          "id": "NCIT:C98447",
+          "label": "NRAS NM_002524.4:c.180_181delinsTA",
+          "score": 0.6529896259307861
+        },
+        {
+          "id": "NCIT:C98443",
+          "label": "NRAS NM_002524.4:c.183A>C",
+          "score": 0.6525658369064331
+        },
+        {
+          "id": "NCIT:C98445",
+          "label": "NRAS NP_002515.1:p.Q61K",
+          "score": 0.6523517966270447
+        },
+        {
+          "id": "NCIT:C155675",
+          "label": "NRAS NP_002515.1:p.G13R",
+          "score": 0.6519714593887329
+        },
+        {
+          "id": "NCIT:C98442",
+          "label": "NRAS NP_002515.1:p.Q61H",
+          "score": 0.6517965793609619
+        }
+      ]
+    },
+    {
+      "query": "CODE",
+      "time_ms": 93.29799999250099,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7045929431915283,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25162",
+      "top_k_results": [
+        {
+          "id": "NCIT:C47900",
+          "label": "Pseudocode",
+          "score": 0.7045929431915283
+        },
+        {
+          "id": "EFO:0008655",
+          "label": "Barcode-Seq",
+          "score": 0.6918471455574036
+        },
+        {
+          "id": "NCIT:C80216",
+          "label": "Encode",
+          "score": 0.6748555898666382
+        },
+        {
+          "id": "EFO:0002910",
+          "label": "ENCODE",
+          "score": 0.6748555898666382
+        },
+        {
+          "id": "NCIT:C93815",
+          "label": "Document Version Keyword Code",
+          "score": 0.664368748664856
+        },
+        {
+          "id": "NCIT:C93643",
+          "label": "Reason Code",
+          "score": 0.659874439239502
+        },
+        {
+          "id": "BAO:0002659",
+          "label": "encodes",
+          "score": 0.6597681045532227
+        },
+        {
+          "id": "NCIT:C170277",
+          "label": "Oxycodegol",
+          "score": 0.6553788185119629
+        },
+        {
+          "id": "NCIT:C43361",
+          "label": "Barcode",
+          "score": 0.6540684103965759
+        },
+        {
+          "id": "EFO:0010194",
+          "label": "barcode",
+          "score": 0.6540683507919312
+        },
+        {
+          "id": "NCIT:C79099",
+          "label": "1p/19q Codeletion",
+          "score": 0.6535416841506958
+        },
+        {
+          "id": "CHEBI:174041",
+          "label": "Nordihydrocodeine",
+          "score": 0.6532828211784363
+        },
+        {
+          "id": "NCIT:C165019",
+          "label": "Place Identifier Code",
+          "score": 0.6520358324050903
+        },
+        {
+          "id": "EFO:0022602",
+          "label": "Parse Evercode Whole Transcriptome v3",
+          "score": 0.6520178318023682
+        },
+        {
+          "id": "EFO:0010199",
+          "label": "UMI barcode",
+          "score": 0.6504127979278564
+        },
+        {
+          "id": "EFO:0022601",
+          "label": "Parse Evercode Whole Transcriptome v2",
+          "score": 0.6489015221595764
+        },
+        {
+          "id": "NCIT:C164733",
+          "label": "Container Identifier Reader Type Code",
+          "score": 0.6485728025436401
+        },
+        {
+          "id": "NCIT:C93890",
+          "label": "Package Identifier Type Code",
+          "score": 0.6483027338981628
+        },
+        {
+          "id": "NCIT:C104441",
+          "label": "Non-Reason Code",
+          "score": 0.6474080085754395
+        },
+        {
+          "id": "NCIT:C181843",
+          "label": "Sequencing Flow Cell Barcode",
+          "score": 0.6472153663635254
+        }
+      ]
+    },
+    {
+      "query": "ID",
+      "time_ms": 94.5314000127837,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.7539207935333252,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "NCIT:C25364",
+      "top_k_results": [
+        {
+          "id": "PEFF:0001001",
+          "label": "DbUniqueId",
+          "score": 0.7539207935333252
+        },
+        {
+          "id": "format:1926",
+          "label": "dbid",
+          "score": 0.7479190826416016
+        },
+        {
+          "id": "OBI:0003299",
+          "label": "DamID-seq",
+          "score": 0.7195622324943542
+        },
+        {
+          "id": "EFO:0008704",
+          "label": "DamID",
+          "score": 0.7195051908493042
+        },
+        {
+          "id": "MS:1001886",
+          "label": "SQID",
+          "score": 0.7165381908416748
+        },
+        {
+          "id": "data:2622",
+          "label": "Compound ID (HMDB)",
+          "score": 0.7118368744850159
+        },
+        {
+          "id": "data:2802",
+          "label": "Protein ID (EcID)",
+          "score": 0.710519552230835
+        },
+        {
+          "id": "data:2619",
+          "label": "RESID ID",
+          "score": 0.7102327942848206
+        },
+        {
+          "id": "data:1896",
+          "label": "Locus ID (ASPGD)",
+          "score": 0.7091572284698486
+        },
+        {
+          "id": "NCIT:C69405",
+          "label": "OID",
+          "score": 0.7076046466827393
+        },
+        {
+          "id": "data:2756",
+          "label": "TCID",
+          "score": 0.7035940885543823
+        },
+        {
+          "id": "data:1898",
+          "label": "Locus ID (CGD)",
+          "score": 0.6944674849510193
+        },
+        {
+          "id": "IAO:0000578",
+          "label": "centrally registered identifier",
+          "score": 0.6939496994018555
+        },
+        {
+          "id": "data:1160",
+          "label": "Pathway ID (CPDB)",
+          "score": 0.693487823009491
+        },
+        {
+          "id": "data:1901",
+          "label": "Locus ID (SGD)",
+          "score": 0.6932349801063538
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=6196",
+          "label": "JARID2 (human)",
+          "score": 0.6929928064346313
+        },
+        {
+          "id": "NCIT:C96822",
+          "label": "PID_ID",
+          "score": 0.6925258636474609
+        },
+        {
+          "id": "MOD:00472",
+          "label": "IMID d0",
+          "score": 0.6923500895500183
+        },
+        {
+          "id": "CHEBI:177369",
+          "label": "IMID-2",
+          "score": 0.6915080547332764
+        },
+        {
+          "id": "data:1048",
+          "label": "Database ID",
+          "score": 0.6873239278793335
+        }
+      ]
+    },
+    {
+      "query": "FREMD_ID",
+      "time_ms": 95.50860000308603,
+      "rank": -1,
+      "hit@1": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@20": false,
+      "score": null,
+      "best_score": 0.6983977556228638,
+      "reciprocal_rank": 0,
+      "duplicate_labels": false,
+      "expected_id": "MS:1000878",
+      "top_k_results": [
+        {
+          "id": "data:2799",
+          "label": "Gene ID (MfunGD)",
+          "score": 0.6983977556228638
+        },
+        {
+          "id": "MS:1003011",
+          "label": "pFind",
+          "score": 0.6812783479690552
+        },
+        {
+          "id": "MS:1002652",
+          "label": "Bruker FID nativeID format, combined spectra",
+          "score": 0.6717641353607178
+        },
+        {
+          "id": "format:3888",
+          "label": "AMBER frcmod",
+          "score": 0.6697641611099243
+        },
+        {
+          "id": "MS:1000773",
+          "label": "Bruker FID nativeID format",
+          "score": 0.6661550998687744
+        },
+        {
+          "id": "NMR:1000262",
+          "label": "fid file",
+          "score": 0.6657088994979858
+        },
+        {
+          "id": "NMR:1400119",
+          "label": "FID file",
+          "score": 0.6657088994979858
+        },
+        {
+          "id": "CHEBI:138013",
+          "label": "Z-DEVD-FMK",
+          "score": 0.664409875869751
+        },
+        {
+          "id": "data:2386",
+          "label": "EPD ID",
+          "score": 0.6604627370834351
+        },
+        {
+          "id": "data:1146",
+          "label": "EMDB ID",
+          "score": 0.6602133512496948
+        },
+        {
+          "id": "data:3757",
+          "label": "Unimod ID",
+          "score": 0.6596226096153259
+        },
+        {
+          "id": "OBA:2080322",
+          "label": "level of FAD-dependent oxidoreductase domain-containing protein 1 (human) in cerebrospinal fluid",
+          "score": 0.6595166325569153
+        },
+        {
+          "id": "CHEBI:229912",
+          "label": "mfcd01632327",
+          "score": 0.6595146656036377
+        },
+        {
+          "id": "CHEBI:180604",
+          "label": "N,N,N-Trimethyl-9H-fluoren-9-aminium iodide",
+          "score": 0.6580307483673096
+        },
+        {
+          "id": "CHEBI:202143",
+          "label": "Fumitremorgin D",
+          "score": 0.6578224301338196
+        },
+        {
+          "id": "NMR:1000263",
+          "label": "Varian FID file",
+          "score": 0.6576144695281982
+        },
+        {
+          "id": "data:2714",
+          "label": "CDD PSSM-ID",
+          "score": 0.6568974852561951
+        },
+        {
+          "id": "OBI:0000637",
+          "label": "gas chromatography detector",
+          "score": 0.655353307723999
+        },
+        {
+          "id": "data:2622",
+          "label": "Compound ID (HMDB)",
+          "score": 0.6545300483703613
+        },
+        {
+          "id": "gene:symbol:report?hgnc:id=11907",
+          "label": "TNFRSF10D (human)",
+          "score": 0.6543756723403931
+        }
+      ]
+    }
+  ]
+}

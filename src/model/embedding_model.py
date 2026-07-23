@@ -6,7 +6,7 @@ _loaded_model = None
 
 
 def get_device():
-    print("[MODEL]: loading embedding model")
+    print(f"[MODEL]: loading embedding model: {config.SELECTED_MODEL}")
     print("Torch Version: ", torch.__version__)
     print("CUDA available: ", torch.cuda.is_available())
     device = "cuda" if torch.cuda.is_available() and config.DEVICE == "gpu" else "cpu"
