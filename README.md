@@ -1,79 +1,89 @@
-# Python Matching Tool
+# Python Matching Service
 
-## Requirements
+> A research prototype developed as part of my computer science bachelor's thesis. It evaluates retrieval methods for finding suitable ontology terms for real research-data field labels.
+> 
 
-* Python >= 3.13
-* pip
+## Background and research question
 
----
+Ontology mapping is often slowed down by field labels that are abbreviated, inconsistent or ambiguous. The practical question behind this project was: which search method gives a person useful ontology-term candidates for those labels?
 
-## Installation
+To investigate this, I compared three approaches in the context of a planned ontology-mapping workflow:
 
-Clone repository:
+- external terminology APIs,
+- local lexical (fuzzy) search over ontology labels and synonyms
+- embedding-based semantic search.
 
-```bash
-git clone https://github.com/Cheychus/python-matching.git
-cd python-matching
-```
+The project complements the web application [Ontology Harmonizer](https://github.com/Cheychus/ontology-harmonizer). It documents the research and evaluation work behind the retrieval component rather than presenting a finished production service.
 
-Create virtual enviroment:
+## Approaches compared
 
-```bash
-python -m venv .venv
-```
+### Terminology APIs
 
-Activate:
+External terminology services provide a practical baseline: they are quick to integrate, search across a broad set of ontologies and work well for known domain terms.
 
-**Windows (PowerShell):**
+Specifically I used the [TIB Terminology Service](https://terminology.tib.eu/ts) and [TS4NFDI - API Gateway](https://ts4nfdi.github.io/api-gateway/) to retrieve ontology terms via API. 
 
-```bash
-.venv\Scripts\Activate.ps1
-```
+### Local lexical search
 
-**Linux / Mac:**
+Ontology files are downloaded and searched locally using fuzzy matching over labels and synonyms. This tests how far a purely lexical approach can get with abbreviated or inconsistently named database fields.
 
-```bash
-source .venv/bin/activate
-```
+### Embedding-based semantic search
 
-Install dependencies:
+The service creates vector representations for ontology terms and compares them with a query using cosine similarity. I evaluated 15 embedding models to test whether semantic retrieval improves results for ambiguous labels, abbreviations and specialised terminology.
 
-```bash
-pip install -r requirements.txt
-```
+## Evaluation design
 
----
+The evaluation used two ground-truth sets:
 
-## Optional: GPU Support (PyTorch)
+- around 75 already annotated field labels extracted from a research-data ARC (Research data container)
+- 34 real field labels from a plant-research database for which a domain expert could define a concrete target ontology term.
 
-Default Torch Version is CPU.
+Each query had one defined target concept. The methods were compared using:
 
-To use the GPU for calculating embeddings, install PyTorch manually:
+- **Hit@1, Hit@5 and Hit@10** — whether the target appears among the first result
+- **Mean Reciprocal Rank (MRR)** — how early the target appears
+- **runtime** — because the result should remain useful in an interactive web workflow
 
-=> https://pytorch.org/get-started/locally/
+This is a focused experiment, not a general-purpose model benchmark. The data set is intentionally small and domain-specific.
 
-Example (CUDA):
+## Key findings
 
-```bash
-pip uninstall torch
-pip install torch --index-url https://download.pytorch.org/whl/cu126
-```
+- Local lexical and embedding-based search outperformed the tested terminology-API baseline on the evaluated data.
+- Lexical matching achieved strong rankings but was unexpectedly slow at roughly three seconds per request in the median case, mainly because labels and synonyms must be compared extensively.
+- Embedding search performed well for domain terms and showed a small advantage for database field labels. Model choice made a noticeable difference; Qwen3 Embedding performed best in the analysed evaluation.
+- For database field labels, about half of the defined target concepts appeared in the top ten results. Many of those cases also worked lexically, but semantic search sometimes improved ranking and resolved abbreviations for which lexical matching failed.
 
----
+## Current API implementation
 
-## Start project
+The research prototype includes a FastAPI endpoint that accepts a query and returns ranked ontology-term candidates. It can run either lexical or embedding-based search.
 
-```bash
-python main.py -d -p # 1. Download and parse all ontologies 
-python main.py embeddings [0,1,2,3,4] -d cpu | gpu # 2. Calculate embedding vectors for all ontologies with a specified model
-python main.py # 3. run main program - create search querys in main()
-```
+For embedding search, the selected model and precomputed ontology vectors are loaded when the service starts. The API returns a normalised result shape, so the Ontology Harmonizer can display candidates from this service and from a terminology API through the same mapping interface.
 
-## Start API
-```bash
-fastapi dev api.py
-```
+The integration is optional. The web prototype requests the top ten matching candidates for a field label, while the user remains responsible for choosing the semantically correct ontology term.
 
-Query: http://127.0.0.1:8000/?q=organism
+## Repository scope and possible follow-up
 
+This repository is intentionally kept as the research record of the bachelor's thesis: evaluation code, result artefacts and the current API prototype belong together here. A separate, cleaner repository could later focus only on a reusable semantic-search API: downloading and parsing ontologies, preparing vectors and exposing the search endpoint.
 
+The evaluation should not disappear in that follow-up. It would be more useful as a reproducible benchmark package or companion repository that can compare new models and ontology snapshots against the same data and metrics.
+
+## Practical scope and limitations
+
+For the current use case, running a local semantic-search service is not automatically the best production choice. It requires downloading and parsing ontologies, generating and refreshing vectors, selecting a model and operating the service. For domain users who already understand a field label, a broad terminology API is often the more pragmatic default.
+
+Semantic search may be most useful for cryptic labels, abbreviations or multilingual data. A future version could also include context from neighbouring metadata fields or cell values to better distinguish between several plausible meanings of the same label.
+
+## Implementation
+
+I implemented the technical investigation independently: model research and selection, local search variants, FastAPI integration, the evaluation pipeline and analysis of the resulting trade-offs. Domain experts supported the ontology context, the ontology selection and the validation of target terms.
+
+The main outcome was not simply a model choice. It was a reasoned product decision: keep the terminology API as the primary search option and treat local semantic retrieval as an optional enhancement for the cases where it has a practical advantage.
+
+## Technology
+
+- Python
+- FastAPI
+- Sentence Transformers
+- RapidFuzz
+- NumPy and cosine similarity
+- Pandas for evaluation and result aggregation
