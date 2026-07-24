@@ -1,7 +1,11 @@
 # Python Matching Service
 
 > A research prototype developed as part of my computer science bachelor's thesis. It evaluates retrieval methods for finding suitable ontology terms for real research-data field labels.
-> 
+
+### IMPORTANT NOTE: 
+
+This repository is only for documentation. It will not be updated and its only purpose is to archive the evaluation process from my computer science bachelor's thesis. 
+If you want to use the API-Service in the Ontology-Harmonizer, use the stripped down minimal version here: [Python Matching Service API](https://github.com/Cheychus/python-matching_v2.0)
 
 ## Background and research question
 
@@ -60,12 +64,6 @@ The research prototype includes a FastAPI endpoint that accepts a query and retu
 For embedding search, the selected model and precomputed ontology vectors are loaded when the service starts. The API returns a normalised result shape, so the Ontology Harmonizer can display candidates from this service and from a terminology API through the same mapping interface.
 
 The integration is optional. The web prototype requests the top ten matching candidates for a field label, while the user remains responsible for choosing the semantically correct ontology term.
-
-## Repository scope and possible follow-up
-
-This repository is intentionally kept as the research record of the bachelor's thesis: evaluation code, result artefacts and the current API prototype belong together here. A separate, cleaner repository could later focus only on a reusable semantic-search API: downloading and parsing ontologies, preparing vectors and exposing the search endpoint.
-
-The evaluation should not disappear in that follow-up. It would be more useful as a reproducible benchmark package or companion repository that can compare new models and ontology snapshots against the same data and metrics.
 
 ## Practical scope and limitations
 
