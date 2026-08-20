@@ -55,16 +55,28 @@ This is a focused experiment, not a general-purpose model benchmark. The data se
 
 - Local lexical and embedding-based search outperformed the tested terminology-API baseline on the evaluated data.
 - Lexical matching achieved strong rankings but was unexpectedly slow at roughly three seconds per request in the median case, mainly because labels and synonyms must be compared extensively.
-- Embedding search performed well for domain terms and showed a small advantage for database field labels. Model choice made a noticeable difference; Qwen3 Embedding performed best in the analysed evaluation.
+- Embedding search performed well for domain terms and showed a practical advantage for database field labels. Model choice made a noticeable difference; Qwen3 Embedding achieved the strongest overall top-k retrieval results on the evaluated plant-research labels and was selected for the optional API implementation.
 - For database field labels, about half of the defined target concepts appeared in the top ten results. Many of those cases also worked lexically, but semantic search sometimes improved ranking and resolved abbreviations for which lexical matching failed.
 
 ## Results
 
+> Note: The figures retain their original German labels because they were created for the bachelor's thesis. The short interpretations below are provided in English.
+
 <img width="3381" height="1692" alt="vergleich_hitK_gtB" src="https://github.com/user-attachments/assets/414a889c-9176-4bcf-b9d7-d7b30e7ebd79" />
+
+This chart compares Hit@1, Hit@5 and Hit@10 on Ground Truth B, containing the plant-research-database labels. `qwen3-embed-0.6B` achieved the strongest overall top-k results, reaching 0.50 for both Hit@5 and Hit@10. This means that the intended ontology term appeared within the first five or ten suggestions for around half of the evaluated field labels. Local lexical search remained competitive, while both terminology-API baselines returned the intended term less reliably in this experiment.   
+   
+
 
 <img width="3381" height="1692" alt="vergleich_mrr" src="https://github.com/user-attachments/assets/e47ca89d-1538-4e1f-ac5a-f97c451fa248" />
 
+The MRR comparison shows that ranking quality depends on both the retrieval method and the data set. On Ground Truth B, `llama-nemotron-embed-1b-v2` placed the target term highest on average, while local lexical search performed best on Ground Truth A. The result does not identify one universally best method, but shows why the selected embedding model and the intended input data both matter.
+ 
+
+
 <img width="3381" height="1692" alt="vergleich_median" src="https://github.com/user-attachments/assets/2927975e-5917-47e5-8ee8-9c6753c9deb9" />
+
+This chart shows the median runtime per request. Local lexical search was the slowest approach at about 3.2 seconds because it compares a large number of ontology labels and synonyms. The embedding models ranged from 59 to 889 ms, depending on the model, while the terminology APIs responded in roughly 400–500 ms. Retrieval quality therefore needs to be balanced against response time and operational effort.
 
 
 
