@@ -1,3 +1,4 @@
+
 # Python Matching Service
 
 > A research prototype developed as part of my computer science bachelor's thesis. It evaluates retrieval methods for finding suitable ontology terms for real research-data field labels.
@@ -56,6 +57,16 @@ This is a focused experiment, not a general-purpose model benchmark. The data se
 - Lexical matching achieved strong rankings but was unexpectedly slow at roughly three seconds per request in the median case, mainly because labels and synonyms must be compared extensively.
 - Embedding search performed well for domain terms and showed a small advantage for database field labels. Model choice made a noticeable difference; Qwen3 Embedding performed best in the analysed evaluation.
 - For database field labels, about half of the defined target concepts appeared in the top ten results. Many of those cases also worked lexically, but semantic search sometimes improved ranking and resolved abbreviations for which lexical matching failed.
+
+## Results
+
+<img width="3381" height="1692" alt="vergleich_hitK_gtB" src="https://github.com/user-attachments/assets/414a889c-9176-4bcf-b9d7-d7b30e7ebd79" />
+
+<img width="3381" height="1692" alt="vergleich_mrr" src="https://github.com/user-attachments/assets/e47ca89d-1538-4e1f-ac5a-f97c451fa248" />
+
+<img width="3381" height="1692" alt="vergleich_median" src="https://github.com/user-attachments/assets/2927975e-5917-47e5-8ee8-9c6753c9deb9" />
+
+
 
 ## Current API implementation
 
